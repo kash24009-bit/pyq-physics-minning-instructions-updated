@@ -561,3 +561,14 @@ Every line below was written by phy_gate.py from the data, never typed.
 - double-read: 43 values compared, 0 mismatch(es), all settled
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B02-20261001-1521-4097r.json
+
+## 2026-10-01T15:36:57Z | 2026-5541 | S5 | GATE PASS
+- part files: FORMULAE 18, STEP-AWARDS 127, ERRATA 2
+- merged 18 row(s) into l1/FORMULAE.csv · now 804
+- merged 127 row(s) into l1/STEP-AWARDS.csv · now 713
+- merged 2 row(s) into l1/ERRATA.csv · now 274
+- validate after merge: 16/16 checks pass
+- double-read: 170 values compared, 1 mismatch(es), all settled
+  - 2026-5541-Q32A-i-II | numbers | extractor_right | final  | crop /home/claude/render/2026-5541-S5/adj-p17/p17.png | the scheme prints the word "unity" (cos phi is unity); the checker wrote it as the number 1; same value, no number printed
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1536-4244r.json
