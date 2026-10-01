@@ -479,3 +479,15 @@ Every line below was written by phy_gate.py from the data, never typed.
   - 2026-5511-Q30A-IV | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p12/p12.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B02-20261001-1343-3591r.json
+
+## 2026-10-01T13:52:34Z | 2026-5512 | S5 | GATE PASS
+- part files: FORMULAE 4, STEP-AWARDS 29, ERRATA 2
+- merged 4 row(s) into l1/FORMULAE.csv · now 741
+- merged 29 row(s) into l1/STEP-AWARDS.csv · now 174
+- merged 2 row(s) into l1/ERRATA.csv · now 258
+- validate after merge: 16/16 checks pass
+- double-read: 46 values compared, 2 mismatch(es), all settled
+  - 2026-5512-Q27-b | step_marks | extractor_right | final  | crop /home/claude/render/2026-5512-S5/adj-p11/q27bc.png | the fourth half sits midway between n_e = 1.5e6 m^-3 and the (c) line; the scheme box on the same page prints (b) 1 and (c) 1/2 + 1, so it belongs to (c) "energy gap effectively decreases"; part file follows the printed box
+  - 2026-5512-Q27-c | step_marks | extractor_right | final  | crop /home/claude/render/2026-5512-S5/adj-p11/q27bc.png | the fourth half sits midway between n_e = 1.5e6 m^-3 and the (c) line; the scheme box on the same page prints (b) 1 and (c) 1/2 + 1, so it belongs to (c) "energy gap effectively decreases"; part file follows the printed box
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1352-3626r.json
