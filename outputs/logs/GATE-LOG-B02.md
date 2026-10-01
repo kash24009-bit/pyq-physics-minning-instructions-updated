@@ -394,3 +394,70 @@ Every line below was written by phy_gate.py from the data, never typed.
 - status erratum ER-B02-106: NEW -> IN-PROGRESS
 - PROGRESS: line updated (2026C-55B7 still to do)
 - pack: PHY-VAULT-B02-20261001-1313-3317r.json
+
+## 2026-10-01T13:27:40Z | 2026C-55B7 | S4 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 66, FORMULAE 41
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 21
+- merged 2 row(s) into l1/CASES.csv · now 42
+- merged 66 row(s) into l1/INSTANCES.csv · now 1421
+- merged 41 row(s) into l1/FORMULAE.csv · now 721
+- check-paper: PASS · 2026C-55B7 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 290 values compared, 18 mismatch(es), all settled
+  - 2026C-55B7-Q01 | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p5/p5.png | page prints the minus with a space ("- 1", "- 20", "- 2"); gate reads it as positive (W-14 quirk); same signed value on both readings
+  - 2026C-55B7-Q01 | options | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p5/p5.png | same options on the page image; difference is notation only (powers of ten, unit spelling, ASCII)
+  - 2026C-55B7-Q07 | options | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p7/p7.png | same options on the page image; difference is notation only (powers of ten, unit spelling, ASCII)
+  - 2026C-55B7-Q08 | options | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p9/p9.png | same options on the page image; difference is notation only (powers of ten, unit spelling, ASCII)
+  - 2026C-55B7-Q10 | options | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p9/p9.png | same options on the page image; difference is notation only (powers of ten, unit spelling, ASCII)
+  - 2026C-55B7-Q11 | options | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p9/p9.png | same options on the page image; difference is notation only (powers of ten, unit spelling, ASCII)
+  - 2026C-55B7-Q18A | marks_part | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p13/p13.png | marks_part left blank by vault convention: single-row either-or side; printed mark kept in q_marks_printed
+  - 2026C-55B7-Q18B | marks_part | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p13/p13.png | marks_part left blank by vault convention: single-row either-or side; printed mark kept in q_marks_printed
+  - 2026C-55B7-Q19 | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p13/p13.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q20 | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p13/p13.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q22A-i-I | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q22A-i-II | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | lead-in scope: shared lead-in numbers repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-55B7-Q22A-i-II | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q22A-ii | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | lead-in scope: shared lead-in numbers repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-55B7-Q22A-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q22B | marks_part | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | marks_part left blank by vault convention: single-row either-or side; printed mark kept in q_marks_printed
+  - 2026C-55B7-Q22B | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q23-i | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q23-ii | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | lead-in scope: shared lead-in numbers repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-55B7-Q23-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q24-a | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q24-b | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q25-i | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q25-ii | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | lead-in scope: shared lead-in numbers repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-55B7-Q25-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q26-a | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p17/p17.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q26-b | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p17/p17.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q27-d1 | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p17/p17.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q27-d2 | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p17/p17.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q28-d1 | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p17/p17.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q28-d2 | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p17/p17.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q29-i | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p17/p17.png | page prints the minus with a space ("- 1", "- 20", "- 2"); gate reads it as positive (W-14 quirk); same signed value on both readings
+  - 2026C-55B7-Q29B-iii | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p19/p19.png | page prints the minus with a space ("- 1", "- 20", "- 2"); gate reads it as positive (W-14 quirk); same signed value on both readings
+  - 2026C-55B7-Q29-iv | options | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p19/p19.png | same options on the page image; difference is notation only (powers of ten, unit spelling, ASCII)
+  - 2026C-55B7-Q30-iv | options | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p23/p23.png | same options on the page image; difference is notation only (powers of ten, unit spelling, ASCII)
+  - 2026C-55B7-Q31A-i | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p23/p23.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q31A-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p23/p23.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q31B-i | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q31B-ii-I | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q31B-ii-II | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | lead-in scope: shared lead-in numbers repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-55B7-Q31B-ii-II | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q32A-i | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q32A-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q32B-i | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q32B-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33A-i | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33A-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33B-i-I | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33B-i-II | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33B-i-III | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33B-i-IV | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33B-i-V | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33B-i-VI | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33B-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+- status erratum ER-B02-107: NEW -> IN-PROGRESS
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1327-3428r.json
