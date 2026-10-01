@@ -491,3 +491,13 @@ Every line below was written by phy_gate.py from the data, never typed.
   - 2026-5512-Q27-c | step_marks | extractor_right | final  | crop /home/claude/render/2026-5512-S5/adj-p11/q27bc.png | the fourth half sits midway between n_e = 1.5e6 m^-3 and the (c) line; the scheme box on the same page prints (b) 1 and (c) 1/2 + 1, so it belongs to (c) "energy gap effectively decreases"; part file follows the printed box
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B02-20261001-1352-3626r.json
+
+## 2026-10-01T14:00:36Z | 2026-5513 | S5 | GATE PASS
+- part files: FORMULAE 5, STEP-AWARDS 30, ERRATA 2
+- merged 5 row(s) into l1/FORMULAE.csv · now 746
+- merged 30 row(s) into l1/STEP-AWARDS.csv · now 204
+- merged 2 row(s) into l1/ERRATA.csv · now 260
+- validate after merge: 16/16 checks pass
+- double-read: 43 values compared, 0 mismatch(es), all settled
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1400-3663r.json
