@@ -594,3 +594,20 @@ Every line below was written by phy_gate.py from the data, never typed.
   - 2026-5543-Q28-b | step_marks | part_fixed | final 0.5 | 0.5 | 0.5 | crop /home/claude/render/2026-5543-S5/adj-p12/p12.png | page p12 prints three halves beside each part: (a) phi_1, expression, substitution/result; (b) M_12, 14.789e-7/3, 4.92e-7 H; part file followed the box (a) 2 (b) 1 and moved the half beside M_12 to (a); corrected to the printed marks (CI§2.6: box conflict recorded in the step text and Q-QUEUE)
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B02-20261001-1940-4326r.json
+
+## 2026-10-01T19:59:39Z | 2026-5551 | S5 | GATE PASS
+- part files: FORMULAE 17, STEP-AWARDS 140, ERRATA 2
+- merged 17 row(s) into l1/FORMULAE.csv · now 832
+- merged 140 row(s) into l1/STEP-AWARDS.csv · now 920
+- merged 2 row(s) into l1/ERRATA.csv · now 280
+- validate after merge: 16/16 checks pass
+- double-read: 194 values compared, 7 mismatch(es), all settled
+  - 2026-5551-Q29-i | numbers | extractor_right | final  | crop /home/claude/render/2026-5551-S5/adj-p15/p15.png | MCQ key row stores the printed letter only; the value the checker read is the text of the keyed option, which the paper row holds and which matches the letter
+  - 2026-5551-Q29-ii | numbers | extractor_right | final  | crop /home/claude/render/2026-5551-S5/adj-p15/p15.png | MCQ key row stores the printed letter only; the value the checker read is the text of the keyed option, which the paper row holds and which matches the letter
+  - 2026-5551-Q29A-iii | numbers | extractor_right | final  | crop /home/claude/render/2026-5551-S5/adj-p15/p15.png | MCQ key row stores the printed letter only; the value the checker read is the text of the keyed option, which the paper row holds and which matches the letter
+  - 2026-5551-Q29B-iii | numbers | extractor_right | final  | crop /home/claude/render/2026-5551-S5/adj-p15/p15.png | MCQ key row stores the printed letter only; the value the checker read is the text of the keyed option, which the paper row holds and which matches the letter
+  - 2026-5551-Q30A-ii | numbers | extractor_right | final  | crop /home/claude/render/2026-5551-S5/adj-p15/p15.png | MCQ key row stores the printed letter only; the value the checker read is the text of the keyed option, which the paper row holds and which matches the letter
+  - 2026-5551-Q30B-ii | numbers | extractor_right | final  | crop /home/claude/render/2026-5551-S5/adj-p15/p15.png | MCQ key row stores the printed letter only; the value the checker read is the text of the keyed option, which the paper row holds and which matches the letter
+  - 2026-5551-Q30-iii | numbers | extractor_right | final  | crop /home/claude/render/2026-5551-S5/adj-p15/p15.png | MCQ key row stores the printed letter only; the value the checker read is the text of the keyed option, which the paper row holds and which matches the letter
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1959-4485r.json
