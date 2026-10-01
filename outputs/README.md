@@ -1,25 +1,25 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-01T12:56:55Z · batch B02.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-01T13:13:40Z · batch B02.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B02-20261001-1256-3192r.json](vault/PHY-VAULT-B02-20261001-1256-3192r.json) · 3192 rows in all
+- Newest vault: [PHY-VAULT-B02-20261001-1313-3317r.json](vault/PHY-VAULT-B02-20261001-1313-3317r.json) · 3317 rows in all
 - Checks: 16/16 pass
 
-Status - batch 2 · 1288 question rows saved · years closed: none yet · working on 2026
+Status - batch 2 · 1355 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 2 file(s) fully mined
 
 Next (my work, in order)
 - Y2026 S2b BLUEPRINTS rows: 2026-5511, 2026-5521, 2026-5531, 2026-5541, 2026-5551, 2026C-5571, 2026-5512, 2026-5513, 2026-5522, 2026-5523 done (B01); each other paper's row is written with it at S3/S4, because board papers print choice positions only in the body
-- Y2026 S4 siblings 55/7: 2026C-5572 done (B02: 65 rows = 52 shuffle + 13 new; 16 figures, 34 formulae; check-paper PASS 33/33, 70/70; double-read 340 values, 28 mismatch(es) settled), 2026C-5573, 2026C-55B7 (visually-impaired), compartment
+- Y2026 S4 siblings 55/7: 2026C-5572 done (B02: 65 rows = 52 shuffle + 13 new; 16 figures, 34 formulae; check-paper PASS 33/33, 70/70; double-read 340 values, 28 mismatch(es) settled), 2026C-5573 done (B02: 67 rows = 52 shuffle + 15 new; 18 figures, 36 formulae; check-paper PASS 33/33, 70/70; double-read 340 values, 26 mismatch(es) settled), 2026C-55B7 (visually-impaired), compartment
 - Y2026 S5 scheme 55/1/1 (XII-2-042-1-1.pdf)
 - Y2026 S5 scheme 55/1/2 (XII-2-042-1-2.pdf)
 - Y2026 S5 scheme 55/1/3 (XII-2-042-1-3.pdf)
 - Y2026 S5 scheme 55/2/1 (XII-2-042-2-1.pdf)
 - Y2026 S5 scheme 55/2/2 (XII-2-042-2-2.pdf)
 - Y2026 S5 scheme 55/2/3 (XII-2-042-2-3.pdf)
-- 36 received file(s) waiting to be mined.
+- 35 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -45,6 +45,7 @@ Optional (yours)
 | 2026-55B | 55/B | MAIN | 65 | 65 | 0 | 0 | 39 | 0 |
 | 2026C-5571 | 55/7/1 | COMPT | 66 | 66 | 0 | 18 | 27 | 0 |
 | 2026C-5572 | 55/7/2 | COMPT | 65 | 13 | 52 | 16 | 34 | 0 |
+| 2026C-5573 | 55/7/3 | COMPT | 67 | 15 | 52 | 18 | 36 | 0 |
 | SQP2526-042 |  | SQP | 78 | 78 | 0 | 29 | 38 | 0 |
 
 ## Reports

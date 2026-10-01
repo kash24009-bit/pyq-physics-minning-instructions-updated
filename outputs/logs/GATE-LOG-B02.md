@@ -354,3 +354,43 @@ Every line below was written by phy_gate.py from the data, never typed.
 - validate after merge: 16/16 checks pass
 - PROGRESS: not touched (stage OTHER)
 - pack: PHY-VAULT-B02-20261001-1256-3192r.json
+
+## 2026-10-01T13:13:40Z | 2026C-5573 | S4 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 67, FIGURES 18, FORMULAE 36
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 20
+- merged 2 row(s) into l1/CASES.csv · now 40
+- merged 67 row(s) into l1/INSTANCES.csv · now 1355
+- merged 18 row(s) into l1/FIGURES.csv · now 308
+- merged 36 row(s) into l1/FORMULAE.csv · now 680
+- check-paper: PASS · 2026C-5573 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 340 values compared, 26 mismatch(es), all settled
+  - 2026C-5573-Q01 | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p5/p5.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q02 | figure_values | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p5/p5.png | figure values agree (C-D 2, C-E 4, D-E 2, C-F 2, D-F 1 ohm); extra 6 is the stem 6 V and the pointer digits in the description
+  - 2026C-5573-Q03 | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p5/p5.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q08 | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p7/p7.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q11 | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p9/p9.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q12 | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p9/p9.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q17 | marks_part | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p13/p13.png | marks_part left blank by vault convention: unparted single row / single-row either-or side (CONVENTIONS); printed mark kept in q_marks_printed
+  - 2026C-5573-Q18 | marks_part | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p13/p13.png | marks_part left blank by vault convention: unparted single row / single-row either-or side (CONVENTIONS); printed mark kept in q_marks_printed
+  - 2026C-5573-Q21 | marks_part | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p13/p13.png | marks_part left blank by vault convention: unparted single row / single-row either-or side (CONVENTIONS); printed mark kept in q_marks_printed
+  - 2026C-5573-Q21 | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p13/p13.png | page: 1.72 x 10^-8 ohm m and 8.5 x 10^28; part agrees, extra 8.5 is the gate reading the sentence-final period after 8.5e28
+  - 2026C-5573-Q22 | marks_part | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p15/p15.png | marks_part left blank by vault convention: unparted single row / single-row either-or side (CONVENTIONS); printed mark kept in q_marks_printed
+  - 2026C-5573-Q24 | marks_part | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p15/p15.png | marks_part left blank by vault convention: unparted single row / single-row either-or side (CONVENTIONS); printed mark kept in q_marks_printed
+  - 2026C-5573-Q25A | marks_part | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p15/p15.png | marks_part left blank by vault convention: unparted single row / single-row either-or side (CONVENTIONS); printed mark kept in q_marks_printed
+  - 2026C-5573-Q25A | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p15/p15.png | page prints P_1 (– 2m, 0, 0) with a space after the minus; part keeps it, gate reads "- 2" as +2 (W-14 quirk); same value -2
+  - 2026C-5573-Q25B-i | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p17/p17.png | page prints "- 4 microC" with a spaced minus; gate reads it as 4; same value -4
+  - 2026C-5573-Q25B-ii | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p17/p17.png | lead-in scope: the shared lead-in numbers are repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-5573-Q26-ii | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p17/p17.png | lead-in scope: the shared lead-in numbers are repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-5573-Q27-ii | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p17/p17.png | lead-in scope: the shared lead-in numbers are repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-5573-Q27-iii | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p17/p17.png | lead-in scope: the shared lead-in numbers are repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-5573-Q29-ii | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p21/p21.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q29A-iv | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p23/p23.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q30-iii | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p25/p25.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q30A-iv | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p27/p27.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q30B-iv | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p27/p27.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q32B-b-ii | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p31/p31.png | lead-in scope: the shared lead-in numbers are repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-5573-Q33B-a-II | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p31/p31.png | lead-in scope: the shared lead-in numbers are repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+- status erratum ER-B02-106: NEW -> IN-PROGRESS
+- PROGRESS: line updated (2026C-55B7 still to do)
+- pack: PHY-VAULT-B02-20261001-1313-3317r.json
