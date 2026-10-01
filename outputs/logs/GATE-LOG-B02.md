@@ -582,3 +582,15 @@ Every line below was written by phy_gate.py from the data, never typed.
 - double-read: 49 values compared, 0 mismatch(es), all settled
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B02-20261001-1545-4288r.json
+
+## 2026-10-01T19:40:49Z | 2026-5543 | S5 | GATE PASS
+- part files: FORMULAE 4, STEP-AWARDS 32, ERRATA 2
+- merged 4 row(s) into l1/FORMULAE.csv · now 815
+- merged 32 row(s) into l1/STEP-AWARDS.csv · now 780
+- merged 2 row(s) into l1/ERRATA.csv · now 278
+- validate after merge: 16/16 checks pass
+- double-read: 41 values compared, 0 mismatch(es), all settled
+  - 2026-5543-Q28-a | step_marks | part_fixed | final 0.5 | 0.5 | 0.5 | crop /home/claude/render/2026-5543-S5/adj-p12/p12.png | page p12 prints three halves beside each part: (a) phi_1, expression, substitution/result; (b) M_12, 14.789e-7/3, 4.92e-7 H; part file followed the box (a) 2 (b) 1 and moved the half beside M_12 to (a); corrected to the printed marks (CI§2.6: box conflict recorded in the step text and Q-QUEUE)
+  - 2026-5543-Q28-b | step_marks | part_fixed | final 0.5 | 0.5 | 0.5 | crop /home/claude/render/2026-5543-S5/adj-p12/p12.png | page p12 prints three halves beside each part: (a) phi_1, expression, substitution/result; (b) M_12, 14.789e-7/3, 4.92e-7 H; part file followed the box (a) 2 (b) 1 and moved the half beside M_12 to (a); corrected to the printed marks (CI§2.6: box conflict recorded in the step text and Q-QUEUE)
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1940-4326r.json
