@@ -461,3 +461,21 @@ Every line below was written by phy_gate.py from the data, never typed.
 - status erratum ER-B02-107: NEW -> IN-PROGRESS
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B02-20261001-1327-3428r.json
+
+## 2026-10-01T13:43:17Z | 2026-5511 | S5 | GATE PASS
+- part files: FORMULAE 16, STEP-AWARDS 145, ERRATA 2
+- merged 16 row(s) into l1/FORMULAE.csv · now 737
+- merged 145 row(s) into l1/STEP-AWARDS.csv · now 145
+- merged 2 row(s) into l1/ERRATA.csv · now 256
+- validate after merge: 16/16 checks pass
+- double-read: 201 values compared, 8 mismatch(es), all settled
+  - 2026-5511-Q01 | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p4/p4.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+  - 2026-5511-Q06 | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p4/p4.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+  - 2026-5511-Q07 | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p4/p4.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+  - 2026-5511-Q09 | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p4/p4.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+  - 2026-5511-Q29A-III | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p12/p12.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+  - 2026-5511-Q29B-III | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p12/p12.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+  - 2026-5511-Q29-IV | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p12/p12.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+  - 2026-5511-Q30A-IV | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p12/p12.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1343-3591r.json
