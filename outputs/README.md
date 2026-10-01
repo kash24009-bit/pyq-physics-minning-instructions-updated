@@ -1,26 +1,26 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-01T15:12:50Z · batch B02.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-01T15:21:21Z · batch B02.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B02-20261001-1512-4059r.json](vault/PHY-VAULT-B02-20261001-1512-4059r.json) · 4059 rows in all
+- Newest vault: [PHY-VAULT-B02-20261001-1521-4097r.json](vault/PHY-VAULT-B02-20261001-1521-4097r.json) · 4097 rows in all
 - Checks: 16/16 pass
 
 Status - batch 2 · 1421 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 2 file(s) fully mined
-- 2026: 16 file(s) fully mined
+- 2026: 18 file(s) fully mined
 
 Next (my work, in order)
 - Y2026 S2b BLUEPRINTS rows: 2026-5511, 2026-5521, 2026-5531, 2026-5541, 2026-5551, 2026C-5571, 2026-5512, 2026-5513, 2026-5522, 2026-5523 done (B01); each other paper's row is written with it at S3/S4, because board papers print choice positions only in the body
-- Y2026 S5 scheme 55/3/3 (XII-2-042-3-3.pdf)
 - Y2026 S5 scheme 55/4/1 (XII-2-042-4-1.pdf)
 - Y2026 S5 scheme 55/4/2 (XII-2-042-4-2.pdf)
 - Y2026 S5 scheme 55/4/3 (XII-2-042-4-3.pdf)
 - Y2026 S5 scheme 55/5/1 (XII-2-042-5-1.pdf)
 - Y2026 S5 scheme 55/5/2 (XII-2-042-5-2.pdf)
 - Y2026 S5 scheme 55/5/3 (XII-2-042-5-3.pdf)
-- 18 received file(s) waiting to be mined.
+- Y2026 S5 scheme 55/B (XII-2-042-B-0.pdf)
+- 16 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -36,7 +36,7 @@ Optional (yours)
 | 2026-5523 | 55/2/3 | MAIN | 69 | 19 | 50 | 11 | 29 | 29 |
 | 2026-5531 | 55/3/1 | MAIN | 72 | 72 | 0 | 13 | 49 | 134 |
 | 2026-5532 | 55/3/2 | MAIN | 73 | 16 | 57 | 16 | 43 | 29 |
-| 2026-5533 | 55/3/3 | MAIN | 73 | 15 | 58 | 13 | 40 | 0 |
+| 2026-5533 | 55/3/3 | MAIN | 73 | 15 | 58 | 13 | 45 | 31 |
 | 2026-5541 | 55/4/1 | MAIN | 68 | 68 | 0 | 22 | 26 | 0 |
 | 2026-5542 | 55/4/2 | MAIN | 69 | 15 | 54 | 21 | 33 | 0 |
 | 2026-5543 | 55/4/3 | MAIN | 68 | 14 | 54 | 17 | 29 | 0 |
