@@ -1,25 +1,25 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-01T11:59:13Z · batch B02.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-01T12:10:28Z · batch B02.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B02-20261001-1159-2559r.json](vault/PHY-VAULT-B02-20261001-1159-2559r.json) · 2559 rows in all
+- Newest vault: [PHY-VAULT-B02-20261001-1210-2686r.json](vault/PHY-VAULT-B02-20261001-1210-2686r.json) · 2686 rows in all
 - Checks: 16/16 pass
 
-Status - batch 2 · 955 question rows saved · years closed: none yet · working on 2026
+Status - batch 2 · 1024 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 2 file(s) fully mined
 
 Next (my work, in order)
 - Y2026 S2b BLUEPRINTS rows: 2026-5511, 2026-5521, 2026-5531, 2026-5541, 2026-5551, 2026C-5571, 2026-5512, 2026-5513, 2026-5522, 2026-5523 done (B01); each other paper's row is written with it at S3/S4, because board papers print choice positions only in the body
-- Y2026 S4 siblings 55/4: 2026-5542, 2026-5543
+- Y2026 S4 siblings 55/4: 2026-5542 done (B02: 69 rows = 54 shuffle + 15 new; 21 figures, 33 formulae; check-paper PASS 33/33, 70/70; double-read 311 values, 31 mismatch(es) settled), 2026-5543
 - Y2026 S4 siblings 55/5: 2026-5552, 2026-5553
 - Y2026 S4 siblings 55/7: 2026C-5572, 2026C-5573, 2026C-55B7 (visually-impaired), compartment
 - Y2026 S5 scheme 55/1/1 (XII-2-042-1-1.pdf)
 - Y2026 S5 scheme 55/1/2 (XII-2-042-1-2.pdf)
 - Y2026 S5 scheme 55/1/3 (XII-2-042-1-3.pdf)
 - Y2026 S5 scheme 55/2/1 (XII-2-042-2-1.pdf)
-- 41 received file(s) waiting to be mined.
+- 40 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -37,6 +37,7 @@ Optional (yours)
 | 2026-5532 | 55/3/2 | MAIN | 73 | 16 | 57 | 16 | 41 | 0 |
 | 2026-5533 | 55/3/3 | MAIN | 73 | 15 | 58 | 13 | 40 | 0 |
 | 2026-5541 | 55/4/1 | MAIN | 68 | 68 | 0 | 22 | 26 | 0 |
+| 2026-5542 | 55/4/2 | MAIN | 69 | 15 | 54 | 21 | 33 | 0 |
 | 2026-5551 | 55/5/1 | MAIN | 63 | 63 | 0 | 18 | 32 | 0 |
 | 2026-55B | 55/B | MAIN | 65 | 65 | 0 | 0 | 39 | 0 |
 | 2026C-5571 | 55/7/1 | COMPT | 66 | 66 | 0 | 18 | 27 | 0 |
