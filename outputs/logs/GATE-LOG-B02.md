@@ -70,3 +70,10 @@ Every line below was written by phy_gate.py from the data, never typed.
 ## 2026-10-01T09:41:27Z | checkpoint | trial report
 - validate: 16/16 checks pass
 - pack: PHY-VAULT-B02-20261001-0941-2449r.json
+
+## 2026-10-01T11:44:48Z | FIX-1 | OTHER | GATE PASS
+- part files: ERRATA 2
+- merged 2 row(s) into l1/ERRATA.csv · now 229
+- validate after merge: 16/16 checks pass
+- PROGRESS: not touched (stage OTHER)
+- pack: PHY-VAULT-B02-20261001-1144-2451r.json
