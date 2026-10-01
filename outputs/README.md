@@ -1,26 +1,26 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-01T14:00:37Z · batch B02.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-01T14:38:32Z · batch B02.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B02-20261001-1400-3663r.json](vault/PHY-VAULT-B02-20261001-1400-3663r.json) · 3663 rows in all
+- Newest vault: [PHY-VAULT-B02-20261001-1438-3804r.json](vault/PHY-VAULT-B02-20261001-1438-3804r.json) · 3804 rows in all
 - Checks: 16/16 pass
 
 Status - batch 2 · 1421 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 2 file(s) fully mined
-- 2026: 6 file(s) fully mined
+- 2026: 8 file(s) fully mined
 
 Next (my work, in order)
 - Y2026 S2b BLUEPRINTS rows: 2026-5511, 2026-5521, 2026-5531, 2026-5541, 2026-5551, 2026C-5571, 2026-5512, 2026-5513, 2026-5522, 2026-5523 done (B01); each other paper's row is written with it at S3/S4, because board papers print choice positions only in the body
-- Y2026 S5 scheme 55/2/1 (XII-2-042-2-1.pdf)
 - Y2026 S5 scheme 55/2/2 (XII-2-042-2-2.pdf)
 - Y2026 S5 scheme 55/2/3 (XII-2-042-2-3.pdf)
 - Y2026 S5 scheme 55/3/1 (XII-2-042-3-1.pdf)
 - Y2026 S5 scheme 55/3/2 (XII-2-042-3-2.pdf)
 - Y2026 S5 scheme 55/3/3 (XII-2-042-3-3.pdf)
 - Y2026 S5 scheme 55/4/1 (XII-2-042-4-1.pdf)
-- 28 received file(s) waiting to be mined.
+- Y2026 S5 scheme 55/4/2 (XII-2-042-4-2.pdf)
+- 26 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -31,7 +31,7 @@ Optional (yours)
 | 2026-5511 | 55/1/1 | MAIN | 64 | 64 | 0 | 14 | 51 | 145 |
 | 2026-5512 | 55/1/2 | MAIN | 64 | 16 | 48 | 15 | 42 | 29 |
 | 2026-5513 | 55/1/3 | MAIN | 67 | 19 | 48 | 16 | 46 | 30 |
-| 2026-5521 | 55/2/1 | MAIN | 67 | 67 | 0 | 8 | 26 | 0 |
+| 2026-5521 | 55/2/1 | MAIN | 67 | 67 | 0 | 8 | 37 | 128 |
 | 2026-5522 | 55/2/2 | MAIN | 66 | 16 | 50 | 9 | 27 | 0 |
 | 2026-5523 | 55/2/3 | MAIN | 69 | 19 | 50 | 11 | 27 | 0 |
 | 2026-5531 | 55/3/1 | MAIN | 72 | 72 | 0 | 13 | 32 | 0 |

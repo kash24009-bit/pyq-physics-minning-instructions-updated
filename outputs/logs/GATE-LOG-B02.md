@@ -501,3 +501,13 @@ Every line below was written by phy_gate.py from the data, never typed.
 - double-read: 43 values compared, 0 mismatch(es), all settled
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B02-20261001-1400-3663r.json
+
+## 2026-10-01T14:38:32Z | 2026-5521 | S5 | GATE PASS
+- part files: FORMULAE 11, STEP-AWARDS 128, ERRATA 2
+- merged 11 row(s) into l1/FORMULAE.csv · now 757
+- merged 128 row(s) into l1/STEP-AWARDS.csv · now 332
+- merged 2 row(s) into l1/ERRATA.csv · now 262
+- validate after merge: 16/16 checks pass
+- double-read: 175 values compared, 0 mismatch(es), all settled
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1438-3804r.json
