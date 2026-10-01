@@ -611,3 +611,13 @@ Every line below was written by phy_gate.py from the data, never typed.
   - 2026-5551-Q30-iii | numbers | extractor_right | final  | crop /home/claude/render/2026-5551-S5/adj-p15/p15.png | MCQ key row stores the printed letter only; the value the checker read is the text of the keyed option, which the paper row holds and which matches the letter
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B02-20261001-1959-4485r.json
+
+## 2026-10-01T20:09:26Z | 2026-5552 | S5 | GATE PASS
+- part files: FORMULAE 2, STEP-AWARDS 30, ERRATA 2
+- merged 2 row(s) into l1/FORMULAE.csv · now 834
+- merged 30 row(s) into l1/STEP-AWARDS.csv · now 950
+- merged 2 row(s) into l1/ERRATA.csv · now 282
+- validate after merge: 16/16 checks pass
+- double-read: 43 values compared, 0 mismatch(es), all settled
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-2009-4519r.json
