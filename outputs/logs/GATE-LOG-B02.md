@@ -347,3 +347,10 @@ Every line below was written by phy_gate.py from the data, never typed.
 - status erratum ER-B02-103: NEW -> IN-PROGRESS
 - PROGRESS: line updated (2026C-5573, 2026C-55B7 still to do)
 - pack: PHY-VAULT-B02-20261001-1256-3190r.json
+
+## 2026-10-01T12:56:55Z | FIX-3 | OTHER | GATE PASS
+- part files: ERRATA 2
+- merged 2 row(s) into l1/ERRATA.csv · now 252
+- validate after merge: 16/16 checks pass
+- PROGRESS: not touched (stage OTHER)
+- pack: PHY-VAULT-B02-20261001-1256-3192r.json
