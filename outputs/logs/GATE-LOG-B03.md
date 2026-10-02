@@ -104,3 +104,10 @@ Every line below was written by phy_gate.py from the data, never typed.
 - validate: 16/16 checks pass
 - PROGRESS: planned Y2025: 27 lines written from FILES
 - pack: PHY-VAULT-B03-20261002-1135-5464r.json
+
+## 2026-10-02T11:36:16Z | S2A-2025 | OTHER | GATE PASS
+- part files: CONSTANTS 253
+- merged 253 row(s) into l1/CONSTANTS.csv · now 490
+- validate after merge: 16/16 checks pass
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B03-20261002-1136-5717r.json
