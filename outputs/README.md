@@ -1,5 +1,5 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-02T11:35:04Z · batch B03.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-02T11:35:12Z · batch B03.*
 
 ## Where things stand
 - Newest vault: [PHY-VAULT-B03-20261002-1135-5464r.json](vault/PHY-VAULT-B03-20261002-1135-5464r.json) · 5464 rows in all
@@ -16,6 +16,10 @@ Next (my work, in order)
 - Y2026 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
+- Y2025 S2a constants saved for every paper that prints them (instructions pages)
+- Y2025 S2b BLUEPRINTS rows: each paper's row is written with it at S3/S4
+- Y2025 S3 2025-5511 ledger (origin of series 55/1)
+- Y2025 S3 2025-5521 ledger (origin of series 55/2)
 - 31 received file(s) waiting to be mined.
 
 Optional (yours)
