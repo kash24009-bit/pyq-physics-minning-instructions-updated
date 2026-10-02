@@ -92,3 +92,10 @@ Every line below was written by phy_gate.py from the data, never typed.
   - SQP2627-042-Q33B-II-d1 | step_marks | extractor_right | final  | crop /home/claude/render/SQP2627-042-S5/adj-p14/p14.png | crop: the scheme prints an answer for this part with no mark beside it (the checker lists no mark: the same reading); the part file keeps the printed answer as a marks-0 line with the conflict in its step_text (CONVENTIONS Batch 3; Q-021 / Q-019); no mark moved or invented
 - PROGRESS: added a ticked line
 - pack: PHY-VAULT-B03-20261002-1134-5368r.json
+
+## 2026-10-02T11:35:03Z | S1-2025 | OTHER | GATE PASS
+- part files: ERRATA 96
+- merged 96 row(s) into l1/ERRATA.csv · now 392
+- validate after merge: 16/16 checks pass
+- PROGRESS: not touched (stage OTHER)
+- pack: PHY-VAULT-B03-20261002-1135-5464r.json
