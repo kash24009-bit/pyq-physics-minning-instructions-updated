@@ -1,0 +1,56 @@
+instance_id,field,part_value,check_value,detail,resolved
+2025-5521-Q01,marks_part,,1,marks differ,extractor_right
+2025-5521-Q02,marks_part,,1,marks differ,extractor_right
+2025-5521-Q03,marks_part,,1,marks differ,extractor_right
+2025-5521-Q03,options,A) 1.0e-9 k^ T | B) -1.0e-9 k^ T | C) (5.0/sqrt(2)) x 1e-10 k^ T | D) -(5.0/sqrt(2)) x 1e-10 k^ T,A) 1.0 × 10^-9 k^ T | B) -1.0 × 10^-9 k^ T | C) (5.0/sqrt(2)) × 10^-10 k^ T | D) -(5.0/sqrt(2)) × 10^-10 k^ T,"options differ at A, B, C, D",extractor_right
+2025-5521-Q04,marks_part,,1,marks differ,extractor_right
+2025-5521-Q04,options,A) (mu0/(4*pi)) x 2M/r^3 | B) (mu0/(4*pi)) x M/r^3 | C) (mu0/(4*pi)) x M/(2r^3) | D) (mu0/(4*pi)) x 2M/r^2,A) (mu_0/4pi) × (2M/r^3) | B) (mu_0/4pi) × (M/r^3) | C) (mu_0/4pi) × (M/2r^3) | D) (mu_0/4pi) × (2M/r^2),"options differ at A, B, C, D",extractor_right
+2025-5521-Q05,marks_part,,1,marks differ,extractor_right
+2025-5521-Q06,marks_part,,1,marks differ,extractor_right
+2025-5521-Q06,options,"A) triangle like the current: linear rise from 0 to a peak at T/2, linear fall to 0 at T | B) triangle wave: positive peak near T/4, zero at T/2, negative minimum near 3T/4, zero at T | C) square wave: constant positive from 0 to T/2, constant negative of equal size from T/2 to T | D) sine wave: positive half-cycle from 0 to T/2, negative half-cycle from T/2 to T","A) graph: V rises linearly from 0 to a positive peak at T/2 (dashed line) and falls linearly to 0 at T | B) graph: triangular V, positive peak in first half, crosses zero at T/2, negative trough in second half, back to 0 at T | C) graph: square-wave V, constant positive from 0 to T/2, constant negative from T/2 to T | D) graph: sinusoidal V, positive half from 0 to T/2, negative half from T/2 to T","options differ at A, B, C, D",extractor_right
+2025-5521-Q07,marks_part,,1,marks differ,extractor_right
+2025-5521-Q08,marks_part,,1,marks differ,extractor_right
+2025-5521-Q09,marks_part,,1,marks differ,extractor_right
+2025-5521-Q09,options,A) 1.6e8 m s^-1 | B) 2.0e8 m s^-1 | C) 3.0e8 m s^-1 | D) 2.5e8 m s^-1,A) 1.6 × 10^8 m s^-1 | B) 2.0 × 10^8 m s^-1 | C) 3.0 × 10^8 m s^-1 | D) 2.5 × 10^8 m s^-1,"options differ at A, B, C, D",extractor_right
+2025-5521-Q10,marks_part,,1,marks differ,extractor_right
+2025-5521-Q11,marks_part,,1,marks differ,extractor_right
+2025-5521-Q12,marks_part,,1,marks differ,extractor_right
+2025-5521-Q13,marks_part,,1,marks differ,extractor_right
+2025-5521-Q14,marks_part,,1,marks differ,extractor_right
+2025-5521-Q15,marks_part,,1,marks differ,extractor_right
+2025-5521-Q16,marks_part,,1,marks differ,extractor_right
+2025-5521-Q17A,marks_part,,2,marks differ,extractor_right
+2025-5521-Q17B-ii,numbers,2,,only in the checker's reading: -; only in the part file: ['2'],extractor_right
+2025-5521-Q18,marks_part,,2,marks differ,extractor_right
+2025-5521-Q19,marks_part,,2,marks differ,extractor_right
+2025-5521-Q20,marks_part,,2,marks differ,extractor_right
+2025-5521-Q21,marks_part,,2,marks differ,extractor_right
+2025-5521-Q22-a,marks_part,,3,marks differ,extractor_right
+2025-5521-Q23A-i,marks_part,,3,marks differ,extractor_right
+2025-5521-Q24-a,marks_part,,3,marks differ,extractor_right
+2025-5521-Q25-a,marks_part,,3,marks differ,extractor_right
+2025-5521-Q26-a,marks_part,,3,marks differ,extractor_right
+2025-5521-Q27-a,marks_part,,3,marks differ,extractor_right
+2025-5521-Q28-a,marks_part,,3,marks differ,extractor_right
+2025-5521-Q29-i,marks_part,1,,marks differ,extractor_right
+2025-5521-Q29-ii,marks_part,1,,marks differ,extractor_right
+2025-5521-Q29-ii,options,"A) curve rising steeply from the origin and levelling off | B) straight line falling from a point on the V axis to a point on the d axis | C) curve rising from the origin, slowly at first, then more and more steeply | D) straight line rising from the origin","A) graph V vs d: curve rising from the origin, concave down, levelling off | B) graph V vs d: straight line falling from a maximum V at d = 0 to zero | C) graph V vs d: curve rising from the origin, concave up (steepening) | D) graph V vs d: straight line rising from the origin","options differ at A, B, C, D",extractor_right
+2025-5521-Q29-iii,marks_part,1,,marks differ,extractor_right
+2025-5521-Q29-iii,options,"A) arch rising from zero at M to a maximum near the middle and falling to zero at N | B) trapezium: straight rise from zero at M, flat top, straight fall to zero at N | C) horizontal line: E constant from M to N | D) trough: straight fall from a high value near M to a flat minimum in the middle, straight rise towards N (both upper ends dashed)","A) graph E vs position M to N: arch rising from zero at M to a maximum midway and back to zero at N | B) graph E vs position M to N: rises linearly from zero at M, flat top, falls linearly to zero at N (trapezium) | C) graph E vs position M to N: constant horizontal line from M to N | D) graph E vs position M to N: high at M (dashed), falls to a flat minimum in the middle, rises to high at N (dashed) (V-shaped trough)","options differ at A, B, C, D",extractor_right
+2025-5521-Q29A-iv,marks_part,1,,marks differ,extractor_right
+2025-5521-Q29A-iv,options,A) (vec(E_1) + vec(E_2)) . vec(d) | B) (vec(E_1) - vec(E_2)) . vec(d) | C) (vec(E_2) - vec(E_1)) . vec(d) | D) d(E_1 + E_2)/2,A) (vec(E_1) + vec(E_2)) · vec(d) | B) (vec(E_1) - vec(E_2)) · vec(d) | C) (vec(E_2) - vec(E_1)) · vec(d) | D) d(E_1 + E_2)/2,"options differ at A, B, C",extractor_right
+2025-5521-Q29B-iv,marks_part,1,,marks differ,extractor_right
+2025-5521-Q30-i,marks_part,1,,marks differ,extractor_right
+2025-5521-Q30-ii,marks_part,1,,marks differ,extractor_right
+2025-5521-Q30-ii,options,A) e/m | B) 1/(m*e) | C) m*e | D) m/e,A) e/m | B) 1/me | C) me | D) m/e,"options differ at B, C",extractor_right
+2025-5521-Q30A-iii,marks_part,1,,marks differ,extractor_right
+2025-5521-Q30A-iii,options,"A) nu_o, h*nu_o/e | B) nu_o, h*nu_o | C) h*nu_o/e, nu_o | D) h*nu_o, nu_o","A) nu_o , h nu_o/e | B) nu_o , h nu_o | C) h nu_o/e , nu_o | D) h nu_o , nu_o","options differ at A, B, C, D",extractor_right
+2025-5521-Q30B-iii,marks_part,1,,marks differ,extractor_right
+2025-5521-Q30-iv,marks_part,1,,marks differ,extractor_right
+2025-5521-Q30-iv,options,A) 1.33 micrometre | B) 3.3 micrometre | C) 16.6 micrometre | D) 13.3 micrometre,A) 1.33 microm | B) 3.3 microm | C) 16.6 microm | D) 13.3 microm,"options differ at A, B, C, D",extractor_right
+2025-5521-Q31A-i,marks_part,,5,marks differ,extractor_right
+2025-5521-Q32A-i-d1,marks_part,,5,marks differ,extractor_right
+2025-5521-Q33A-i,marks_part,,5,marks differ,extractor_right
+2025-5521-Q33B-i-2,numbers,1 2 480 600,,"only in the checker's reading: -; only in the part file: ['1', '2', '480', '600']",extractor_right
+2025-5521-Q33B-ii-1,numbers,1,,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2025-5521-Q33B-ii-2,numbers,2,,only in the checker's reading: -; only in the part file: ['2'],extractor_right
