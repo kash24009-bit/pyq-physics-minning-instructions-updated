@@ -653,3 +653,8 @@ Every line below was written by phy_gate.py from the data, never typed.
   - SQP2526-042-Q31A-VI-C | step_marks | extractor_right | final  | crop /home/claude/render/SQP2526-042-S5/adj-p12/p12.png | no mark is printed beside the VI (C) answer on p12; the VI alternative replaces (C), which is printed with 1, so it takes that 1 (as unmarked OR keys take the sub-part mark, CONVENTIONS); flagged in notes
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B02-20261002-0421-4836r.json
+
+## 2026-10-02T04:21:23Z | checkpoint | every 2026 paper has a BLUEPRINTS row (21/21)
+- validate: 16/16 checks pass
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261002-0421-4836r.json

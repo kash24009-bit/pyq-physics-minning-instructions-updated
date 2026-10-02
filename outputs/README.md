@@ -1,5 +1,5 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-02T04:21:13Z · batch B02.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-02T04:21:23Z · batch B02.*
 
 ## Where things stand
 - Newest vault: [PHY-VAULT-B02-20261002-0421-4836r.json](vault/PHY-VAULT-B02-20261002-0421-4836r.json) · 4836 rows in all
@@ -12,7 +12,6 @@ Done
 - 2026: 33 file(s) fully mined
 
 Next (my work, in order)
-- Y2026 S2b BLUEPRINTS rows: 2026-5511, 2026-5521, 2026-5531, 2026-5541, 2026-5551, 2026C-5571, 2026-5512, 2026-5513, 2026-5522, 2026-5523 done (B01); each other paper's row is written with it at S3/S4, because board papers print choice positions only in the body
 - Y2026 S5 compartment 55/7 and 55/B/7: no scheme in project -> TRANSFERRED/INFERRED, labelled
 - Y2026 S6 classify chapters 01-14 (predict first, misses after)
 - Y2026 S7 derive + year workbook
