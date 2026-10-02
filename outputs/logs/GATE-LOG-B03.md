@@ -257,3 +257,28 @@ Every line below was written by phy_gate.py from the data, never typed.
 - status erratum ER-B03-108: NEW -> IN-PROGRESS
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B03-20261002-2033-6216r.json
+
+## 2026-10-02T21:08:11Z | 2025-5551 | S3 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 64, FIGURES 15, FORMULAE 65
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 26
+- merged 2 row(s) into l1/CASES.csv · now 52
+- merged 64 row(s) into l1/INSTANCES.csv · now 1778
+- merged 15 row(s) into l1/FIGURES.csv · now 386
+- merged 65 row(s) into l1/FORMULAE.csv · now 1221
+- check-paper: PASS · 2025-5551 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 311 values compared, 10 mismatch(es), all settled
+  - 2025-5551-Q20 | numbers | extractor_right | final  | crop /home/claude/render/2025-5551/adj-p11/p11.png | 400 dpi crop: the nuclides are printed with mass number above and atomic number below (235 over 92 U, 140 over 54 Xe, 94 over 38 Sr, 1 over 0 n); the part file writes them '235/92 U' as the vault's other nuclide rows do ('2/1 H', '12/6 C', '1/0 n'), so 92, 54, 38 and 0 are printed atomic numbers; the checker wrote them as subscripts (labels); no value differs
+  - 2025-5551-Q21-ii | numbers | extractor_right | final  | crop /home/claude/render/2025-5551/adj-p13/p13.png | 400 dpi crop: the extra numbers are the shared lead-in's values, which the part file's stem carries as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+  - 2025-5551-Q24-b | numbers | extractor_right | final  | crop /home/claude/render/2025-5551/adj-p13/p13.png | 400 dpi crop: the extra numbers are the shared lead-in's values, which the part file's stem carries as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+  - 2025-5551-Q28B | numbers | extractor_right | final  | crop /home/claude/render/2025-5551/adj-p17/p17.png | 400 dpi crop: the wires are named '1' and '2' (printed in quotes) in the stem, which the part file keeps as printed; the checker treats them as names; lambda and -lambda/2 agree
+  - 2025-5551-Q29-i | numbers | extractor_right | final  | crop /home/claude/render/2025-5551/adj-p17/p17.png | 400 dpi crop of p17: 1791 is a date in the case passage (Galvani), not a quantity of the sub-part; the part file keeps it in the CASES context of CS-2025-5551-Q29 and the sub-part stem starts at its label, as the case rows do; no value differs
+  - 2025-5551-Q29-i | options | extractor_right | final  | crop /home/claude/render/2025-5551/adj-p19/p19.png | 400 dpi crop: same values and symbols; the vault writes products with * and powers of ten as 3.6e-3, the checker wrote juxtaposition and 3.6 x 10^-3; for Q30-i both describe the same four graphs in words; no value differs
+  - 2025-5551-Q29B-iv | options | extractor_right | final  | crop /home/claude/render/2025-5551/adj-p19/p19.png | 400 dpi crop: same values and symbols; the vault writes products with * and powers of ten as 3.6e-3, the checker wrote juxtaposition and 3.6 x 10^-3; for Q30-i both describe the same four graphs in words; no value differs
+  - 2025-5551-Q30-i | options | extractor_right | final  | crop /home/claude/render/2025-5551/adj-p21/p21.png | 400 dpi crop: same values and symbols; the vault writes products with * and powers of ten as 3.6e-3, the checker wrote juxtaposition and 3.6 x 10^-3; for Q30-i both describe the same four graphs in words; no value differs
+  - 2025-5551-Q31A-ii | figure_values | part_fixed | final R (six resistors, each labelled R; no number is printed in the figure); labels A, B | crop /home/claude/render/2025-5551/adj-p23/p23.png | 400 dpi crop: the figure prints six resistors each labelled R and the labels A, B, and no number; the part file's values field quoted the stem's 10 ohm; corrected to the figure's own content (the checker's reading)
+  - 2025-5551-Q31B-i-II | numbers | extractor_right | final  | crop /home/claude/render/2025-5551/adj-p25/p25.png | 400 dpi crop: the extra numbers are the shared lead-in's values, which the part file's stem carries as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+  - 2025-5551-Q32A-ii-II | numbers | extractor_right | final  | crop /home/claude/render/2025-5551/adj-p25/p25.png | 400 dpi crop: the extra numbers are the shared lead-in's values, which the part file's stem carries as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+- status erratum ER-B03-109: NEW -> IN-PROGRESS
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B03-20261002-2108-6364r.json
