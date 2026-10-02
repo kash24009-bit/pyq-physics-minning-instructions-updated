@@ -225,3 +225,35 @@ Every line below was written by phy_gate.py from the data, never typed.
 - status erratum ER-B03-107: NEW -> IN-PROGRESS
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B03-20261002-1627-6052r.json
+
+## 2026-10-02T20:33:37Z | 2025-5541 | S3 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 71, FIGURES 18, FORMULAE 71
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 25
+- merged 2 row(s) into l1/CASES.csv · now 50
+- merged 71 row(s) into l1/INSTANCES.csv · now 1714
+- merged 18 row(s) into l1/FIGURES.csv · now 371
+- merged 71 row(s) into l1/FORMULAE.csv · now 1156
+- check-paper: PASS · 2025-5541 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 306 values compared, 18 mismatch(es), all settled
+  - 2025-5541-Q17B | marks_part | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p13/p13.png | 400 dpi crop: the printed 2 is the side's or question's total, printed once after its last line (= q_marks_printed); B00-B03 leave marks_part blank on single-row sides and questions (2026-5532-Q19A, 2026-5542-Q18, 2025-5521); Q17(a)'s 2 sits after 'Justify your answer in both cases', the side total of (i) and (ii)
+  - 2025-5541-Q18 | marks_part | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p13/p13.png | 400 dpi crop: the printed 2 is the side's or question's total, printed once after its last line (= q_marks_printed); B00-B03 leave marks_part blank on single-row sides and questions (2026-5532-Q19A, 2026-5542-Q18, 2025-5521); Q17(a)'s 2 sits after 'Justify your answer in both cases', the side total of (i) and (ii)
+  - 2025-5541-Q19 | marks_part | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p13/p13.png | 400 dpi crop: the printed 2 is the side's or question's total, printed once after its last line (= q_marks_printed); B00-B03 leave marks_part blank on single-row sides and questions (2026-5532-Q19A, 2026-5542-Q18, 2025-5521); Q17(a)'s 2 sits after 'Justify your answer in both cases', the side total of (i) and (ii)
+  - 2025-5541-Q20 | marks_part | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p13/p13.png | 400 dpi crop: the printed 2 is the side's or question's total, printed once after its last line (= q_marks_printed); B00-B03 leave marks_part blank on single-row sides and questions (2026-5532-Q19A, 2026-5542-Q18, 2025-5521); Q17(a)'s 2 sits after 'Justify your answer in both cases', the side total of (i) and (ii)
+  - 2025-5541-Q21-a-ii | numbers | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p15/p15.png | 400 dpi crop: the extra numbers are the shared lead-in's values (l/2; 2*pi*nu*t and pi/2; 633 nm, 5.0 m, 5 mm; 5e8 and 8e12), which the part file's stems carry as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+  - 2025-5541-Q21-b | numbers | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p15/p15.png | 400 dpi crop: the extra numbers are the shared lead-in's values (l/2; 2*pi*nu*t and pi/2; 633 nm, 5.0 m, 5 mm; 5e8 and 8e12), which the part file's stems carry as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+  - 2025-5541-Q24-a | numbers | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p17/p17.png | 400 dpi crop: '1' and '2' are the coil names printed in the shared lead-in ("Two coils '1' and '2' ..."), kept in each part's stem as printed; the checker treats them as names; no value differs
+  - 2025-5541-Q24-b | numbers | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p17/p17.png | 400 dpi crop: '1' and '2' are the coil names printed in the shared lead-in ("Two coils '1' and '2' ..."), kept in each part's stem as printed; the checker treats them as names; no value differs
+  - 2025-5541-Q24-c | numbers | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p17/p17.png | 400 dpi crop: '1' and '2' are the coil names printed in the shared lead-in ("Two coils '1' and '2' ..."), kept in each part's stem as printed; the checker treats them as names; no value differs
+  - 2025-5541-Q29-i | options | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p21/p21.png | 400 dpi crop: same symbols and values; the vault writes every product with * (e.g. '(2*d)', '2*V/d'), the checker wrote juxtaposition; no value differs
+  - 2025-5541-Q29-ii | options | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p21/p21.png | 400 dpi crop: same symbols and values; the vault writes every product with * (e.g. '(2*d)', '2*V/d'), the checker wrote juxtaposition; no value differs
+  - 2025-5541-Q29-iii | options | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p21/p21.png | 400 dpi crop: same symbols and values; the vault writes every product with * (e.g. '(2*d)', '2*V/d'), the checker wrote juxtaposition; no value differs
+  - 2025-5541-Q29A-iv | options | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p21/p21.png | 400 dpi crop: same symbols and values; the vault writes every product with * (e.g. '(2*d)', '2*V/d'), the checker wrote juxtaposition; no value differs
+  - 2025-5541-Q29B-iv | options | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p21/p21.png | 400 dpi crop: same symbols and values; the vault writes every product with * (e.g. '(2*d)', '2*V/d'), the checker wrote juxtaposition; no value differs
+  - 2025-5541-Q30-ii | options | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p23/p23.png | 400 dpi crop: same symbols and values; the vault writes every product with * (e.g. '(2*d)', '2*V/d'), the checker wrote juxtaposition; no value differs
+  - 2025-5541-Q32A-ii-II | numbers | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p29/p29.png | 400 dpi crop: the extra numbers are the shared lead-in's values (l/2; 2*pi*nu*t and pi/2; 633 nm, 5.0 m, 5 mm; 5e8 and 8e12), which the part file's stems carry as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+  - 2025-5541-Q32B-ii-II | numbers | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p29/p29.png | 400 dpi crop: the extra numbers are the shared lead-in's values (l/2; 2*pi*nu*t and pi/2; 633 nm, 5.0 m, 5 mm; 5e8 and 8e12), which the part file's stems carry as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+  - 2025-5541-Q33B-i-II | numbers | extractor_right | final  | crop /home/claude/render/2025-5541/adj-p31/p31.png | 400 dpi crop: the extra numbers are the shared lead-in's values (l/2; 2*pi*nu*t and pi/2; 633 nm, 5.0 m, 5 mm; 5e8 and 8e12), which the part file's stems carry as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+- status erratum ER-B03-108: NEW -> IN-PROGRESS
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B03-20261002-2033-6216r.json

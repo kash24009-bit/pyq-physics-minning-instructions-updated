@@ -1,11 +1,11 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-02T16:27:48Z · batch B03.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-02T20:33:37Z · batch B03.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B03-20261002-1627-6052r.json](vault/PHY-VAULT-B03-20261002-1627-6052r.json) · 6052 rows in all
+- Newest vault: [PHY-VAULT-B03-20261002-2033-6216r.json](vault/PHY-VAULT-B03-20261002-2033-6216r.json) · 6216 rows in all
 - Checks: 16/16 pass
 
-Status - batch 3 · 1643 question rows saved · years closed: none yet · working on 2026
+Status - batch 3 · 1714 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 3 file(s) fully mined
@@ -17,10 +17,10 @@ Next (my work, in order)
 - Y2026 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2025 S2b BLUEPRINTS rows: each paper's row is written with it at S3/S4
-- Y2025 S3 2025-5541 ledger (origin of series 55/4)
 - Y2025 S3 2025-5551 ledger (origin of series 55/5)
 - Y2025 S3 2025-5561 ledger (origin of series 55/6)
-- 29 received file(s) waiting to be mined.
+- Y2025 S3 2025-5571 ledger (origin of series 55/7)
+- 28 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -30,6 +30,7 @@ Optional (yours)
 |---|---|---|---|---|---|---|---|---|
 | 2025-5511 | 55/1/1 | MAIN | 71 | 71 | 0 | 16 | 65 | 0 |
 | 2025-5521 | 55/2/1 | MAIN | 80 | 80 | 0 | 24 | 71 | 0 |
+| 2025-5541 | 55/4/1 | MAIN | 71 | 71 | 0 | 18 | 71 | 0 |
 | 2026-5511 | 55/1/1 | MAIN | 64 | 64 | 0 | 14 | 51 | 145 |
 | 2026-5512 | 55/1/2 | MAIN | 64 | 16 | 48 | 15 | 42 | 29 |
 | 2026-5513 | 55/1/3 | MAIN | 67 | 19 | 48 | 16 | 46 | 30 |
