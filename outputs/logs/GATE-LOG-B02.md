@@ -641,3 +641,15 @@ Every line below was written by phy_gate.py from the data, never typed.
 - double-read: 176 values compared, 0 mismatch(es), all settled
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B02-20261001-2032-4705r.json
+
+## 2026-10-02T04:21:13Z | SQP2526-042 | S5 | GATE PASS
+- part files: FORMULAE 24, STEP-AWARDS 106, ERRATA 1
+- merged 24 row(s) into l1/FORMULAE.csv · now 874
+- merged 106 row(s) into l1/STEP-AWARDS.csv · now 1222
+- merged 1 row(s) into l1/ERRATA.csv · now 287
+- validate after merge: 16/16 checks pass
+- double-read: 157 values compared, 2 mismatch(es), all settled
+  - SQP2526-042-Q07-VI | key | extractor_right | final  | crop /home/claude/render/SQP2526-042-S5/adj-p2/p2.png | the scheme prints "transition IV" with no letter; IV is option (C) on the paper row (A) I (B) III (C) IV (D) VI; the key row says so
+  - SQP2526-042-Q31A-VI-C | step_marks | extractor_right | final  | crop /home/claude/render/SQP2526-042-S5/adj-p12/p12.png | no mark is printed beside the VI (C) answer on p12; the VI alternative replaces (C), which is printed with 1, so it takes that 1 (as unmarked OR keys take the sub-part mark, CONVENTIONS); flagged in notes
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261002-0421-4836r.json
