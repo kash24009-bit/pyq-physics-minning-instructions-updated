@@ -1,11 +1,11 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-03T17:00:51Z · batch B03.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-03T17:16:14Z · batch B03.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B03-20261003-1700-8686r.json](vault/PHY-VAULT-B03-20261003-1700-8686r.json) · 8686 rows in all
+- Newest vault: [PHY-VAULT-B03-20261003-1716-8860r.json](vault/PHY-VAULT-B03-20261003-1716-8860r.json) · 8860 rows in all
 - Checks: 16/16 pass
 
-Status - batch 3 · 2773 question rows saved · years closed: none yet · working on 2026
+Status - batch 3 · 2846 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 3 file(s) fully mined
@@ -17,10 +17,10 @@ Next (my work, in order)
 - Y2026 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2025 S2b BLUEPRINTS rows: each paper's row is written with it at S3/S4
-- Y2025 S4 siblings 55/7: 2025-5572 done (B03: 72 rows = 55 shuffle + 17 new; 7 figures, 90 formulae; check-paper PASS 33/33, 70/70; UNVERIFIED: her decision 2026-10-03: single thorough reading, no blind checker), 2025-5573
 - Y2025 S4 visually-impaired papers (compared with every series): 2025-55B, 2025C-55BS, 2025C-55S1, 2025C-55S2, 2025C-55S3
 - Y2025 S5 scheme 55/1/1 (XII_042_Physics_MS_55_1_1,2,3.pdf)
-- 13 received file(s) waiting to be mined.
+- Y2025 S5 scheme 55/2/1 (XII_042_Physics_MS_55_2_1,2,3.pdf)
+- 12 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -45,6 +45,7 @@ Optional (yours)
 | 2025-5563 | 55/6/3 | MAIN | 70 | 16 | 54 | 12 | 85 | 0 |
 | 2025-5571 | 55/7/1 | MAIN | 71 | 71 | 0 | 8 | 80 | 0 |
 | 2025-5572 | 55/7/2 | MAIN | 72 | 17 | 55 | 7 | 90 | 0 |
+| 2025-5573 | 55/7/3 | MAIN | 73 | 18 | 55 | 9 | 88 | 0 |
 | 2025C-55S1 | 55/S/1 | COMPT | 73 | 73 | 0 | 13 | 62 | 0 |
 | 2026-5511 | 55/1/1 | MAIN | 64 | 64 | 0 | 14 | 51 | 145 |
 | 2026-5512 | 55/1/2 | MAIN | 64 | 16 | 48 | 15 | 42 | 29 |
