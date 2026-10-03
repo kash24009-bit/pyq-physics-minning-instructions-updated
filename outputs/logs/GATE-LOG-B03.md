@@ -314,3 +314,33 @@ Every line below was written by phy_gate.py from the data, never typed.
 - status erratum ER-B03-110: NEW -> IN-PROGRESS
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B03-20261002-2154-6539r.json
+
+## 2026-10-03T01:58:54Z | 2025-5571 | S3 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 71, FIGURES 8, FORMULAE 80
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 28
+- merged 2 row(s) into l1/CASES.csv · now 56
+- merged 71 row(s) into l1/INSTANCES.csv · now 1917
+- merged 8 row(s) into l1/FIGURES.csv · now 409
+- merged 80 row(s) into l1/FORMULAE.csv · now 1389
+- check-paper: PASS · 2025-5571 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 316 values compared, 16 mismatch(es), all settled
+  - 2025-5571-Q02 | options | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p5/p5.png | 400 dpi crop: same symbols and values; the vault writes products with *, fractions in brackets and powers of ten as 1.18e14, the checker wrote juxtaposition and 1.18 x 10^14; no value differs
+  - 2025-5571-Q03 | options | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p5/p5.png | 400 dpi crop: same symbols and values; the vault writes products with *, fractions in brackets and powers of ten as 1.18e14, the checker wrote juxtaposition and 1.18 x 10^14; no value differs
+  - 2025-5571-Q08 | options | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p9/p9.png | 400 dpi crop: same symbols and values; the vault writes products with *, fractions in brackets and powers of ten as 1.18e14, the checker wrote juxtaposition and 1.18 x 10^14; no value differs
+  - 2025-5571-Q13 | options | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p11/p11.png | 400 dpi crop: the assertion-reason codes are printed once above Q13; the vault stores them once per paper as ARSET in Q13's extra (P§7.1, CONVENTIONS), with options blank on the A-R rows; the checker copied the same four codes into each row; the texts agree
+  - 2025-5571-Q14 | options | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p11/p11.png | 400 dpi crop: the assertion-reason codes are printed once above Q13; the vault stores them once per paper as ARSET in Q13's extra (P§7.1, CONVENTIONS), with options blank on the A-R rows; the checker copied the same four codes into each row; the texts agree
+  - 2025-5571-Q15 | options | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p11/p11.png | 400 dpi crop: the assertion-reason codes are printed once above Q13; the vault stores them once per paper as ARSET in Q13's extra (P§7.1, CONVENTIONS), with options blank on the A-R rows; the checker copied the same four codes into each row; the texts agree
+  - 2025-5571-Q16 | options | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p11/p11.png | 400 dpi crop: the assertion-reason codes are printed once above Q13; the vault stores them once per paper as ARSET in Q13's extra (P§7.1, CONVENTIONS), with options blank on the A-R rows; the checker copied the same four codes into each row; the texts agree
+  - 2025-5571-Q17-b | numbers | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p13/p13.png | 400 dpi crop: the extra numbers belong to the shared lead-in (0 in Q17's lead-in; 2a in Q31(b)(i); 3 mm, 1.5 m, 600 nm in Q33(b)(ii)), which the part file's stems carry as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+  - 2025-5571-Q18A | marks_part | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p13/p13.png | 400 dpi crop: the printed mark is the question's or side's total, printed once after its last line (= q_marks_printed); B00-B03 leave marks_part blank on single-row questions and sides (2026-5532-Q19A, 2025-5541-Q17B)
+  - 2025-5571-Q20 | marks_part | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p13/p13.png | 400 dpi crop: the printed mark is the question's or side's total, printed once after its last line (= q_marks_printed); B00-B03 leave marks_part blank on single-row questions and sides (2026-5532-Q19A, 2025-5541-Q17B)
+  - 2025-5571-Q21 | marks_part | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p13/p13.png | 400 dpi crop: the printed mark is the question's or side's total, printed once after its last line (= q_marks_printed); B00-B03 leave marks_part blank on single-row questions and sides (2026-5532-Q19A, 2025-5541-Q17B)
+  - 2025-5571-Q22 | marks_part | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p13/p13.png | 400 dpi crop: the printed mark is the question's or side's total, printed once after its last line (= q_marks_printed); B00-B03 leave marks_part blank on single-row questions and sides (2026-5532-Q19A, 2025-5541-Q17B)
+  - 2025-5571-Q29-ii | options | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p19/p19.png | 400 dpi crop: same symbols and values; the vault writes products with *, fractions in brackets and powers of ten as 1.18e14, the checker wrote juxtaposition and 1.18 x 10^14; no value differs
+  - 2025-5571-Q30-i | numbers | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p23/p23.png | 400 dpi crop: 90 deg is printed in the case passage before (i) and is kept in the CASES context of CS-2025-5571-Q30; 'medium 1' and 'medium 2' are names; the sub-part stem starts at its label as the case rows do; no value differs
+  - 2025-5571-Q31B-i-II | numbers | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p27/p27.png | 400 dpi crop: the extra numbers belong to the shared lead-in (0 in Q17's lead-in; 2a in Q31(b)(i); 3 mm, 1.5 m, 600 nm in Q33(b)(ii)), which the part file's stems carry as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+  - 2025-5571-Q33B-ii-II | numbers | extractor_right | final  | crop /home/claude/render/2025-5571/adj-p31/p31.png | 400 dpi crop: the extra numbers belong to the shared lead-in (0 in Q17's lead-in; 2a in Q31(b)(i); 3 mm, 1.5 m, 600 nm in Q33(b)(ii)), which the part file's stems carry as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+- status erratum ER-B03-111: NEW -> IN-PROGRESS
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B03-20261003-0158-6702r.json
