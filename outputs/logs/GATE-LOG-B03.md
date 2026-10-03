@@ -344,3 +344,29 @@ Every line below was written by phy_gate.py from the data, never typed.
 - status erratum ER-B03-111: NEW -> IN-PROGRESS
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B03-20261003-0158-6702r.json
+
+## 2026-10-03T02:30:00Z | 2025C-55S1 | S3 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 73, FIGURES 13, FORMULAE 62
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 29
+- merged 2 row(s) into l1/CASES.csv · now 58
+- merged 73 row(s) into l1/INSTANCES.csv · now 1990
+- merged 13 row(s) into l1/FIGURES.csv · now 422
+- merged 62 row(s) into l1/FORMULAE.csv · now 1451
+- check-paper: PASS · 2025C-55S1 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 324 values compared, 11 mismatch(es), all settled
+  - 2025C-55S1-Q03 | options | extractor_right | final  | crop /home/claude/render/2025C-55S1/adj-p5/p5.png | 400 dpi crop: same values; the vault writes powers of ten as 0.8e-15 and keeps a printed misspelling with (sic) ('Phosphorous (sic)', CI s7); the checker wrote 0.8 x 10^-15 and the bare word; no value differs
+  - 2025C-55S1-Q17-b | numbers | extractor_right | final  | crop /home/claude/render/2025C-55S1/adj-p13/p13.png | 400 dpi crop: the extra numbers belong to the shared lead-in (2.14 eV; 1.5e10 and 36; 220 V, 20 and 125; the Q25(b) data; the Q28 loop and field data; 12 and 24 in Q31(b)(ii)), which the part file's stems carry as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+  - 2025C-55S1-Q22-d3 | numbers | extractor_right | final  | crop /home/claude/render/2025C-55S1/adj-p15/p15.png | 400 dpi crop: the demand prints 'the side of the square is doubled' in words; the part file's givens restate it as '2d', which the compare reads as 2; nothing else differs
+  - 2025C-55S1-Q23-d2-b | numbers | extractor_right | final  | crop /home/claude/render/2025C-55S1/adj-p17/p17.png | 400 dpi crop: the extra numbers belong to the shared lead-in (2.14 eV; 1.5e10 and 36; 220 V, 20 and 125; the Q25(b) data; the Q28 loop and field data; 12 and 24 in Q31(b)(ii)), which the part file's stems carry as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+  - 2025C-55S1-Q25A-ii | numbers | extractor_right | final  | crop /home/claude/render/2025C-55S1/adj-p17/p17.png | 400 dpi crop: the extra numbers belong to the shared lead-in (2.14 eV; 1.5e10 and 36; 220 V, 20 and 125; the Q25(b) data; the Q28 loop and field data; 12 and 24 in Q31(b)(ii)), which the part file's stems carry as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+  - 2025C-55S1-Q25B-ii | numbers | extractor_right | final  | crop /home/claude/render/2025C-55S1/adj-p17/p17.png | 400 dpi crop: the extra numbers belong to the shared lead-in (2.14 eV; 1.5e10 and 36; 220 V, 20 and 125; the Q25(b) data; the Q28 loop and field data; 12 and 24 in Q31(b)(ii)), which the part file's stems carry as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+  - 2025C-55S1-Q25B-iii | numbers | extractor_right | final  | crop /home/claude/render/2025C-55S1/adj-p17/p17.png | 400 dpi crop: the extra numbers belong to the shared lead-in (2.14 eV; 1.5e10 and 36; 220 V, 20 and 125; the Q25(b) data; the Q28 loop and field data; 12 and 24 in Q31(b)(ii)), which the part file's stems carry as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+  - 2025C-55S1-Q28-a | numbers | extractor_right | final  | crop /home/claude/render/2025C-55S1/adj-p19/p19.png | 400 dpi crop: the outward normal is printed '(0.80 i^ - 0.60 j^)'; the part file keeps the printed operator ('- 0.60 j^'), the checker wrote the component as -0.60; same value
+  - 2025C-55S1-Q28-b | numbers | extractor_right | final  | crop /home/claude/render/2025C-55S1/adj-p19/p19.png | 400 dpi crop: the extra numbers belong to the shared lead-in (2.14 eV; 1.5e10 and 36; 220 V, 20 and 125; the Q25(b) data; the Q28 loop and field data; 12 and 24 in Q31(b)(ii)), which the part file's stems carry as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+  - 2025C-55S1-Q29-iv | options | part_fixed | final B) ... more than f_o and less than 2*f_o ... | D) ... at 2*f_e ... | crop /home/claude/render/2025C-55S1/adj-p21/p21.png | 400 dpi crop: options (B) and (D) print 2f_o and 2f_e; same values in both readings; the part file wrote '2f_o', the vault's notation writes products with * ('2*p_2'), so the part file now reads 2*f_o and 2*f_e (the checker's form)
+  - 2025C-55S1-Q30-ii | options | extractor_right | final  | crop /home/claude/render/2025C-55S1/adj-p23/p23.png | 400 dpi crop: same values; the vault writes powers of ten as 0.8e-15 and keeps a printed misspelling with (sic) ('Phosphorous (sic)', CI s7); the checker wrote 0.8 x 10^-15 and the bare word; no value differs
+  - 2025C-55S1-Q31B-ii-II | numbers | extractor_right | final  | crop /home/claude/render/2025C-55S1/adj-p25/p25.png | 400 dpi crop: the extra numbers belong to the shared lead-in (2.14 eV; 1.5e10 and 36; 220 V, 20 and 125; the Q25(b) data; the Q28 loop and field data; 12 and 24 in Q31(b)(ii)), which the part file's stems carry as the origin rows do (precedent 2026-5532-Q24B-ii); the checker listed them on the first sub-part only; no value differs
+- status erratum ER-B03-112: NEW -> IN-PROGRESS
+- PROGRESS: added a ticked line
+- pack: PHY-VAULT-B03-20261003-0230-6854r.json

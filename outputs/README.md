@@ -1,11 +1,11 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-03T01:58:54Z · batch B03.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-03T02:30:00Z · batch B03.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B03-20261003-0158-6702r.json](vault/PHY-VAULT-B03-20261003-0158-6702r.json) · 6702 rows in all
+- Newest vault: [PHY-VAULT-B03-20261003-0230-6854r.json](vault/PHY-VAULT-B03-20261003-0230-6854r.json) · 6854 rows in all
 - Checks: 16/16 pass
 
-Status - batch 3 · 1917 question rows saved · years closed: none yet · working on 2026
+Status - batch 3 · 1990 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 3 file(s) fully mined
@@ -20,7 +20,7 @@ Next (my work, in order)
 - Y2025 S4 siblings 55/1: 2025-5512, 2025-5513
 - Y2025 S4 siblings 55/2: 2025-5522, 2025-5523
 - Y2025 S4 siblings 55/4: 2025-5542, 2025-5543
-- 25 received file(s) waiting to be mined.
+- 24 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -34,6 +34,7 @@ Optional (yours)
 | 2025-5551 | 55/5/1 | MAIN | 64 | 64 | 0 | 15 | 65 | 0 |
 | 2025-5561 | 55/6/1 | MAIN | 68 | 68 | 0 | 15 | 88 | 0 |
 | 2025-5571 | 55/7/1 | MAIN | 71 | 71 | 0 | 8 | 80 | 0 |
+| 2025C-55S1 | 55/S/1 | COMPT | 73 | 73 | 0 | 13 | 62 | 0 |
 | 2026-5511 | 55/1/1 | MAIN | 64 | 64 | 0 | 14 | 51 | 145 |
 | 2026-5512 | 55/1/2 | MAIN | 64 | 16 | 48 | 15 | 42 | 29 |
 | 2026-5513 | 55/1/3 | MAIN | 67 | 19 | 48 | 16 | 46 | 30 |
