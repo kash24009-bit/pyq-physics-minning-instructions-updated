@@ -545,3 +545,18 @@ Every line below was written by phy_gate.py from the data, never typed.
 - Q-QUEUE Q-029 added (merged without the double-read)
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B03-20261003-1222-8176r.json
+
+## 2026-10-03T12:35:58Z | 2025-5562 | S4 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 66, FIGURES 12, FORMULAE 84
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 38
+- merged 2 row(s) into l1/CASES.csv · now 76
+- merged 66 row(s) into l1/INSTANCES.csv · now 2631
+- merged 12 row(s) into l1/FIGURES.csv · now 570
+- merged 84 row(s) into l1/FORMULAE.csv · now 2114
+- check-paper: PASS · 2025-5562 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: UNVERIFIED: her decision 2026-10-03: single thorough reading, no blind checker
+- status erratum ER-B03-121: NEW -> IN-PROGRESS
+- Q-QUEUE Q-030 added (merged without the double-read)
+- PROGRESS: line updated (2025-5563 still to do)
+- pack: PHY-VAULT-B03-20261003-1235-8342r.json
