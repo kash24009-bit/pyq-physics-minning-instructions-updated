@@ -1,11 +1,11 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-03T07:39:37Z · batch B03.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-03T11:50:54Z · batch B03.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B03-20261003-0739-7704r.json](vault/PHY-VAULT-B03-20261003-0739-7704r.json) · 7704 rows in all
+- Newest vault: [PHY-VAULT-B03-20261003-1150-7871r.json](vault/PHY-VAULT-B03-20261003-1150-7871r.json) · 7871 rows in all
 - Checks: 16/16 pass
 
-Status - batch 3 · 2361 question rows saved · years closed: none yet · working on 2026
+Status - batch 3 · 2433 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 3 file(s) fully mined
@@ -17,10 +17,10 @@ Next (my work, in order)
 - Y2026 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2025 S2b BLUEPRINTS rows: each paper's row is written with it at S3/S4
-- Y2025 S4 siblings 55/4: 2025-5542 done (B03: 72 rows = 55 shuffle + 17 new; 16 figures, 75 formulae; check-paper PASS 33/33, 70/70; UNVERIFIED: her decision 2026-10-03: single thorough reading, no blind checker), 2025-5543
 - Y2025 S4 siblings 55/5: 2025-5552, 2025-5553
 - Y2025 S4 siblings 55/6: 2025-5562, 2025-5563
-- 19 received file(s) waiting to be mined.
+- Y2025 S4 siblings 55/7: 2025-5572, 2025-5573
+- 18 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -36,6 +36,7 @@ Optional (yours)
 | 2025-5523 | 55/2/3 | MAIN | 78 | 18 | 60 | 21 | 76 | 0 |
 | 2025-5541 | 55/4/1 | MAIN | 71 | 71 | 0 | 18 | 71 | 0 |
 | 2025-5542 | 55/4/2 | MAIN | 72 | 17 | 55 | 16 | 75 | 0 |
+| 2025-5543 | 55/4/3 | MAIN | 72 | 17 | 55 | 15 | 76 | 0 |
 | 2025-5551 | 55/5/1 | MAIN | 64 | 64 | 0 | 15 | 65 | 0 |
 | 2025-5561 | 55/6/1 | MAIN | 68 | 68 | 0 | 15 | 88 | 0 |
 | 2025-5571 | 55/7/1 | MAIN | 71 | 71 | 0 | 8 | 80 | 0 |
