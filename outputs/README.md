@@ -1,8 +1,8 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T14:33:52Z · batch B03.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T14:43:20Z · batch B03.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B03-20261005-1433-10860r.json](vault/PHY-VAULT-B03-20261005-1433-10860r.json) · 10860 rows in all
+- Newest vault: [PHY-VAULT-B03-20261005-1443-11012r.json](vault/PHY-VAULT-B03-20261005-1443-11012r.json) · 11012 rows in all
 - Checks: 16/16 pass
 
 Status - batch 3 · 3134 question rows saved · years closed: none yet · working on 2026
@@ -10,18 +10,18 @@ Status - batch 3 · 3134 question rows saved · years closed: none yet · workin
 Done
 - 2027: 3 file(s) fully mined
 - 2026: 33 file(s) fully mined
-- 2025: 6 file(s) fully mined
+- 2025: 7 file(s) fully mined
 
 Next (my work, in order)
 - Y2026 S5 compartment 55/7 and 55/B/7: no scheme in project -> TRANSFERRED/INFERRED, labelled · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
-- Y2025 S5 scheme 55/B (XII_042_Physics_MS_55_blind.pdf)
 - Y2025 S5 papers with no scheme (2025-5512, 2025-5513, 2025-5522, 2025-5523, 2025-5542, 2025-5543, 2025-5552, 2025-5553, 2025-5562, 2025-5563, 2025-5572, 2025-5573, 2025C-55BS, 2025C-55S1, 2025C-55S2, 2025C-55S3): TRANSFERRED/INFERRED after S6, labelled · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02)
-- 2 received file(s) waiting to be mined.
+- Y2025 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02)
+- 1 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -47,7 +47,7 @@ Optional (yours)
 | 2025-5571 | 55/7/1 | MAIN | 71 | 71 | 0 | 8 | 91 | 131 |
 | 2025-5572 | 55/7/2 | MAIN | 72 | 17 | 55 | 7 | 99 | 37 |
 | 2025-5573 | 55/7/3 | MAIN | 73 | 18 | 55 | 9 | 94 | 33 |
-| 2025-55B | 55/B | MAIN | 73 | 73 | 0 | 0 | 77 | 0 |
+| 2025-55B | 55/B | MAIN | 73 | 73 | 0 | 0 | 91 | 137 |
 | 2025C-55BS | 55/B/S | COMPT | 71 | 71 | 0 | 0 | 52 | 0 |
 | 2025C-55S1 | 55/S/1 | COMPT | 73 | 73 | 0 | 13 | 62 | 0 |
 | 2025C-55S2 | 55/S/2 | COMPT | 73 | 17 | 56 | 13 | 66 | 0 |
