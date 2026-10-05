@@ -1,11 +1,11 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-03T17:29:51Z · batch B03.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T04:41:33Z · batch B03.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B03-20261003-1729-9016r.json](vault/PHY-VAULT-B03-20261003-1729-9016r.json) · 9016 rows in all
+- Newest vault: [PHY-VAULT-B03-20261005-0441-9168r.json](vault/PHY-VAULT-B03-20261005-0441-9168r.json) · 9168 rows in all
 - Checks: 16/16 pass
 
-Status - batch 3 · 2919 question rows saved · years closed: none yet · working on 2026
+Status - batch 3 · 2990 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 3 file(s) fully mined
@@ -20,7 +20,7 @@ Next (my work, in order)
 - Y2025 S4 visually-impaired papers (compared with every series): 2025-55B, 2025C-55BS, 2025C-55S1, 2025C-55S2, 2025C-55S3
 - Y2025 S5 scheme 55/1/1 (XII_042_Physics_MS_55_1_1,2,3.pdf)
 - Y2025 S5 scheme 55/2/1 (XII_042_Physics_MS_55_2_1,2,3.pdf)
-- 11 received file(s) waiting to be mined.
+- 10 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -48,6 +48,7 @@ Optional (yours)
 | 2025-5573 | 55/7/3 | MAIN | 73 | 18 | 55 | 9 | 88 | 0 |
 | 2025C-55S1 | 55/S/1 | COMPT | 73 | 73 | 0 | 13 | 62 | 0 |
 | 2025C-55S2 | 55/S/2 | COMPT | 73 | 17 | 56 | 13 | 66 | 0 |
+| 2025C-55S3 | 55/S/3 | COMPT | 71 | 15 | 56 | 12 | 65 | 0 |
 | 2026-5511 | 55/1/1 | MAIN | 64 | 64 | 0 | 14 | 51 | 145 |
 | 2026-5512 | 55/1/2 | MAIN | 64 | 16 | 48 | 15 | 42 | 29 |
 | 2026-5513 | 55/1/3 | MAIN | 67 | 19 | 48 | 16 | 46 | 30 |
