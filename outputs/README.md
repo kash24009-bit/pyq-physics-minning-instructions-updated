@@ -1,8 +1,8 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T05:13:59Z · batch B03.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T05:14:09Z · batch B03.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B03-20261005-0513-9449r.json](vault/PHY-VAULT-B03-20261005-0513-9449r.json) · 9449 rows in all
+- Newest vault: [PHY-VAULT-B03-20261005-0514-9449r.json](vault/PHY-VAULT-B03-20261005-0514-9449r.json) · 9449 rows in all
 - Checks: 16/16 pass
 
 Status - batch 3 · 3134 question rows saved · years closed: none yet · working on 2026
@@ -17,9 +17,9 @@ Next (my work, in order)
 - Y2026 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2025 S2b BLUEPRINTS rows: each paper's row is written with it at S3/S4
-- Y2025 S4 visually-impaired papers (compared with every series): 2025-55B done (B03: 73 rows = 0 shuffle + 73 new; 0 figures, 77 formulae; check-paper PASS 33/33, 70/70; UNVERIFIED: her decision 2026-10-03: single thorough reading, no blind checker), 2025C-55BS done (B03: 71 rows = 0 shuffle + 71 new; 0 figures, 52 formulae; check-paper PASS 33/33, 70/70; UNVERIFIED: her decision 2026-10-03: single thorough reading, no blind checker), 2025C-55S1, 2025C-55S2, 2025C-55S3
 - Y2025 S5 scheme 55/1/1 (XII_042_Physics_MS_55_1_1,2,3.pdf)
 - Y2025 S5 scheme 55/2/1 (XII_042_Physics_MS_55_2_1,2,3.pdf)
+- Y2025 S5 scheme 55/4/1 (XII_042_Physics_MS_55_4_1,2,3-compressed.pdf)
 - 8 received file(s) waiting to be mined.
 
 Optional (yours)
