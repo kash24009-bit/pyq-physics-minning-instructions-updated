@@ -1,8 +1,8 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T05:31:38Z · batch B03.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T05:32:05Z · batch B03.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B03-20261005-0531-9690r.json](vault/PHY-VAULT-B03-20261005-0531-9690r.json) · 9690 rows in all
+- Newest vault: [PHY-VAULT-B03-20261005-0532-9690r.json](vault/PHY-VAULT-B03-20261005-0532-9690r.json) · 9690 rows in all
 - Checks: 16/16 pass
 
 Status - batch 3 · 3134 question rows saved · years closed: none yet · working on 2026
@@ -17,10 +17,10 @@ Next (my work, in order)
 - Y2026 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
-- Y2025 S2b BLUEPRINTS rows: each paper's row is written with it at S3/S4
 - Y2025 S5 scheme 55/2/1 (XII_042_Physics_MS_55_2_1,2,3.pdf)
 - Y2025 S5 scheme 55/4/1 (XII_042_Physics_MS_55_4_1,2,3-compressed.pdf)
 - Y2025 S5 scheme 55/5/1 (XII_042_Physics_MS_55_5_1,2,3.pdf)
+- Y2025 S5 scheme 55/6/1 (XII_042_Physics_MS_55_6_1,2,3_.pdf)
 - 7 received file(s) waiting to be mined.
 
 Optional (yours)
