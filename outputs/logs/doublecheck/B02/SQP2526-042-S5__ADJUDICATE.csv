@@ -1,0 +1,3 @@
+instance_id,field,decision,final_value,crop,note
+SQP2526-042-Q07-VI,key,extractor_right,,/home/claude/render/SQP2526-042-S5/adj-p2/p2.png,"the scheme prints ""transition IV"" with no letter; IV is option (C) on the paper row (A) I (B) III (C) IV (D) VI; the key row says so"
+SQP2526-042-Q31A-VI-C,step_marks,extractor_right,,/home/claude/render/SQP2526-042-S5/adj-p12/p12.png,"no mark is printed beside the VI (C) answer on p12; the VI alternative replaces (C), which is printed with 1, so it takes that 1 (as unmarked OR keys take the sub-part mark, CONVENTIONS); flagged in notes"
