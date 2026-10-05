@@ -1,8 +1,8 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T13:45:01Z · batch B03.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T13:45:05Z · batch B03.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B03-20261005-1345-10314r.json](vault/PHY-VAULT-B03-20261005-1345-10314r.json) · 10314 rows in all
+- Newest vault: [PHY-VAULT-B03-20261005-1345-10351r.json](vault/PHY-VAULT-B03-20261005-1345-10351r.json) · 10351 rows in all
 - Checks: 16/16 pass
 
 Status - batch 3 · 3134 question rows saved · years closed: none yet · working on 2026
@@ -39,7 +39,7 @@ Optional (yours)
 | 2025-5542 | 55/4/2 | MAIN | 72 | 17 | 55 | 16 | 78 | 32 |
 | 2025-5543 | 55/4/3 | MAIN | 72 | 17 | 55 | 15 | 80 | 35 |
 | 2025-5551 | 55/5/1 | MAIN | 64 | 64 | 0 | 15 | 86 | 143 |
-| 2025-5552 | 55/5/2 | MAIN | 65 | 14 | 51 | 16 | 67 | 0 |
+| 2025-5552 | 55/5/2 | MAIN | 65 | 14 | 51 | 16 | 73 | 31 |
 | 2025-5553 | 55/5/3 | MAIN | 67 | 16 | 51 | 17 | 65 | 0 |
 | 2025-5561 | 55/6/1 | MAIN | 68 | 68 | 0 | 15 | 88 | 0 |
 | 2025-5562 | 55/6/2 | MAIN | 66 | 12 | 54 | 12 | 84 | 0 |
