@@ -1,0 +1,17 @@
+instance_id,field,part_value,check_value,detail,resolved
+2026-5532-Q01,options,A) 2*n*pi | B) 2*n*pi + pi/4 | C) 2*n*pi + pi/2 | D) 2*n*pi + pi,A) 2nπ | B) 2nπ + π/4 | C) 2nπ + π/2 | D) 2nπ + π,"options differ at A, B, C, D",extractor_right
+2026-5532-Q08,options,"A) +5 V (left), +10 V (right) | B) -1.0 V (left), -1.5 V (right) | C) 0 V (left), 1 V (right) | D) -2 V (left), 0 V (right)","A) anode +5 V, cathode +10 V | B) anode -1.0 V, cathode -1.5 V | C) anode 0 V, cathode 1 V | D) anode -2 V, cathode 0 V","options differ at A, B, C, D",extractor_right
+2026-5532-Q09,options,A) 200 ohm | B) 175 ohm | C) 100 ohm | D) 125 ohm,A) 200 Ω | B) 175 Ω | C) 100 Ω | D) 125 Ω,"options differ at A, B, C, D",extractor_right
+2026-5532-Q10,options,A) 2.0e8 m s^-1 | B) 4.5e7 m s^-1 | C) 3.5e7 m s^-1 | D) 2.5e8 m s^-1,A) 2.0 × 10^8 ms^-1 | B) 4.5 × 10^7 ms^-1 | C) 3.5 × 10^7 ms^-1 | D) 2.5 × 10^8 ms^-1,"options differ at A, B, C, D",extractor_right
+2026-5532-Q12,options,A) R/(mu - 1) | B) -R/(mu - 1) | C) 2R/(mu - 1) | D) -2R/(mu - 1),A) R/(μ - 1) | B) -R/(μ - 1) | C) 2R/(μ - 1) | D) -2R/(μ - 1),"options differ at A, B, C, D",extractor_right
+2026-5532-Q19A,marks_part,,2,marks differ,extractor_right
+2026-5532-Q24B-i,numbers,0.5 3.2e-19 6.4e-27 8,,"only in the checker's reading: -; only in the part file: ['0.5', '3.2e-19', '6.4e-27', '8']",extractor_right
+2026-5532-Q24B-ii,numbers,0.5 3.2e-19 6.4e-27 8,,"only in the checker's reading: -; only in the part file: ['0.5', '3.2e-19', '6.4e-27', '8']",extractor_right
+2026-5532-Q29-ii,options,A) 1/sqrt(2) | B) sqrt(2) | C) 1/2 | D) 2,A) 1/√2 | B) √2 | C) 1/2 | D) 2,"options differ at A, B",extractor_right
+2026-5532-Q29B-iv,options,A) p_1 = p_2/2 | B) p_1 = p_2 | C) p_1 = 2*p_2 | D) p_1 = 4*p_2,A) p_1 = p_2/2 | B) p_1 = p_2 | C) p_1 = 2p_2 | D) p_1 = 4p_2,"options differ at C, D",extractor_right
+2026-5532-Q30-i,options,A) 6 microF | B) 3 microF | C) 9 microF | D) 2 microF,A) 6 μF | B) 3 μF | C) 9 μF | D) 2 μF,"options differ at A, B, C, D",extractor_right
+2026-5532-Q30A-iv,options,A) 6 microC | B) 4 microC | C) 12 microC | D) 8 microC,A) 6 μC | B) 4 μC | C) 12 μC | D) 8 μC,"options differ at A, B, C, D",extractor_right
+2026-5532-Q33A-ii,numbers,-2 -30 0 2 30 5 900000,-2 -30 0 30 5 900000,only in the checker's reading: -; only in the part file: ['2'],extractor_right
+2026-5532-Q33B-ii-I-1,numbers,-3 1 2,-3 2,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2026-5532-Q33B-ii-II-1,numbers,-3 1 2,-3 2,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2026-5532-Q33B-ii-III-1,numbers,-3 1 2,-3 2,only in the checker's reading: -; only in the part file: ['1'],extractor_right
