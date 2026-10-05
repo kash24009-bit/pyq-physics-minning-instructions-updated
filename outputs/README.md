@@ -1,8 +1,8 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T15:21:23Z · batch B03.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T15:38:30Z · batch B03.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B03-20261005-1521-11028r.json](vault/PHY-VAULT-B03-20261005-1521-11028r.json) · 11028 rows in all
+- Newest vault: [PHY-VAULT-B03-20261005-1538-11192r.json](vault/PHY-VAULT-B03-20261005-1538-11192r.json) · 11192 rows in all
 - Checks: 16/16 pass
 
 Status - batch 3 · 3134 question rows saved · years closed: none yet · working on 2026
@@ -10,7 +10,7 @@ Status - batch 3 · 3134 question rows saved · years closed: none yet · workin
 Done
 - 2027: 3 file(s) fully mined
 - 2026: 33 file(s) fully mined
-- 2025: 7 file(s) fully mined
+- 2025: 8 file(s) fully mined
 
 Next (my work, in order)
 - Y2026 S5 compartment 55/7 and 55/B/7: no scheme in project -> TRANSFERRED/INFERRED, labelled · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
@@ -21,7 +21,7 @@ Next (my work, in order)
 - Y2025 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02)
-- 4 received file(s) waiting to be mined.
+- 3 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -49,7 +49,7 @@ Optional (yours)
 | 2025-5573 | 55/7/3 | MAIN | 73 | 18 | 55 | 9 | 94 | 33 |
 | 2025-55B | 55/B | MAIN | 73 | 73 | 0 | 0 | 91 | 137 |
 | 2025C-55BS | 55/B/S | COMPT | 71 | 71 | 0 | 0 | 52 | 0 |
-| 2025C-55S1 | 55/S/1 | COMPT | 73 | 73 | 0 | 13 | 62 | 0 |
+| 2025C-55S1 | 55/S/1 | COMPT | 73 | 73 | 0 | 13 | 84 | 141 |
 | 2025C-55S2 | 55/S/2 | COMPT | 73 | 17 | 56 | 13 | 66 | 0 |
 | 2025C-55S3 | 55/S/3 | COMPT | 71 | 15 | 56 | 12 | 65 | 0 |
 | 2026-5511 | 55/1/1 | MAIN | 64 | 64 | 0 | 14 | 51 | 145 |
