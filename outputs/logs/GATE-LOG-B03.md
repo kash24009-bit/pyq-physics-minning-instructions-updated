@@ -874,3 +874,7 @@ Every line below was written by phy_gate.py from the data, never typed.
 ## 2026-10-05T14:44:21Z | checkpoint | Y2025 printed pass: every scheme unit saved (19/19); end-of-year checks recorded in notes/Y2025.md; Open list updated
 - validate: 16/16 checks pass
 - pack: PHY-VAULT-B03-20261005-1444-11012r.json
+
+## 2026-10-05T14:45:06Z | checkpoint | Q-062: the 2024-25 sample paper (year 2025) is not in any repository this session; queued, upload asked
+- validate: 16/16 checks pass
+- pack: PHY-VAULT-B03-20261005-1445-11012r.json
