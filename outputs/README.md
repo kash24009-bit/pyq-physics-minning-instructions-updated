@@ -1,11 +1,11 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T04:41:33Z · batch B03.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T04:57:32Z · batch B03.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B03-20261005-0441-9168r.json](vault/PHY-VAULT-B03-20261005-0441-9168r.json) · 9168 rows in all
+- Newest vault: [PHY-VAULT-B03-20261005-0457-9322r.json](vault/PHY-VAULT-B03-20261005-0457-9322r.json) · 9322 rows in all
 - Checks: 16/16 pass
 
-Status - batch 3 · 2990 question rows saved · years closed: none yet · working on 2026
+Status - batch 3 · 3063 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 3 file(s) fully mined
@@ -17,10 +17,10 @@ Next (my work, in order)
 - Y2026 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2025 S2b BLUEPRINTS rows: each paper's row is written with it at S3/S4
-- Y2025 S4 visually-impaired papers (compared with every series): 2025-55B, 2025C-55BS, 2025C-55S1, 2025C-55S2, 2025C-55S3
+- Y2025 S4 visually-impaired papers (compared with every series): 2025-55B done (B03: 73 rows = 0 shuffle + 73 new; 0 figures, 77 formulae; check-paper PASS 33/33, 70/70; UNVERIFIED: her decision 2026-10-03: single thorough reading, no blind checker), 2025C-55BS, 2025C-55S1, 2025C-55S2, 2025C-55S3
 - Y2025 S5 scheme 55/1/1 (XII_042_Physics_MS_55_1_1,2,3.pdf)
 - Y2025 S5 scheme 55/2/1 (XII_042_Physics_MS_55_2_1,2,3.pdf)
-- 10 received file(s) waiting to be mined.
+- 9 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -46,6 +46,7 @@ Optional (yours)
 | 2025-5571 | 55/7/1 | MAIN | 71 | 71 | 0 | 8 | 80 | 0 |
 | 2025-5572 | 55/7/2 | MAIN | 72 | 17 | 55 | 7 | 90 | 0 |
 | 2025-5573 | 55/7/3 | MAIN | 73 | 18 | 55 | 9 | 88 | 0 |
+| 2025-55B | 55/B | MAIN | 73 | 73 | 0 | 0 | 77 | 0 |
 | 2025C-55S1 | 55/S/1 | COMPT | 73 | 73 | 0 | 13 | 62 | 0 |
 | 2025C-55S2 | 55/S/2 | COMPT | 73 | 17 | 56 | 13 | 66 | 0 |
 | 2025C-55S3 | 55/S/3 | COMPT | 71 | 15 | 56 | 12 | 65 | 0 |
