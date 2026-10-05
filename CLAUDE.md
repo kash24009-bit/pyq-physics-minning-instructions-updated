@@ -1,12 +1,12 @@
 # CLAUDE.md · PYQ Pattern Mining · Physics (042) · Claude Code route
 
-Written 2026-09-30, updated 2026-10-02 after the audit of Batch 2 (second update the same day: five repositories, the 2026-27 sample paper), for kit edition 2026-09-30b. This file replaces every earlier CLAUDE.md. If another CLAUDE.md is also loaded (from any repository), this one wins; name the other file in your report so she can delete it.
+Written 2026-09-30, last updated 2026-10-05 after Batch 3 (one thorough reading per paper, a year check per year), for kit edition 2026-09-30b. This file replaces every earlier CLAUDE.md. If another CLAUDE.md is also loaded (from any repository), this one wins; name the other file in your report so she can delete it.
 
 Read this file in full at the start of every session and again after every compaction, before your next action.
 
 ## 1 · What this is
 - Kashvi (self-studying, CBSE Class 12 boards mid-February 2027) is building a verified, complete, queryable knowledge base of every CBSE Physics (042) board paper and marking scheme she supplies, to predict the 2027 paper and write mocks. You are the miner. Nothing is taught here.
-- This is a continuation. The vault holds Batches 0 to 2: every 2026 printed document is mined (21 papers, 16 board schemes and the 2025-26 sample paper's scheme). 2026's classification, workbook and close are deferred by her decision (§12). Never start over, never run `pyqkit init`, never make a recovery vault, never redo a ticked PROGRESS line.
+- This is a continuation. The vault holds Batches 0 to 3: every printed document of 2026 and 2025 (main, compartment and visually-impaired papers and their schemes), both sample papers (2025-26, 2026-27) and the syllabus. Classification, workbooks and year-closes are deferred by her decision (§12). Never start over, never run `pyqkit init`, never make a recovery vault, never redo a ticked PROGRESS line.
 - Accuracy over speed, at the detail of PHY-08 Y§6. She reads every file carefully and expects precision in every detail.
 
 ## 2 · Authority, highest first
@@ -64,16 +64,15 @@ Never rename, move, edit or delete a file she put in any repository. Copies a br
 3. Take stock: `python3 /home/claude/pyqkit.py inventory /home/claude/vault /mnt/user-data/uploads /mnt/project --batch <session batch>`. A new year's files go through PHY-08 Y§2.
 4. Two-line boot report (state; what this session will do), then work. No questions.
 
-## 7 · The per-paper loop (S3 and S4; S5 is the same with `--stage S5`, R§10 and PHY-08 Y§5)
-Use `--stage S3` for a series origin and `--stage S4` for every other paper; the examples below show S4.
-1. The next paper is the first paper not yet marked done on the first unticked PROGRESS line of the current stage.
-2. **Extract.** Start a fresh subagent with the extractor brief (R§6). It writes part files in `/home/claude/vault/work/` and runs `phy_gate.py check` until it passes. It never merges.
-3. **Seal.** `python3 /home/claude/phy_gate.py skeleton <paper_id> --stage S4` writes the checker's input and moves the part files out of reach.
-4. **Blind check.** Start a second, fresh subagent with the checker brief (R§7). It writes `<paper_id>__VERIFY.csv` from the page images alone.
-5. **Settle.** `python3 /home/claude/phy_gate.py verify <paper_id> --stage S4`. For every mismatch, read a 300–400 dpi crop of that exact spot yourself, correct the part file if the extractor was wrong, and record the decision in `<paper_id>__ADJUDICATE.csv` (R§8). Repeat until verify exits 0. Then compare the checker's direction notes (cells, diodes, arrows) with the FIGURES rows and settle any difference the same way (R§8 step 6).
-6. **Judged text.** Observations go in the vault's `notes/Y<year>.md` (each backed by instance ids), new conventions in `CONVENTIONS.md`, open questions in `QQUEUE.md`.
-7. **Commit.** `python3 /home/claude/phy_gate.py commit <paper_id> --stage S4`. This is the only door into the vault: it re-checks, merges, writes the status erratum and the PROGRESS line with computed counts, validates, packs, commits and pushes. Exit 0 means the paper is saved.
-8. Only then open the next paper. One paper at a time, never two in parallel.
+## 7 · The per-paper loop: one thorough reading (her decision 2026-10-03)
+Use `--stage S3` for a series origin, `--stage S4` for every other paper, `--stage S5` for a scheme unit (R§10, PHY-08 Y§5).
+1. The next paper is the first paper not yet marked done on the first unticked PROGRESS line that is not DEFERRED.
+2. **Extract.** Start a fresh subagent with the extractor brief (R§6): one thorough reading; every number, mark, option, sign and direction of every new row read from a crop, then a second look at each against the same crop; it runs `phy_gate.py check` until it passes and returns every doubt it could not settle.
+3. **Doubts.** Read the crop of every returned doubt yourself and settle it in the part file.
+4. **Commit.** `python3 /home/claude/phy_gate.py commit <paper_id> --stage S4 --single-read`. The gate re-checks, merges, writes the status erratum and the PROGRESS line, validates, packs, commits and pushes. No sealing and no blind checker per paper.
+5. Only then open the next paper. One paper at a time, never two in parallel.
+
+**The year check (her decision 2026-10-05).** When every paper and scheme of a year is saved, the year gets one thorough check before the next year starts: PHY-08 Y§11 (`phy_gate.py yearcheck <year>`, a fresh blind checker on the rows it lists, `--compare`, every mismatch settled from a crop, wrong values fixed by a FIX unit, the report, the YC line ticked).
 
 ## 8 · Never (Claude Code specific; PHY-03 and CI§12 still apply)
 - Never write a Layer-1 value from a text layer, OCR or a parsing script. Every value comes from a page image read by you or your subagent; the text layer only cross-checks digits.
@@ -110,9 +109,9 @@ Use `--stage S3` for a series origin and `--stage S4` for every other paper; the
 - A point is made once. No long explanations of what went wrong: log it in the PHY-03 addendum, mention it in one line.
 
 ## 12 · Her decisions and standing permissions
-- **Work order (2026-10-02).** Printed documents first, year by year from 2025 down to 2022: S1 intake, S2a constants, S3 origins, S4 siblings, then S5 for every scheme of that year in the schemes repository; then the next year whose ZIP is in the papers repository (PHY-08 Y§0). Lines marked DEFERRED wait for the closing sweep after 2022: skip them when you look for the next line.
-- **The first session after this update** does PHY-08 Y§0 point 4 before anything else: defer 2026's open lines, write the CONVENTIONS and Q-QUEUE entries, mine the 2026-27 sample paper and its scheme (they set the 2027 blueprint), then start Y2025 S1.
+- **Work order (2026-10-02, updated 2026-10-05).** Printed documents first, year by year from 2026 down to 2022; 2026 and 2025 are mined. For each year: S1 intake, S2a constants, S3 origins, S4 siblings, S5 for every scheme in the scheme repositories, then the year check (§7). Then the next year whose files are attached (PHY-08 Y§0). Lines marked DEFERRED wait for the closing sweep after 2022: skip them when you look for the next line.
+- **One thorough reading per paper (2026-10-03)** and **one thorough check per year (2026-10-05)**, as §7 says. Keep PHY-08 Y§6's detail standard: the single-reading 2025 rows met it best of all.
+- **The first session after 2026-10-05** does PHY-08 Y§0 point 4 before anything else, then the 2025 year check if the 2025 repositories are attached, then 2024.
 - Keep going from paper to paper, stage to stage and year to year until usage runs low. Don't wait for her between them.
-- Keep the full double-read on every paper and scheme, and the detail standard of PHY-08 Y§6: she chose thoroughness over cost.
 - Apply a queued fix yourself when its page evidence is logged and you confirm it again on the page image: ERRATA through the gate as `FIX-<n>`, named in your report.
-- When a year's papers are done and its schemes are not in the schemes repository, tell her once which to upload, then go on to the next year's papers; the open S5 lines get done when the schemes appear.
+- When a year's papers are done and its schemes are not attached, tell her once which to upload, then go on; the open S5 lines get done when the schemes appear.
