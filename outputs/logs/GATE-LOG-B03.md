@@ -870,3 +870,7 @@ Every line below was written by phy_gate.py from the data, never typed.
 - Q-QUEUE Q-061 added (merged without the double-read)
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B03-20261005-1443-11012r.json
+
+## 2026-10-05T14:44:21Z | checkpoint | Y2025 printed pass: every scheme unit saved (19/19); end-of-year checks recorded in notes/Y2025.md; Open list updated
+- validate: 16/16 checks pass
+- pack: PHY-VAULT-B03-20261005-1444-11012r.json
