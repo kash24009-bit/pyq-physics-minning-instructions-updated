@@ -896,3 +896,14 @@ Every line below was written by phy_gate.py from the data, never typed.
 - Q-QUEUE Q-065 added (merged without the double-read)
 - PROGRESS: added a ticked line
 - pack: PHY-VAULT-B03-20261005-1538-11192r.json
+
+## 2026-10-05T15:38:35Z | 2025C-55BS | S5 | GATE PASS
+- part files: FORMULAE 21, STEP-AWARDS 140, ERRATA 1
+- merged 21 row(s) into l1/FORMULAE.csv · now 2876
+- merged 140 row(s) into l1/STEP-AWARDS.csv · now 2978
+- merged 1 row(s) into l1/ERRATA.csv · now 437
+- validate after merge: 16/16 checks pass
+- double-read: UNVERIFIED: her decision 2026-10-03: single thorough reading, no blind checker
+- Q-QUEUE Q-066 added (merged without the double-read)
+- PROGRESS: added a ticked line
+- pack: PHY-VAULT-B03-20261005-1538-11354r.json
