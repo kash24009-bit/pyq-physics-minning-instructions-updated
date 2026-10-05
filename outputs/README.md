@@ -1,8 +1,8 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T13:27:18Z · batch B03.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T13:45:01Z · batch B03.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B03-20261005-1327-10150r.json](vault/PHY-VAULT-B03-20261005-1327-10150r.json) · 10150 rows in all
+- Newest vault: [PHY-VAULT-B03-20261005-1345-10314r.json](vault/PHY-VAULT-B03-20261005-1345-10314r.json) · 10314 rows in all
 - Checks: 16/16 pass
 
 Status - batch 3 · 3134 question rows saved · years closed: none yet · working on 2026
@@ -17,10 +17,10 @@ Next (my work, in order)
 - Y2026 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
-- Y2025 S5 scheme 55/5/1 (XII_042_Physics_MS_55_5_1,2,3.pdf)
 - Y2025 S5 scheme 55/6/1 (XII_042_Physics_MS_55_6_1,2,3_.pdf)
 - Y2025 S5 scheme 55/7/1 (XII_042_Physics_MS_55_7_1,2,3.pdf)
 - Y2025 S5 scheme 55/B (XII_042_Physics_MS_55_blind.pdf)
+- Y2025 S5 papers with no scheme (2025-5512, 2025-5513, 2025-5522, 2025-5523, 2025-5542, 2025-5543, 2025-5552, 2025-5553, 2025-5562, 2025-5563, 2025-5572, 2025-5573, 2025C-55BS, 2025C-55S1, 2025C-55S2, 2025C-55S3): TRANSFERRED/INFERRED after S6, labelled · DEFERRED to the closing sweep (her decision 2026-10-02)
 - 5 received file(s) waiting to be mined.
 
 Optional (yours)
@@ -38,7 +38,7 @@ Optional (yours)
 | 2025-5541 | 55/4/1 | MAIN | 71 | 71 | 0 | 18 | 85 | 149 |
 | 2025-5542 | 55/4/2 | MAIN | 72 | 17 | 55 | 16 | 78 | 32 |
 | 2025-5543 | 55/4/3 | MAIN | 72 | 17 | 55 | 15 | 80 | 35 |
-| 2025-5551 | 55/5/1 | MAIN | 64 | 64 | 0 | 15 | 65 | 0 |
+| 2025-5551 | 55/5/1 | MAIN | 64 | 64 | 0 | 15 | 86 | 143 |
 | 2025-5552 | 55/5/2 | MAIN | 65 | 14 | 51 | 16 | 67 | 0 |
 | 2025-5553 | 55/5/3 | MAIN | 67 | 16 | 51 | 17 | 65 | 0 |
 | 2025-5561 | 55/6/1 | MAIN | 68 | 68 | 0 | 15 | 88 | 0 |
