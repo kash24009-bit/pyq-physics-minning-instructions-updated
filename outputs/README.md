@@ -1,11 +1,11 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-06T14:23:55Z · batch B05.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-06T14:42:39Z · batch B05.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B05-20261006-1423-11896r.json](vault/PHY-VAULT-B05-20261006-1423-11896r.json) · 11896 rows in all
+- Newest vault: [PHY-VAULT-B05-20261006-1442-12052r.json](vault/PHY-VAULT-B05-20261006-1442-12052r.json) · 12052 rows in all
 - Checks: 16/16 pass
 
-Status - batch 5 · 3213 question rows saved · years closed: none yet · working on 2026
+Status - batch 5 · 3279 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 3 file(s) fully mined
@@ -21,7 +21,7 @@ Next (my work, in order)
 - Y2025 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02)
-- 33 received file(s) waiting to be mined.
+- 32 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -30,6 +30,7 @@ Optional (yours)
 | paper | code | exam | rows | new | shuffles | figures | formulae | scoring lines |
 |---|---|---|---|---|---|---|---|---|
 | 2024-5511 | 55/1/1 | MAIN | 79 | 79 | 0 | 12 | 76 | 0 |
+| 2024-5521 | 55/2/1 | MAIN | 66 | 66 | 0 | 13 | 73 | 0 |
 | 2025-5511 | 55/1/1 | MAIN | 71 | 71 | 0 | 16 | 86 | 140 |
 | 2025-5512 | 55/1/2 | MAIN | 72 | 16 | 56 | 15 | 76 | 34 |
 | 2025-5513 | 55/1/3 | MAIN | 71 | 15 | 56 | 18 | 76 | 33 |
