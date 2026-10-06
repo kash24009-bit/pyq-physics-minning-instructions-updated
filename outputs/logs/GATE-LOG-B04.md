@@ -13,3 +13,10 @@ Every line below was written by phy_gate.py from the data, never typed.
 - validate after merge: 16/16 checks pass
 - PROGRESS: not touched (stage OTHER)
 - pack: PHY-VAULT-B04-20261006-0348-11390r.json
+
+## 2026-10-06T03:54:15Z | S1-2024 | OTHER | GATE PASS
+- part files: ERRATA 115
+- merged 115 row(s) into l1/ERRATA.csv · now 555
+- validate after merge: 16/16 checks pass
+- PROGRESS: added a ticked line
+- pack: PHY-VAULT-B04-20261006-0354-11505r.json
