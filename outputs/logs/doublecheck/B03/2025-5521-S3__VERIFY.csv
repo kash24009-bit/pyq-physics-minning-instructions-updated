@@ -1,0 +1,81 @@
+instance_id,marks_part,q_marks_printed,numbers,options,figure_values,note
+2025-5521-Q01,1,1,,A) CA | B) CB | C) MC | D) CM,,"Charges printed as ""-q"" (letter only, no digits)."
+2025-5521-Q02,1,1,2/3 R,A) all the three resistors in series. | B) all the three resistors in parallel. | C) two resistors in series and then this combination in parallel with the third resistor. | D) two resistors in parallel and then this combination in series with the third resistor.,,
+2025-5521-Q03,1,1,1 cm | 1 A | 1 m | 1 m | 0,A) 1.0 × 10^-9 k^ T | B) -1.0 × 10^-9 k^ T | C) (5.0/sqrt(2)) × 10^-10 k^ T | D) -(5.0/sqrt(2)) × 10^-10 k^ T,,"Point printed as (1m, 1m, 0); current in x direction."
+2025-5521-Q04,1,1,,A) (mu_0/4pi) × (2M/r^3) | B) (mu_0/4pi) × (M/r^3) | C) (mu_0/4pi) × (M/2r^3) | D) (mu_0/4pi) × (2M/r^2),,
+2025-5521-Q05,1,1,,A) Y to Z and then Y to Z | B) Z to Y and then Y to Z | C) Y to Z and then Z to Y | D) Z to Y and then Z to Y,,"Figure has no numeric values; labels only: X (coil on pipe), N (pole of magnet, at magnet's left end inside pipe's right mouth), v, I, A (ammeter in wire), Y (left lower corner), Z (right lower corner). Arrow v points left (magnet pushed into pipe from the right). No arrow drawn on I."
+2025-5521-Q06,1,1,,"A) graph: V rises linearly from 0 to a positive peak at T/2 (dashed line) and falls linearly to 0 at T | B) graph: triangular V, positive peak in first half, crosses zero at T/2, negative trough in second half, back to 0 at T | C) graph: square-wave V, constant positive from 0 to T/2, constant negative from T/2 to T | D) graph: sinusoidal V, positive half from 0 to T/2, negative half from T/2 to T",0 | T/2 | T,"Stem graph: I vs t, I rises linearly from 0 at t=0 to peak at T/2 (dashed vertical), falls linearly to 0 at T; axis labels 0, T/2, T. Arrow by I points up; arrow by t points right. Each option graph labelled 0, T/2, T on t-axis; V arrow up, t arrow right."
+2025-5521-Q07,1,1,200 V | 3000 V | 450,A) 30 | B) 450 | C) 4500 | D) 6750,,
+2025-5521-Q08,1,1,,A) conservative and field lines do not form closed loops. | B) conservative and field lines form closed loops. | C) non-conservative and field lines do not form closed loops. | D) non-conservative and field lines form closed loops.,,
+2025-5521-Q09,1,1,30.0 cm | 16.0 cm,A) 1.6 × 10^8 m s^-1 | B) 2.0 × 10^8 m s^-1 | C) 3.0 × 10^8 m s^-1 | D) 2.5 × 10^8 m s^-1,,
+2025-5521-Q10,1,1,,"A) Balmer series | B) Paschen series | C) Lyman series | D) Neither Balmer, nor Paschen nor Lyman series",,
+2025-5521-Q11,1,1,-13.6 eV | -0.544 eV,A) 2 | B) 3 | C) 4 | D) 5,,
+2025-5521-Q12,1,1,,A) resistor | B) inductor | C) capacitor | D) switch,,
+2025-5521-Q13,1,1,,,,"Assertion-Reason; the standard codes (A)-(D) are printed once in the lead-in above Q13, not repeated per question; options left blank."
+2025-5521-Q14,1,1,,,,"Assertion-Reason; the standard codes (A)-(D) are printed once in the lead-in above Q13, not repeated per question; options left blank. Text has n^th and r_n (labels, no digits)."
+2025-5521-Q15,1,1,,,,"Assertion-Reason; the standard codes (A)-(D) are printed once in the lead-in above Q13, not repeated per question; options left blank."
+2025-5521-Q16,1,1,,,,"Assertion-Reason; the standard codes (A)-(D) are printed once in the lead-in above Q13, not repeated per question; options left blank."
+2025-5521-Q17A,2,2,2 : 3 | 15 A,,,Marks 2 printed beside (a); OR between (a) and (b).
+2025-5521-Q17B-i,,2,V | V | 2V | R | C | 2R,,V | R | V | C | 2V | 2R,"Lead-in emfs printed as V, V and 2V; resistances R and 2R; capacitor C. Figure labels P (left junction), Q (right junction). Three parallel branches between P and Q: top = cell V then R; middle = cell V then capacitor C; bottom = cell 2V then 2R. Cells: all three have the short thick plate on the left (toward P) and the longer thin plate on the right (toward Q) (measured: left plates ~58 px, right plates ~98 px at 400 dpi). No arrows drawn. No marks printed beside (b); the 2 is printed beside (a)."
+2025-5521-Q17B-ii,,2,,,same as 2025-5521-Q17B-i,(ii) printed inline in the same sentence as (i). Cells: longer plate toward Q in all three branches (same figure).
+2025-5521-Q18,2,2,6th | 2pi (n - 1) t/lambda | 8th,,,6th dark fringe; phase 2pi (n - 1) t/lambda; 8th bright fringe.
+2025-5521-Q19,2,2,8.0 cm | 16 cm | 4.0 cm,,,"Figure has no numeric values; labels P (object dot, left of A), A, B (two concave lenses, A on left, B on right). No arrows."
+2025-5521-Q20,2,2,400 nm | 3.0 × 10^-19 J,,,
+2025-5521-Q21,2,2,0.7 V | 1000 ohm | 15 mA,,,
+2025-5521-Q22-a,3,3,,,,The 3 is printed level with the last line of (a); nothing printed beside (b). No numbers in text.
+2025-5521-Q22-b,,3,,,,No marks printed beside (b) (the question's 3 is printed level with (a)).
+2025-5521-Q23A-i,3,3,,,,"The 3 is printed level with the last line of the (a) lead-in (shared by (i)-(iii)); OR between (a) and (b). Lead-in: uniform field vec(E); velocity vec(v) = -v_o i^ (no digits; subscript printed as letter o, checked at 400 dpi); conductor along XX' carrying current I towards -X axis; distance d. No figure printed."
+2025-5521-Q23A-ii,,3,,,,
+2025-5521-Q23A-iii,,3,,,,"Asks v_o in terms of E, d and I (no digits; subscript letter o)."
+2025-5521-Q23B,,3,,,,"Conductors along XX' and YY'; currents I_1 and I_2 along -X axis and -Y axis respectively; point P(X, Y). No digits. No figure printed. No marks printed beside (b)."
+2025-5521-Q24-a,3,3,,,,"The 3 is printed level with (a) ""State Lenz's law.""; nothing printed beside (b)."
+2025-5521-Q24-b-i,,3,,,,"Figure (shared by (b)(i)-(iv)) has no numeric values; labels R (with curved rotation arrow at the coil/axis inside the magnet), P (pointing at the slip rings), Q (pointing at a brush/lead), V (voltmeter in circle across the two output leads); two coils of wire drawn on the leads. Magnet poles NOT labelled N/S. Curved arrow at R: arc over the top from left to right, arrowhead at its right end pointing down (clockwise as drawn). Dashed rotation axis runs from upper-left inside magnet down to lower-right through the rings."
+2025-5521-Q24-b-ii,,3,,,same as 2025-5521-Q24-b-i,"Asks to name parts P, Q and R."
+2025-5521-Q24-b-iii,,3,,,same as 2025-5521-Q24-b-i,Poles unlabelled in figure.
+2025-5521-Q24-b-iv,,3,,,same as 2025-5521-Q24-b-i,
+2025-5521-Q25-a,3,3,,,,"The 3 is printed level with the last line of (a); vec(E) and vec(B) in text; wave propagates north, E oscillates up and down. No digits."
+2025-5521-Q25-b,,3,,,,
+2025-5521-Q25-c-i,,3,,,,"(c) lead-in ""Write main use of each of the following in human life :"" then (i) Infrared waves and (ii) Gamma rays printed on one line."
+2025-5521-Q25-c-ii,,3,,,,"(ii) Gamma rays, printed on the same line as (i)."
+2025-5521-Q26-a,3,3,,,,The 3 is printed level with the last line of (a).
+2025-5521-Q26-b,,3,,,,No figure printed (asks for a ray diagram).
+2025-5521-Q26-c,,3,,,,No figure printed (asks for a diagram).
+2025-5521-Q27-a,3,3,,,,The 3 is printed level with the last line of (a). No figure printed (asks to show the variation).
+2025-5521-Q27-b-i,,3,,,,(b) lead-in: two nuclei with lower binding energy per nucleon form a nuclei with more binding energy per nucleon. No digits.
+2025-5521-Q27-b-ii,,3,,,,
+2025-5521-Q27-b-iii,,3,,,,
+2025-5521-Q28-a,3,3,,,,The 3 is printed level with the last line of (a).
+2025-5521-Q28-b,,3,,,,
+2025-5521-Q28-c,,3,V = -0.6 volt,,I (mA) | 10 | 20 | 30 | V (volts) | -12.0 | -1.2 | -1.0 | -0.8 | -0.6 | -0.4 | -0.2 | 0 | 0.2 | 0.4 | 0.6 | 0.8,"Graph: I (mA) vertical axis labelled 10, 20, 30 with unlabelled intermediate ticks between them; V (volts) horizontal axis with axis break (two S-marks) between -12.0 and -1.2. Region labels ""Reverse bias"" (left of I axis) and ""Forward bias"" (right). Curve (grey): forward branch nearly flat until about 0.5-0.6 then rises steeply past 30; reverse branch a nearly flat line just below the axis from 0 to -1.2; near -12.0 a separate segment bends sharply downward (breakdown) below the axis. No arrows on axes. Text: ""Estimate the dynamic resistance of diode at V = -0.6 volt."" (minus sign confirmed at 400 dpi)."
+2025-5521-Q29-i,,4,,A) E | B) 2E | C) E/4 | D) E/2,,"Case marks ""4 × 1 = 4"" printed beside the last line of the passage, nothing beside (i). Passage has no digits (Section D note ""Question numbers 29 and 30"" holds only question numbers). Stem: separation doubled, potential difference reduced to half (words, no digits)."
+2025-5521-Q29-ii,,4,,"A) graph V vs d: curve rising from the origin, concave down, levelling off | B) graph V vs d: straight line falling from a maximum V at d = 0 to zero | C) graph V vs d: curve rising from the origin, concave up (steepening) | D) graph V vs d: straight line rising from the origin",,"Options are four graphs with axis labels V (italic, vertical) and d (horizontal) only; no numeric values. No arrows on axes. Nothing printed in the marks column beside (ii)."
+2025-5521-Q29-iii,,4,,"A) graph E vs position M to N: arch rising from zero at M to a maximum midway and back to zero at N | B) graph E vs position M to N: rises linearly from zero at M, flat top, falls linearly to zero at N (trapezium) | C) graph E vs position M to N: constant horizontal line from M to N | D) graph E vs position M to N: high at M (dashed), falls to a flat minimum in the middle, rises to high at N (dashed) (V-shaped trough)",,"Stem figure: two horizontal plates, P on top with a row of minus signs above it, Q at the bottom with a row of plus signs below it; vertical line MN with N on plate P (top) and M on plate Q (bottom). No numeric values, no field arrows drawn. Option graphs: axis label E with an upward arrow beside each vertical axis; horizontal axis labelled M (left) and N (right). Stem text: plate Q at positive potential w.r.t. plate P."
+2025-5521-Q29A-iv,,4,,A) (vec(E_1) + vec(E_2)) · vec(d) | B) (vec(E_1) - vec(E_2)) · vec(d) | C) (vec(E_2) - vec(E_1)) · vec(d) | D) d(E_1 + E_2)/2,,"Stem: three parallel plates, equal displacement vec(d) between neighbouring plates; fields vec(E_1) (first pair) and vec(E_2) (second pair); no digits beyond subscripts. Option D printed without vector arrows. OR follows; (iv) alternative B is on p19."
+2025-5521-Q29B-iv,,4,,A) C | B) C/K | C) CK | D) C(1 + 1/K),,"OR alternative (B) to (iv), printed at top of p19 with label (iv) after the OR on p17. Stem has no digits."
+2025-5521-Q30-i,,4,,A) coincide each other. | B) are parallel to each other. | C) are not parallel to each other and cross at a point on nu-axis. | D) are not parallel to each other and do not cross at a point on nu-axis.,,"Case marks ""4 × 1 = 4"" printed beside the last line of the passage; nothing beside (i). Passage has no digits: threshold frequency (nu_o), nu (nu > nu_o), KE h(nu - nu_o), stopping potential V_o, K_m = eV_o = h(nu - nu_o), straight line of slope m. Passage graph: vertical axis V_o with an upward arrow beside it, origin O, horizontal axis nu with an arrow pointing right; solid straight line rising to the right from a dot at nu_o on the nu-axis; dashed extension from nu_o down-left to the V_o-axis below O. No numeric values in the figure (labels V_o, O, nu_o, nu only). Frequency is printed as italic v (written here as nu); the threshold subscript is printed as a small letter o (nu_o, V_o)."
+2025-5521-Q30-ii,,4,,A) e/m | B) 1/me | C) me | D) m/e,same as 2025-5521-Q30-i,Relies on the passage graph (slope m).
+2025-5521-Q30A-iii,,4,,"A) nu_o , h nu_o/e | B) nu_o , h nu_o | C) h nu_o/e , nu_o | D) h nu_o , nu_o",same as 2025-5521-Q30-i,"Stem: intercepts on nu-axis and V_o-axis, respectively. No minus sign printed in any option (checked at 400 dpi). OR follows; alternative (iii) on p21. Frequency is printed as italic v (written here as nu); the threshold subscript is printed as a small letter o (nu_o, V_o)."
+2025-5521-Q30B-iii,,4,,"A) 2, 1/2 | B) 1/2, 1/2 | C) 1/2, 2 | D) 2, 2",,"OR alternative (B) to (iii), printed at top of p21 with label (iii). Stem: wavelength doubled (word, no digits); asks wave number and frequency, respectively. No figure."
+2025-5521-Q30-iv,,4,5.0 × 10^-29 kg. m/s,A) 1.33 microm | B) 3.3 microm | C) 16.6 microm | D) 13.3 microm,,"Unit printed ""kg. m/s"" (with a dot). Options printed in micro-m (written microm)."
+2025-5521-Q31A-i,5,5,,,,"The 5 is printed level with the last line of (a)(i); nothing printed beside the other parts of (a) or (b). Symbols only: radius r, potential V, shell radius R. OR between (a) and (b)."
+2025-5521-Q31A-ii-d1,,5,,,,"""Write two characteristics of equipotential surfaces."" (two is a word)."
+2025-5521-Q31A-ii-d2,,5,50 N C^-1 | 0 | 0 | 220 V | 4 m | 3 m,,,"Field 50 NC^-1 along +x axis; potential at origin (0, 0) is 220 V; find potential at point (4m, 3m)."
+2025-5521-Q31B-i-d1,,5,,,,No marks printed beside (b).
+2025-5521-Q31B-i-d2,,5,,,,Draw elementary surface vector d vec(S) for a spherical surface S. No figure printed.
+2025-5521-Q31B-ii-d1,,5,,,,"(b)(ii) prints three demands: define electric flux through a surface; give the significance of a Gaussian surface; why a charge outside a Gaussian surface does not contribute to total flux. The skeleton has two rows (d1, d2)."
+2025-5521-Q31B-ii-d2,,5,,,,Significance of a Gaussian surface; why a charge outside does not contribute to total flux.
+2025-5521-Q31B-iii,,5,-3 microC | -2 microC | 9 microC,,,"q_1 = -3 microC, q_2 = -2 microC, q_3 = 9 microC inside shell S_1; S_2 encloses S_1; point charge Q between S_1 and S_2; flux through S_2 is four times (word) the flux through S_1."
+2025-5521-Q32A-i-d1,5,5,,,,"The 5 is printed level with the last line of (a)(i) (the ""hence define ampere"" line); recorded on this first row of (a)(i). OR between (a) and (b) on p23."
+2025-5521-Q32A-i-d2,,5,,,,"Obtain expression for force between two long straight parallel conductors carrying steady currents and hence define ampere (""two"" is a word)."
+2025-5521-Q32A-ii,,5,,,,"Point charge q, velocity vec(v), uniform field vec(B); work done by magnetic force. No digits."
+2025-5521-Q32A-iii,,5,,,,
+2025-5521-Q32B-i,,5,,,,No marks printed beside (b). OR printed between (a)(iii) and (b).
+2025-5521-Q32B-ii,,5,,,,Magnetic dipole moment vec(M) of current carrying coil; give direction of vec(M).
+2025-5521-Q32B-iii-d1,,5,,,,"(iii) prints three demands: ""What is the net force acting on the coil ?"", ""Obtain the orientation of the coil in stable equilibrium."", ""Show that in this orientation the flux of the total field (field produced by the loop + external field) through the coil is maximum."" The skeleton has two rows (d1, d2) for them."
+2025-5521-Q32B-iii-d2,,5,,,,See d1 note: orientation in stable equilibrium + show total flux maximum.
+2025-5521-Q33A-i,5,5,f/4,,,Pencil of length (f/4) printed with parentheses; mirror focal length f. The 5 is printed level with the last line of (a)(i); nothing beside the other parts. No figure printed.
+2025-5521-Q33A-ii,,5,45° | 15° | 30°,,,Angle of incidence 45° on face AB of prism ABC; deviation 15°; angle of prism 30°. No figure printed.
+2025-5521-Q33B-i-1,,5,600 nm | 480 nm | 1.0 m | 1.0 nm | 600 nm,,,"(b)(i) lead-in: two wavelengths 600 nm and 480 nm; screen 1.0 m from slits; slits ""1.0 nm apart"" (nm as printed, confirmed at 400 dpi on the English p23 and on the Hindi p22). (1): third bright fringe (word) for wavelength 600 nm. OR between (a) and (b)."
+2025-5521-Q33B-i-2,,5,,,,Least distance where bright fringes of both wavelengths coincide.
+2025-5521-Q33B-ii-1,,5,,,,(ii)(1) prints two demands: draw intensity vs angle of diffraction (single slit) and write the expression for the angle of zero-intensity locations. No figure printed.
+2025-5521-Q33B-ii-2,,5,,,,

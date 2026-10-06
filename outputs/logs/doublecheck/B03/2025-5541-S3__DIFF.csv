@@ -1,0 +1,19 @@
+instance_id,field,part_value,check_value,detail,resolved
+2025-5541-Q17B,marks_part,,2,marks differ,extractor_right
+2025-5541-Q18,marks_part,,2,marks differ,extractor_right
+2025-5541-Q19,marks_part,,2,marks differ,extractor_right
+2025-5541-Q20,marks_part,,2,marks differ,extractor_right
+2025-5541-Q21-a-ii,numbers,5e+08 8e+12,,"only in the checker's reading: -; only in the part file: ['5e+08', '8e+12']",extractor_right
+2025-5541-Q21-b,numbers,5e+08 8e+12,,"only in the checker's reading: -; only in the part file: ['5e+08', '8e+12']",extractor_right
+2025-5541-Q24-a,numbers,1 2,,"only in the checker's reading: -; only in the part file: ['1', '2']",extractor_right
+2025-5541-Q24-b,numbers,1 2,,"only in the checker's reading: -; only in the part file: ['1', '2']",extractor_right
+2025-5541-Q24-c,numbers,1 2,,"only in the checker's reading: -; only in the part file: ['1', '2']",extractor_right
+2025-5541-Q29-i,options,A) eps0*K*L^2/d | B) eps0*K*L^2/(2*d) | C) 2*eps0*K*L^2/d | D) 2*eps0*K*d/L^2,A) eps0*K*L^2/d | B) eps0*K*L^2/(2d) | C) 2*eps0*K*L^2/d | D) 2*eps0*K*d/L^2,options differ at B,extractor_right
+2025-5541-Q29-ii,options,A) eps0*V*K*L^2/(2*d) | B) eps0*V*K*L^2/d | C) 2*eps0*V*K*L^2/d | D) eps0*V*K*L^2/(4*d),A) eps0*V*K*L^2/(2d) | B) eps0*V*K*L^2/d | C) 2*eps0*V*K*L^2/d | D) eps0*V*K*L^2/(4d),"options differ at A, D",extractor_right
+2025-5541-Q29-iii,options,A) V/d | B) 2*V/d | C) V/(2*d) | D) d/V,A) V/d | B) 2V/d | C) V/(2d) | D) d/V,"options differ at B, C",extractor_right
+2025-5541-Q29A-iv,options,A) d/K | B) 2*d/K | C) d/(2*K) | D) d/(4*K),A) d/K | B) 2d/K | C) d/(2K) | D) d/(4K),"options differ at B, C, D",extractor_right
+2025-5541-Q29B-iv,options,A) eps0*V*K*L^2/(4*d) | B) eps0*V*K*L^2/(2*d) | C) eps0*V*K*L^2/d | D) Zero,A) eps0*V*K*L^2/(4d) | B) eps0*V*K*L^2/(2d) | C) eps0*V*K*L^2/d | D) Zero,"options differ at A, B",extractor_right
+2025-5541-Q30-ii,options,A) K*e^2/r | B) -K*e^2/(2*r) | C) K*e^2/(2*r) | D) (3/2)*K*e^2/r,A) K*e^2/r | B) -K*e^2/(2r) | C) K*e^2/(2r) | D) (3/2)*K*e^2/r,"options differ at B, C",extractor_right
+2025-5541-Q32A-ii-II,numbers,2,,only in the checker's reading: -; only in the part file: ['2'],extractor_right
+2025-5541-Q32B-ii-II,numbers,2,,only in the checker's reading: -; only in the part file: ['2'],extractor_right
+2025-5541-Q33B-i-II,numbers,5 633,,"only in the checker's reading: -; only in the part file: ['5', '633']",extractor_right
