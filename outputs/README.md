@@ -1,11 +1,11 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-05T15:39:02Z · batch B03.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-06T03:41:15Z · batch B04.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B03-20261005-1539-11354r.json](vault/PHY-VAULT-B03-20261005-1539-11354r.json) · 11354 rows in all
+- Newest vault: [PHY-VAULT-B04-20261006-0341-11354r.json](vault/PHY-VAULT-B04-20261006-0341-11354r.json) · 11354 rows in all
 - Checks: 16/16 pass
 
-Status - batch 3 · 3134 question rows saved · years closed: none yet · working on 2026
+Status - batch 4 · 3134 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 3 file(s) fully mined
@@ -17,7 +17,7 @@ Next (my work, in order)
 - Y2026 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
 - Y2026 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
-- Y2025 S5 papers with no scheme (2025-5512, 2025-5513, 2025-5522, 2025-5523, 2025-5542, 2025-5543, 2025-5552, 2025-5553, 2025-5562, 2025-5563, 2025-5572, 2025-5573, 2025C-55BS, 2025C-55S1, 2025C-55S2, 2025C-55S3): TRANSFERRED/INFERRED after S6, labelled · DEFERRED to the closing sweep (her decision 2026-10-02)
+- Y2025 S5 papers with no scheme (2025C-55S2, 2025C-55S3): TRANSFERRED/INFERRED after S6, labelled · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02)
@@ -81,3 +81,4 @@ Optional (yours)
 ## Gate logs (every save, every double-read decision)
 - [GATE-LOG-B02.md](logs/GATE-LOG-B02.md)
 - [GATE-LOG-B03.md](logs/GATE-LOG-B03.md)
+- [GATE-LOG-B04.md](logs/GATE-LOG-B04.md)
