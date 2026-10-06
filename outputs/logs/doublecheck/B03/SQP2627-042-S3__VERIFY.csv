@@ -1,0 +1,72 @@
+instance_id,marks_part,q_marks_printed,numbers,options,figure_values,note
+SQP2627-042-Q01,1,1,,A) become half | B) become double | C) remain the same | D) become four times,,
+SQP2627-042-Q02,1,1,1000 W | 220 V | 220 V,A) 200 W | B) 250 W | C) 2000 W | D) 2500 W,,
+SQP2627-042-Q03,1,1,,A) clockwise of the negative y-axis | B) anticlockwise of the negative y-axis | C) no current will be induced | D) along the direction of the magnetic field,,
+SQP2627-042-Q04,1,1,30 | 0.2pi × 10^-4 m^-1 | -0.6pi × 10^4 Hz,A) i^ | B) -i^ | C) k^ | D) -k^,,E = 30 sin(0.2pi × 10^-4 m^-1 x - 0.6pi × 10^4 Hz t) j^; no unit printed after 30; j^ printed after the bracket.
+SQP2627-042-Q05,1,1,,A) Diffraction | B) Refraction | C) Reflection | D) Origin of spectra,,"Options printed in two columns (A, B left; C, D right)."
+SQP2627-042-Q06,1,1,,A) diverging spherical | B) converging spherical | C) plane | D) cylindrical,,
+SQP2627-042-Q07,1,1,A = 56,A) They are the least stable nuclei. | B) They are the most tightly bound nuclei. | C) They undergo spontaneous fission releasing maximum energy. | D) They cannot participate in nuclear reactions.,,
+SQP2627-042-Q08,1,1,,A) Towards the bar magnet; Opposite to that of the bar magnet | B) Towards the bar magnet; Same direction as that of the bar magnet | C) Away from the bar magnet; Same direction as that of the bar magnet | D) Away from the bar magnet; Opposite to that of the bar magnet,,"Options printed as a table: column 1 Direction of the movement of ball, column 2 Direction of the magnetic moment."
+SQP2627-042-Q09,1,1,,A) 18 A | B) 5 A | C) 5/18 A | D) 18/5 A,2 ohm | 4 ohm | 5 ohm | 3 ohm | 6 ohm | 18 V,"Bridge: X-top 2 ohm, top-Y 4 ohm, X-bottom 3 ohm, bottom-Y 6 ohm, top-bottom (middle) 5 ohm; terminals X (left), Y (right). Cell 18 V in the lower outer wire joining X and Y: longer plate on the left (toward X), shorter plate on the right (toward Y); plates measured 153 px vs 98 px on a 400 dpi crop. No arrows or currents drawn. Option D printed 18/5A (no space)."
+SQP2627-042-Q09-VI,1,1,2R,A) 2R | B) R | C) R/2 | D) R/4,,Visually impaired alternative under 'For Visually Impaired Students only'; shares the Q09 marks cell (1).
+SQP2627-042-Q10,1,1,200 V | 200 V | 60 W | 200 V | 100 W,A) 5:3 | B) 3:5 | C) 3:4 | D) 4:3,200 V,"Figure: bulbs B_1 (left) and B_2 (right) in series on the top wire; V_1 double-headed arrow across the B_1 half (left end to midpoint tick), V_2 double-headed arrow across the B_2 half (midpoint tick to right end); A.C. source drawn as two terminal dots at bottom centre labelled A.C.; 200 V label inside the loop. Text numbers: stem 200 V; bullets B_1: 200 V, 60 W and B_2: 200 V, 100 W. Marks 1 printed level with the figure, not the first line."
+SQP2627-042-Q11,1,1,22 cm,A) 22 cm | B) 22 m | C) 22 km | D) 22000 km,,
+SQP2627-042-Q12,1,1,5 A | 10 cm,A) 2 pi microT | B) 4 pi microT | C) 5 pi microT | D) 8 pi microT,5 A | 10 cm,Figure: straight wire with a semicircular loop bulging upward; current arrow on the left straight wire points right (toward the loop); 10 cm radius arrow from the centre on the base line up and to the right to the arc. Options printed as '2 π μ T'.
+SQP2627-042-Q13,1,1,,,,"AR: the four shared options are printed once above Q13 (p5), not in this row; options left blank."
+SQP2627-042-Q14,1,1,20 cm | 30 cm | 1.33 | 1.5,,,"AR: the four shared options are printed once above Q13 (p5), not in this row; options left blank. Data sentence precedes the Assertion."
+SQP2627-042-Q15,1,1,0.25 mm | 1.0 m | 500 nm | 2.0 mm,,,"AR: the four shared options are printed once above Q13 (p5), not in this row; options left blank. 2.0 mm is in the Assertion."
+SQP2627-042-Q16,1,1,,,,"AR: the four shared options are printed once above Q13 (p5), not in this row; options left blank."
+SQP2627-042-Q17-I,,2,30 V m^-1 | 2pi × 10^18 rads^-1 | pi × 10^10 m^-1 | 10^-7 T | 2pi × 10^18 rad^-1 | pi × 10^10 m^-1,,,"Shared lead-in: E = 30 sin(2pi × 10^18 rads^-1 t + pi × 10^10 m^-1 x) V m^-1; B = 10^-7 sin(2pi × 10^18 rad^-1 t + pi × 10^10 m^-1 x) T. As printed, the E line has 'rads^-1' and the B line 'rad^-1' (no s). Marks 2 printed once for the whole question."
+SQP2627-042-Q17-II,,2,,,,Lead-in numbers listed under Q17-I.
+SQP2627-042-Q18-a,,2,,,,Marks 2 printed once for the whole question.
+SQP2627-042-Q18-b,,2,,,,
+SQP2627-042-Q19,2,2,,,,"Charges written +q, +q, +q and distance d; no numerals."
+SQP2627-042-Q20A,2,2,800,,,800 = relative permeability (no unit). Two demands (type of material; two characteristics) kept in one row.
+SQP2627-042-Q20B,2,2,,,,Marks cell 2 is merged across 20(A) and 20(B). Two demands (state the law; its significance) kept in one row.
+SQP2627-042-Q21A-I,,2,,,,Marks 2 printed once for 21(A).
+SQP2627-042-Q21A-II,,2,-13.6 eV,,,
+SQP2627-042-Q21B-d1,,2,,,,Marks cell 2 merged across 21(A) and 21(B).
+SQP2627-042-Q21B-d2,,2,,,,
+SQP2627-042-Q22-d1,,3,,,,Marks 3 printed once for the whole question.
+SQP2627-042-Q22-I,,3,,,,
+SQP2627-042-Q22-II,,3,group IV,,,'group IV' printed as a Roman numeral.
+SQP2627-042-Q23-I,,3,,,,Marks 3 printed once for the whole question.
+SQP2627-042-Q23-II,,3,240 V,,,Printed 'fatal))' with a doubled bracket.
+SQP2627-042-Q23-III,,3,,,,
+SQP2627-042-Q24,3,3,^16_8O | 15.99493 u | 1.00727 u | 1.00866 u | 1 u | 931.5 MeV/c^2,,,Nuclide printed with superscript 16 and subscript 8 before O. Given line is in italics.
+SQP2627-042-Q25-I,2,3,2.42 | 30°,,,"Marks printed '2+1' beside the lead-in; I = 2, II = 1 by order. 2.42 is in the shared lead-in. 30° printed as 30 with superscript 0."
+SQP2627-042-Q25-II,1,3,,,,From the printed split 2+1.
+SQP2627-042-Q26-d1,,3,,,,Marks 3 printed once for the whole question.
+SQP2627-042-Q26-d2,,3,,,,
+SQP2627-042-Q27A-I,,3,13 ohm | 100 A | 750 A,,,Marks 3 printed once; cell merged across 27(A) and 27(B).
+SQP2627-042-Q27A-II,,3,,,,
+SQP2627-042-Q27B-I,,3,,,,Also asks for the SI unit in the same part.
+SQP2627-042-Q27B-II,,3,,,,Length l and magnetic moment m are symbols; no numerals.
+SQP2627-042-Q28-I,,3,,,,Marks 3 printed once for the whole question.
+SQP2627-042-Q28-II,,3,5 (times original side length),,,
+SQP2627-042-Q29-I,1,4,2023 (year),A) High voltage operation (~100 V) | B) Bulky design and short life | C) Low power consumption and reliability | D) Requirement of external heating,,No total printed beside Q29; 4 from General Instructions (4) (case study questions of four marks each); each sub-part printed 1. 2023 is in the shared case passage.
+SQP2627-042-Q29-II,1,4,5.4 eV | 1.1 eV,A) Diamond has too many free electrons. | B) Diamond's band gap is too large for thermal excitation at room temperature. | C) Silicon has weaker covalent bonds than diamond. | D) Diamond cannot form covalent bonds.,,
+SQP2627-042-Q29-III,1,4,,A) only electrons contribute to conduction. | B) only holes contribute to conduction. | C) number of electrons equals number of holes. | D) no conduction occurs at all.,,
+SQP2627-042-Q29-IV,1,4,,,,
+SQP2627-042-Q30-I,1,4,1905 (year),,,No total printed beside Q30; 4 from General Instructions (4); each sub-part printed 1. Passage: E = h nu; K_max = h nu - phi_0 (nu printed as a small grey image glyph; text layer drops it). 1905 is in the shared case passage.
+SQP2627-042-Q30-II,1,4,,,,
+SQP2627-042-Q30-III,1,4,2 eV | 1.2 × 10^15 Hz,A) No electron is emitted because the intensity is low. | B) Electrons are emitted with maximum kinetic energy less than 2 eV. | C) Electrons are emitted with maximum kinetic energy greater than 0 eV. | D) Electron emission depends only on the intensity of light and not on the frequency.,,
+SQP2627-042-Q30-IV,1,4,,A) Photoelectric current increases with intensity | B) The maximum kinetic energy depends only on the frequency and not on the intensity. | C) The electrons are emitted instantaneously. | D) Both B and C.,,
+SQP2627-042-Q31A-I,2,5,,,,"Marks printed '2+2+1' beside part I; I = 2, II = 2 (shared by i and ii), III = 1 by order."
+SQP2627-042-Q31A-II-i,,5,6 microF | 9 microF | 18 microF,,,"Capacitor values are in the II lead-in, shared with II-ii; II carries 2 by the split."
+SQP2627-042-Q31A-II-ii,,5,,,,
+SQP2627-042-Q31A-III,1,5,,,,
+SQP2627-042-Q31B-I,3,5,,,,"Marks printed '3+2' beside part I; I = 3, II = 2 by order."
+SQP2627-042-Q31B-II,2,5,2.5 × 10^6 V m^-1 | 5 × 10^5 V,,,Printed with 'x' as the multiplication sign.
+SQP2627-042-Q32A-I,2,5,2 cm | 5 cm | 2.2 cm,,,Marks '2+2+1' printed beside the 32(A) lead-in; the cell is merged across 32(A) and 32(B). Numbers are in the shared lead-in.
+SQP2627-042-Q32A-II,2,5,,,,
+SQP2627-042-Q32A-III,1,5,,,,
+SQP2627-042-Q32B-I,2,5,100 cm | 5 cm,,,Takes the merged 2+2+1 cell of Q32. Numbers are in the 32(B) lead-in.
+SQP2627-042-Q32B-II,2,5,25 cm,,,
+SQP2627-042-Q32B-III,1,5,,,,
+SQP2627-042-Q33A-I,2,5,,,,"Marks '2+2+1' beside the 33(A) lead-in (no numbers in the lead-in); I = 2, II = 2, III = 1 by order. 33(A) and 33(B) have separate marks cells."
+SQP2627-042-Q33A-II,2,5,,,,
+SQP2627-042-Q33A-III,1,5,100%,,,
+SQP2627-042-Q33B-I,3,5,,,,"Marks printed '3+2' beside part I; I = 3, II = 2 by order."
+SQP2627-042-Q33B-II-d1,,5,,,,"Part II (2 by the split) holds two sentences, d1 and d2."
+SQP2627-042-Q33B-II-d2,,5,,,,"Printed on its own line under II, with no label."
