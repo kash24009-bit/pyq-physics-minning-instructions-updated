@@ -5,3 +5,11 @@ Every line below was written by phy_gate.py from the data, never typed.
 - validate: 16/16 checks pass
 - PROGRESS: open line added
 - pack: PHY-VAULT-B04-20261006-0341-11354r.json
+
+## 2026-10-06T03:48:31Z | FIX-4 | OTHER | GATE PASS
+- part files: STEP-AWARDS 1, ERRATA 3
+- merged 1 row(s) into l1/STEP-AWARDS.csv · now 2979
+- merged 3 row(s) into l1/ERRATA.csv · now 440
+- validate after merge: 16/16 checks pass
+- PROGRESS: not touched (stage OTHER)
+- pack: PHY-VAULT-B04-20261006-0348-11390r.json
