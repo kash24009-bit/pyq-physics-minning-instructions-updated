@@ -1,0 +1,65 @@
+instance_id,step_marks,key,numbers,note
+2026-5511-Q01,1,C,50 N/C,Scheme Q1 p4; key (C) 50 N/C along + x
+2026-5511-Q02,1,B,,Scheme Q2 p4; (B) r_2/r_1
+2026-5511-Q03,1,C,,Scheme Q3 p4; (C) mu_0 I/(4 pi a)
+2026-5511-Q04,1,A,,Scheme Q4 p4; (A) Straight
+2026-5511-Q05,1,C,,Scheme Q5 p4
+2026-5511-Q06,1,B,5 sqrt(2) V,Scheme Q6 p4
+2026-5511-Q07,1,A,1 nm to 10^-3 nm,Scheme Q7 p4
+2026-5511-Q08,1,D,,Scheme Q8 p4; (D) 4d
+2026-5511-Q09,1,A,20 cm,Scheme Q9 p4
+2026-5511-Q10,1,C,,"Scheme Q10 p4; (C) (i), (iii) and (iv) only"
+2026-5511-Q11,1,D,,Scheme Q11 p4; (D) P_1 P_2/(4(P_1+P_2))
+2026-5511-Q12,1,C,,Scheme Q12 p4
+2026-5511-Q13,1,D,,Scheme Q13 p4 (A-R)
+2026-5511-Q14,1,A,,Scheme Q14 p4 (A-R)
+2026-5511-Q15,1,C,,Scheme Q15 p4 (A-R)
+2026-5511-Q16,1,B,,Scheme Q16 p4 (A-R)
+2026-5511-Q17,0.5 | 0.5 | 0.5 | 0.5,,5.4 eV,Scheme Q17 p4; substitution 6.63 x 10^-34 x 3 x 10^8/(1.6 x 10^-19 x 200 x 10^-9) - 0.80 eV; total box 2 not counted
+2026-5511-Q18A,0.5 | 0.5 | 0.5 | 0.5,,1.8 mm,"Scheme Q18 first alternative (a), p4-p5 (dark fringes, 600/400 nm, n = 2); 'Alternatively: y = n lambda_2 D/d = 1.8 mm' printed with no separate marks"
+2026-5511-Q18B,0.5 | 0.5 | 0.5 | 0.5,,3.3 mm,"Scheme Q18 OR alternative (b), p5 (bright fringes, 660/440 nm, n = 2, d = 0.6 x 10^-3); alternative route y = 3.3 mm printed with no separate marks"
+2026-5511-Q19,0.5 | 0.5 | 0.5 | 0.5,,pi/4,"Scheme Q19 p5-p6; two 0.5 on p5, two 0.5 on p6; result tau_1/tau_2 = pi/4 (ratio, no unit)"
+2026-5511-Q20-d1,0.5,,,Scheme Q20 p6 first bullet: drift velocity of the order of a few mm/s (no numeric value beyond 'a few mm/s')
+2026-5511-Q20-d2,0.5 | 0.5 | 0.5,,,"Scheme Q20 p6 deduction: Q = -neAv_d dt (0.5), I dt = neAv_d dt (0.5), I = neAv_d (0.5); figure has no marks of its own"
+2026-5511-Q21,1 | 0.5 | 0.5,,0.8 fm,"Scheme Q21 p6-p7; graph 1 (p6), conclusions printed as '1/2+1/2' on p7 (any two of three); r_0 about 0.8 fm"
+2026-5511-Q22A-a,0.5 | 0.5 | 0.5 | 0.5,,,"Scheme Q22 (a) first alternative p7 (field of infinite sheet, E = sigma/(2 epsilon_0) n^)"
+2026-5511-Q22A-b-i,0.5,,0,Scheme Q22 (b)(i) p7: E_in = 0
+2026-5511-Q22A-b-ii,0.5,,,Scheme Q22 (b)(ii) p7: E_out = sigma/epsilon_0
+2026-5511-Q22B-a,0.5 | 0.5 | 0.5 | 0.5,,,"Scheme Q22 OR (a) p8, balanced Wheatstone bridge, R_2/R_1 = R_4/R_3"
+2026-5511-Q22B-b,0.5 | 0.5,,6R ohm,"Scheme Q22 OR (b) p8: R_MN = R, R_AB = 2R + R + 3R = 6R ohm"
+2026-5511-Q23-a,0.5 | 0.5,,,"Scheme Q23 (a) p9: C' = C/K, capacitance decreases (header '1/2 + 1/2' on p8)"
+2026-5511-Q23-b,0.5 | 0.5,,,"Scheme Q23 (b) p9: U' = KU, energy increases"
+2026-5511-Q23-c,0.5 | 0.5,,,"Scheme Q23 (c) p9: V' = KV, potential difference increases"
+2026-5511-Q24,0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5,,2275 Volt,"Scheme Q24 p9; printed substitution 2 x 1 x 10^-2 x 9.1 x 10^-31 x 2 x 10^-2 (3 x 10^7)^2/(1.6 x 10^-19 x (3 x 10^-2)^2), printed result V = 2275 Volt. DOUBT: that printed substitution evaluates to 2.275 x 10^5 V, not 2275 V (possible scheme misprint; extractor should check against paper values)"
+2026-5511-Q25-a,0.5,,,Scheme Q25 (a) p9: D_2 forward biased and conducts; alternative on p10: D_1 conducts if positive cycle reaches D_1 (no separate marks)
+2026-5511-Q25-b,1,,,"Scheme Q25 (b) p9: equivalent circuit (1 k ohm, 2 k ohm, 3 k ohm, D_2); alternative circuit with D_1 on p10 has no separate marks"
+2026-5511-Q25-c,0.5 | 0.5 | 0.5,,4 V | 8 V | 12 V,"Scheme Q25 (c) p10, marks printed '1/2+1/2+1/2': V_RP = 4 V, V_PB = 8 V, V_RB = 12 V. Alternative (D_1 conducting) prints V_PB = 12 V, V_PR = 3 V, V_RB = 9 V with no separate marks"
+2026-5511-Q26,0.5 | 0.5 | 1 | 1,,,"Scheme Q26 p10: naming diffusion 0.5, drift 0.5, explaining diffusion 1, drift 1"
+2026-5511-Q27-a,1.5 | 0.5,,,"Scheme Q27 (a) p11: ray diagram 1 1/2, |m| = f_0/f_e 1/2 (header on p10)"
+2026-5511-Q27-b,0.5 | 0.5,,,"Scheme Q27 (b) p11: any two reasons, printed '1/2 + 1/2'"
+2026-5511-Q28-a,0.5 | 0.5,,,Scheme Q28 (a) p11: two TIR conditions
+2026-5511-Q28-b,0.5 | 0.5 | 0.5 | 0.5,,,"Scheme Q28 (b) p11-p12: sin theta = 3/4 sin theta_1 (0.5, p11); sin theta_1 = 8/9 sin r (0.5), 3/2 sin theta = sin r (0.5), sin r = 1, r = 90 deg (0.5) on p12; shows no entry into C for sin theta >= 2/3"
+2026-5511-Q29-I,1,B,,Scheme Q29 (I) p12: (B) radial magnetic field
+2026-5511-Q29-II,1,A,,Scheme Q29 (II) p12
+2026-5511-Q29A-III,1,D,0.25 Nm,Scheme Q29 (III) p12: (D) 0.25 Nm
+2026-5511-Q29B-III,1,B,3985 ohm,Scheme Q29 (III) OR p12: (B) 3985 ohm; no mark printed beside the OR line itself (the 1 is on the (III) line)
+2026-5511-Q29-IV,1,C,0.01 ohm,Scheme Q29 (IV) p12: (C) 0.01 ohm should be connected in parallel
+2026-5511-Q30-I,1,C,,Scheme Q30 (I) p12: (C) h nu_1 and h nu_2
+2026-5511-Q30-II,1,A,,Scheme Q30 (II) p12
+2026-5511-Q30-III,1,D,,Scheme Q30 (III) p12
+2026-5511-Q30A-IV,1,C,2/5,Scheme Q30 (IV) p12: (C) 2/5
+2026-5511-Q30B-IV,1,A,,Scheme Q30 (IV) OR p12: printed '(A) me'; no mark printed beside the OR line itself
+2026-5511-Q31A-a,0.5 | 0.5 | 1 | 0.5 | 0.5,,,"Scheme Q31 (a) p12-p13: figure 0.5, E_+q 0.5 (p12); E = -(E_+q + E_-q) cos theta 1, E = -(1/4 pi eps_0) 2qa/(r^2+a^2)^(3/2) p^ 0.5, far-off E = -2qa/(4 pi eps_0 r^3) p^ 0.5 (p13). No question total printed for Q31 first alternative"
+2026-5511-Q31A-b,0.5 | 0.5 | 0.5 | 0.5,,0 N | 0,"Scheme Q31 (b) p13: net force = 0 N, torque tau = 0 (no unit printed for torque); alternative tau = pE sin theta, angle pi, printed without marks"
+2026-5511-Q31B-a,0.5 | 0.5 | 0.5 | 0.5 | 1,,,"Scheme Q31 OR (a) p13 header, working p14: equivalent emf (4 x 0.5) and r_eq = r_1 r_2/(r_1+r_2) (1)"
+2026-5511-Q31B-b,0.5 | 0.5 | 0.5 | 0.5,,4E/(5R) A,"Scheme Q31 OR (b) p14-p15: E_eq = 4ER/2R (0.5, p14); E_eq = 2E (0.5), r_eq = R/2 (0.5), I = 4E/(5R) A (0.5) on p15; r_eq line printed with denominator 'r_2 + r_2' (sic); total 5 on p15"
+2026-5511-Q32A-a,1 | 0.5 | 0.5 | 0.5 | 0.5,,,"Scheme Q32 (a) p15-p16: diagram 1, eq (1) 0.5, eq (2) 0.5, -n_1/u + n_1/v line 0.5 (p15), 1/f lens maker line 0.5 (p16)"
+2026-5511-Q32A-b,0.5 | 0.5 | 0.5 | 0.5,,260 cm,"Scheme Q32 (b) p16: v_1 = 80 cm, u_2 = 40 cm, v_2 = infinity, v_3 = 40 cm; distance 80+120+20+40 = 260 cm; alternative ray diagram (260 cm) without marks; no question total printed on p16"
+2026-5511-Q32B-a,1 | 0.5 | 0.5 | 0.5 | 0.5,,,"Scheme Q32 OR (a) p17: ray diagram 1, derivation 4 x 0.5 (mirror formula 1/f = 1/v + 1/u)"
+2026-5511-Q32B-b,0.5 | 0.5 | 0.5 | 0.5,,-20 cm,"Scheme Q32 OR (b) p17-p18: m = -v/u (0.5), v = -2(-10) = 20 cm (0.5) on p17; 1/20 - 1/10 = 1/f (0.5), f = -20 cm (0.5) on p18; total 5 on p18"
+2026-5511-Q33A-a,1,,,Scheme Q33 (a) p18: Faraday's law; alternative epsilon = -d phi_B/dt
+2026-5511-Q33A-b,0.5 | 0.5 | 0.5 | 0.5,,,Scheme Q33 (b) p18: L = mu_0 n^2 A l; note: full marks for any correct alternative method
+2026-5511-Q33A-c,0.5 | 1 | 0.5,,3.14 mV,"Scheme Q33 (c) p18: epsilon = 1/2 B l^2 omega, = 1/2 x 4 x 10^-3 x (50 x 10^-2)^2 x (2 pi x 1) = 3.14 mV"
+2026-5511-Q33B-a,1 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5,,,"Scheme Q33 OR (a) header p18, working p19: diagram 1, principle 0.5, eq (1) 0.5, eqs (3)/(4) 0.5, v_s/v_p = N_s/N_p 0.5, V_p/V_s = I_s/I_p 0.5; alternative diagram without marks"
+2026-5511-Q33B-b-i,0.5,,25 A,"Scheme Q33 OR (b)(i) p20: P = V_p I_p, 5000 = 200 I_p, I_p = 25 A"
+2026-5511-Q33B-b-ii,0.5 | 0.5,,1000 V,"Scheme Q33 OR (b)(ii) p20: N_p/N_s = V_p/V_s (0.5), 1/5 = 200/V_s, V_s = 1000 V (0.5); total 5 on p20"
