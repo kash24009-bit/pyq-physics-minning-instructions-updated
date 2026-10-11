@@ -56,3 +56,7 @@ Every line below was written by phy_gate.py from the data, never typed.
 - status erratum ER-B05-004: NEW -> IN-PROGRESS
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B05-20261011-1810-12396r.json
+
+## 2026-10-11T18:10:41Z | checkpoint | CONVENTIONS Batch 5: the 2024 scans 55/4 and 55/5 are bilingual (correction to the B04 'English only'); Q-069 FILES lang queued
+- validate: 16/16 checks pass
+- pack: PHY-VAULT-B05-20261011-1810-12396r.json
