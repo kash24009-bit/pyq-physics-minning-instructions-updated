@@ -1,0 +1,674 @@
+# Gate log - batch B02
+Every line below was written by phy_gate.py from the data, never typed.
+
+## 2026-10-01T08:12:36Z | S1B | OTHER | GATE PASS
+- part files: ERRATA 78
+- merged 78 row(s) into l1/ERRATA.csv · now 225
+- validate after merge: 16/16 checks pass
+- PROGRESS: added a ticked line
+- pack: PHY-VAULT-B02-20261001-0812-2185r.json
+
+## 2026-10-01T09:00:06Z | 2026-5532 | S4 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 73, FIGURES 16, FORMULAE 41
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 12
+- merged 2 row(s) into l1/CASES.csv · now 24
+- merged 73 row(s) into l1/INSTANCES.csv · now 817
+- merged 16 row(s) into l1/FIGURES.csv · now 189
+- merged 41 row(s) into l1/FORMULAE.csv · now 390
+- check-paper: PASS · 2026-5532 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 366 values compared, 16 mismatch(es), all settled
+  - 2026-5532-Q01 | options | extractor_right | final A) 2*n*pi | B) 2*n*pi + pi/4 | C) 2*n*pi + pi/2 | D) 2*n*pi + pi | crop /home/claude/render/2026-5532/adj-1/p5.png | crop: (A) 2n pi (B) 2n pi + pi/4 (C) 2n pi + pi/2 (D) 2n pi + pi; part file writes the same in P6.3 ASCII; checker kept the printed symbols; no value differs
+  - 2026-5532-Q08 | options | extractor_right | final A) +5 V (left), +10 V (right) | B) -1.0 V (left), -1.5 V (right) | C) 0 V (left), 1 V (right) | D) -2 V (left), 0 V (right) | crop /home/claude/render/2026-5532/adj-2/p7.png | crop: all four diodes point right (anode on the left): A +5 V / +10 V, B -1.0 V / -1.5 V, C 0 V / 1 V, D -2 V / 0 V; same values; part file names the ends left/right, checker anode/cathode
+  - 2026-5532-Q09 | options | extractor_right | final A) 200 ohm | B) 175 ohm | C) 100 ohm | D) 125 ohm | crop /home/claude/render/2026-5532/adj-3/p7.png | crop: 200, 175, 100, 125 ohm; ohm is the P6.3 spelling of the printed omega; no value differs
+  - 2026-5532-Q10 | options | extractor_right | final A) 2.0e8 m s^-1 | B) 4.5e7 m s^-1 | C) 3.5e7 m s^-1 | D) 2.5e8 m s^-1 | crop /home/claude/render/2026-5532/adj-4/p9.png | crop: 2.0 x 10^8, 4.5 x 10^7, 3.5 x 10^7, 2.5 x 10^8 m s^-1; part file uses e-notation (P6.3) as the origin row does; no value differs
+  - 2026-5532-Q12 | options | extractor_right | final A) R/(mu - 1) | B) -R/(mu - 1) | C) 2R/(mu - 1) | D) -2R/(mu - 1) | crop /home/claude/render/2026-5532/adj-5/p9.png | crops adj-5 (A, B) and adj-5b (C, D): R/(mu - 1), -R/(mu - 1), 2R/(mu - 1), -2R/(mu - 1); mu is the P6.3 spelling; no value differs
+  - 2026-5532-Q19A | marks_part | extractor_right | final  | crop /home/claude/render/2026-5532/adj-6/p13.png | crop: the 2 beside (a) is side (a)'s total, equal to q_marks_printed 2; B00-B01 leave marks_part blank on every single-row side (e.g. 2026-5531-Q17A, 2026-5511-Q18A), so blank stands
+  - 2026-5532-Q24B-i | numbers | extractor_right | final (b) An alpha particle (mass 6.4e-27 kg and charge 3.2e-19 C) having 8.0 MeV energy, enters a region of a uniform magnetic field of 0.5 T. If the field is directed perpendicular to the velocity of the particle, find the radius of the circular path described by the particle. Mention the condition under which the particle in this region (i) describes a helical path | crop /home/claude/render/2026-5532/adj-7/p15.png | crop: 6.4 x 10^-27 kg, 3.2 x 10^-19 C, 8.0 MeV, 0.5 T are printed once, in the (b) lead-in shared by d1, (i) and (ii); the stem carries that lead-in as the origin row does, the checker listed the values on d1 only; no value differs
+  - 2026-5532-Q24B-ii | numbers | extractor_right | final (b) An alpha particle (mass 6.4e-27 kg and charge 3.2e-19 C) having 8.0 MeV energy, enters a region of a uniform magnetic field of 0.5 T. If the field is directed perpendicular to the velocity of the particle, find the radius of the circular path described by the particle. Mention the condition under which the particle in this region ... (ii) goes straight undeviated. | crop /home/claude/render/2026-5532/adj-8/p15.png | crop: as for Q24B-i: the values belong to the shared (b) lead-in; the checker listed them on d1 only; no value differs
+  - 2026-5532-Q29-ii | options | extractor_right | final A) 1/sqrt(2) | B) sqrt(2) | C) 1/2 | D) 2 | crop /home/claude/render/2026-5532/adj-9/p17.png | crop: 1/sqrt2, sqrt2, 1/2, 2; sqrt() is the P6.3 spelling; no value differs
+  - 2026-5532-Q29B-iv | options | extractor_right | final A) p_1 = p_2/2 | B) p_1 = p_2 | C) p_1 = 2*p_2 | D) p_1 = 4*p_2 | crop /home/claude/render/2026-5532/adj-10/p19.png | crop: p_1 = p_2/2, p_1 = p_2, p_1 = 2p_2, p_1 = 4p_2; the part file writes the product as 2*p_2 (P6.3 plain maths); no value differs
+  - 2026-5532-Q30-i | options | extractor_right | final A) 6 microF | B) 3 microF | C) 9 microF | D) 2 microF | crop /home/claude/render/2026-5532/adj-11/p21.png | crop: 6, 3, 9, 2 microfarad; microF as in the origin row; no value differs
+  - 2026-5532-Q30A-iv | options | extractor_right | final A) 6 microC | B) 4 microC | C) 12 microC | D) 8 microC | crop /home/claude/render/2026-5532/adj-12/p21.png | crop: 6, 4, 12, 8 microcoulomb; microC as in the origin row; no value differs
+  - 2026-5532-Q33A-ii | numbers | extractor_right | final (a) (ii) Two point charges - 2 microC and 5 microC are placed at (- 30 cm, 0) and (30 cm, 0) respectively in an external electric field vec(E) = (A/x^2) i^, where A = 9e5 N m^2 C^-1. Find the electrostatic potential energy of this configuration. | crop /home/claude/render/2026-5532/adj-13/p27.png | crop: the page prints '- 2 microC' and '(- 30 cm, 0)' with a space after the minus; the stem keeps the printed spacing and the givens carry -2 and -30; both readings are -2 microC; no value differs
+  - 2026-5532-Q33B-ii-I-1 | numbers | extractor_right | final (ii) A small hollow conducting sphere of radius r_1 is given a charge Q. It is surrounded by a concentric conducting spherical shell of inner radius r_2 and outer radius r_3, having charge -3q. If a point charge 2q were kept at the centre, find : (I) the electric flux through a concentric spherical Gaussian surface of radius x for (1) x < r_1 | crop /home/claude/render/2026-5532/adj-14/p27.png | crop: the extra 1 is the printed sub-label (1) in 'for (1) x < r_1'; -3q and 2q agree; the sphere's charge is printed as capital Q
+  - 2026-5532-Q33B-ii-II-1 | numbers | extractor_right | final (ii) A small hollow conducting sphere of radius r_1 is given a charge Q. It is surrounded by a concentric conducting spherical shell of inner radius r_2 and outer radius r_3, having charge -3q. If a point charge 2q were kept at the centre, find : (II) electric field at a point distant x from the centre for (1) x > r_3 | crop /home/claude/render/2026-5532/adj-15/p27.png | crop: the extra 1 is the printed sub-label (1) in 'for (1) x > r_3'; -3q and 2q agree
+  - 2026-5532-Q33B-ii-III-1 | numbers | extractor_right | final (ii) A small hollow conducting sphere of radius r_1 is given a charge Q. It is surrounded by a concentric conducting spherical shell of inner radius r_2 and outer radius r_3, having charge -3q. If a point charge 2q were kept at the centre, find : (III) surface charge density on the inner surface of (1) sphere | crop /home/claude/render/2026-5532/adj-16/p27.png | crop: the extra 1 is the printed sub-label (1) in 'of (1) sphere'; -3q and 2q agree
+- status erratum ER-B02-079: NEW -> IN-PROGRESS
+- PROGRESS: line updated (2026-5533, 2026-55B still to do)
+- pack: PHY-VAULT-B02-20261001-0900-2319r.json
+
+## 2026-10-01T09:39:02Z | 2026-5533 | S4 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 73, FIGURES 13, FORMULAE 40
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 13
+- merged 2 row(s) into l1/CASES.csv · now 26
+- merged 73 row(s) into l1/INSTANCES.csv · now 890
+- merged 13 row(s) into l1/FIGURES.csv · now 202
+- merged 40 row(s) into l1/FORMULAE.csv · now 430
+- check-paper: PASS · 2026-5533 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 381 values compared, 15 mismatch(es), all settled
+  - 2026-5533-Q04 | options | extractor_right | final A) sqrt(29)*B_0*L^2 | B) 4*B_0*L^2 | C) 3*B_0*L^2 | D) 2*B_0*L^2 | crop /home/claude/render/2026-5533/adj-1/p5.png | crop: (A) sqrt29 B_0 L^2 (B) 4 B_0 L^2 (C) 3 B_0 L^2 (D) 2 B_0 L^2; the part file writes the products with * (P6.3 plain maths); no value differs
+  - 2026-5533-Q12 | options | extractor_right | final A) 2*n*pi | B) 2*n*pi + pi/4 | C) 2*n*pi + pi/2 | D) 2*n*pi + pi | crop /home/claude/render/2026-5533/adj-2/p9.png | crop: (A) 2n pi (B) 2n pi + pi/4 (C) 2n pi + pi/2 (D) 2n pi + pi; part file writes 2*n*pi (P6.3); no value differs
+  - 2026-5533-Q26A-d2 | numbers | extractor_right | final (a) ... What would happen if the circular coil is replaced by a planar coil of irregular shape that encloses the same area, keeping other parameters unchanged ? | crop /home/claude/render/2026-5533/adj-3/p15.png | crop: 30 turns, 8.0 cm, 6 A, 1.0 T and 30 deg are printed once in side (a), in the part held by d1; the d2 demand ('What would happen if ... irregular shape ...') prints no number; the checker repeated the shared values on d2; no value differs
+  - 2026-5533-Q29-i | options | extractor_right | final A) 6 microF | B) 3 microF | C) 9 microF | D) 2 microF | crop /home/claude/render/2026-5533/adj-4/p17.png | crop: 6, 3, 9, 2 microfarad; microF is the origin row's spelling (checker wrote muF); no value differs
+  - 2026-5533-Q29-ii | numbers | extractor_right | final (ii) The current in the 10 ohm resistor is : | crop /home/claude/render/2026-5533/adj-5/p17.png | crop: (ii) prints only '10 ohm'; the setup sentence before (i) prints 'Two capacitors, one of 3 muF and the other of 6 muF, are connected in series'; the part file keeps those values on Q29-i's givens and the case figure row, the checker repeated them on every sub-part; no value differs
+  - 2026-5533-Q29-iii | numbers | extractor_right | final (iii) The potential difference between point A and B is : | crop /home/claude/render/2026-5533/adj-6/p19.png | crop: (iii) prints no number (A and B are labels); the setup sentence before (i) prints 'Two capacitors, one of 3 muF and the other of 6 muF, are connected in series'; the part file keeps those values on Q29-i's givens and the case figure row, the checker repeated them on every sub-part; no value differs
+  - 2026-5533-Q29A-iv | numbers | extractor_right | final (iv) (a) The value of charge on the plates of the 6 microF capacitor is : | crop /home/claude/render/2026-5533/adj-7/p19.png | crop: (iv)(a) prints only '6 muF'; the setup sentence before (i) prints 'Two capacitors, one of 3 muF and the other of 6 muF, are connected in series'; the part file keeps those values on Q29-i's givens and the case figure row, the checker repeated them on every sub-part; no value differs
+  - 2026-5533-Q29A-iv | options | extractor_right | final A) 6 microC | B) 4 microC | C) 12 microC | D) 8 microC | crop /home/claude/render/2026-5533/adj-8/p19.png | crop: 6, 4, 12, 8 microcoulomb; microC is the origin row's spelling (checker wrote muC); no value differs
+  - 2026-5533-Q29B-iv | numbers | extractor_right | final (iv) (b) The wire between two capacitors is cut at point P. The current in the circuit will : | crop /home/claude/render/2026-5533/adj-9/p19.png | crop: (iv)(b) prints no number ('two capacitors' in words, P a label); the setup sentence before (i) prints 'Two capacitors, one of 3 muF and the other of 6 muF, are connected in series'; the part file keeps those values on Q29-i's givens and the case figure row, the checker repeated them on every sub-part; no value differs
+  - 2026-5533-Q30-ii | numbers | extractor_right | final (ii) The ratio of the radii of the circular paths described by them (r_1/r_2) is : | crop /home/claude/render/2026-5533/adj-10/p21.png | crop: (ii) prints only the labels r_1/r_2; '1 and 2', m/2 and +2q are in the case setup sentence on p19 (crop adj-10b), which the part file keeps on Q30-i's givens; the checker repeated them on every sub-part; no value differs
+  - 2026-5533-Q30B-iv | options | extractor_right | final A) p_1 = p_2/2 | B) p_1 = p_2 | C) p_1 = 2*p_2 | D) p_1 = 4*p_2 | crop /home/claude/render/2026-5533/adj-11/p21.png | crop: p_1 = p_2/2, p_1 = p_2, p_1 = 2p_2, p_1 = 4p_2; the part file writes 2*p_2 (P6.3 plain maths); no value differs
+  - 2026-5533-Q32A-ii | numbers | extractor_right | final (a) (ii) Two point charges - 2 microC and 5 microC are placed at (- 30 cm, 0) and (30 cm, 0) respectively in an external electric field vec(E) = (A/x^2) i^, where A = 9e5 N m^2 C^-1. Find the electrostatic potential energy of this configuration. | crop /home/claude/render/2026-5533/adj-12/p25.png | crop: the page prints '- 2 microC' and '(- 30 cm, 0)' with a space after the minus; the stem keeps the printed spacing and the givens carry -2 and -30; both readings are -2 microC; no value differs
+  - 2026-5533-Q32B-ii-I-1 | numbers | extractor_right | final (ii) A small hollow conducting sphere of radius r_1 is given a charge Q. It is surrounded by a concentric conducting spherical shell of inner radius r_2 and outer radius r_3, having charge -3q. If a point charge 2q were kept at the centre, find : (I) the electric flux through a concentric spherical Gaussian surface of radius x for (1) x < r_1 | crop /home/claude/render/2026-5533/adj-13/p25.png | crop: the extra 1 is the printed sub-label (1) in 'for (1) x < r_1'; -3q and 2q agree; the sphere's charge is printed as capital Q
+  - 2026-5533-Q32B-ii-II-1 | numbers | extractor_right | final (ii) A small hollow conducting sphere of radius r_1 is given a charge Q. It is surrounded by a concentric conducting spherical shell of inner radius r_2 and outer radius r_3, having charge -3q. If a point charge 2q were kept at the centre, find : (II) electric field at a point distant x from the centre for (1) x > r_3 | crop /home/claude/render/2026-5533/adj-14/p25.png | crop: the extra 1 is the printed sub-label (1) in 'for (1) x > r_3'; -3q and 2q agree
+  - 2026-5533-Q32B-ii-III-1 | numbers | extractor_right | final (ii) A small hollow conducting sphere of radius r_1 is given a charge Q. It is surrounded by a concentric conducting spherical shell of inner radius r_2 and outer radius r_3, having charge -3q. If a point charge 2q were kept at the centre, find : (III) surface charge density on the inner surface of (1) sphere | crop /home/claude/render/2026-5533/adj-15/p25.png | crop: the extra 1 is the printed sub-label (1) in 'of (1) sphere'; -3q and 2q agree
+- status erratum ER-B02-080: NEW -> IN-PROGRESS
+- PROGRESS: line updated (2026-55B still to do)
+- pack: PHY-VAULT-B02-20261001-0939-2449r.json
+
+## 2026-10-01T09:41:27Z | checkpoint | trial report
+- validate: 16/16 checks pass
+- pack: PHY-VAULT-B02-20261001-0941-2449r.json
+
+## 2026-10-01T11:44:48Z | FIX-1 | OTHER | GATE PASS
+- part files: ERRATA 2
+- merged 2 row(s) into l1/ERRATA.csv · now 229
+- validate after merge: 16/16 checks pass
+- PROGRESS: not touched (stage OTHER)
+- pack: PHY-VAULT-B02-20261001-1144-2451r.json
+
+## 2026-10-01T11:59:12Z | 2026-55B | S4 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 65, FIGURES 0, FORMULAE 39
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 14
+- merged 2 row(s) into l1/CASES.csv · now 28
+- merged 65 row(s) into l1/INSTANCES.csv · now 955
+- merged 0 row(s) into l1/FIGURES.csv · now 202
+- merged 39 row(s) into l1/FORMULAE.csv · now 469
+- check-paper: PASS · 2026-55B · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 267 values compared, 41 mismatch(es), all settled
+  - 2026-55B-Q01 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c1/p5.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q01 | options | extractor_right | final A) 1.60e+28 | B) 1.60e+10 | C) 3.1e9 | D) 6.25e9 | crop /home/claude/render/2026-55B/adj-c1/p5.png | crop: same values; the part file writes powers of ten in e-notation (P6.3)
+  - 2026-55B-Q02 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c1/p5.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q02 | options | extractor_right | final A) 8.0 A | B) 1.96e-2 A | C) 4.0 A | D) 1.33e-1 A | crop /home/claude/render/2026-55B/adj-c1/p5.png | crop: same values; the part file writes powers of ten in e-notation (P6.3)
+  - 2026-55B-Q03 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c10/p9.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q04 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c10/p9.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q05 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c10/p9.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q06 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c10/p9.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q07 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c10/p9.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q08 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c2/p7.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q08 | numbers | extractor_right | final Which of the following particles do not exist in _92U^238 nucleus ? | crop /home/claude/render/2026-55B/adj-c2/p7.png | crop: 92 is the atomic number printed as the pre-subscript of 92U238; the stem writes _92U^238 and the gate reads subscripts as labels; both readings agree
+  - 2026-55B-Q09 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c10/p9.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q10 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c10/p9.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q11 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c10/p9.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q12 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c10/p9.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q13 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c10/p9.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q14 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c10/p9.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q15 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c10/p9.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q16 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c10/p9.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q17-ii | numbers | extractor_right | final A battery of emf 6 V and internal resistance 1 ohm is connected to a resistor. The current in the circuit is 0.5 A. Calculate ... (ii) the terminal voltage of the battery. | crop /home/claude/render/2026-55B/adj-c3/p11.png | crop: these values are printed once in the shared lead-in, which the stem carries as the origin convention does; the checker filed them on the first sub-part only; no value differs
+  - 2026-55B-Q18A | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c3/p11.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q18B | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c3/p11.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q19 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c3/p11.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q20 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c3/p11.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q21 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c3/p11.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q22B | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c4/p13.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q26 | marks_part | extractor_right | final  | crop /home/claude/render/2026-55B/adj-c4b/p13.png | crop: the printed mark is the question's own total (q_marks_printed); B00-B02 never put it in marks_part on an unparted question or a single-row side
+  - 2026-55B-Q27-ii | numbers | extractor_right | final The total energy of an electron is an (sic) orbit in Bohr model of hydrogen atom is -3.4 eV. Calculate : ... (ii) the potential energy of the electron, in this orbit. | crop /home/claude/render/2026-55B/adj-c5/p15.png | crop: these values are printed once in the shared lead-in, which the stem carries as the origin convention does; the checker filed them on the first sub-part only; no value differs
+  - 2026-55B-Q29-i | marks_part | extractor_right | final 1 | crop /home/claude/render/2026-55B/adj-c6/p15.png | crop: '4 x 1 = 4' is printed once beside the case passage, a printed split of 1 mark per sub-part; kept as marks_part 1 like the printed-split rows of SQP2526-042
+  - 2026-55B-Q29-ii | marks_part | extractor_right | final 1 | crop /home/claude/render/2026-55B/adj-c6/p15.png | crop: '4 x 1 = 4' is printed once beside the case passage, a printed split of 1 mark per sub-part; kept as marks_part 1 like the printed-split rows of SQP2526-042
+  - 2026-55B-Q29A-iii | marks_part | extractor_right | final 1 | crop /home/claude/render/2026-55B/adj-c6/p15.png | crop: '4 x 1 = 4' is printed once beside the case passage, a printed split of 1 mark per sub-part; kept as marks_part 1 like the printed-split rows of SQP2526-042
+  - 2026-55B-Q29A-iii | options | extractor_right | final A) 3.23e-4 J | B) 1.0e-5 J | C) 1.73e-4 J | D) 5e4 J | crop /home/claude/render/2026-55B/adj-c7/p17.png | crop: same values; the part file writes powers of ten in e-notation (P6.3); option D of Q29A-iii prints the unit J, which the checker left out
+  - 2026-55B-Q29B-iii | marks_part | extractor_right | final 1 | crop /home/claude/render/2026-55B/adj-c6/p15.png | crop: '4 x 1 = 4' is printed once beside the case passage, a printed split of 1 mark per sub-part; kept as marks_part 1 like the printed-split rows of SQP2526-042
+  - 2026-55B-Q29-iv | marks_part | extractor_right | final 1 | crop /home/claude/render/2026-55B/adj-c6/p15.png | crop: '4 x 1 = 4' is printed once beside the case passage, a printed split of 1 mark per sub-part; kept as marks_part 1 like the printed-split rows of SQP2526-042
+  - 2026-55B-Q30-i | marks_part | extractor_right | final 1 | crop /home/claude/render/2026-55B/adj-c8/p19.png | crop: '4 x 1 = 4' is printed once beside the case passage, a printed split of 1 mark per sub-part; kept as marks_part 1 like the printed-split rows of SQP2526-042
+  - 2026-55B-Q30-ii | marks_part | extractor_right | final 1 | crop /home/claude/render/2026-55B/adj-c8/p19.png | crop: '4 x 1 = 4' is printed once beside the case passage, a printed split of 1 mark per sub-part; kept as marks_part 1 like the printed-split rows of SQP2526-042
+  - 2026-55B-Q30A-iii | marks_part | extractor_right | final 1 | crop /home/claude/render/2026-55B/adj-c8/p19.png | crop: '4 x 1 = 4' is printed once beside the case passage, a printed split of 1 mark per sub-part; kept as marks_part 1 like the printed-split rows of SQP2526-042
+  - 2026-55B-Q30B-iii | marks_part | extractor_right | final 1 | crop /home/claude/render/2026-55B/adj-c8/p19.png | crop: '4 x 1 = 4' is printed once beside the case passage, a printed split of 1 mark per sub-part; kept as marks_part 1 like the printed-split rows of SQP2526-042
+  - 2026-55B-Q30-iv | marks_part | extractor_right | final 1 | crop /home/claude/render/2026-55B/adj-c8/p19.png | crop: '4 x 1 = 4' is printed once beside the case passage, a printed split of 1 mark per sub-part; kept as marks_part 1 like the printed-split rows of SQP2526-042
+  - 2026-55B-Q32B-b-ii | numbers | extractor_right | final (b) The instaneous (sic) value of a voltage (in volt) is given by E = 140 sin 314 t, where t is in seconds. Find : ... (ii) the frequency of ac supply. | crop /home/claude/render/2026-55B/adj-c9/p23.png | crop: these values are printed once in the shared lead-in, which the stem carries as the origin convention does; the checker filed them on the first sub-part only; no value differs
+  - 2026-55B-Q33B-b-ii | numbers | extractor_right | final (b) A telescope consists of two lenses of focal length 125 cm and 5 cm. Find its magnifying power when final image is at ... (ii) at a distance of 25 cm from eye. | crop /home/claude/render/2026-55B/adj-c1/p5.png | crop: these values are printed once in the shared lead-in, which the stem carries as the origin convention does; the checker filed them on the first sub-part only; no value differs
+- status erratum ER-B02-083: NEW -> IN-PROGRESS
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1159-2559r.json
+
+## 2026-10-01T12:10:28Z | 2026-5542 | S4 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 69, FIGURES 21, FORMULAE 33
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 15
+- merged 2 row(s) into l1/CASES.csv · now 30
+- merged 69 row(s) into l1/INSTANCES.csv · now 1024
+- merged 21 row(s) into l1/FIGURES.csv · now 223
+- merged 33 row(s) into l1/FORMULAE.csv · now 502
+- check-paper: PASS · 2026-5542 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 311 values compared, 31 mismatch(es), all settled
+  - 2026-5542-Q08 | options | extractor_right | final A) 6e-4 Am^2 | B) 3e-5 Am^2 | C) 1.5e-4 Am^2 | D) 5e-5 Am^2 | crop /home/claude/render/2026-5542/adj-p7/p7.png | crop: same values; the part file writes powers of ten in e-notation and units as in the origin row (P6.3)
+  - 2026-5542-Q10 | options | extractor_right | final A) 3e8 m s^-1 | B) 2e8 m s^-1 | C) 3.3e-9 m s^-1 | D) 5e-9 m s^-1 | crop /home/claude/render/2026-5542/adj-p9/p9.png | crop: same values; the part file writes powers of ten in e-notation and units as in the origin row (P6.3)
+  - 2026-5542-Q17A | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p13/p13.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q17B-ii | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p13/p13.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q18 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p13/p13.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q19 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p13/p13.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q20 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p13/p13.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q21 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p13/p13.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q22A-i | numbers | extractor_right | final (a) The figure given below shows three straight long parallel conductors (1), (2) and (3) kept in x-y plane, carrying currents 2I, I and 3I respectively as shown in figure. Find the magnitude and direction of : (i) net magnetic field at a point on conductor (1) and | crop /home/claude/render/2026-5542/adj-q22/p15.png | crop adj-q22: the extra 1 is the circled conductor label (1); 2I, I, 3I agree
+  - 2026-5542-Q22A-ii | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p15/p15.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q22A-ii | numbers | extractor_right | final (a) The figure given below shows three straight long parallel conductors (1), (2) and (3) kept in x-y plane, carrying currents 2I, I and 3I respectively as shown in figure. Find the magnitude and direction of : (ii) net magnetic force acting on unit length of conductor (1), due to conductors (2) and (3). | crop /home/claude/render/2026-5542/adj-p15/p15.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on another sub-part; no value differs
+  - 2026-5542-Q22B-ii | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p15/p15.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q23 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p15/p15.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q25-b | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p17/p17.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q26 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p17/p17.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q27-a | figure_values | extractor_right | final A conducting rectangular loop of area 5 cm^2 and resistance 4 ohm is removed from a region of uniform magnetic field, acting normal to the plane of the loop. The value of induced current I in the loop varies with time t, as shown in the figure. Find : (a) total charge that passed through the loop | crop /home/claude/render/2026-5542/adj-p17/p17.png | crop: the graph runs from 0.3 A at t = 0 to 0 at t = 0.6 s; the 0 is a printed value; no value differs
+  - 2026-5542-Q27-b | numbers | extractor_right | final A conducting rectangular loop of area 5 cm^2 and resistance 4 ohm is removed from a region of uniform magnetic field, acting normal to the plane of the loop. The value of induced current I in the loop varies with time t, as shown in the figure. Find : (b) change in magnetic flux through the loop | crop /home/claude/render/2026-5542/adj-p17/p17.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on another sub-part; no value differs
+  - 2026-5542-Q27-c | numbers | extractor_right | final A conducting rectangular loop of area 5 cm^2 and resistance 4 ohm is removed from a region of uniform magnetic field, acting normal to the plane of the loop. The value of induced current I in the loop varies with time t, as shown in the figure. Find : (c) magnitude of magnetic field in the region | crop /home/claude/render/2026-5542/adj-p17/p17.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on another sub-part; no value differs
+  - 2026-5542-Q28-b | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p17/p17.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q30-i | options | extractor_right | final A) straight line through the origin | B) rises, levels off and dips | C) straight at first, then bends below the dotted straight-line extension | D) straight at first, then curves upward above the dotted extension | crop /home/claude/render/2026-5542/adj-p23/p23.png | crop: the four options are drawn graphs; both readings describe the same four curves in words
+  - 2026-5542-Q31A-ii | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p27/p27.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q31A-ii | numbers | extractor_right | final (a) (ii) Obtain an expression for the work done to dissociate the system of three charges q, - 4q and 2q placed at the vertices A, B and C respectively of an equilateral triangle of side 'a'. | crop /home/claude/render/2026-5542/adj-p27/p27.png | crop: the page prints '- 4q' with a space after the minus; givens carry -4q; both readings are -4q, 2q
+  - 2026-5542-Q31B-ii | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p29/p29.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q32A-iii | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p29/p29.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q32A-iii | figure_values | extractor_right | final (a) (iii) A ray of light QP is incident normally on the face BC of a triangular prism ABC of refractive index 1.5 kept in air, as shown in the figure. Trace the path of the ray as it passes through the prism and give relevant explanation. | crop /home/claude/render/2026-5542/adj-p29/p29.png | crop: the prism figure prints no number; 1.5 in the figure row's values is the stem's refractive index, as in the origin row, and the other digits come from the [same figure as F-2026-5541-17/18] pointer; no value differs
+  - 2026-5542-Q32B-iii | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p31/p31.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q33A-ii-I | numbers | extractor_right | final (a) (ii) An inductor of (5/pi) H, a capacitor of (50/pi) microF and a resistor of 400 ohm are connected in series across an ac voltage v = 140 sin(100*pi*t) V. Calculate : (I) impedance of the circuit, and (Take sqrt(2) = 1.4) | crop /home/claude/render/2026-5542/adj-p31/p31.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on another sub-part; no value differs
+  - 2026-5542-Q33A-ii-II | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p31/p31.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q33A-ii-II | numbers | extractor_right | final (a) (ii) An inductor of (5/pi) H, a capacitor of (50/pi) microF and a resistor of 400 ohm are connected in series across an ac voltage v = 140 sin(100*pi*t) V. Calculate : (II) rms value of current that flows in the circuit. (Take sqrt(2) = 1.4) | crop /home/claude/render/2026-5542/adj-p31/p31.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on another sub-part; no value differs
+  - 2026-5542-Q33B-ii-II | marks_part | extractor_right | final  | crop /home/claude/render/2026-5542/adj-p31/p31.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5542-Q33B-ii-II | numbers | extractor_right | final (b) (ii) The number of turns in the primary and the secondary coil of an ideal transformer are 100 and 5000 respectively. If 3.3 kW power is supplied to the transformer at 220 V, find (II) output voltage. | crop /home/claude/render/2026-5542/adj-p31/p31.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on another sub-part; no value differs
+- status erratum ER-B02-084: NEW -> IN-PROGRESS
+- PROGRESS: line updated (2026-5543 still to do)
+- pack: PHY-VAULT-B02-20261001-1210-2686r.json
+
+## 2026-10-01T12:20:42Z | 2026-5543 | S4 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 68, FIGURES 17, FORMULAE 29
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 16
+- merged 2 row(s) into l1/CASES.csv · now 32
+- merged 68 row(s) into l1/INSTANCES.csv · now 1092
+- merged 17 row(s) into l1/FIGURES.csv · now 240
+- merged 29 row(s) into l1/FORMULAE.csv · now 531
+- check-paper: PASS · 2026-5543 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 307 values compared, 31 mismatch(es), all settled
+  - 2026-5543-Q02 | options | extractor_right | final A) 3e8 m s^-1 | B) 2e8 m s^-1 | C) 3.3e-9 m s^-1 | D) 5e-9 m s^-1 | crop /home/claude/render/2026-5543/adj-p5/p5.png | crop: same values; the part file writes powers of ten in e-notation and units as in the origin row (P6.3)
+  - 2026-5543-Q08 | options | extractor_right | final A) only relaxation time 'tau' of electrons decreases with temperature. | B) only number of electrons per unit volume 'n' increases appreciably. | C) 'tau' decreases with temperature but 'n' does not change appreciably. | D) 'tau' decreases with temperature and 'n' increases. | crop /home/claude/render/2026-5543/adj-p9/p9.png | crop: same option texts; the part file quotes 'tau' as the origin row does
+  - 2026-5543-Q17 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p13/p13.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q18 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p13/p13.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q19A | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p15/p15.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q19B-ii | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p15/p15.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q20 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p15/p15.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q21 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p15/p15.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q22 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p15/p15.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q23-b | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p15/p15.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q24A-i | numbers | extractor_right | final (a) The figure given below shows three straight long parallel conductors (1), (2) and (3) kept in x-y plane, carrying currents 2I, I and 3I respectively as shown in figure. Find the magnitude and direction of : (i) net magnetic field at a point on conductor (1) and | crop /home/claude/render/2026-5543/adj-q24/p15.png | crop: the extra 1 is the circled conductor label (1); 2I, I, 3I agree
+  - 2026-5543-Q24A-ii | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-q24/p15.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q24A-ii | numbers | extractor_right | final (a) The figure given below shows three straight long parallel conductors (1), (2) and (3) kept in x-y plane, carrying currents 2I, I and 3I respectively as shown in figure. Find the magnitude and direction of : (ii) net magnetic force acting on unit length of conductor (1), due to conductors (2) and (3). | crop /home/claude/render/2026-5543/adj-q24/p15.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on another sub-part; no value differs
+  - 2026-5543-Q24B-ii | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p17/p17.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q25 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p17/p17.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q26-b | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p17/p17.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q27-b | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p17/p17.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q28-b | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p19/p19.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q28-b | numbers | extractor_right | final Two coils, one of radius 0.5 cm having 10 turns and the other of radius 5 cm having 50 turns are placed coaxially in air such that their centres are coincident. Calculate : (b) the mutual inductance of the two coils. | crop /home/claude/render/2026-5543/adj-p19/p19.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on another sub-part; no value differs
+  - 2026-5543-Q30-i | options | extractor_right | final A) straight line through the origin | B) rises, levels off and dips | C) straight at first, then bends below the dotted straight-line extension | D) straight at first, then curves upward above the dotted extension | crop /home/claude/render/2026-5543/adj-p23/p23.png | crop adj-p23: option graphs: (A) line through origin, (B) rises to a peak, dips slightly and levels, (C) bends below the dotted extension, (D) bends above it; the part file keeps the origin row's wording for (B); no value differs
+  - 2026-5543-Q31A-ii-I | numbers | extractor_right | final (a) (ii) An inductor of (5/pi) H, a capacitor of (50/pi) microF and a resistor of 400 ohm are connected in series across an ac voltage v = 140 sin(100*pi*t) V. Calculate : (I) impedance of the circuit, and (Take sqrt(2) = 1.4) | crop /home/claude/render/2026-5543/adj-p27/p27.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on another sub-part; no value differs
+  - 2026-5543-Q31A-ii-II | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p27/p27.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q31A-ii-II | numbers | extractor_right | final (a) (ii) An inductor of (5/pi) H, a capacitor of (50/pi) microF and a resistor of 400 ohm are connected in series across an ac voltage v = 140 sin(100*pi*t) V. Calculate : (II) rms value of current that flows in the circuit. (Take sqrt(2) = 1.4) | crop /home/claude/render/2026-5543/adj-p27/p27.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on another sub-part; no value differs
+  - 2026-5543-Q31B-ii-II | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p27/p27.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q31B-ii-II | numbers | extractor_right | final (b) (ii) The number of turns in the primary and the secondary coil of an ideal transformer are 100 and 5000 respectively. If 3.3 kW power is supplied to the transformer at 220 V, find (II) output voltage. | crop /home/claude/render/2026-5543/adj-p27/p27.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on another sub-part; no value differs
+  - 2026-5543-Q32A-ii | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p29/p29.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q32A-ii | numbers | extractor_right | final (a) (ii) Obtain an expression for the work done to dissociate the system of three charges q, - 4q and 2q placed at the vertices A, B and C respectively of an equilateral triangle of side 'a'. | crop /home/claude/render/2026-5543/adj-p29/p29.png | crop: the page prints '- 4q' with a space after the minus; givens carry -4q; both readings are -4q, 2q
+  - 2026-5543-Q32B-ii | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p29/p29.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q33A-iii | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p31/p31.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5543-Q33A-iii | figure_values | extractor_right | final (a) (iii) A ray of light QP is incident normally on the face BC of a triangular prism ABC of refractive index 1.5 kept in air, as shown in the figure. Trace the path of the ray as it passes through the prism and give relevant explanation. | crop /home/claude/render/2026-5543/adj-p31/p31.png | crop: the prism figure prints no number; 1.5 is the stem's refractive index carried in the figure row as in the origin row, other digits come from the [same figure as ...] pointer
+  - 2026-5543-Q33B-iii | marks_part | extractor_right | final  | crop /home/claude/render/2026-5543/adj-p31/p31.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+- status erratum ER-B02-085: NEW -> IN-PROGRESS
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1220-2804r.json
+
+## 2026-10-01T12:31:30Z | 2026-5552 | S4 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 65, FIGURES 14, FORMULAE 40
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 17
+- merged 2 row(s) into l1/CASES.csv · now 34
+- merged 65 row(s) into l1/INSTANCES.csv · now 1157
+- merged 14 row(s) into l1/FIGURES.csv · now 254
+- merged 40 row(s) into l1/FORMULAE.csv · now 571
+- check-paper: PASS · 2026-5552 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 334 values compared, 21 mismatch(es), all settled
+  - 2026-5552-Q01 | numbers | extractor_right | final The energy of an electron in an orbit in hydrogen atom is - 3.4 eV. Its angular momentum in the orbit will be : | crop /home/claude/render/2026-5552/adj-p5/p5.png | crop: the page prints '- 3.4 eV' with a space after the minus; givens carry -3.4; both readings are -3.4 eV
+  - 2026-5552-Q02 | options | extractor_right | final A) 1.66e-32 kg m s^-1 | B) 1.83e-34 kg m s^-1 | C) 2.05e-34 kg m s^-1 | D) 1.66e-34 kg m s^-1 | crop /home/claude/render/2026-5552/adj-p5/p5.png | crop: same values; the part file writes powers of ten in e-notation, products with * and eps0 (P6.3), as in the origin row
+  - 2026-5552-Q06 | options | extractor_right | final A) (1/(4*pi*eps0))*(sqrt(2)*Q/d^2)*(i^ - j^) | B) (1/(4*pi*eps0))*(sqrt(2)*Q/d^2)*(-i^ - j^) | C) (1/(4*pi*eps0))*(Q/d^2)*(i^ - j^) | D) (1/(4*pi*eps0))*(Q/d^2)*(-i^ - j^) | crop /home/claude/render/2026-5552/adj-p7/p7.png | crop: same values; the part file writes powers of ten in e-notation, products with * and eps0 (P6.3), as in the origin row
+  - 2026-5552-Q08 | options | extractor_right | final A) K*B^2/(2*E^2) | B) 2*K*B^2/E^2 | C) 2*K*E^2/B^2 | D) K*E^2/(2*B^2) | crop /home/claude/render/2026-5552/adj-p7/p7.png | crop: same values; the part file writes powers of ten in e-notation, products with * and eps0 (P6.3), as in the origin row
+  - 2026-5552-Q09 | options | extractor_right | final A) 80 Wb | B) 16 Wb | C) 8e-2 Wb | D) 8e-3 Wb | crop /home/claude/render/2026-5552/adj-p7/p7.png | crop: same values; the part file writes powers of ten in e-notation, products with * and eps0 (P6.3), as in the origin row
+  - 2026-5552-Q11 | options | extractor_right | final A) 0.5e3 m^-1 | B) 6.0e2 m^-1 | C) 7.5e2 m^-1 | D) 1.5e3 m^-1 | crop /home/claude/render/2026-5552/adj-p9/p9.png | crop: same values; the part file writes powers of ten in e-notation, products with * and eps0 (P6.3), as in the origin row
+  - 2026-5552-Q13 | options | extractor_right | final  | crop /home/claude/render/2026-5552/adj-p11/p11.png | crop: the assertion-reason option set is printed once above Q13; the vault stores it once per paper in extra ARSET, not in options
+  - 2026-5552-Q14 | options | extractor_right | final  | crop /home/claude/render/2026-5552/adj-p11/p11.png | crop: the assertion-reason option set is printed once above Q13; the vault stores it once per paper in extra ARSET, not in options
+  - 2026-5552-Q15 | options | extractor_right | final  | crop /home/claude/render/2026-5552/adj-p11/p11.png | crop: the assertion-reason option set is printed once above Q13; the vault stores it once per paper in extra ARSET, not in options
+  - 2026-5552-Q16 | options | extractor_right | final  | crop /home/claude/render/2026-5552/adj-p11/p11.png | crop: the assertion-reason option set is printed once above Q13; the vault stores it once per paper in extra ARSET, not in options
+  - 2026-5552-Q19A-ii | numbers | extractor_right | final (a) An electric iron rated 2.2 kW, 220 V is operated at 110 V supply. Find : (ii) heat produced by it in 10 minutes. | crop /home/claude/render/2026-5552/adj-p13/p13.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on the first sub-part only; no value differs
+  - 2026-5552-Q23-b | numbers | extractor_right | final Two parallel plate capacitors X and Y are connected in series to a 6 V battery. They have the same plate area and same plate separation but capacitor X has air between its plates, whereas capacitor Y contains a material of dielectric constant 4. (b) Calculate the potential difference across the plates of X and Y. | crop /home/claude/render/2026-5552/adj-p15/p15.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on the first sub-part only; no value differs
+  - 2026-5552-Q25-b | numbers | extractor_right | final Photoemission of electrons occurs from a metal (phi_0 = 1.96 eV) when light of frequency 6.4e14 Hz is incident on it. Calculate : (b) The maximum kinetic energy of the emitted electrons, and | crop /home/claude/render/2026-5552/adj-p15/p15.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on the first sub-part only; no value differs
+  - 2026-5552-Q25-c | numbers | extractor_right | final Photoemission of electrons occurs from a metal (phi_0 = 1.96 eV) when light of frequency 6.4e14 Hz is incident on it. Calculate : (c) The stopping potential. | crop /home/claude/render/2026-5552/adj-p15/p15.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on the first sub-part only; no value differs
+  - 2026-5552-Q29-i | numbers | extractor_right | final (i) What property of light does this interference experiment demonstrate ? | crop /home/claude/render/2026-5552/adj-p19/p19.png | crop: 2 mm and 5 m are in the case passage, which the CASES row and the figure row carry; the checker filed them on (i); no value differs
+  - 2026-5552-Q29A-ii | figure_values | extractor_right | final (ii) (a) The wavelength of light used in this experiment is : | crop /home/claude/render/2026-5552/adj-p19/p19.png | crop: the screen scale runs from -3.0 to 3.0 mm in 0.5 mm steps; the figure row states the range and step, the checker listed every tick; d = 2.0 mm, D = 5.0 m agree; the other digits are the [same figure as F-2026-5551-08] pointer
+  - 2026-5552-Q29-iii | options | extractor_right | final A) 8.1e-7 m | B) 7.2e-7 m | C) 6.5e-7 m | D) 6.0e-7 m | crop /home/claude/render/2026-5552/adj-p19/p19.png | crop: same values; the part file writes powers of ten in e-notation, products with * and eps0 (P6.3), as in the origin row
+  - 2026-5552-Q30-i | options | extractor_right | final A) (2e2 V/m) k^ | B) -(2e2 V/m) k^ | C) (2e4 V/m) k^ | D) -(2e4 V/m) k^ | crop /home/claude/render/2026-5552/adj-p23/p23.png | crop: same values; the part file writes powers of ten in e-notation, products with * and eps0 (P6.3), as in the origin row
+  - 2026-5552-Q30-ii | options | extractor_right | final A) -(3.5e15 m s^-2) k^ | B) (3.5e15 m s^-2) k^ | C) (3.5e13 m s^-2) i^ | D) -(3.5e13 m s^-2) i^ | crop /home/claude/render/2026-5552/adj-p23/p23.png | crop: same values; the part file writes powers of ten in e-notation, products with * and eps0 (P6.3), as in the origin row
+  - 2026-5552-Q30A-iii | options | extractor_right | final A) 9.0e-9 s | B) 1.67e-8 s | C) 1.67e-9 s | D) 2.17e-9 s | crop /home/claude/render/2026-5552/adj-p25/p25.png | crop: same values; the part file writes powers of ten in e-notation, products with * and eps0 (P6.3), as in the origin row
+  - 2026-5552-Q31A-ii-II | numbers | extractor_right | final (a) (ii) A circular coil of 100 turns and radius (10/sqrt(pi)) cm carrying current of 5.0 A is suspended vertically in a uniform horizontal magnetic field of 2.0 T. The field makes an angle 30 deg with the normal to the coil. Calculate : (II) the magnitude of the counter torque that must be applied to prevent the coil from turning. | crop /home/claude/render/2026-5552/adj-p27/p27.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on the first sub-part only; no value differs
+- status erratum ER-B02-086: NEW -> IN-PROGRESS
+- PROGRESS: line updated (2026-5553 still to do)
+- pack: PHY-VAULT-B02-20261001-1231-2927r.json
+
+## 2026-10-01T12:44:32Z | 2026-5553 | S4 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 66, FIGURES 20, FORMULAE 39
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 18
+- merged 2 row(s) into l1/CASES.csv · now 36
+- merged 66 row(s) into l1/INSTANCES.csv · now 1223
+- merged 20 row(s) into l1/FIGURES.csv · now 274
+- merged 39 row(s) into l1/FORMULAE.csv · now 610
+- check-paper: PASS · 2026-5553 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 339 values compared, 27 mismatch(es), all settled
+  - 2026-5553-Q01 | options | extractor_right | final A) 3.87e-43 kg m s^-1 | B) 2.5e-30 kg m s^-1 | C) 2.65e-27 kg m s^-1 | D) 1.33e-27 kg m s^-1 | crop /home/claude/render/2026-5553/adj-p5/p5.png | crop: same values; the part file writes powers of ten in e-notation and eps0 (P6.3), as in the origin row
+  - 2026-5553-Q04 | options | extractor_right | final A) 0.5e3 m^-1 | B) 6.0e2 m^-1 | C) 7.5e2 m^-1 | D) 1.5e3 m^-1 | crop /home/claude/render/2026-5553/adj-p5/p5.png | crop: same values; the part file writes powers of ten in e-notation and eps0 (P6.3), as in the origin row
+  - 2026-5553-Q05 | options | extractor_right | final A) horizontal line (r constant) | B) falling curve, steep near the r axis and levelling towards the B axis | C) straight line through the origin | D) rising curve from the origin, getting steeper | crop /home/claude/render/2026-5553/adj-p7/p7.png | crop: the four options are drawn graphs of r against B; both readings describe the same curves in words
+  - 2026-5553-Q07 | numbers | extractor_right | final The energy of an electron in an orbit in hydrogen atom is - 3.4 eV. Its angular momentum in the orbit will be : | crop /home/claude/render/2026-5553/adj-p7/p7.png | crop: the page prints '- 3.4 eV' with a space after the minus; givens carry -3.4; both readings are -3.4 eV
+  - 2026-5553-Q09 | options | extractor_right | final A) q/(4*pi*eps0*l^2) pointing along MA | B) q/(pi*eps0*l^2) pointing along AM | C) q/(2*pi*eps0*l^2) pointing along AM | D) Zero | crop /home/claude/render/2026-5553/adj-p9/p9.png | crop: same values; the part file writes powers of ten in e-notation and eps0 (P6.3), as in the origin row
+  - 2026-5553-Q11 | numbers | extractor_right | final Two points R and S are equidistant from two charges + Q and - 2Q. The work done in moving a charge - Q from point R to S is : | crop /home/claude/render/2026-5553/adj-p9/p9.png | crop: the page prints '- 2Q' with a space after the minus; both readings are +Q, -2Q, -Q
+  - 2026-5553-Q11 | options | extractor_right | final A) Zero | B) -Q/(4*pi*eps0*d) | C) Q/(4*pi*eps0*d) | D) 3Q/(4*pi*eps0*d) | crop /home/claude/render/2026-5553/adj-p9/p9.png | crop: same values; the part file writes powers of ten in e-notation and eps0 (P6.3), as in the origin row
+  - 2026-5553-Q13 | options | extractor_right | final  | crop /home/claude/render/2026-5553/adj-p11/p11.png | crop: the assertion-reason option set is printed once above Q13; the vault stores it once per paper in extra ARSET
+  - 2026-5553-Q14 | options | extractor_right | final  | crop /home/claude/render/2026-5553/adj-p11/p11.png | crop: the assertion-reason option set is printed once above Q13; the vault stores it once per paper in extra ARSET
+  - 2026-5553-Q15 | options | extractor_right | final  | crop /home/claude/render/2026-5553/adj-p13/p13.png | crop: the assertion-reason option set is printed once above Q13; the vault stores it once per paper in extra ARSET
+  - 2026-5553-Q16 | options | extractor_right | final  | crop /home/claude/render/2026-5553/adj-p13/p13.png | crop: the assertion-reason option set is printed once above Q13; the vault stores it once per paper in extra ARSET
+  - 2026-5553-Q17 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5553/adj-p13/p13.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5553-Q19 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5553/adj-p15/p15.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5553-Q20 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5553/adj-p15/p15.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5553-Q21A-ii | numbers | extractor_right | final (a) An electric iron rated 2.2 kW, 220 V is operated at 110 V supply. Find : (ii) heat produced by it in 10 minutes. | crop /home/claude/render/2026-5553/adj-p15/p15.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on the first sub-part only; no value differs
+  - 2026-5553-Q21B | marks_part | extractor_right | final  | crop /home/claude/render/2026-5553/adj-p15/p15.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5553-Q24 | marks_part | extractor_right | final  | crop /home/claude/render/2026-5553/adj-p17/p17.png | crop: the printed mark is the question's or side's total, printed once after its last part (q_marks_printed); B00-B02 leave marks_part blank there
+  - 2026-5553-Q25-b | numbers | extractor_right | final Two point charges q_1 = 2.5e-7 C and q_2 = - 2.5e-7 C are located at points (0, 0, - 15 cm) and (0, 0, 15 cm) respectively. Find : (b) the magnitude and direction of electric field at the origin (0, 0, 0). | crop /home/claude/render/2026-5553/adj-p17/p17.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on the first sub-part only; no value differs
+  - 2026-5553-Q26-b | numbers | extractor_right | final Photoemission of electrons occurs from a metal (phi_0 = 1.96 eV) when light of frequency 6.4e14 Hz is incident on it. Calculate : (b) The maximum kinetic energy of the emitted electrons, and | crop /home/claude/render/2026-5553/adj-p17/p17.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on the first sub-part only; no value differs
+  - 2026-5553-Q26-c | numbers | extractor_right | final Photoemission of electrons occurs from a metal (phi_0 = 1.96 eV) when light of frequency 6.4e14 Hz is incident on it. Calculate : (c) The stopping potential. | crop /home/claude/render/2026-5553/adj-p17/p17.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on the first sub-part only; no value differs
+  - 2026-5553-Q29-i | options | extractor_right | final A) (2e2 V/m) k^ | B) -(2e2 V/m) k^ | C) (2e4 V/m) k^ | D) -(2e4 V/m) k^ | crop /home/claude/render/2026-5553/adj-p21/p21.png | crop: same values; the part file writes powers of ten in e-notation and eps0 (P6.3), as in the origin row
+  - 2026-5553-Q29-ii | options | extractor_right | final A) -(3.5e15 m s^-2) k^ | B) (3.5e15 m s^-2) k^ | C) (3.5e13 m s^-2) i^ | D) -(3.5e13 m s^-2) i^ | crop /home/claude/render/2026-5553/adj-p21/p21.png | crop: same values; the part file writes powers of ten in e-notation and eps0 (P6.3), as in the origin row
+  - 2026-5553-Q29A-iii | options | extractor_right | final A) 9.0e-9 s | B) 1.67e-8 s | C) 1.67e-9 s | D) 2.17e-9 s | crop /home/claude/render/2026-5553/adj-p21/p21.png | crop: same values; the part file writes powers of ten in e-notation and eps0 (P6.3), as in the origin row
+  - 2026-5553-Q30-i | numbers | extractor_right | final (i) What property of light does this interference experiment demonstrate ? | crop /home/claude/render/2026-5553/adj-p23/p23.png | crop: 2 mm and 5 m are in the case passage, carried by the CASES and figure rows; the checker filed them on (i); no value differs
+  - 2026-5553-Q30A-ii | figure_values | extractor_right | final (ii) (a) The wavelength of light used in this experiment is : | crop /home/claude/render/2026-5553/adj-p25/p25.png | crop: the screen scale runs from -3.0 to 3.0 mm in 0.5 mm steps; the figure row states the range and step, the checker listed every tick; the other digits are the [same figure as F-2026-5551-08] pointer
+  - 2026-5553-Q30-iii | options | extractor_right | final A) 8.1e-7 m | B) 7.2e-7 m | C) 6.5e-7 m | D) 6.0e-7 m | crop /home/claude/render/2026-5553/adj-p25/p25.png | crop: same values; the part file writes powers of ten in e-notation and eps0 (P6.3), as in the origin row
+  - 2026-5553-Q33A-ii-II | numbers | extractor_right | final (a) (ii) A circular coil of 100 turns and radius (10/sqrt(pi)) cm carrying current of 5.0 A is suspended vertically in a uniform horizontal magnetic field of 2.0 T. The field makes an angle 30 deg with the normal to the coil. Calculate : (II) the magnitude of the counter torque that must be applied to prevent the coil from turning. | crop /home/claude/render/2026-5553/adj-p31/p31.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on the first sub-part only; no value differs
+- status erratum ER-B02-087: NEW -> IN-PROGRESS
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1244-3056r.json
+
+## 2026-10-01T12:44:45Z | FIX-2 | OTHER | GATE PASS
+- part files: ERRATA 15
+- merged 15 row(s) into l1/ERRATA.csv · now 249
+- validate after merge: 16/16 checks pass
+- PROGRESS: not touched (stage OTHER)
+- pack: PHY-VAULT-B02-20261001-1244-3071r.json
+
+## 2026-10-01T12:56:27Z | 2026C-5572 | S4 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 65, FIGURES 16, FORMULAE 34
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 19
+- merged 2 row(s) into l1/CASES.csv · now 38
+- merged 65 row(s) into l1/INSTANCES.csv · now 1288
+- merged 16 row(s) into l1/FIGURES.csv · now 290
+- merged 34 row(s) into l1/FORMULAE.csv · now 644
+- check-paper: PASS · 2026C-5572 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 340 values compared, 28 mismatch(es), all settled
+  - 2026C-5572-Q01 | options | extractor_right | final A) constant from 0 to R, then falling beyond R | B) curved rise from 0 to R, then falling | C) zero from 0 to R, maximum at R, then falling | D) straight rise from 0 to R, then falling | crop /home/claude/render/2026C-5572/adj-p5/p5.png | crop: the four options are drawn graphs; both readings describe the same curves in words
+  - 2026C-5572-Q06 | figure_values | extractor_right | final Five resistors are joined as shown in the figure. Between the points A and B, a battery of 6 V is connected. How much current is flowing in arm FC ? | crop /home/claude/render/2026C-5572/adj-p7/p7.png | crop: figure values 1, 2, 4 agree; the extra digits come from the [same figure as F-2026C-5571-..] pointer
+  - 2026C-5572-Q07 | options | extractor_right | final A) mu0*I/(6*pi) k^ | B) -mu0*I/(12*pi) k^ | C) -mu0*I/(24*pi) k^ | D) mu0*I/(48*pi) k^ | crop /home/claude/render/2026C-5572/adj-p9/p9.png | crop: same values; the part file writes powers of ten in e-notation and mu0 (P6.3), as in the origin row
+  - 2026C-5572-Q13 | options | extractor_right | final  | crop /home/claude/render/2026C-5572/adj-p11/p11.png | crop: the assertion-reason option set is printed once above Q13; the vault stores it once per paper in extra ARSET
+  - 2026C-5572-Q17 | marks_part | extractor_right | final The frequency of the incident light on a metal surface is doubled. Find the new value of the maximum kinetic energy of the electrons and comment on its magnitude in comparison to the initial maximum kinetic energy of electrons. | crop /home/claude/render/2026C-5572/adj-p13/p13.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q18 | marks_part | extractor_right | final A 2.00 m long wire, ABC made of steel (rho = 20e-8 ohm m at 20 deg C) consists of two parts AB and BC, each of 1.00 m. Part AB has a radius of 0.70 mm while BC has a radius of 0.35 mm. Find the magnitude of electric field at a point in part AB and part BC, at 20 deg C, if a steady current of 1.54 mA passes through the wire. | crop /home/claude/render/2026C-5572/adj-p13/p13.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q20 | marks_part | extractor_right | final Calculate the distance of closest approach when an alpha particle of 4.50 MeV approaches in head-on position, a nucleus (Z = 79), stops and reverses its direction. | crop /home/claude/render/2026C-5572/adj-p13/p13.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q21 | marks_part | extractor_right | final Two identical circular coils A and B of radius 10 cm each are placed concentrically and mutually perpendicular in XY and YZ planes respectively. Currents of 1 A and sqrt(3) A flow anticlockwise in the coils as seen from YZ plane. Find the magnitude of the net magnetic field at the common centre of the coils. | crop /home/claude/render/2026C-5572/adj-p13/p13.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q22A | marks_part | extractor_right | final (a) Two infinitely long thin straight wires AB and CD with charge densities -12 microC/m and +12 microC/m are lying parallel to y-axis at points (-1 m, 0, 0) and (1 m, 0, 0) respectively, as shown in the figure. Find the net electric field vec(E) at points P_1 (- 2m, 0, 0), O (0, 0, 0) and P_2 (2m, 0, 0). | crop /home/claude/render/2026C-5572/adj-p15/p15.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q22A | numbers | extractor_right | final (a) Two infinitely long thin straight wires AB and CD with charge densities -12 microC/m and +12 microC/m are lying parallel to y-axis at points (-1 m, 0, 0) and (1 m, 0, 0) respectively, as shown in the figure. Find the net electric field vec(E) at points P_1 (- 2m, 0, 0), O (0, 0, 0) and P_2 (2m, 0, 0). | crop /home/claude/render/2026C-5572/adj-p15/p15.png | crop: the page prints 'P_1 (- 2m, 0, 0)' with a space after the minus; both readings are -2 m
+  - 2026C-5572-Q22B-i | numbers | extractor_right | final (b) Two charges of 8 microC and - 4 microC are located at points (-18 cm, 0, 0) and (18 cm, 0, 0) respectively. (i) Calculate the electrostatic potential energy of the system of the two charges. | crop /home/claude/render/2026C-5572/adj-p15/p15.png | crop: the page prints '- 4 microC' with a space after the minus; both readings are -4 microC
+  - 2026C-5572-Q22B-ii | marks_part | extractor_right | final (b) Two charges of 8 microC and - 4 microC are located at points (-18 cm, 0, 0) and (18 cm, 0, 0) respectively. (ii) The same system of charges is placed in a region where electrostatic potential V(r) = A/r, where A = 9e4 V.m. Calculate the potential energy of the system. | crop /home/claude/render/2026C-5572/adj-p15/p15.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q22B-ii | numbers | extractor_right | final (b) Two charges of 8 microC and - 4 microC are located at points (-18 cm, 0, 0) and (18 cm, 0, 0) respectively. (ii) The same system of charges is placed in a region where electrostatic potential V(r) = A/r, where A = 9e4 V.m. Calculate the potential energy of the system. | crop /home/claude/render/2026C-5572/adj-p15/p15.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on the first sub-part only; no value differs
+  - 2026C-5572-Q23-b | marks_part | extractor_right | final (b) Four capacitors, each of capacitance 1 microF are to be connected to obtain a net capacitance of 0.75 microF. Draw a diagram to show the required combination. | crop /home/claude/render/2026C-5572/adj-p15/p15.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q24-b | marks_part | extractor_right | final (b) A light ray is incident on the horizontal upper face of a glass cube making an angle of 45 deg with the face. While emerging, the ray just grazes the vertical face of the cube. Find the refractive index of the glass. | crop /home/claude/render/2026C-5572/adj-p17/p17.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q26-b | marks_part | extractor_right | final (b) A galvanometer of resistance 100 ohm shows full scale deflection for a current of 5 mA. Explain how you will convert it into a voltmeter of range (0 - 1 V). Obtain the value of the resistance required. | crop /home/claude/render/2026C-5572/adj-p17/p17.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q27 | marks_part | extractor_right | final A thin convex lens with its two surfaces of radii of curvature R_1 and R_2 is made of a material of refractive (sic) mu_2. A medium of refractive index mu_1 (< mu_2) surrounds it. Using a ray diagram, derive the Lens Maker's formula when a point object placed on the principal axis in front of the surface of radius of curvature R_1 produces an image I on the other side of the lens. | crop /home/claude/render/2026C-5572/adj-p19/p19.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q28 | marks_part | extractor_right | final Draw a labelled diagram of a full wave rectifier circuit. State its working principle and show the input-output waveforms. | crop /home/claude/render/2026C-5572/adj-p19/p19.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q29A-i | options | extractor_right | final A) 0.11 microsecond | B) 0.28 microsecond | C) 0.014 microsecond | D) 0.024 microsecond | crop /home/claude/render/2026C-5572/adj-p19/p19.png | crop: 0.11, 0.28, 0.014, 0.024 microsecond; same values, unit spelled out (P6.3)
+  - 2026C-5572-Q30A-iv | options | extractor_right | final A) 3.2e-19 J | B) 1.6e-19 J | C) 1.25e-19 J | D) 2.4e-18 J | crop /home/claude/render/2026C-5572/adj-p27/p27.png | crop: same values; the part file writes powers of ten in e-notation and mu0 (P6.3), as in the origin row
+  - 2026C-5572-Q30B-iv | options | extractor_right | final A) 4.8e14 Hz | B) 5.3e14 Hz | C) 1.9e15 Hz | D) 1.2e15 Hz | crop /home/claude/render/2026C-5572/adj-p27/p27.png | crop: same values; the part file writes powers of ten in e-notation and mu0 (P6.3), as in the origin row
+  - 2026C-5572-Q31B-a-II | marks_part | extractor_right | final (a) An ac generator consists of a coil of 500 turns and size 25 cm x 100 cm. It is rotated at an angular speed of 60 rad/s in a uniform magnetic field B = 0.4 T between two fixed pole pieces. If the resistance of the circuit, including that of the coil, is 250 ohm, calculate : (II) the flux through the coil when the current is zero | crop /home/claude/render/2026C-5572/adj-p27/p27.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q31B-a-II | numbers | extractor_right | final (a) An ac generator consists of a coil of 500 turns and size 25 cm x 100 cm. It is rotated at an angular speed of 60 rad/s in a uniform magnetic field B = 0.4 T between two fixed pole pieces. If the resistance of the circuit, including that of the coil, is 250 ohm, calculate : (II) the flux through the coil when the current is zero | crop /home/claude/render/2026C-5572/adj-p27/p27.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on the first sub-part only; no value differs
+  - 2026C-5572-Q32B-a-ii | marks_part | extractor_right | final (a) Differentiate between interference and diffraction of light. Two coherent light waves, each of intensity I_0 produce interference pattern on a screen. Find the intensity at a point at which the path difference between them is (ii) lambda/4. | crop /home/claude/render/2026C-5572/adj-p29/p29.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q33A-a-ii | marks_part | extractor_right | final (a) A potential difference V is applied across the ends of a cylindrical conductor of length l, area of cross-section A and resistance R. It is gradually stretched till its length is tripled. How will ... (ii) the resistance of the conductor be affected ? Justify your answers. | crop /home/claude/render/2026C-5572/adj-p29/p29.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q33B-a-ii | marks_part | extractor_right | final (a) A cell of emf E and internal resistance r is connected across a resistor of variable resistance R. Draw a plot showing the variation of ... (ii) the terminal potential difference of the cell with R. | crop /home/claude/render/2026C-5572/adj-p31/p31.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q33B-b-ii | marks_part | extractor_right | final (b) The resistance of a heating coil is 100 ohm at 25 deg C and 120 ohm at 1025 deg C. (ii) Draw a plot showing variation of its resistance as a function of increase in temperature. | crop /home/claude/render/2026C-5572/adj-p31/p31.png | crop: the printed mark is the question's or the part's whole total, printed once at its end (q_marks_printed); B00-B02 leave marks_part blank there, and the origin rows of 55/7/1 do the same for these questions
+  - 2026C-5572-Q33B-b-ii | numbers | extractor_right | final (b) The resistance of a heating coil is 100 ohm at 25 deg C and 120 ohm at 1025 deg C. (ii) Draw a plot showing variation of its resistance as a function of increase in temperature. | crop /home/claude/render/2026C-5572/adj-p31/p31.png | crop: the values sit in the shared lead-in, which the stem carries as the origin row does; the checker filed them on the first sub-part only; no value differs
+- status erratum ER-B02-103: NEW -> IN-PROGRESS
+- PROGRESS: line updated (2026C-5573, 2026C-55B7 still to do)
+- pack: PHY-VAULT-B02-20261001-1256-3190r.json
+
+## 2026-10-01T12:56:55Z | FIX-3 | OTHER | GATE PASS
+- part files: ERRATA 2
+- merged 2 row(s) into l1/ERRATA.csv · now 252
+- validate after merge: 16/16 checks pass
+- PROGRESS: not touched (stage OTHER)
+- pack: PHY-VAULT-B02-20261001-1256-3192r.json
+
+## 2026-10-01T13:13:40Z | 2026C-5573 | S4 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 67, FIGURES 18, FORMULAE 36
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 20
+- merged 2 row(s) into l1/CASES.csv · now 40
+- merged 67 row(s) into l1/INSTANCES.csv · now 1355
+- merged 18 row(s) into l1/FIGURES.csv · now 308
+- merged 36 row(s) into l1/FORMULAE.csv · now 680
+- check-paper: PASS · 2026C-5573 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 340 values compared, 26 mismatch(es), all settled
+  - 2026C-5573-Q01 | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p5/p5.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q02 | figure_values | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p5/p5.png | figure values agree (C-D 2, C-E 4, D-E 2, C-F 2, D-F 1 ohm); extra 6 is the stem 6 V and the pointer digits in the description
+  - 2026C-5573-Q03 | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p5/p5.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q08 | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p7/p7.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q11 | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p9/p9.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q12 | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p9/p9.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q17 | marks_part | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p13/p13.png | marks_part left blank by vault convention: unparted single row / single-row either-or side (CONVENTIONS); printed mark kept in q_marks_printed
+  - 2026C-5573-Q18 | marks_part | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p13/p13.png | marks_part left blank by vault convention: unparted single row / single-row either-or side (CONVENTIONS); printed mark kept in q_marks_printed
+  - 2026C-5573-Q21 | marks_part | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p13/p13.png | marks_part left blank by vault convention: unparted single row / single-row either-or side (CONVENTIONS); printed mark kept in q_marks_printed
+  - 2026C-5573-Q21 | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p13/p13.png | page: 1.72 x 10^-8 ohm m and 8.5 x 10^28; part agrees, extra 8.5 is the gate reading the sentence-final period after 8.5e28
+  - 2026C-5573-Q22 | marks_part | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p15/p15.png | marks_part left blank by vault convention: unparted single row / single-row either-or side (CONVENTIONS); printed mark kept in q_marks_printed
+  - 2026C-5573-Q24 | marks_part | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p15/p15.png | marks_part left blank by vault convention: unparted single row / single-row either-or side (CONVENTIONS); printed mark kept in q_marks_printed
+  - 2026C-5573-Q25A | marks_part | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p15/p15.png | marks_part left blank by vault convention: unparted single row / single-row either-or side (CONVENTIONS); printed mark kept in q_marks_printed
+  - 2026C-5573-Q25A | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p15/p15.png | page prints P_1 (– 2m, 0, 0) with a space after the minus; part keeps it, gate reads "- 2" as +2 (W-14 quirk); same value -2
+  - 2026C-5573-Q25B-i | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p17/p17.png | page prints "- 4 microC" with a spaced minus; gate reads it as 4; same value -4
+  - 2026C-5573-Q25B-ii | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p17/p17.png | lead-in scope: the shared lead-in numbers are repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-5573-Q26-ii | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p17/p17.png | lead-in scope: the shared lead-in numbers are repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-5573-Q27-ii | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p17/p17.png | lead-in scope: the shared lead-in numbers are repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-5573-Q27-iii | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p17/p17.png | lead-in scope: the shared lead-in numbers are repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-5573-Q29-ii | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p21/p21.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q29A-iv | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p23/p23.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q30-iii | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p25/p25.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q30A-iv | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p27/p27.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q30B-iv | options | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p27/p27.png | same options on the page image; difference is notation only (ASCII/units spelling, graph description wording)
+  - 2026C-5573-Q32B-b-ii | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p31/p31.png | lead-in scope: the shared lead-in numbers are repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-5573-Q33B-a-II | numbers | extractor_right | final  | crop /home/claude/render/2026C-5573/adj-p31/p31.png | lead-in scope: the shared lead-in numbers are repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+- status erratum ER-B02-106: NEW -> IN-PROGRESS
+- PROGRESS: line updated (2026C-55B7 still to do)
+- pack: PHY-VAULT-B02-20261001-1313-3317r.json
+
+## 2026-10-01T13:27:40Z | 2026C-55B7 | S4 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 66, FORMULAE 41
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 21
+- merged 2 row(s) into l1/CASES.csv · now 42
+- merged 66 row(s) into l1/INSTANCES.csv · now 1421
+- merged 41 row(s) into l1/FORMULAE.csv · now 721
+- check-paper: PASS · 2026C-55B7 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: 290 values compared, 18 mismatch(es), all settled
+  - 2026C-55B7-Q01 | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p5/p5.png | page prints the minus with a space ("- 1", "- 20", "- 2"); gate reads it as positive (W-14 quirk); same signed value on both readings
+  - 2026C-55B7-Q01 | options | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p5/p5.png | same options on the page image; difference is notation only (powers of ten, unit spelling, ASCII)
+  - 2026C-55B7-Q07 | options | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p7/p7.png | same options on the page image; difference is notation only (powers of ten, unit spelling, ASCII)
+  - 2026C-55B7-Q08 | options | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p9/p9.png | same options on the page image; difference is notation only (powers of ten, unit spelling, ASCII)
+  - 2026C-55B7-Q10 | options | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p9/p9.png | same options on the page image; difference is notation only (powers of ten, unit spelling, ASCII)
+  - 2026C-55B7-Q11 | options | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p9/p9.png | same options on the page image; difference is notation only (powers of ten, unit spelling, ASCII)
+  - 2026C-55B7-Q18A | marks_part | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p13/p13.png | marks_part left blank by vault convention: single-row either-or side; printed mark kept in q_marks_printed
+  - 2026C-55B7-Q18B | marks_part | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p13/p13.png | marks_part left blank by vault convention: single-row either-or side; printed mark kept in q_marks_printed
+  - 2026C-55B7-Q19 | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p13/p13.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q20 | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p13/p13.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q22A-i-I | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q22A-i-II | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | lead-in scope: shared lead-in numbers repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-55B7-Q22A-i-II | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q22A-ii | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | lead-in scope: shared lead-in numbers repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-55B7-Q22A-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q22B | marks_part | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | marks_part left blank by vault convention: single-row either-or side; printed mark kept in q_marks_printed
+  - 2026C-55B7-Q22B | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q23-i | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q23-ii | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | lead-in scope: shared lead-in numbers repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-55B7-Q23-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q24-a | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q24-b | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q25-i | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q25-ii | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | lead-in scope: shared lead-in numbers repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-55B7-Q25-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p15/p15.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q26-a | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p17/p17.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q26-b | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p17/p17.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q27-d1 | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p17/p17.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q27-d2 | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p17/p17.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q28-d1 | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p17/p17.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q28-d2 | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p17/p17.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q29-i | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p17/p17.png | page prints the minus with a space ("- 1", "- 20", "- 2"); gate reads it as positive (W-14 quirk); same signed value on both readings
+  - 2026C-55B7-Q29B-iii | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p19/p19.png | page prints the minus with a space ("- 1", "- 20", "- 2"); gate reads it as positive (W-14 quirk); same signed value on both readings
+  - 2026C-55B7-Q29-iv | options | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p19/p19.png | same options on the page image; difference is notation only (powers of ten, unit spelling, ASCII)
+  - 2026C-55B7-Q30-iv | options | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p23/p23.png | same options on the page image; difference is notation only (powers of ten, unit spelling, ASCII)
+  - 2026C-55B7-Q31A-i | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p23/p23.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q31A-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p23/p23.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q31B-i | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q31B-ii-I | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q31B-ii-II | numbers | extractor_right | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | lead-in scope: shared lead-in numbers repeated on every sub-part in the part file (vault convention); checker put them on the first sub-part only; values agree on the page
+  - 2026C-55B7-Q31B-ii-II | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q32A-i | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q32A-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q32B-i | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q32B-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33A-i | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p25/p25.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33A-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33B-i-I | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33B-i-II | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33B-i-III | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33B-i-IV | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33B-i-V | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33B-i-VI | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+  - 2026C-55B7-Q33B-ii | options | part_fixed | final  | crop /home/claude/render/2026C-55B7/adj-p27/p27.png | not an MCQ: the page prints no options; the extractor had put note text in the options column; options cleared, the note keeps the text
+- status erratum ER-B02-107: NEW -> IN-PROGRESS
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1327-3428r.json
+
+## 2026-10-01T13:43:17Z | 2026-5511 | S5 | GATE PASS
+- part files: FORMULAE 16, STEP-AWARDS 145, ERRATA 2
+- merged 16 row(s) into l1/FORMULAE.csv · now 737
+- merged 145 row(s) into l1/STEP-AWARDS.csv · now 145
+- merged 2 row(s) into l1/ERRATA.csv · now 256
+- validate after merge: 16/16 checks pass
+- double-read: 201 values compared, 8 mismatch(es), all settled
+  - 2026-5511-Q01 | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p4/p4.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+  - 2026-5511-Q06 | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p4/p4.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+  - 2026-5511-Q07 | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p4/p4.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+  - 2026-5511-Q09 | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p4/p4.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+  - 2026-5511-Q29A-III | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p12/p12.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+  - 2026-5511-Q29B-III | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p12/p12.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+  - 2026-5511-Q29-IV | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p12/p12.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+  - 2026-5511-Q30A-IV | numbers | extractor_right | final  | crop /home/claude/render/2026-5511-S5/adj-p12/p12.png | MCQ key row stores the printed letter only (R§10 key row); the value the checker read is the text of that option, which the paper row already holds; letter and option agree on the crop
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1343-3591r.json
+
+## 2026-10-01T13:52:34Z | 2026-5512 | S5 | GATE PASS
+- part files: FORMULAE 4, STEP-AWARDS 29, ERRATA 2
+- merged 4 row(s) into l1/FORMULAE.csv · now 741
+- merged 29 row(s) into l1/STEP-AWARDS.csv · now 174
+- merged 2 row(s) into l1/ERRATA.csv · now 258
+- validate after merge: 16/16 checks pass
+- double-read: 46 values compared, 2 mismatch(es), all settled
+  - 2026-5512-Q27-b | step_marks | extractor_right | final  | crop /home/claude/render/2026-5512-S5/adj-p11/q27bc.png | the fourth half sits midway between n_e = 1.5e6 m^-3 and the (c) line; the scheme box on the same page prints (b) 1 and (c) 1/2 + 1, so it belongs to (c) "energy gap effectively decreases"; part file follows the printed box
+  - 2026-5512-Q27-c | step_marks | extractor_right | final  | crop /home/claude/render/2026-5512-S5/adj-p11/q27bc.png | the fourth half sits midway between n_e = 1.5e6 m^-3 and the (c) line; the scheme box on the same page prints (b) 1 and (c) 1/2 + 1, so it belongs to (c) "energy gap effectively decreases"; part file follows the printed box
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1352-3626r.json
+
+## 2026-10-01T14:00:36Z | 2026-5513 | S5 | GATE PASS
+- part files: FORMULAE 5, STEP-AWARDS 30, ERRATA 2
+- merged 5 row(s) into l1/FORMULAE.csv · now 746
+- merged 30 row(s) into l1/STEP-AWARDS.csv · now 204
+- merged 2 row(s) into l1/ERRATA.csv · now 260
+- validate after merge: 16/16 checks pass
+- double-read: 43 values compared, 0 mismatch(es), all settled
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1400-3663r.json
+
+## 2026-10-01T14:38:32Z | 2026-5521 | S5 | GATE PASS
+- part files: FORMULAE 11, STEP-AWARDS 128, ERRATA 2
+- merged 11 row(s) into l1/FORMULAE.csv · now 757
+- merged 128 row(s) into l1/STEP-AWARDS.csv · now 332
+- merged 2 row(s) into l1/ERRATA.csv · now 262
+- validate after merge: 16/16 checks pass
+- double-read: 175 values compared, 0 mismatch(es), all settled
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1438-3804r.json
+
+## 2026-10-01T14:45:51Z | 2026-5522 | S5 | GATE PASS
+- part files: FORMULAE 3, STEP-AWARDS 31, ERRATA 2
+- merged 3 row(s) into l1/FORMULAE.csv · now 760
+- merged 31 row(s) into l1/STEP-AWARDS.csv · now 363
+- merged 2 row(s) into l1/ERRATA.csv · now 264
+- validate after merge: 16/16 checks pass
+- double-read: 49 values compared, 0 mismatch(es), all settled
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1445-3840r.json
+
+## 2026-10-01T14:52:25Z | 2026-5523 | S5 | GATE PASS
+- part files: FORMULAE 2, STEP-AWARDS 29, ERRATA 2
+- merged 2 row(s) into l1/FORMULAE.csv · now 762
+- merged 29 row(s) into l1/STEP-AWARDS.csv · now 392
+- merged 2 row(s) into l1/ERRATA.csv · now 266
+- validate after merge: 16/16 checks pass
+- double-read: 44 values compared, 0 mismatch(es), all settled
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1452-3873r.json
+
+## 2026-10-01T15:04:02Z | 2026-5531 | S5 | GATE PASS
+- part files: FORMULAE 17, STEP-AWARDS 134, ERRATA 2
+- merged 17 row(s) into l1/FORMULAE.csv · now 779
+- merged 134 row(s) into l1/STEP-AWARDS.csv · now 526
+- merged 2 row(s) into l1/ERRATA.csv · now 268
+- validate after merge: 16/16 checks pass
+- double-read: 179 values compared, 0 mismatch(es), all settled
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1504-4026r.json
+
+## 2026-10-01T15:12:49Z | 2026-5532 | S5 | GATE PASS
+- part files: FORMULAE 2, STEP-AWARDS 29, ERRATA 2
+- merged 2 row(s) into l1/FORMULAE.csv · now 781
+- merged 29 row(s) into l1/STEP-AWARDS.csv · now 555
+- merged 2 row(s) into l1/ERRATA.csv · now 270
+- validate after merge: 16/16 checks pass
+- double-read: 38 values compared, 0 mismatch(es), all settled
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1512-4059r.json
+
+## 2026-10-01T15:21:21Z | 2026-5533 | S5 | GATE PASS
+- part files: FORMULAE 5, STEP-AWARDS 31, ERRATA 2
+- merged 5 row(s) into l1/FORMULAE.csv · now 786
+- merged 31 row(s) into l1/STEP-AWARDS.csv · now 586
+- merged 2 row(s) into l1/ERRATA.csv · now 272
+- validate after merge: 16/16 checks pass
+- double-read: 43 values compared, 0 mismatch(es), all settled
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1521-4097r.json
+
+## 2026-10-01T15:36:57Z | 2026-5541 | S5 | GATE PASS
+- part files: FORMULAE 18, STEP-AWARDS 127, ERRATA 2
+- merged 18 row(s) into l1/FORMULAE.csv · now 804
+- merged 127 row(s) into l1/STEP-AWARDS.csv · now 713
+- merged 2 row(s) into l1/ERRATA.csv · now 274
+- validate after merge: 16/16 checks pass
+- double-read: 170 values compared, 1 mismatch(es), all settled
+  - 2026-5541-Q32A-i-II | numbers | extractor_right | final  | crop /home/claude/render/2026-5541-S5/adj-p17/p17.png | the scheme prints the word "unity" (cos phi is unity); the checker wrote it as the number 1; same value, no number printed
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1536-4244r.json
+
+## 2026-10-01T15:45:17Z | 2026-5542 | S5 | GATE PASS
+- part files: FORMULAE 7, STEP-AWARDS 35, ERRATA 2
+- merged 7 row(s) into l1/FORMULAE.csv · now 811
+- merged 35 row(s) into l1/STEP-AWARDS.csv · now 748
+- merged 2 row(s) into l1/ERRATA.csv · now 276
+- validate after merge: 16/16 checks pass
+- double-read: 49 values compared, 0 mismatch(es), all settled
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1545-4288r.json
+
+## 2026-10-01T19:40:49Z | 2026-5543 | S5 | GATE PASS
+- part files: FORMULAE 4, STEP-AWARDS 32, ERRATA 2
+- merged 4 row(s) into l1/FORMULAE.csv · now 815
+- merged 32 row(s) into l1/STEP-AWARDS.csv · now 780
+- merged 2 row(s) into l1/ERRATA.csv · now 278
+- validate after merge: 16/16 checks pass
+- double-read: 41 values compared, 0 mismatch(es), all settled
+  - 2026-5543-Q28-a | step_marks | part_fixed | final 0.5 | 0.5 | 0.5 | crop /home/claude/render/2026-5543-S5/adj-p12/p12.png | page p12 prints three halves beside each part: (a) phi_1, expression, substitution/result; (b) M_12, 14.789e-7/3, 4.92e-7 H; part file followed the box (a) 2 (b) 1 and moved the half beside M_12 to (a); corrected to the printed marks (CI§2.6: box conflict recorded in the step text and Q-QUEUE)
+  - 2026-5543-Q28-b | step_marks | part_fixed | final 0.5 | 0.5 | 0.5 | crop /home/claude/render/2026-5543-S5/adj-p12/p12.png | page p12 prints three halves beside each part: (a) phi_1, expression, substitution/result; (b) M_12, 14.789e-7/3, 4.92e-7 H; part file followed the box (a) 2 (b) 1 and moved the half beside M_12 to (a); corrected to the printed marks (CI§2.6: box conflict recorded in the step text and Q-QUEUE)
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1940-4326r.json
+
+## 2026-10-01T19:59:39Z | 2026-5551 | S5 | GATE PASS
+- part files: FORMULAE 17, STEP-AWARDS 140, ERRATA 2
+- merged 17 row(s) into l1/FORMULAE.csv · now 832
+- merged 140 row(s) into l1/STEP-AWARDS.csv · now 920
+- merged 2 row(s) into l1/ERRATA.csv · now 280
+- validate after merge: 16/16 checks pass
+- double-read: 194 values compared, 7 mismatch(es), all settled
+  - 2026-5551-Q29-i | numbers | extractor_right | final  | crop /home/claude/render/2026-5551-S5/adj-p15/p15.png | MCQ key row stores the printed letter only; the value the checker read is the text of the keyed option, which the paper row holds and which matches the letter
+  - 2026-5551-Q29-ii | numbers | extractor_right | final  | crop /home/claude/render/2026-5551-S5/adj-p15/p15.png | MCQ key row stores the printed letter only; the value the checker read is the text of the keyed option, which the paper row holds and which matches the letter
+  - 2026-5551-Q29A-iii | numbers | extractor_right | final  | crop /home/claude/render/2026-5551-S5/adj-p15/p15.png | MCQ key row stores the printed letter only; the value the checker read is the text of the keyed option, which the paper row holds and which matches the letter
+  - 2026-5551-Q29B-iii | numbers | extractor_right | final  | crop /home/claude/render/2026-5551-S5/adj-p15/p15.png | MCQ key row stores the printed letter only; the value the checker read is the text of the keyed option, which the paper row holds and which matches the letter
+  - 2026-5551-Q30A-ii | numbers | extractor_right | final  | crop /home/claude/render/2026-5551-S5/adj-p15/p15.png | MCQ key row stores the printed letter only; the value the checker read is the text of the keyed option, which the paper row holds and which matches the letter
+  - 2026-5551-Q30B-ii | numbers | extractor_right | final  | crop /home/claude/render/2026-5551-S5/adj-p15/p15.png | MCQ key row stores the printed letter only; the value the checker read is the text of the keyed option, which the paper row holds and which matches the letter
+  - 2026-5551-Q30-iii | numbers | extractor_right | final  | crop /home/claude/render/2026-5551-S5/adj-p15/p15.png | MCQ key row stores the printed letter only; the value the checker read is the text of the keyed option, which the paper row holds and which matches the letter
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-1959-4485r.json
+
+## 2026-10-01T20:09:26Z | 2026-5552 | S5 | GATE PASS
+- part files: FORMULAE 2, STEP-AWARDS 30, ERRATA 2
+- merged 2 row(s) into l1/FORMULAE.csv · now 834
+- merged 30 row(s) into l1/STEP-AWARDS.csv · now 950
+- merged 2 row(s) into l1/ERRATA.csv · now 282
+- validate after merge: 16/16 checks pass
+- double-read: 43 values compared, 0 mismatch(es), all settled
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-2009-4519r.json
+
+## 2026-10-01T20:20:18Z | 2026-5553 | S5 | GATE PASS
+- part files: FORMULAE 2, STEP-AWARDS 31, ERRATA 2
+- merged 2 row(s) into l1/FORMULAE.csv · now 836
+- merged 31 row(s) into l1/STEP-AWARDS.csv · now 981
+- merged 2 row(s) into l1/ERRATA.csv · now 284
+- validate after merge: 16/16 checks pass
+- double-read: 39 values compared, 0 mismatch(es), all settled
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-2020-4554r.json
+
+## 2026-10-01T20:32:50Z | 2026-55B | S5 | GATE PASS
+- part files: FORMULAE 14, STEP-AWARDS 135, ERRATA 2
+- merged 14 row(s) into l1/FORMULAE.csv · now 850
+- merged 135 row(s) into l1/STEP-AWARDS.csv · now 1116
+- merged 2 row(s) into l1/ERRATA.csv · now 286
+- validate after merge: 16/16 checks pass
+- double-read: 176 values compared, 0 mismatch(es), all settled
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261001-2032-4705r.json
+
+## 2026-10-02T04:21:13Z | SQP2526-042 | S5 | GATE PASS
+- part files: FORMULAE 24, STEP-AWARDS 106, ERRATA 1
+- merged 24 row(s) into l1/FORMULAE.csv · now 874
+- merged 106 row(s) into l1/STEP-AWARDS.csv · now 1222
+- merged 1 row(s) into l1/ERRATA.csv · now 287
+- validate after merge: 16/16 checks pass
+- double-read: 157 values compared, 2 mismatch(es), all settled
+  - SQP2526-042-Q07-VI | key | extractor_right | final  | crop /home/claude/render/SQP2526-042-S5/adj-p2/p2.png | the scheme prints "transition IV" with no letter; IV is option (C) on the paper row (A) I (B) III (C) IV (D) VI; the key row says so
+  - SQP2526-042-Q31A-VI-C | step_marks | extractor_right | final  | crop /home/claude/render/SQP2526-042-S5/adj-p12/p12.png | no mark is printed beside the VI (C) answer on p12; the VI alternative replaces (C), which is printed with 1, so it takes that 1 (as unmarked OR keys take the sub-part mark, CONVENTIONS); flagged in notes
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261002-0421-4836r.json
+
+## 2026-10-02T04:21:23Z | checkpoint | every 2026 paper has a BLUEPRINTS row (21/21)
+- validate: 16/16 checks pass
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B02-20261002-0421-4836r.json
+
+## 2026-10-02T04:28:15Z | S6-CH01 | OTHER | GATE PASS
+- part files: CLASSIFY 54
+- merged 54 row(s) into j/CLASSIFY.csv · now 125
+- validate after merge: 16/16 checks pass
+- PROGRESS: not touched (stage OTHER)
+- pack: PHY-VAULT-B02-20261002-0428-4907r.json
+
+## 2026-10-02T04:36:42Z | S6-CH02 | OTHER | GATE PASS
+- part files: CLASSIFY 117
+- merged 117 row(s) into j/CLASSIFY.csv · now 242
+- validate after merge: 16/16 checks pass
+- PROGRESS: not touched (stage OTHER)
+- pack: PHY-VAULT-B02-20261002-0436-5049r.json

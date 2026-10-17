@@ -1,0 +1,27 @@
+instance_id,field,part_value,check_value,detail,resolved
+2026C-5573-Q01,options,A) 3.5 Angstrom | B) 4.77 Angstrom | C) 0.747 Angstrom | D) 0.43 Angstrom,A) 3.5 Å | B) 4.77 Å | C) 0.747 Å | D) 0.43 Å,"options differ at A, B, C, D",extractor_right
+2026C-5573-Q02,figure_values,1 2 2026 4 5571 6,1 2 4,only in the checker's reading: -; only in the part file: ['6'],extractor_right
+2026C-5573-Q03,options,A) pi/3 | B) pi/4 | C) pi/6 | D) 2*pi/3,A) pi/3 | B) pi/4 | C) pi/6 | D) 2pi/3,options differ at D,extractor_right
+2026C-5573-Q08,options,A) mu0*I/(6*pi) k^ | B) -mu0*I/(12*pi) k^ | C) -mu0*I/(24*pi) k^ | D) mu0*I/(48*pi) k^,A) mu_0 I/(6pi) k^ | B) -mu_0 I/(12pi) k^ | C) -mu_0 I/(24pi) k^ | D) mu_0 I/(48pi) k^,"options differ at A, B, C, D",extractor_right
+2026C-5573-Q11,options,A) I^2*omega*L | B) V^2/(omega*C) | C) V^2/R | D) V^2/(omega*L - 1/(omega*C)),A) I^2 omega L | B) V^2/(omega C) | C) V^2/R | D) V^2/(omega L - 1/(omega C)),"options differ at A, B, D",extractor_right
+2026C-5573-Q12,options,"A) constant from 0 to R, then falling beyond R | B) curved rise from 0 to R, then falling | C) zero from 0 to R, maximum at R, then falling | D) straight rise from 0 to R, then falling","A) graph: E constant (nonzero) from O to R, then decreasing curve beyond R | B) graph: E rises as curve from O to peak at R, then decreasing curve | C) graph: E zero from O to R (thick line on axis), jumps at R then decreasing curve | D) graph: E rises linearly from O to R, then decreasing curve","options differ at A, B, C, D",extractor_right
+2026C-5573-Q17,marks_part,,2,marks differ,extractor_right
+2026C-5573-Q18,marks_part,,2,marks differ,extractor_right
+2026C-5573-Q21,marks_part,,2,marks differ,extractor_right
+2026C-5573-Q21,numbers,1.72e-08 8.5 8.5e+28,1.72e-08 8.5e+28,only in the checker's reading: -; only in the part file: ['8.5'],extractor_right
+2026C-5573-Q22,marks_part,,3,marks differ,extractor_right
+2026C-5573-Q24,marks_part,,3,marks differ,extractor_right
+2026C-5573-Q25A,marks_part,,3,marks differ,extractor_right
+2026C-5573-Q25A,numbers,-1 -12 0 1 12 2,-1 -12 -2 0 1 12 2,only in the checker's reading: ['-2']; only in the part file: -,extractor_right
+2026C-5573-Q25B-i,numbers,-18 -4 0 18 4 8,-18 -4 0 18 8,only in the checker's reading: -; only in the part file: ['4'],extractor_right
+2026C-5573-Q25B-ii,numbers,-18 0 18 4 8 90000,90000,"only in the checker's reading: -; only in the part file: ['-18', '0', '18', '4', '8']",extractor_right
+2026C-5573-Q26-ii,numbers,1 10 2 5,,"only in the checker's reading: -; only in the part file: ['1', '10', '2', '5']",extractor_right
+2026C-5573-Q27-ii,numbers,144 147 6,,"only in the checker's reading: -; only in the part file: ['144', '147', '6']",extractor_right
+2026C-5573-Q27-iii,numbers,144 147 6,,"only in the checker's reading: -; only in the part file: ['144', '147', '6']",extractor_right
+2026C-5573-Q29-ii,options,A) (m*g*dl/I) k^ | B) (m*g/I) j^ | C) -(m*g/(I*dl)) i^ | D) -(I*dl/(m*g)) k^,A) (m g dl/I) k^ | B) (m g/I) j^ | C) -(m g/(I dl)) i^ | D) -(I dl/(m g)) k^,"options differ at A, B, C, D",extractor_right
+2026C-5573-Q29A-iv,options,A) 0.11 microsecond | B) 0.28 microsecond | C) 0.014 microsecond | D) 0.024 microsecond,A) 0.11 micros | B) 0.28 micros | C) 0.014 micros | D) 0.024 micros,"options differ at A, B, C, D",extractor_right
+2026C-5573-Q30-iii,options,A) nu_0 | B) 1/nu_0 | C) e*nu_0 | D) nu_0/h,A) nu_0 | B) 1/nu_0 | C) e nu_0 | D) nu_0/h,options differ at C,extractor_right
+2026C-5573-Q30A-iv,options,A) 3.2e-19 J | B) 1.6e-19 J | C) 1.25e-19 J | D) 2.4e-18 J,A) 3.2 × 10^-19 J | B) 1.6 × 10^-19 J | C) 1.25 × 10^-19 J | D) 2.4 × 10^-18 J,"options differ at A, B, C, D",extractor_right
+2026C-5573-Q30B-iv,options,A) 4.8e14 Hz | B) 5.3e14 Hz | C) 1.9e15 Hz | D) 1.2e15 Hz,A) 4.8 × 10^14 Hz | B) 5.3 × 10^14 Hz | C) 1.9 × 10^15 Hz | D) 1.2 × 10^15 Hz,"options differ at A, B, C, D",extractor_right
+2026C-5573-Q32B-b-ii,numbers,100 1025 120 25,,"only in the checker's reading: -; only in the part file: ['100', '1025', '120', '25']",extractor_right
+2026C-5573-Q33B-a-II,numbers,0.4 100 25 250 500 60,,"only in the checker's reading: -; only in the part file: ['0.4', '100', '25', '250', '500', '60']",extractor_right

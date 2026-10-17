@@ -1,0 +1,66 @@
+instance_id,marks_part,q_marks_printed,numbers,options,figure_values,note
+2026C-5572-Q01,,1,0 (range 0 <= x < infinity),"A) graph: E constant from O to R, then falls off beyond R | B) graph: E rises (curved) from 0 to max at R, then falls | C) graph: E = 0 from O to R, jumps to max at R, then falls | D) graph: E rises linearly from 0 to max at R, then falls",,"Options are four E-x graphs with only labels E, x, O, R; no numeric values in the graphs. Axes arrows: E upward, x rightward."
+2026C-5572-Q02,,1,,A) z-axis | B) -z-axis | C) x-axis | D) -y-axis,,
+2026C-5572-Q03,,1,,A) I^2*omega*L | B) V^2/(omega*C) | C) V^2/R | D) V^2/(omega*L - 1/(omega*C)),,
+2026C-5572-Q04,,1,,A) nu_X > nu_G > nu_U | B) nu_G > nu_X > nu_U | C) nu_U > nu_X > nu_G | D) nu_X > nu_U > nu_G,,
+2026C-5572-Q05,,1,,"A) diffusion in forward bias, drift in reverse bias | B) drift in both forward bias and in reverse bias | C) drift in forward and diffusion in reverse bias | D) diffusion in both forward and reverse bias",,
+2026C-5572-Q06,,1,6 V,A) 2.0 A | B) 1.5 A | C) 1.0 A | D) 0.5 A,2 ohm | 2 ohm | 4 ohm | 1 ohm | 2 ohm,"Figure values in order: D-C 2 ohm, C-F 2 ohm, C-E 4 ohm, D-F 1 ohm, D-E 2 ohm. Terminal A joined to F, terminal B joined to E. No cell, diode or arrow drawn (the 6 V battery is only in the text)."
+2026C-5572-Q07,,1,3 (i^) | 4 (j^) m,A) mu_0*I/(6*pi) k^ | B) -mu_0*I/(12*pi) k^ | C) -mu_0*I/(24*pi) k^ | D) mu_0*I/(48*pi) k^,,
+2026C-5572-Q08,,1,,A) UV region | B) Infrared region | C) Visible region | D) Microwave region,,
+2026C-5572-Q09,,1,2 cm | 3 cm | 25 cm,A) 23 cm | B) 22 cm | C) 20 cm | D) 30 cm,,
+2026C-5572-Q10,,1,10 (fringes) | 480 nm | 600 nm,A) 6 | B) 7 | C) 8 | D) 10,,"Printed ""600 nm with be"" (sic)."
+2026C-5572-Q11,,1,1 electron charge/m^2 | 6400 km (radius),A) -0.12 V | B) -0.21 V | C) +2.1 V | D) +1.2 V,,
+2026C-5572-Q12,,1,,A) Gamma rays | B) X-rays | C) UV rays | D) Infrared rays,,
+2026C-5572-Q13,,1,,"(A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | (B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | (C) Assertion (A) is true, but Reason (R) is false. | (D) Both Assertion (A) and Reason (R) are false.",,AR code set printed once in the lead-in above Q13 (Questions 13 to 16); listed on Q13 only.
+2026C-5572-Q14,,1,,,,AR; code set as on Q13.
+2026C-5572-Q15,,1,"3/2 (ratio of speeds, second to third orbit) | 1/n | v_n proportional to 1/n",,,AR; code set as on Q13. n^th is a label.
+2026C-5572-Q16,,1,,,,AR; code set as on Q13.
+2026C-5572-Q17,2,2,,,,"""doubled"" is a word, no printed digit."
+2026C-5572-Q18,2,2,2.00 m | rho = 20 × 10^-8 ohm m | 20°C | 1.00 m | 0.70 mm | 0.35 mm | 20°C | 1.54 mA,,,
+2026C-5572-Q19A-i,1,2,,,,
+2026C-5572-Q19A-ii,1,2,,,,
+2026C-5572-Q19B-i,1,2,,,,
+2026C-5572-Q19B-ii,1,2,1.5 (refractive index of glass),,,
+2026C-5572-Q20,2,2,4.50 MeV | Z = 79,,,
+2026C-5572-Q21,2,2,10 cm | 1 A | sqrt(3) A,,,
+2026C-5572-Q22A,3,3,"-12 microC/m | +12 microC/m | (-1 m, 0, 0) | (1 m, 0, 0) | P_1 (-2 m, 0, 0) | O (0, 0, 0) | P_2 (2 m, 0, 0)",,-12 microC/m (wire AB) | 12 microC/m (wire CD) | 1 m (P_1 to AB) | 1 m (CD to P_2) | 2 m (B to D),"Figure: AB left vertical wire, CD right vertical wire; i^ arrow from O pointing right, j^ dashed arrow pointing up, k^ dashed arrow pointing down-left (out of page); dimension arrows double-headed. CD density printed without sign in figure (12 microC/m)."
+2026C-5572-Q22B-i,,3,"8 microC | -4 microC | (-18 cm, 0, 0) | (18 cm, 0, 0)",,,Numbers from the (b) lead-in listed here only.
+2026C-5572-Q22B-ii,3,3,V(r) = A/r | A = 9 × 10^4 V m,,,"Mark 3 printed at the end of (b), on the (ii) line; covers all of (b)."
+2026C-5572-Q23-a,,3,,,,
+2026C-5572-Q23-b,3,3,1 microF | 0.75 microF,,,"Mark 3 printed at the end of (b); covers the whole question. ""Four"" capacitors is a word."
+2026C-5572-Q24-a,,3,12 cm | 15 cm | (2/5)th,,,
+2026C-5572-Q24-b,3,3,45°,,,Mark 3 printed at the end of (b); covers the whole question.
+2026C-5572-Q25-a,1,3,220 V (rms),,220 V (rms),Figure: ac source terminals at left; diode in top line pointing right (toward capacitor C); C across the output lines. No cell drawn.
+2026C-5572-Q25-b,2,3,,,15 V | 5 ohm | 10 ohm | 10 ohm,"Figure: 15 V cell on left branch, longer plate toward the top wire (toward 5 ohm and A), shorter plate toward bottom wire (B). 5 ohm from top wire to A; 10 ohm from A to B; diode D from A pointing right into a branch with 10 ohm down to the bottom wire at B."
+2026C-5572-Q26-a,,3,"v = v_0 i^ | (x, 0, 0)",,,"No digit other than the 0 coordinates in (x, 0, 0)."
+2026C-5572-Q26-b,3,3,100 ohm | 5 mA | (0 - 1 V),,,Mark 3 printed at the end of (b); covers the whole question.
+2026C-5572-Q27,3,3,,,,"R_1, R_2, mu_1 (< mu_2), mu_2 are labels."
+2026C-5572-Q28,3,3,,,,
+2026C-5572-Q29A-i,1,4,3.14 × 10^-4 T,A) 0.11 micros | B) 0.28 micros | C) 0.014 micros | D) 0.024 micros,,Case passage has no numbers. (i)(a); OR with (i)(b).
+2026C-5572-Q29B-i,1,4,6.4 × 10^-27 kg | 6.28 × 10^5 m/s | 3.14 × 10^-3 T,A) 1.00 m | B) 2.00 m | C) 3.00 m | D) 4.00 m,,
+2026C-5572-Q29-ii,1,4,,A) (m*g*dl/I) k^ | B) (m*g/I) j^ | C) -(m*g/(I*dl)) i^ | D) -(I*dl/(m*g)) k^,,"Figure has no numeric values: z axis up, x axis right (dashed beyond the element), origin O; current element I vec(dl) drawn as an arrow from O pointing along +x."
+2026C-5572-Q29-iii,1,4,v = (6 × 10^6 m/s) i^ | vec(B) = (0.5 G) j^,A) (120 N/C) k^ | B) -(300 N/C) k^ | C) (600 N/C) j^ | D) -(150 N/C) i^,,
+2026C-5572-Q29-iv,1,4,,"A) go straight, undeviated | B) describe a circular path | C) describe a semicircular path | D) describe a helical path",,"Figure has no numeric values: grid of crosses, label ""vec(B) into the plane of the paper""; negative ion -q at left edge with velocity vec(v) arrow pointing right."
+2026C-5572-Q30-i,1,4,0.40 V | 500 nm,A) 1.20 eV | B) 1.48 eV | C) 2.08 eV | D) 6.48 eV,,Case passage has no numbers.
+2026C-5572-Q30-ii,1,4,,A) nu_0 | B) 1/nu_0 | C) e*nu_0 | D) nu_0/h,,beta/alpha is printed in the stem as the ratio asked.
+2026C-5572-Q30-iii,1,4,,A) work function of the material | B) wavelength of the incident radiation | C) intensity of the incident radiation | D) collector plate potential,,
+2026C-5572-Q30A-iv,1,4,3.8 eV | 1.8 eV,A) 3.2 × 10^-19 J | B) 1.6 × 10^-19 J | C) 1.25 × 10^-19 J | D) 2.4 × 10^-18 J,,(iv)(a); OR with (iv)(b).
+2026C-5572-Q30B-iv,1,4,2.21 eV,A) 4.8 × 10^14 Hz | B) 5.3 × 10^14 Hz | C) 1.9 × 10^15 Hz | D) 1.2 × 10^15 Hz,,
+2026C-5572-Q31A-a,3,5,,,,
+2026C-5572-Q31A-b,2,5,,,,"""two"" disadvantages is a word."
+2026C-5572-Q31B-a-I,,5,500 turns | 25 cm × 100 cm | 60 rad/s | B = 0.4 T | 250 ohm,,,Numbers from the (a) lead-in listed here only.
+2026C-5572-Q31B-a-II,3,5,,,,Mark 3 printed on the (II) line; covers all of (a).
+2026C-5572-Q31B-b,2,5,,,,
+2026C-5572-Q32A-a,3,5,1.00 m | 4/3 (refractive index of water),,,
+2026C-5572-Q32A-b,2,5,15 cm | 10 cm | 10 cm,,,
+2026C-5572-Q32B-a-d1,,5,,,,"""Differentiate between interference and diffraction of light."""
+2026C-5572-Q32B-a-i,,5,lambda/3,,,"Lead-in ""each of intensity I_0"" has no number (I_0 is a label)."
+2026C-5572-Q32B-a-ii,3,5,lambda/4,,,Mark 3 printed on the line ending with (ii); covers all of (a).
+2026C-5572-Q32B-b,2,5,5 cm | 0.03 mm | 1 mm,,,
+2026C-5572-Q33A-a-i,,5,,,,"""tripled"" is a word."
+2026C-5572-Q33A-a-ii,2,5,,,,Mark 2 printed at the end of (a); covers (i) and (ii).
+2026C-5572-Q33A-b,3,5,,,"1 V, 2 ohm | 2 V, 1 ohm | 4 V, 3 ohm | 3 V, 2 ohm | 2 ohm","Figure: rectangle A(top-left) B(top-right) C(bottom-right) D(bottom-left); 2 ohm resistor on diagonal D-B. Cells: 1 V, 2 ohm in A-B, longer plate (+) toward A; 2 V, 1 ohm in A-D, longer plate (+) toward A (top); 4 V, 3 ohm in B-C, longer plate (+) toward C (bottom); 3 V, 2 ohm in D-C, longer plate (+) toward C (right)."
+2026C-5572-Q33B-a-i,,5,,,,
+2026C-5572-Q33B-a-ii,2,5,,,,Mark 2 printed at the end of (a); covers (i) and (ii).
+2026C-5572-Q33B-b-i,,5,100 ohm | 25°C | 120 ohm | 1025°C | 425°C,,,
+2026C-5572-Q33B-b-ii,3,5,,,,Mark 3 printed at the end of (b); covers (i) and (ii).
