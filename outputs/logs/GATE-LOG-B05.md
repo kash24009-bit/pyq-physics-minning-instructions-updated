@@ -130,3 +130,10 @@ Every line below was written by phy_gate.py from the data, never typed.
 - status erratum ER-B05-009: NEW -> IN-PROGRESS
 - PROGRESS: line updated (2024-5523 still to do)
 - pack: PHY-VAULT-B05-20261018-0425-13218r.json
+
+## 2026-10-18T04:25:43Z | FIX-5 | OTHER | GATE PASS
+- part files: ERRATA 1
+- merged 1 row(s) into l1/ERRATA.csv · now 565
+- validate after merge: 16/16 checks pass
+- PROGRESS: not touched (stage OTHER)
+- pack: PHY-VAULT-B05-20261018-0425-13219r.json
