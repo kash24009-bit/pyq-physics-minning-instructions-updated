@@ -1,0 +1,9 @@
+instance_id,field,part_value,check_value,detail,resolved
+2026-5511-Q01,numbers,,50,results the checker read that are in no scoring line: ['50'],extractor_right
+2026-5511-Q06,numbers,,2 5,"results the checker read that are in no scoring line: ['2', '5']",extractor_right
+2026-5511-Q07,numbers,,0.001 1,"results the checker read that are in no scoring line: ['0.001', '1']",extractor_right
+2026-5511-Q09,numbers,,20,results the checker read that are in no scoring line: ['20'],extractor_right
+2026-5511-Q29A-III,numbers,,0.25,results the checker read that are in no scoring line: ['0.25'],extractor_right
+2026-5511-Q29B-III,numbers,,3985,results the checker read that are in no scoring line: ['3985'],extractor_right
+2026-5511-Q29-IV,numbers,,0.01,results the checker read that are in no scoring line: ['0.01'],extractor_right
+2026-5511-Q30A-IV,numbers,,2 5,"results the checker read that are in no scoring line: ['2', '5']",extractor_right
