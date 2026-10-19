@@ -1,0 +1,133 @@
+#!/usr/bin/env python3
+"""Worksheet for one S5 scheme unit: which rows need lines, where their answers sit,
+and which shuffled questions the scheme may print differently from the origin's scheme.
+
+Everything here comes from the vault tables and the scheme's TEXT LAYER, so it only
+locates and flags. No value in it may be copied into a row: every value is read from
+a page image crop (CLAUDE.md §4 rule 2, §8).
+
+  python3 phy_s5_prep.py --pid 2024-5512 --scheme FL-f9e28e6de8 --pages 25-46 \
+      [--origin-scheme FL-f9e28e6de8 --origin-pages 1-24] --out /home/claude/render/2024-5512/PREP.md
+"""
+import argparse, collections, re, subprocess, sys
+sys.path.insert(0, '/home/claude')
+import pyqkit as K
+
+V = '/home/claude/vault'
+
+def page_text(fid, p):
+    r = subprocess.run([sys.executable, '/home/claude/pyqkit.py', 'pages', '--vault', V, fid, '--text', str(p)],
+                       capture_output=True, text=True)
+    return r.stdout
+
+def answers(fid, first, last):
+    """Split the section's text layer into answers by question number (1, 2, 3 ... in order)."""
+    out, cur, want = {}, None, 1
+    start = re.compile(r'^\s{0,10}(\d{1,2})\s*\.(?!\d)')
+    for p in range(first, last + 1):
+        for line in page_text(fid, p).splitlines():
+            m = start.match(line)
+            if m and int(m.group(1)) == want:
+                cur = want; want += 1
+                out[cur] = {'pages': [p], 'text': ''}
+            if cur is not None:
+                if p not in out[cur]['pages']:
+                    out[cur]['pages'].append(p)
+                out[cur]['text'] += line + '\n'
+    return out
+
+def nums(t, q=None):
+    keep = []
+    for i, line in enumerate(t.splitlines()):
+        if re.search(r'Page\s+\d+\s+of|\b55\s*/|CODE\s*:|MARKING SCHEME|VALUE POINT', line, re.I):
+            continue                      # footers and headers
+        if i == 0:
+            line = re.sub(r'^\s*\d{1,2}\s*\.', '', line)   # the question number itself
+        keep.append(line)
+    return collections.Counter(re.findall(r'\d+(?:\.\d+)?', '\n'.join(keep)))
+
+def keys(t):
+    return ''.join(re.findall(r'\(\s*([A-D])\s*\)', t))
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--pid', required=True); ap.add_argument('--scheme', required=True)
+    ap.add_argument('--pages', required=True); ap.add_argument('--origin-scheme')
+    ap.add_argument('--origin-pages'); ap.add_argument('--out', required=True)
+    a = ap.parse_args()
+    f, l = map(int, a.pages.split('-'))
+    I = K.table(V, 'l1/INSTANCES.csv'); S = K.table(V, 'l1/STEP-AWARDS.csv')
+    F = K.table(V, 'l1/FORMULAE.csv'); E = K.table(V, 'l1/ERRATA.csv')
+    rows = [r for r in I if r['paper_id'] == a.pid]
+    byid = {r['instance_id']: r for r in I}
+    ans = answers(a.scheme, f, l)
+    oans = {}
+    if a.origin_scheme and a.origin_pages:
+        of, ol = map(int, a.origin_pages.split('-'))
+        oans = answers(a.origin_scheme, of, ol)
+    L = [f'# S5 worksheet {a.pid} · scheme {a.scheme} pp {a.pages}', '',
+         'Text-layer locator only: every value you write comes from a page image crop.', '']
+    eq = [int(x['formula_id'].rsplit('-', 1)[1]) for x in F if x['formula_id'].startswith(f'EQ-{a.pid}-')]
+    L.append(f'- next FORMULAE id: EQ-{a.pid}-{(max(eq) + 1 if eq else 1):03d}')
+    try:
+        st = K.read_json(V + '/STATE.json') if hasattr(K, 'read_json') else None
+    except Exception:
+        st = None
+    L.append(f'- question numbers located in the text layer: {len(ans)} of {max([int(r["q_no"]) for r in rows] or [0])}')
+    L += ['', '## Rows that need scoring lines (rel = origin)', '',
+          '| instance_id | q_type | marks_part | q_marks | scheme pages | stem (start) |', '|---|---|---|---|---|---|']
+    for r in rows:
+        if r['rel'] != 'origin':
+            continue
+        q = int(r['q_no']); pg = ','.join(map(str, ans.get(q, {}).get('pages', ['?'])))
+        L.append(f"| {r['instance_id']} | {r['q_type']} | {r['marks_part']} | {r['q_marks_printed']} | {pg} | {r['stem'][:90]} |")
+        if r['q_type'] in ('MCQ', 'AR') and r['options']:
+            L.append(f"|  | options |  |  |  | {r['options'][:150]} |")
+    L += ['', '## Shuffled questions: this scheme against the origin scheme (text layer; check every flag on the image)', '',
+          '| q_no | origin rows | origin key line(s) | this scheme key (text) | numbers only here | numbers only in origin | pages |',
+          '|---|---|---|---|---|---|---|']
+    seen = set()
+    for r in rows:
+        if r['rel'] != 'shuffle':
+            continue
+        q = int(r['q_no'])
+        if q in seen:
+            continue
+        seen.add(q)
+        o = byid.get(r['rel_to'], {})
+        oq = int(o['q_no']) if o else None
+        orows = sorted({x['rel_to'] for x in rows if int(x['q_no']) == q and x['rel'] == 'shuffle'})
+        okeys = [s['step_text'] for s in S if s['instance_id'] in orows and s['step_kind'] == 'key']
+        t = ans.get(q, {}).get('text', ''); ot = oans.get(oq, {}).get('text', '') if oq else ''
+        k = keys(t) if any(x['q_type'] in ('MCQ', 'AR') for x in rows if int(x['q_no']) == q) else ''
+        if ot:
+            n1, n2 = nums(t), nums(ot)
+            only_here = ' '.join(sorted((n1 - n2).elements()))[:60]; only_o = ' '.join(sorted((n2 - n1).elements()))[:60]
+        else:
+            only_here = only_o = '(origin text not given)'
+        flag = ''
+        if okeys and k and ''.join(x.strip('() ')[:1] for x in okeys) != k[:len(okeys)]:
+            flag = ' **KEYS DIFFER?**'
+        L.append(f"| {q}{flag} | {', '.join(orows)} (origin Q{oq}) | {' '.join(okeys)} | {k} | {only_here} | {only_o} | {','.join(map(str, ans.get(q, {}).get('pages', ['?'])))} |")
+    L += ['', 'Numbers differing in the text layer are often layout noise (marks, page numbers, question numbers); '
+          'look at the page image of every flagged question and report real differences only.']
+    if oans:
+        import difflib
+        def words(fid, a0, a1):
+            t = ''
+            for pg in range(a0, a1 + 1):
+                t += page_text(fid, pg)
+                if re.search(r'MARKING SCHEME\s*:\s*PHYSICS', t):
+                    break
+            t = t.split('MARKING SCHEME')[0] if 'MARKING SCHEME :' in t or 'MARKING SCHEME:' in t else t
+            return re.findall(r'\S+', t)
+        w1 = words(a.scheme, f, min(f + 2, l)); w0 = words(a.origin_scheme, of, min(of + 2, ol))
+        diff = [d for d in difflib.ndiff(w0, w1) if d[:1] in '+-']
+        L += ['', '## Examiner instructions of this section against the origin section (text layer, words)', '',
+              f'- origin words {len(w0)}, this section {len(w1)}; differing words: {len(diff)}',
+              '- ' + ' '.join(diff[:80])]
+    open(a.out, 'w').write('\n'.join(L) + '\n')
+    print(a.out)
+
+if __name__ == '__main__':
+    main()

@@ -1,11 +1,11 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-18T18:34:31Z · batch B05.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-19T16:20:30Z · batch B06.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B05-20261018-1834-15178r.json](vault/PHY-VAULT-B05-20261018-1834-15178r.json) · 15178 rows in all
+- Newest vault: [PHY-VAULT-B06-20261019-1620-15212r.json](vault/PHY-VAULT-B06-20261019-1620-15212r.json) · 15212 rows in all
 - Checks: 16/16 pass
 
-Status - batch 5 · 4576 question rows saved · years closed: none yet · working on 2026
+Status - batch 6 · 4576 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 3 file(s) fully mined
@@ -30,7 +30,7 @@ Optional (yours)
 | paper | code | exam | rows | new | shuffles | figures | formulae | scoring lines |
 |---|---|---|---|---|---|---|---|---|
 | 2024-5511 | 55/1/1 | MAIN | 79 | 79 | 0 | 12 | 95 | 137 |
-| 2024-5512 | 55/1/2 | MAIN | 78 | 17 | 61 | 14 | 72 | 0 |
+| 2024-5512 | 55/1/2 | MAIN | 78 | 17 | 61 | 14 | 77 | 29 |
 | 2024-5513 | 55/1/3 | MAIN | 79 | 19 | 60 | 11 | 75 | 0 |
 | 2024-5521 | 55/2/1 | MAIN | 66 | 66 | 0 | 13 | 73 | 0 |
 | 2024-5522 | 55/2/2 | MAIN | 68 | 17 | 51 | 16 | 75 | 0 |
@@ -103,3 +103,4 @@ Optional (yours)
 - [GATE-LOG-B03.md](logs/GATE-LOG-B03.md)
 - [GATE-LOG-B04.md](logs/GATE-LOG-B04.md)
 - [GATE-LOG-B05.md](logs/GATE-LOG-B05.md)
+- [GATE-LOG-B06.md](logs/GATE-LOG-B06.md)
