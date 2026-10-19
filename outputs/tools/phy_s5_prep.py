@@ -44,7 +44,7 @@ def nums(t, q=None):
         if i == 0:
             line = re.sub(r'^\s*\d{1,2}\s*\.', '', line)   # the question number itself
         keep.append(line)
-    return collections.Counter(re.findall(r'\d+(?:\.\d+)?', '\n'.join(keep)))
+    return collections.Counter(re.findall(r'\d', '\n'.join(keep)))   # digits, so spacing differences in the text layer do not flag
 
 def keys(t):
     return ''.join(re.findall(r'\(\s*([A-D])\s*\)', t))
@@ -83,6 +83,48 @@ def main():
         L.append(f"| {r['instance_id']} | {r['q_type']} | {r['marks_part']} | {r['q_marks_printed']} | {pg} | {r['stem'][:90]} |")
         if r['q_type'] in ('MCQ', 'AR') and r['options']:
             L.append(f"|  | options |  |  |  | {r['options'][:150]} |")
+    L += ['', '## The rows that need lines, in full (from the vault; the paper side is already saved)', '']
+    for r in rows:
+        if r['rel'] != 'origin':
+            continue
+        L.append(f"- **{r['instance_id']}** · {r['q_type']} · marks_part {r['marks_part'] or '-'} · q_marks {r['q_marks_printed']} · p{r['source_page']}")
+        L.append(f"  stem: {r['stem']}")
+        if r['givens'] or r['unknown']:
+            L.append(f"  givens: {r['givens']} · unknown: {r['unknown']}")
+        if r['options']:
+            L.append(f"  options: {r['options']}")
+        m = re.search(r'resembles (\S+?)[:;, ]', r['note'] or '')
+        if m and m.group(1) in byid:
+            tl = [x for x in S if x['instance_id'] == m.group(1)]
+            for x in tl[:6]:
+                L.append(f"  lines of {m.group(1)} (the row it resembles; a format guide, never a value source): {x['step_text'][:140]} | {x['marks']} | {x['step_kind']} | alt: {x['alt_accepted'][:60]}")
+    hdr_s = open(V + '/l1/STEP-AWARDS.csv').readline().strip(); hdr_f = open(V + '/l1/FORMULAE.csv').readline().strip()
+    L += ['', '## Formats (headers and real rows of this year; match them field for field)', '',
+          f'- STEP-AWARDS header: `{hdr_s}`', f'- FORMULAE header: `{hdr_f}`']
+    yr = rows[0]['year'] if rows else ''
+    same_year = [x for x in S if x['paper_id'].startswith(yr)]
+    picks = []
+    for want in ('key', 'formula', 'substitution', 'result', 'diagram', 'reason'):
+        for x in same_year:
+            if x['step_kind'] == want and x not in picks:
+                picks.append(x); break
+    for x in same_year:
+        if 'in one cell' in x['step_text'] and x not in picks:
+            picks.append(x); break
+    for x in same_year:
+        if 'any two' in (x['step_text'] + x['alt_accepted']).lower() and x not in picks:
+            picks.append(x); break
+    for x in same_year:
+        if x['alt_accepted'].startswith('Alternatively') and x not in picks:
+            picks.append(x); break
+    import csv as _csv, io as _io
+    for x in picks:
+        b = _io.StringIO(); w = _csv.DictWriter(b, fieldnames=list(x.keys())); w.writerow(x)
+        L.append(f'- `{b.getvalue().strip()[:400]}`')
+    fr = [x for x in F if x['role'] == 'result' and x['source'] == 'MS' and x['formula_id'].startswith(f'EQ-{yr}')][:2]
+    for x in fr:
+        b = _io.StringIO(); w = _csv.DictWriter(b, fieldnames=list(x.keys())); w.writerow(x)
+        L.append(f'- `{b.getvalue().strip()}`')
     L += ['', '## Shuffled questions: this scheme against the origin scheme (text layer; check every flag on the image)', '',
           '| q_no | origin rows | origin key line(s) | this scheme key (text) | numbers only here | numbers only in origin | pages |',
           '|---|---|---|---|---|---|---|']

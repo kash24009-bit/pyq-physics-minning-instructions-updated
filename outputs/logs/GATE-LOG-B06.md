@@ -9,3 +9,7 @@ Every line below was written by phy_gate.py from the data, never typed.
 - double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B06-20261019-1620-15212r.json
+
+## 2026-10-19T16:24:34Z | checkpoint | worksheet script: full rows, formats, digit-level comparison
+- validate: 16/16 checks pass
+- pack: PHY-VAULT-B06-20261019-1624-15212r.json
