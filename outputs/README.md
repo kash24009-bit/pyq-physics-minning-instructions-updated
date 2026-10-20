@@ -1,8 +1,8 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-20T11:33:19Z · batch B06.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-20T11:37:46Z · batch B06.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B06-20261020-1133-15886r.json](vault/PHY-VAULT-B06-20261020-1133-15886r.json) · 15886 rows in all
+- Newest vault: [PHY-VAULT-B06-20261020-1137-15926r.json](vault/PHY-VAULT-B06-20261020-1137-15926r.json) · 15926 rows in all
 - Checks: 16/16 pass
 
 Status - batch 6 · 4576 question rows saved · years closed: none yet · working on 2026
@@ -11,7 +11,7 @@ Done
 - 2027: 3 file(s) fully mined
 - 2026: 33 file(s) fully mined
 - 2025: 9 file(s) fully mined
-- 2024: 3 file(s) fully mined
+- 2024: 4 file(s) fully mined
 
 Next (my work, in order)
 - Y2026 S5 compartment 55/7 and 55/B/7: no scheme in project -> TRANSFERRED/INFERRED, labelled · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
@@ -22,7 +22,7 @@ Next (my work, in order)
 - Y2025 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02)
-- 11 received file(s) waiting to be mined.
+- 10 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -41,7 +41,7 @@ Optional (yours)
 | 2024-5533 | 55/3/3 | MAIN | 71 | 17 | 54 | 14 | 91 | 35 |
 | 2024-5541 | 55/4/1 | MAIN | 69 | 69 | 0 | 17 | 91 | 142 |
 | 2024-5542 | 55/4/2 | MAIN | 70 | 15 | 55 | 19 | 84 | 31 |
-| 2024-5543 | 55/4/3 | MAIN | 68 | 13 | 55 | 17 | 76 | 0 |
+| 2024-5543 | 55/4/3 | MAIN | 68 | 13 | 55 | 17 | 82 | 33 |
 | 2024-5551 | 55/5/1 | MAIN | 71 | 71 | 0 | 8 | 76 | 0 |
 | 2024-5552 | 55/5/2 | MAIN | 71 | 18 | 53 | 9 | 80 | 0 |
 | 2024-5553 | 55/5/3 | MAIN | 69 | 15 | 54 | 9 | 80 | 0 |
