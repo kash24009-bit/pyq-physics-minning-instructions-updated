@@ -202,3 +202,8 @@ Every line below was written by phy_gate.py from the data, never typed.
 - double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B06-20261020-1427-16650r.json
+
+## 2026-10-20T14:27:24Z | checkpoint | Hindi-medium twin line 55/S/3 (55-S-1 hindi_merged.pdf) ticked with its English unit 2024C-55S3 (ER-B06-010)
+- validate: 16/16 checks pass
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B06-20261020-1427-16650r.json
