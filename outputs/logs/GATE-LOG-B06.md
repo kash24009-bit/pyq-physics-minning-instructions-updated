@@ -23,3 +23,7 @@ Every line below was written by phy_gate.py from the data, never typed.
 - double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B06-20261019-1632-15247r.json
+
+## 2026-10-20T10:26:33Z | checkpoint | rule card 2026-10-19b and Lean reading, part 2 (her decision 2026-10-19)
+- validate: 16/16 checks pass
+- pack: PHY-VAULT-B06-20261020-1026-15247r.json

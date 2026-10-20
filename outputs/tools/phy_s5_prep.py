@@ -57,7 +57,7 @@ def main():
     a = ap.parse_args()
     f, l = map(int, a.pages.split('-'))
     I = K.table(V, 'l1/INSTANCES.csv'); S = K.table(V, 'l1/STEP-AWARDS.csv')
-    F = K.table(V, 'l1/FORMULAE.csv'); E = K.table(V, 'l1/ERRATA.csv')
+    F = K.table(V, 'l1/FORMULAE.csv'); E = K.table(V, 'l1/ERRATA.csv'); FG = K.table(V, 'l1/FIGURES.csv')
     rows = [r for r in I if r['paper_id'] == a.pid]
     byid = {r['instance_id']: r for r in I}
     ans = answers(a.scheme, f, l)
@@ -69,10 +69,10 @@ def main():
          'Text-layer locator only: every value you write comes from a page image crop.', '']
     eq = [int(x['formula_id'].rsplit('-', 1)[1]) for x in F if x['formula_id'].startswith(f'EQ-{a.pid}-')]
     L.append(f'- next FORMULAE id: EQ-{a.pid}-{(max(eq) + 1 if eq else 1):03d}')
-    try:
-        st = K.read_json(V + '/STATE.json') if hasattr(K, 'read_json') else None
-    except Exception:
-        st = None
+    import json as _j
+    b = _j.load(open(V + '/STATE.json')).get('batch', '')
+    ern = [int(x['errata_id'].rsplit('-', 1)[1]) for x in E if x['errata_id'].startswith(f'ER-B{int(b):02d}-')]
+    L.append(f'- next ERRATA id (only if this unit sets a file status): ER-B{int(b):02d}-{(max(ern) + 1 if ern else 1):03d}')
     L.append(f'- question numbers located in the text layer: {len(ans)} of {max([int(r["q_no"]) for r in rows] or [0])}')
     L += ['', '## Rows that need scoring lines (rel = origin)', '',
           '| instance_id | q_type | marks_part | q_marks | scheme pages | stem (start) |', '|---|---|---|---|---|---|']
@@ -93,6 +93,8 @@ def main():
             L.append(f"  givens: {r['givens']} · unknown: {r['unknown']}")
         if r['options']:
             L.append(f"  options: {r['options']}")
+        for fg in [x for x in FG if x['instance_id'] == r['instance_id']]:
+            L.append(f"  figure {fg['figure_id']} (paper p{fg['source_page']}): {fg['description'][:400]} · values: {fg['values'][:120]}")
         m = re.search(r'resembles (\S+?)[:;, ]', r['note'] or '')
         if m and m.group(1) in byid:
             tl = [x for x in S if x['instance_id'] == m.group(1)]
