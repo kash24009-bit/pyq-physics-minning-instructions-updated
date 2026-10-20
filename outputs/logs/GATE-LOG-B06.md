@@ -27,3 +27,12 @@ Every line below was written by phy_gate.py from the data, never typed.
 ## 2026-10-20T10:26:33Z | checkpoint | rule card 2026-10-19b and Lean reading, part 2 (her decision 2026-10-19)
 - validate: 16/16 checks pass
 - pack: PHY-VAULT-B06-20261020-1026-15247r.json
+
+## 2026-10-20T10:40:13Z | 2024-5521 | S5 | GATE PASS
+- part files: FORMULAE 11, STEP-AWARDS 139
+- merged 11 row(s) into l1/FORMULAE.csv · now 4450
+- merged 139 row(s) into l1/STEP-AWARDS.csv · now 3313
+- validate after merge: 16/16 checks pass
+- double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B06-20261020-1040-15397r.json
