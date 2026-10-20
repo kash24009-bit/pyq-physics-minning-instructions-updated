@@ -1,8 +1,8 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-20T13:35:33Z · batch B06.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-20T13:41:01Z · batch B06.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B06-20261020-1335-16111r.json](vault/PHY-VAULT-B06-20261020-1335-16111r.json) · 16111 rows in all
+- Newest vault: [PHY-VAULT-B06-20261020-1341-16152r.json](vault/PHY-VAULT-B06-20261020-1341-16152r.json) · 16152 rows in all
 - Checks: 16/16 pass
 
 Status - batch 6 · 4576 question rows saved · years closed: none yet · working on 2026
@@ -11,7 +11,7 @@ Done
 - 2027: 3 file(s) fully mined
 - 2026: 33 file(s) fully mined
 - 2025: 9 file(s) fully mined
-- 2024: 4 file(s) fully mined
+- 2024: 5 file(s) fully mined
 
 Next (my work, in order)
 - Y2026 S5 compartment 55/7 and 55/B/7: no scheme in project -> TRANSFERRED/INFERRED, labelled · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
@@ -22,7 +22,7 @@ Next (my work, in order)
 - Y2025 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02)
-- 10 received file(s) waiting to be mined.
+- 9 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -44,7 +44,7 @@ Optional (yours)
 | 2024-5543 | 55/4/3 | MAIN | 68 | 13 | 55 | 17 | 82 | 33 |
 | 2024-5551 | 55/5/1 | MAIN | 71 | 71 | 0 | 8 | 89 | 132 |
 | 2024-5552 | 55/5/2 | MAIN | 71 | 18 | 53 | 9 | 87 | 33 |
-| 2024-5553 | 55/5/3 | MAIN | 69 | 15 | 54 | 9 | 80 | 0 |
+| 2024-5553 | 55/5/3 | MAIN | 69 | 15 | 54 | 9 | 88 | 32 |
 | 2024-55B | 55/B | MAIN | 73 | 73 | 0 | 0 | 67 | 0 |
 | 2024C-55BS | 55/B/S | COMPT | 81 | 81 | 0 | 0 | 82 | 0 |
 | 2024C-55S1 | 55/S/1 | COMPT | 74 | 74 | 0 | 12 | 73 | 0 |
