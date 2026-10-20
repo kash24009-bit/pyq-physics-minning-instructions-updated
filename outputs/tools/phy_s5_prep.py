@@ -23,9 +23,13 @@ def page_text(fid, p):
 def answers(fid, first, last):
     """Split the section's text layer into answers by question number (1, 2, 3 ... in order)."""
     out, cur, want = {}, None, 1
-    start = re.compile(r'^\s{0,10}(\d{1,2})\s*\.(?!\d)')
+    start = re.compile(r'^\s{0,10}(\d{1,2})\s*(?:\.(?!\d)|$|\s{2,}|\()')   # '17.', '17' alone, '17   text', '17 (a)'
+    begun = False                     # answers start after the first answer-page header
     for p in range(first, last + 1):
         for line in page_text(fid, p).splitlines():
+            if not begun:
+                begun = bool(re.search(r'VALUE\s*POINT|MARKING\s+SCHEME\s*:', line, re.I))
+                continue
             m = start.match(line)
             if m and int(m.group(1)) == want:
                 cur = want; want += 1
@@ -42,7 +46,7 @@ def nums(t, q=None):
         if re.search(r'Page\s+\d+\s+of|\b55\s*/|CODE\s*:|MARKING SCHEME|VALUE POINT', line, re.I):
             continue                      # footers and headers
         if i == 0:
-            line = re.sub(r'^\s*\d{1,2}\s*\.', '', line)   # the question number itself
+            line = re.sub(r'^\s*\d{1,2}\s*\.?', '', line)   # the question number itself, with or without its dot
         keep.append(line)
     return collections.Counter(re.findall(r'\d', '\n'.join(keep)))   # digits, so spacing differences in the text layer do not flag
 
