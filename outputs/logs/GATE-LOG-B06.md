@@ -228,3 +228,13 @@ Every line below was written by phy_gate.py from the data, never typed.
 - status erratum ER-B06-011: NEW -> IN-PROGRESS
 - PROGRESS: not touched (stage OTHER)
 - pack: PHY-VAULT-B06-20261020-1444-16819r.json
+
+## 2026-10-20T14:54:46Z | SQP2324-042 | S5 | GATE PASS
+- part files: FORMULAE 17, STEP-AWARDS 108, ERRATA 1
+- merged 17 row(s) into l1/FORMULAE.csv · now 4681
+- merged 108 row(s) into l1/STEP-AWARDS.csv · now 4528
+- merged 1 row(s) into l1/ERRATA.csv · now 588
+- validate after merge: 16/16 checks pass
+- double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B06-20261020-1454-16945r.json
