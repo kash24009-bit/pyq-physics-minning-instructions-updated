@@ -260,3 +260,8 @@ Every line below was written by phy_gate.py from the data, never typed.
 ## 2026-10-21T09:03:31Z | checkpoint | Stop: 2024 year check first round settled (report written); second round for 2024-5531 pending
 - validate: 16/16 checks pass
 - pack: PHY-VAULT-B06-20261021-0903-16960r.json
+
+## 2026-10-21T11:12:35Z | checkpoint | Y2024 year check done (first round 1732 values, 126 mismatches settled, FIX-6 and FIX-7; second round 2024-5531 557 values, no error)
+- validate: 16/16 checks pass
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B06-20261021-1112-16960r.json
