@@ -1,0 +1,29 @@
+instance_id,field,part_value,check_value,detail,resolved
+2026C-5572-Q01,options,"A) constant from 0 to R, then falling beyond R | B) curved rise from 0 to R, then falling | C) zero from 0 to R, maximum at R, then falling | D) straight rise from 0 to R, then falling","A) graph: E constant from O to R, then falls off beyond R | B) graph: E rises (curved) from 0 to max at R, then falls | C) graph: E = 0 from O to R, jumps to max at R, then falls | D) graph: E rises linearly from 0 to max at R, then falls","options differ at A, B, C, D",extractor_right
+2026C-5572-Q06,figure_values,1 2 2026 4 5571 6,1 2 4,only in the checker's reading: -; only in the part file: ['6'],extractor_right
+2026C-5572-Q07,options,A) mu0*I/(6*pi) k^ | B) -mu0*I/(12*pi) k^ | C) -mu0*I/(24*pi) k^ | D) mu0*I/(48*pi) k^,A) mu_0*I/(6*pi) k^ | B) -mu_0*I/(12*pi) k^ | C) -mu_0*I/(24*pi) k^ | D) mu_0*I/(48*pi) k^,"options differ at A, B, C, D",extractor_right
+2026C-5572-Q13,options,,"(A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | (B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | (C) Assertion (A) is true, but Reason (R) is false. | (D) Both Assertion (A) and Reason (R) are false.","options differ at A, B, C, D",extractor_right
+2026C-5572-Q17,marks_part,,2,marks differ,extractor_right
+2026C-5572-Q18,marks_part,,2,marks differ,extractor_right
+2026C-5572-Q20,marks_part,,2,marks differ,extractor_right
+2026C-5572-Q21,marks_part,,2,marks differ,extractor_right
+2026C-5572-Q22A,marks_part,,3,marks differ,extractor_right
+2026C-5572-Q22A,numbers,-1 -12 0 1 12 2,-1 -12 -2 0 1 12 2,only in the checker's reading: ['-2']; only in the part file: -,extractor_right
+2026C-5572-Q22B-i,numbers,-18 -4 0 18 4 8,-18 -4 0 18 8,only in the checker's reading: -; only in the part file: ['4'],extractor_right
+2026C-5572-Q22B-ii,marks_part,,3,marks differ,extractor_right
+2026C-5572-Q22B-ii,numbers,-18 0 18 4 8 90000,90000,"only in the checker's reading: -; only in the part file: ['-18', '0', '18', '4', '8']",extractor_right
+2026C-5572-Q23-b,marks_part,,3,marks differ,extractor_right
+2026C-5572-Q24-b,marks_part,,3,marks differ,extractor_right
+2026C-5572-Q26-b,marks_part,,3,marks differ,extractor_right
+2026C-5572-Q27,marks_part,,3,marks differ,extractor_right
+2026C-5572-Q28,marks_part,,3,marks differ,extractor_right
+2026C-5572-Q29A-i,options,A) 0.11 microsecond | B) 0.28 microsecond | C) 0.014 microsecond | D) 0.024 microsecond,A) 0.11 micros | B) 0.28 micros | C) 0.014 micros | D) 0.024 micros,"options differ at A, B, C, D",extractor_right
+2026C-5572-Q30A-iv,options,A) 3.2e-19 J | B) 1.6e-19 J | C) 1.25e-19 J | D) 2.4e-18 J,A) 3.2 × 10^-19 J | B) 1.6 × 10^-19 J | C) 1.25 × 10^-19 J | D) 2.4 × 10^-18 J,"options differ at A, B, C, D",extractor_right
+2026C-5572-Q30B-iv,options,A) 4.8e14 Hz | B) 5.3e14 Hz | C) 1.9e15 Hz | D) 1.2e15 Hz,A) 4.8 × 10^14 Hz | B) 5.3 × 10^14 Hz | C) 1.9 × 10^15 Hz | D) 1.2 × 10^15 Hz,"options differ at A, B, C, D",extractor_right
+2026C-5572-Q31B-a-II,marks_part,,3,marks differ,extractor_right
+2026C-5572-Q31B-a-II,numbers,0.4 100 25 250 500 60,,"only in the checker's reading: -; only in the part file: ['0.4', '100', '25', '250', '500', '60']",extractor_right
+2026C-5572-Q32B-a-ii,marks_part,,3,marks differ,extractor_right
+2026C-5572-Q33A-a-ii,marks_part,,2,marks differ,extractor_right
+2026C-5572-Q33B-a-ii,marks_part,,2,marks differ,extractor_right
+2026C-5572-Q33B-b-ii,marks_part,,3,marks differ,extractor_right
+2026C-5572-Q33B-b-ii,numbers,100 1025 120 25,,"only in the checker's reading: -; only in the part file: ['100', '1025', '120', '25']",extractor_right

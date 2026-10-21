@@ -1,0 +1,12 @@
+instance_id,field,part_value,check_value,detail,resolved
+2025C-55S1-Q03,options,A) 0.8e-15 m | B) 0.8e-10 m | C) 2.0e-13 m | D) 2.0e-14 m,A) 0.8 × 10^-15 m | B) 0.8 × 10^-10 m | C) 2.0 × 10^-13 m | D) 2.0 × 10^-14 m,"options differ at A, B, C, D",extractor_right
+2025C-55S1-Q17-b,numbers,0.86 2.14,0.86,only in the checker's reading: -; only in the part file: ['2.14'],extractor_right
+2025C-55S1-Q22-d3,numbers,2,,only in the checker's reading: -; only in the part file: ['2'],extractor_right
+2025C-55S1-Q23-d2-b,numbers,1.5e+10 36,,"only in the checker's reading: -; only in the part file: ['1.5e+10', '36']",extractor_right
+2025C-55S1-Q25A-ii,numbers,125 20 220,,"only in the checker's reading: -; only in the part file: ['125', '20', '220']",extractor_right
+2025C-55S1-Q25B-ii,numbers,0.00045 1.6e-19 3.2e+07 9e-31,,"only in the checker's reading: -; only in the part file: ['0.00045', '1.6e-19', '3.2e+07', '9e-31']",extractor_right
+2025C-55S1-Q25B-iii,numbers,0.00045 1.6e-19 3.2e+07 9e-31,,"only in the checker's reading: -; only in the part file: ['0.00045', '1.6e-19', '3.2e+07', '9e-31']",extractor_right
+2025C-55S1-Q28-a,numbers,0.2 0.25 0.5 0.6 0.8 4 5,-0.6 0.2 0.25 0.5 0.8 4 5,only in the checker's reading: ['-0.6']; only in the part file: ['0.6'],extractor_right
+2025C-55S1-Q28-b,numbers,0.2 0.25 0.5 0.6 0.8 4 5,,"only in the checker's reading: -; only in the part file: ['0.2', '0.25', '0.5', '0.6', '0.8', '4', '5']",extractor_right
+2025C-55S1-Q30-ii,options,A) Boron | B) Phosphorous (sic) | C) Aluminium | D) Indium,A) Boron | B) Phosphorous | C) Aluminium | D) Indium,options differ at B,extractor_right
+2025C-55S1-Q31B-ii-II,numbers,12 24,,"only in the checker's reading: -; only in the part file: ['12', '24']",extractor_right
