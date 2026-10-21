@@ -242,3 +242,10 @@ Every line below was written by phy_gate.py from the data, never typed.
 ## 2026-10-21T08:42:02Z | checkpoint | 2024 year check in progress: nine blind readings and the compare saved (adjudication under way)
 - validate: 16/16 checks pass
 - pack: PHY-VAULT-B06-20261021-0842-16945r.json
+
+## 2026-10-21T08:43:39Z | FIX-6 | OTHER | GATE PASS
+- part files: ERRATA 8
+- merged 8 row(s) into l1/ERRATA.csv · now 596
+- validate after merge: 16/16 checks pass
+- PROGRESS: not touched (stage OTHER)
+- pack: PHY-VAULT-B06-20261021-0843-16953r.json
