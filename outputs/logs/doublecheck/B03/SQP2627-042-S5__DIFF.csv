@@ -1,0 +1,13 @@
+instance_id,field,part_value,check_value,detail,resolved
+SQP2627-042-Q02,numbers,,2000,results the checker read that are in no scoring line: ['2000'],extractor_right
+SQP2627-042-Q09,numbers,,18 5,"results the checker read that are in no scoring line: ['18', '5']",extractor_right
+SQP2627-042-Q09-VI,step_marks,1,,scoring-line marks differ,extractor_right
+SQP2627-042-Q10,numbers,,3 5,"results the checker read that are in no scoring line: ['3', '5']",extractor_right
+SQP2627-042-Q11,numbers,,22,results the checker read that are in no scoring line: ['22'],extractor_right
+SQP2627-042-Q12,numbers,,1e-06 5,"results the checker read that are in no scoring line: ['1e-06', '5']",extractor_right
+SQP2627-042-Q21A-II,step_marks,0,,scoring-line marks differ,extractor_right
+SQP2627-042-Q22-I,step_marks,0,,scoring-line marks differ,extractor_right
+SQP2627-042-Q25-II,step_marks,0,,scoring-line marks differ,extractor_right
+SQP2627-042-Q27B-I,step_marks,0.5 | 0.5,0.5,scoring-line marks differ,extractor_right
+SQP2627-042-Q27B-II,step_marks,0.5 | 0.5 | 0.5 | 0.5,0.5 | 0.5 | 0.5 | 0.5 | 0.5,scoring-line marks differ,extractor_right
+SQP2627-042-Q33B-II-d1,step_marks,0,,scoring-line marks differ,extractor_right

@@ -1,0 +1,32 @@
+instance_id,field,part_value,check_value,detail,resolved
+2026-5543-Q02,options,A) 3e8 m s^-1 | B) 2e8 m s^-1 | C) 3.3e-9 m s^-1 | D) 5e-9 m s^-1,A) 3 × 10^8 ms^-1 | B) 2 × 10^8 ms^-1 | C) 3.3 × 10^-9 ms^-1 | D) 5 × 10^-9 ms^-1,"options differ at A, B, C, D",extractor_right
+2026-5543-Q08,options,A) only relaxation time 'tau' of electrons decreases with temperature. | B) only number of electrons per unit volume 'n' increases appreciably. | C) 'tau' decreases with temperature but 'n' does not change appreciably. | D) 'tau' decreases with temperature and 'n' increases.,A) only relaxation time tau of electrons decreases with temperature. | B) only number of electrons per unit volume n increases appreciably. | C) tau decreases with temperature but n does not change appreciably. | D) tau decreases with temperature and n increases.,"options differ at A, B, C, D",extractor_right
+2026-5543-Q17,marks_part,,2,marks differ,extractor_right
+2026-5543-Q18,marks_part,,2,marks differ,extractor_right
+2026-5543-Q19A,marks_part,,2,marks differ,extractor_right
+2026-5543-Q19B-ii,marks_part,,2,marks differ,extractor_right
+2026-5543-Q20,marks_part,,2,marks differ,extractor_right
+2026-5543-Q21,marks_part,,2,marks differ,extractor_right
+2026-5543-Q22,marks_part,,3,marks differ,extractor_right
+2026-5543-Q23-b,marks_part,,3,marks differ,extractor_right
+2026-5543-Q24A-i,numbers,1 2 3,2 3,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2026-5543-Q24A-ii,marks_part,,3,marks differ,extractor_right
+2026-5543-Q24A-ii,numbers,1 2 3,,"only in the checker's reading: -; only in the part file: ['1', '2', '3']",extractor_right
+2026-5543-Q24B-ii,marks_part,,3,marks differ,extractor_right
+2026-5543-Q25,marks_part,,3,marks differ,extractor_right
+2026-5543-Q26-b,marks_part,,3,marks differ,extractor_right
+2026-5543-Q27-b,marks_part,,3,marks differ,extractor_right
+2026-5543-Q28-b,marks_part,,3,marks differ,extractor_right
+2026-5543-Q28-b,numbers,0.5 1 10 2 5 50,,"only in the checker's reading: -; only in the part file: ['0.5', '10', '5', '50']",extractor_right
+2026-5543-Q30-i,options,"A) straight line through the origin | B) rises, levels off and dips | C) straight at first, then bends below the dotted straight-line extension | D) straight at first, then curves upward above the dotted extension","A) straight line through origin (I vs V) | B) curve rising from origin to a peak then falling slightly, levelling | C) straight from origin then bending below the dotted straight-line extension (I rises less) | D) straight from origin then bending above the dotted extension, rising steeply","options differ at A, B, C, D",extractor_right
+2026-5543-Q31A-ii-I,numbers,1.4 100 140 2 400 5 50,100 140 400 5 50,"only in the checker's reading: -; only in the part file: ['1.4', '2']",extractor_right
+2026-5543-Q31A-ii-II,marks_part,,5,marks differ,extractor_right
+2026-5543-Q31A-ii-II,numbers,1.4 100 140 2 400 5 50,1.4 2,"only in the checker's reading: -; only in the part file: ['100', '140', '400', '5', '50']",extractor_right
+2026-5543-Q31B-ii-II,marks_part,,5,marks differ,extractor_right
+2026-5543-Q31B-ii-II,numbers,100 220 3.3 5000,,"only in the checker's reading: -; only in the part file: ['100', '220', '3.3', '5000']",extractor_right
+2026-5543-Q32A-ii,marks_part,,5,marks differ,extractor_right
+2026-5543-Q32A-ii,numbers,-4 2 4,-4 2,only in the checker's reading: -; only in the part file: ['4'],extractor_right
+2026-5543-Q32B-ii,marks_part,,5,marks differ,extractor_right
+2026-5543-Q33A-iii,marks_part,,5,marks differ,extractor_right
+2026-5543-Q33A-iii,figure_values,1.5 17 18 2026 5541,,only in the checker's reading: -; only in the part file: ['1.5'],extractor_right
+2026-5543-Q33B-iii,marks_part,,5,marks differ,extractor_right

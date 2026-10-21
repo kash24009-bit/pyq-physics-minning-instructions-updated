@@ -1,0 +1,8 @@
+instance_id,field,part_value,check_value,detail,resolved
+2026-5551-Q29-i,numbers,,-20000,results the checker read that are in no scoring line: ['-20000'],extractor_right
+2026-5551-Q29-ii,numbers,,3.5e+15,results the checker read that are in no scoring line: ['3.5e+15'],extractor_right
+2026-5551-Q29A-iii,numbers,,1.67e-09,results the checker read that are in no scoring line: ['1.67e-09'],extractor_right
+2026-5551-Q29B-iii,numbers,,4.9,results the checker read that are in no scoring line: ['4.9'],extractor_right
+2026-5551-Q30A-ii,numbers,,480,results the checker read that are in no scoring line: ['480'],extractor_right
+2026-5551-Q30B-ii,numbers,,1.2,results the checker read that are in no scoring line: ['1.2'],extractor_right
+2026-5551-Q30-iii,numbers,,7.2e-07,results the checker read that are in no scoring line: ['7.2e-07'],extractor_right
