@@ -13,6 +13,15 @@ def row(x):
 L = [f'# S2a + S3 worksheet {a.pid} · file {a.fid} · template rows from {a.template}', '',
      'Format guides only: every value you write comes from this paper\'s page images.', '']
 pt = subprocess.run([sys.executable, '/home/claude/pyqkit.py', 'pages', '--vault', V, a.fid], capture_output=True, text=True).stdout
+# B08: English pages from the text layer (card B6), via the sibling worksheet's tested classifier
+import importlib.util, os
+_sp = importlib.util.spec_from_file_location('s4', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'phy_s4_prep.py'))
+S4 = importlib.util.module_from_spec(_sp); _sp.loader.exec_module(S4)
+_pdf = S4.resolve_pdf(a.fid); _k = S4.classify_pages(_pdf) if _pdf else {}
+L += ['## English pages (common-word share of the text layer; card B6)',
+      '- English: ' + (','.join(str(p) for p, k in sorted(_k.items()) if k == 'en') or 'none'),
+      '- Hindi: ' + (','.join(str(p) for p, k in sorted(_k.items()) if k == 'hi') or 'none'),
+      '- not settled (decide from the image): ' + (','.join(str(p) for p, k in sorted(_k.items()) if k in ('unsettled', 'notext')) or 'none'), '']
 L += ['## Page table', '```', pt.strip()[:3000], '```', '']
 I = K.table(V, 'l1/INSTANCES.csv'); T = [r for r in I if r['paper_id'] == a.template]
 L += ['## Headers']
