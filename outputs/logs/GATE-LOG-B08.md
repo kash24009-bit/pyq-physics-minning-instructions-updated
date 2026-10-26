@@ -15,3 +15,10 @@ Every line below was written by phy_gate.py from the data, never typed.
 ## 2026-10-26T09:40:35Z | checkpoint | sibling worksheet phy_s4_prep.py built and tested on 2024-5512 (61/61 shuffles repeat candidates, 17 new rows full rows; write-repeats identical to the vault rows)
 - validate: 16/16 checks pass
 - pack: PHY-VAULT-B08-20261026-0940-16994r.json
+
+## 2026-10-26T09:54:15Z | S1-2023 | OTHER | GATE PASS
+- part files: ERRATA 96
+- merged 96 row(s) into l1/ERRATA.csv · now 703
+- validate after merge: 16/16 checks pass
+- PROGRESS: not touched (stage OTHER)
+- pack: PHY-VAULT-B08-20261026-0954-17090r.json
