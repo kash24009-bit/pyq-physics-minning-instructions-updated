@@ -11,3 +11,7 @@ Every line below was written by phy_gate.py from the data, never typed.
 - validate after merge: 16/16 checks pass
 - PROGRESS: not touched (stage OTHER)
 - pack: PHY-VAULT-B08-20261026-0929-16994r.json
+
+## 2026-10-26T09:40:35Z | checkpoint | sibling worksheet phy_s4_prep.py built and tested on 2024-5512 (61/61 shuffles repeat candidates, 17 new rows full rows; write-repeats identical to the vault rows)
+- validate: 16/16 checks pass
+- pack: PHY-VAULT-B08-20261026-0940-16994r.json
