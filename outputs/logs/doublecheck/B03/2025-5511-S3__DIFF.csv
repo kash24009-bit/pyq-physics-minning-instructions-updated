@@ -1,0 +1,30 @@
+instance_id,field,part_value,check_value,detail,resolved
+2025-5511-Q06,options,A) Zero | B) i_0*v_0*cos(phi) | C) i_0*v_0/2 | D) (i_0*v_0/2)*cos(phi),A) Zero | B) i_0 nu_0 cos phi | C) (i_0 nu_0)/2 | D) ((i_0 nu_0)/2) cos phi,"options differ at B, C, D",extractor_right
+2025-5511-Q09,options,A) m*h | B) m/h | C) h/m | D) 1/(m*h),A) mh | B) m/h | C) h/m | D) 1/(mh),"options differ at A, D",extractor_right
+2025-5511-Q11,options,"A) steep rise from small A to a broad maximum near A = 56, then a slow fall | B) steep rise to a sharp corner at A = 56, then almost flat | C) a symmetric hump peaking at A = 80, flat-bottomed on both sides | D) steep rise to a peak at A = 80, a fall to a minimum, then a small rise","A) graph of B.E./A against A: rises, broad maximum at the dashed line A = 56, then slow fall | B) graph of B.E./A against A: steep rise to a sharp kink at the dashed line A = 56, then nearly flat | C) graph of B.E./A against A: symmetric peak at the dashed line A = 80, low on both sides | D) graph of B.E./A against A: steep rise to a peak at the dashed line A = 80, falls to a minimum, rises again","options differ at A, B, C, D",extractor_right
+2025-5511-Q22A-ii,numbers,0.2 0.4 3 4 6,,"only in the checker's reading: -; only in the part file: ['0.2', '0.4', '3', '4', '6']",extractor_right
+2025-5511-Q22A-iii,numbers,0.2 0.4 3 4 6,,"only in the checker's reading: -; only in the part file: ['0.2', '0.4', '3', '4', '6']",extractor_right
+2025-5511-Q22B-i-ii,numbers,2,,only in the checker's reading: -; only in the part file: ['2'],extractor_right
+2025-5511-Q29-i,marks_part,1,,marks differ,extractor_right
+2025-5511-Q29-i,numbers,10 20 500,1 10 20 500,only in the checker's reading: ['1']; only in the part file: -,extractor_right
+2025-5511-Q29-ii,marks_part,1,,marks differ,extractor_right
+2025-5511-Q29-iii,marks_part,1,,marks differ,extractor_right
+2025-5511-Q29A-iv,marks_part,1,,marks differ,extractor_right
+2025-5511-Q29A-iv,options,A) 1/(2*sqrt(e)) mA | B) sqrt(e) mA | C) 1/sqrt(e) mA | D) 1/(2*e) mA,A) 1/(2sqrt(e)) mA | B) sqrt(e) mA | C) 1/sqrt(e) mA | D) 1/(2e) mA,"options differ at A, D",extractor_right
+2025-5511-Q29B-iv,marks_part,1,,marks differ,extractor_right
+2025-5511-Q30-i,marks_part,1,,marks differ,extractor_right
+2025-5511-Q30-i,options,"A) arrow pointing up; line rising slightly to the right, ball at its right end | B) arrow pointing up; line rising steeply to the right, ball at its lower left end | C) arrow pointing down; line rising slightly to the right, ball at its left end | D) arrow pointing down; line rising steeply to the right, ball at its upper right end","A) arrow pointing up; line through it rising slightly to the right, ball at its right end | B) arrow pointing up; line rising steeply to the upper right, ball at its lower-left end | C) arrow pointing down; line rising slightly to the right, ball at its left end | D) arrow pointing down; line rising to the upper right, ball at its upper-right end","options differ at A, B, D",extractor_right
+2025-5511-Q30-ii,marks_part,1,,marks differ,extractor_right
+2025-5511-Q30A-iii,marks_part,1,,marks differ,extractor_right
+2025-5511-Q30B-iii,marks_part,1,,marks differ,extractor_right
+2025-5511-Q30-iv,marks_part,1,,marks differ,extractor_right
+2025-5511-Q30-iv,options,A) X_1*X_2 | B) sqrt(X_1 + X_2) | C) sqrt(X_1*X_2) | D) sqrt(X_2/X_1),A) X_1 X_2 | B) sqrt(X_1 + X_2) | C) sqrt(X_1 X_2) | D) sqrt(X_2/X_1),"options differ at A, C",extractor_right
+2025-5511-Q31A-ii-1,numbers,-80 1 16 80,-80 16 80,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2025-5511-Q31A-ii-2,numbers,-80 16 2 3 80,3,"only in the checker's reading: -; only in the part file: ['-80', '16', '2', '80']",extractor_right
+2025-5511-Q31A-ii-3,numbers,-160 -80 16 160 3 80,-160 160,"only in the checker's reading: -; only in the part file: ['-80', '16', '3', '80']",extractor_right
+2025-5511-Q32B-ii-1,numbers,1,,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2025-5511-Q32B-ii-2,numbers,2,,only in the checker's reading: -; only in the part file: ['2'],extractor_right
+2025-5511-Q33A-i-1,numbers,1,,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2025-5511-Q33A-i-2,numbers,2,,only in the checker's reading: -; only in the part file: ['2'],extractor_right
+2025-5511-Q33A-ii-1,numbers,0.1 1 1.2 600,0.1 1.2 600,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2025-5511-Q33A-ii-2,numbers,0.1 1.2 2 600,,"only in the checker's reading: -; only in the part file: ['0.1', '1.2', '2', '600']",extractor_right
