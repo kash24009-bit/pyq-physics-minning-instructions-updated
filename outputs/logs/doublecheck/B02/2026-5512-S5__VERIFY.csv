@@ -1,0 +1,17 @@
+instance_id,step_marks,key,numbers,note
+2026-5512-Q01,1,B,,"Scheme Q1 p4: (B) 16V, mark 1. Scan, no text layer; read from 400 dpi crop."
+2026-5512-Q03,1,D,,"Scheme Q3 p4: (D) 2%, mark 1."
+2026-5512-Q05,1,D,,"Scheme Q5 p4: (D) 40/3 cm, mark 1."
+2026-5512-Q06,1,A,,"Scheme Q6 p4: (A) 2d, mark 1."
+2026-5512-Q07,1,B,,"Scheme Q7 p4: (B) Ultraviolet rays, mark 1."
+2026-5512-Q09,1,B,,"Scheme Q9 p4: (B) (10nT) k^, mark 1."
+2026-5512-Q10,1,C,,"Scheme Q10 p4: (C) Both wavelength of light used and the slits separation, mark 1."
+2026-5512-Q12,1,D,,"Scheme Q12 p4: (D) 16V, mark 1."
+2026-5512-Q18-a,½ | ½,,1/4,"Scheme Q18(a) p5 (same velocity): lambda_a/lambda_p = m_p/m_a (½), = 1/4 (½). Box allots (a) 1. Ratio, no unit. The opening line lambda = h/mv carries no mark."
+2026-5512-Q18-b,½ | ½,,1/2,"Scheme Q18(b) p5 (same kinetic energy): lambda = h/sqrt(2mK) (½), lambda_a/lambda_p = 1/2 (½). Box allots (b) 1. Ratio, no unit. Total 2 for Q18 printed in total column."
+2026-5512-Q21,1½ | ½,,,"Scheme Q21: box on p6 (BE per nucleon graph 1½, significance ½); scoring lines on p7: graph 1½, 'For A>170, it signifies lesser stability' ½. Note printed: 'Give full marks for shape of graph only'. Total 2."
+2026-5512-Q26,½ | ½ | ½ | ½ | ½ | ½,,100 V | 1200 μC | 600 μC,"Scheme Q26 p11: Q_i = 1800 μC (½); V_f = C_iV_i/(C_1+C_2) (½); substitution 1800 μC/(12+6) μF (½); V_f = 100 V (½); Q_1 = 1200 μC (½); Q_2 = 600 μC (½). Box: PD 1½, charge 1½; total 3. Intermediate Q_i = 1800 μC not listed as final."
+2026-5512-Q27-a,½,,,Scheme Q27(a) p11: p type semiconductor ½.
+2026-5512-Q27-b,½ | ½ | ½,,1.5 × 10^6 m^-3,"Scheme Q27(b) p11: n_e = n_i^2/n_h (½); (3 × 10^8)^2/(6 × 10^10) (½); n_e = 1.5 × 10^6 m^-3 (½). DOUBT: the third ½ sits between the result line and the (c) line 'Energy gap effectively decreases' (slightly nearer the result). The box allots (b) 1 and (c) ½ + 1, so that ½ may belong to (c) instead; then (b) = ½ | ½ and (c) = ½ | 1."
+2026-5512-Q27-c,1,,,"Scheme Q27(c) p11: energy band diagram (p-type, E_A ≈ 0.01 - 0.05 eV, T > 0K) 1. 'Energy gap effectively decreases' has no mark directly beside it; see doubt on Q27-b: box allots (c) ½ (change in energy gap) + 1 (diagram), so (c) may be ½ | 1. Q27 total 3."
+2026-5512-Q28,1½ | ½ | ½ | ½,,,"Scheme Q28 p12: labelled ray diagram of compound microscope 1½; m_0 = h'/h = L/f_0 ½; m_e = (1 + D/f_e) ½; m = m_o × m_e ½ (leads to m = (L/f_0)(1 + D/f_e)). Note printed: 'Give full marks for any other alternative method.' Total 3. Derivation, no numerical answer."

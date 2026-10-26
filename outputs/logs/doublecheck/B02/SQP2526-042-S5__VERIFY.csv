@@ -1,0 +1,77 @@
+instance_id,step_marks,key,numbers,note
+SQP2526-042-Q01,1,A,,"Scheme Q1 p1: 'Answer: (A)', 1 in marks column."
+SQP2526-042-Q02,1,A,,Scheme Q2 p1: 'Answer: (A)'; working ends R=4ρND/d^2 (option value).
+SQP2526-042-Q03,1,A,,Scheme Q3 p1: 'Answer: (A)'; explanation says appliance is a capacitor.
+SQP2526-042-Q04,1,D,,Scheme Q4 p1: 'Answer: (D)'.
+SQP2526-042-Q05,1,A,,Scheme Q5 p2: 'Answer: (A)' Total Internal reflection.
+SQP2526-042-Q05-VI,1,D,,"Scheme Q5 p2 'For VI- Students' 'Answer: (D)' (v1/c = sinθc/sin90, cSinθ). No mark of its own printed beside the VI key; wrote the question's 1."
+SQP2526-042-Q06,1,D,,"Scheme Q6 p2: 'Answer: (D)' with 1 beside it. A second '1' is printed in the marks column level with the explanation line ('Slit width increases ... intensity will also increase'), above the 'For VI- Students' heading; question is worth 1, so this second 1 looks like a duplicate or the VI key's mark misplaced. Not counted here."
+SQP2526-042-Q06-VI,1,B,,"Scheme Q6 p2 'For VI- Students' 'Answer: (B)' Interference. No mark beside the VI key itself; the only candidate is the second '1' printed higher up, level with the main answer's explanation line (doubtful position). Wrote the question's 1."
+SQP2526-042-Q07,1,C,,Scheme Q7 p2: 'Answer: (C)' IV (transition IV).
+SQP2526-042-Q07-VI,1,,,"Scheme Q7 p2 'For VI- Students': prints NO option letter, only explanation (ΔE_II > ΔE_I > ΔE_IV; maximum emitted wavelength corresponds to transition IV). No mark of its own; wrote the question's 1."
+SQP2526-042-Q08,1,D,,Scheme Q8 p2: 'Answer: (D)' constant velocity.
+SQP2526-042-Q09,1,C,,Scheme Q9 p3: 'Answer: (C)'.
+SQP2526-042-Q10,1,C,,Scheme Q10 p3: 'Answer: (C)' V=2Vo sin 2ωt.
+SQP2526-042-Q11,1,D,,Scheme Q11 p3: 'Answer: (D)' 1:1.
+SQP2526-042-Q12,1,B,,Scheme Q12 p3: 'Answer: (B)'.
+SQP2526-042-Q13,1,B,,Scheme Q13 p3 (A-R): 'Answer: (B)'.
+SQP2526-042-Q14,1,C,,Scheme Q14 p3 (A-R): 'Answer: (C)'.
+SQP2526-042-Q15,1,D,,Scheme Q15 p3 (A-R): 'Answer: (D)'.
+SQP2526-042-Q16,1,B,,Scheme Q16 p3 (A-R): 'Answer: (B)'.
+SQP2526-042-Q17,1 | 1,,153 N/C | 20 × 10^-2 rad/m,Scheme Q17 p4. Marks: 1 beside k = ω/c = 20 × 10^-2 rad/m; 1 beside E = 153 sin (60 × 10^6 t – 20 × 10^-2 x) N/C (final answer is this equation; the line above writes (ωt – kz) but the final uses x).
+SQP2526-042-Q18-I,1,,6 V,Scheme Q18 (I) p4: emf of the cell is 6V.
+SQP2526-042-Q18-II,1 | 1,,-0.5 | 0.50 ohm,"Scheme Q18 (II) p4: 1 beside slope line (slope = (0-6)/(12-0) = -0.5, no unit), 1 beside internal resistance 0.50 ohm (Ω)."
+SQP2526-042-Q18-VI,1,,,"Scheme Q18 p4 'For VI-Candidates': one '1' printed level with the heading, just above E = V + v = IR + Ir ... I = E/(R + r). Only one mark printed for the VI alternative (question total 2; VI presumably replaces part (II) only)."
+SQP2526-042-Q19,0.5 | 0.5 | 1,,1/160,"Scheme Q19 p4: ½ beside Ø = q/(ε_r ε_o); ½ next (around 'surface]'/For sphere); 1 beside Øsphere/Øcube = 1/(2ε_water) = 1/160 (ratio, no unit)."
+SQP2526-042-Q20A,1 | 1,,,"Scheme Q20 (I) p5: 1 beside F/L = μ0 I1 I2/(2πr); 1 beside ampere definition. The definition quotes 2 × 10^-7 N (a defined value, not a computed answer)."
+SQP2526-042-Q20B-A,1,,,"Scheme Q20 (II) p5, figure (a): 1 beside it."
+SQP2526-042-Q20B-B,1,,,"Scheme Q20 (II) p5, figure (b): 1 beside it."
+SQP2526-042-Q20B-VI,1 | 1,,,"Scheme Q20 (II) p5 'For VI-Candidates': two 1s printed, stacked just above/level with the heading (below figure (b) label); text: Gauss's law for magnetism - net flux through closed surface is zero; flux through sphere zero (word 'zero', not a number)."
+SQP2526-042-Q21A,1 | 1,,,Scheme Q21A p5: 1 smaller impact parameter -> larger scattering angle; 1 larger impact parameter -> less scattering. Head-on collision impact parameter 'zero' (word).
+SQP2526-042-Q21B,1 | 1,,,"Scheme Q21B p6: 1 beside graph λ vs 1/√V; 1 beside slope = h/√(2mq) (symbolic, no number)."
+SQP2526-042-Q22,1 | 2,,,Scheme Q22 p6 full-wave rectifier: 1 beside odd-half-cycle explanation; 2 beside 'Hence we will get DC as output as shown in diagram' (diagram follows). Printed as single cells '1' and '2'.
+SQP2526-042-Q23-I-A,1,,,Scheme Q23 (I)(A) p6: Conservation of electric charge.
+SQP2526-042-Q23-I-B,1,,,Scheme Q23 (I)(B) p6: KVL - conservation of energy.
+SQP2526-042-Q23-II,1,,,Scheme Q23 (II) p6: No change in balancing condition.
+SQP2526-042-Q24-I,1,,,Scheme Q24 (I) p7: nuclear fission; reaction 239/94 Pu + 1/0 n -> 134/54 Xe + 103/40 Zr + 3 1/0 n; 1 beside reaction.
+SQP2526-042-Q24-II,1 | 1,,0.2032 amu | 189.2808 MeV,Scheme Q24 (II) p7: 1 beside mass-defect substitution (Δm = 240.060817 – 239.857617 = 0.2032 amu); 1 beside Q = Δmc^2 = 0.2032 × 931.5 MeV = 189.2808 MeV. Arithmetic checked in Python: correct.
+SQP2526-042-Q25-I,1 | 1,,8.3 cm | -87.7,Scheme Q25 (I) p7: 1 beside v0 = 8.3 cm; 1 beside M = -(8.3/0.91)(25/2.9 + 1) = -87.7 (no unit).
+SQP2526-042-Q25-II,1,,,"Scheme Q25 (II) p7: ray diagram of compound microscope, 1. Note: in the printed figure the lens near the object is labelled 'Eyepiece' and the one near the eye 'Objective' (labels look swapped)."
+SQP2526-042-Q26,1 | 1 | 1,,,"Scheme Q26 p8 (Huygens, law of reflection): 1 beside diagram; 1 beside 'values of AF are different...' argument; 1 beside sin i = sin r, i = r."
+SQP2526-042-Q26-VI-I,1,,,Scheme Q26 p8 'For VI candidates' (i): wavefront definition.
+SQP2526-042-Q26-VI-II,1,,,"Scheme Q26 p8 'For VI candidates' (ii): each point acts as fresh source (printed 'known as wavefront', sic)."
+SQP2526-042-Q26-VI-III,1,,,"Scheme Q26 p8 'For VI candidates' (iii): Planer (sic, plane)."
+SQP2526-042-Q27A-A,1,,,"Scheme Q27 (I) pp8-9: (A) Quarter Circle, 1. Preceding working R = mv/qB = 2 cm carries no separate mark."
+SQP2526-042-Q27A-B,1,,2 cm,Scheme Q27 (I)(B) p9: will cross the X axis at 2cm.
+SQP2526-042-Q27A-C,1,,2 × 10^-3 J,Scheme Q27 (I)(C) p9: KE remains same; K = ½ × 10^-3 × 2^2 J = 2 × 10^-3 J. Single 1 printed beside the (C) statement line.
+SQP2526-042-Q27B-A,1,,2 × 10^3 A/m,Scheme Q27 (II)(A) p9: H = nI = 2000/m × 1A = 2 × 10^3 A/m. Given block prints N=200turn/m but the working uses 2000/m (sic; inconsistent).
+SQP2526-042-Q27B-B,1,,0.50 T,"Scheme Q27 (II)(B) p9: B = 200 × 4π × 10^-7 × 2 × 10^3 = 0.50T (Python: 0.5027 T, ok)."
+SQP2526-042-Q27B-C,1,,199 × 10^3 A/m | 1.99 × 10^5 A/m,"Scheme Q27 (II)(C) p9: M = (μr-1)H = 199 × 10^3 A/m, or M = 1.99 × 10^5 A/m. MISPRINT suspected: with H = 2 × 10^3 A/m, (200-1) × 2000 = 3.98 × 10^5 A/m (Python); scheme omits the factor 2."
+SQP2526-042-Q28,1 | 1 | 1,,8π × 10^-2 T | 2 mV,"Scheme Q28 pp9-10 (Given lines on p9, marks on p10): 1 beside B = 4000 × 4π × 10^-7 × 5 T = 8π × 10^-2 T; 1 beside flux ØB = Nc B A cos ωt; 1 beside εmax. Final printed as 'εmax = 2Mv' (sic, read as 2 mV). Scheme writes εmax = Nc B A without ω (sic); numerically 50 × 8π × 10^-2 × (5/π) × 10^-4 = 2 × 10^-3 (Python)."
+SQP2526-042-Q29-I,1,B,,"Scheme Q29 (I) p10: '(B)'; voltage drop changes 0.3 to 0.7 V, V0 changes by 0.4 V (option value)."
+SQP2526-042-Q29-II,1,D,,"Scheme Q29 (II) p10: '(D) 11V, 1.96Ma' (sic mA). Working printed 'V0 = E – Vsi – VGe = 12.07 – 0.3 = 11V' (sic; digits as printed) and Id = 11/5.6 × 10^-3 = 1.96 Ma."
+SQP2526-042-Q29-III,1,B,,Scheme Q29 (III) p10: '(B)'; I = 6/(50+150+100) = 6/300 A = 0.02 A (option value).
+SQP2526-042-Q29-IV,1,C,,"Scheme Q29 (IV) p10: '(C)'; equivalent circuit 30 V, three 10 kΩ; Va - Vb = 30/(15×2) × 10 V = 10 V (option value). Printed 'l/2 × 10' (l for I)."
+SQP2526-042-Q30-I,1 | 1,,1.5 × 10^15 Hz,Scheme Q30 (I) p11: 1 beside restated question line '(I) If infrared radiation ... determine the reading' / W0 = hν0; 1 beside ν0 = 6.35 × 1.6 × 10^-19 / 6.63 × 10^-34 = 1.5 × 10^15 hz (printed 'hz'). Microammeter reading = 0 (zero current).
+SQP2526-042-Q30-II,1,,,"Scheme Q30 (II) p11: photocurrent decreases, becomes zero at stopping potential."
+SQP2526-042-Q30-III,1,,,"Scheme Q30 (III) p11: graph photocurrent vs collector plate potential, 1."
+SQP2526-042-Q30-VI-III,1,,,"Scheme Q30 p11 '(for V.I. candidates)': No change in Kinetic Energy, 1."
+SQP2526-042-Q31A-A,0.5 | 1 | 0.5,,,"Scheme Q31 (I)(A) pp11-12: ½ beside C = Aε0/d (p11); 1 at top of p12 beside V = E0(d-t) + Et chain to V = q/(Aε0)(d-t+t/k); ½ below that, above the dielectric-slab figure (p12). No final C expression printed."
+SQP2526-042-Q31A-B,1 | 1,,,"Scheme Q31 (I)(B) p12: 1 beside 'Capacitance of sphere will Increase'; 1 beside 'Hence, capacitance of sphere will increase'."
+SQP2526-042-Q31A-C,1,,,"Scheme Q31 (I)(C) p12: graph V vs d (straight line through origin), 1."
+SQP2526-042-Q31A-VI-C,,,,Scheme Q31 (I) p12 'For VI Candidates' (C): energy stored will decrease; Energy = Q^2/2C; 'when separation is increased capacitance will increase' (sic; physically C decreases and energy increases). NO mark printed beside the VI lines; the only nearby mark is the 1 beside the main (C) graph.
+SQP2526-042-Q31B-A,1 | 1 | 1,,37.5 × 10^-4 J,"Scheme Q31 (II)(A) p13: 1 beside 'Or, U = Kq1q2/r12 + q1(E r1-0) + q2(E r2-0)'; 1 between that and numerical substitution; 1 below 'U = 37.5 × 10^-4 J', between (A)'s last line and (B)'s first line - assigned to (A) since (B) and (C) each have their own 1 and the question total is 5 (no split box printed). Python check: 1.35e-3 + 2.4e-3 = 3.75e-3 J, consistent."
+SQP2526-042-Q31B-B,1,,,"Scheme Q31 (II)(B) p13: work done same for both paths, conservative field."
+SQP2526-042-Q31B-C,1,,,"Scheme Q31 (II)(C) p13: field inside conductor zero, no work needed."
+SQP2526-042-Q32A-A,1 | 1 | 1,,,Scheme Q32 (I)(A) pp13-14: 1 beside refraction at LP1N; 1 beside refraction at LP2N (p13); 1 beside object at infinity / 1/f = (μ-1)(1/R1 - 1/R2) (p14). Lens figure on p13.
+SQP2526-042-Q32A-B,1 | 1,,11 cm,"Scheme Q32 (I)(B) p14: 1 beside (1/f) = (μ-1)[(1/R1)-(1/R2)]; 1 beside R = 0.55 × 2 × 10 = 11cm. Text calls the lens 'convexo-concave' but treats R1 = R, R2 = -R (equi-convex) (sic)."
+SQP2526-042-Q32B-A,1,,,Scheme Q32 (II)(A) p14: angle of deviation definition.
+SQP2526-042-Q32B-B,1 | 1 | 1,,,"Scheme Q32 (II)(B) pp14-15: 1 beside prism ray diagram (p14, printed slightly left in column); 1 beside 'In triangle DPQ' (p15 top); 1 beside i + e = A + δ (p15)."
+SQP2526-042-Q32B-C,1,,,Scheme Q32 (II)(C) p15: minimum deviation conditions; '(Award full marks if either of condition is mentioned)'.
+SQP2526-042-Q33A-A,1 | 0.5 | 0.5,,,"Scheme Q33 (I)(A) p15: 1 torque on current-carrying coil; ½ poles made spherical; ½ iron core (printed 'Iron ore', sic)."
+SQP2526-042-Q33A-B,1 | 1,,0.5 ohm,"Scheme Q33 (I)(B) p15: 1 beside Range × Rg = Ra(5-0.05); 1 beside Ra = 0.5 × 49.5/4.95 = 0.5 Ω. Given prints 'Range=0.05A' and numerator '0.5' (sic): 0.5 × 49.5/4.95 = 5, while 0.05 × 49.5/4.95 = 0.5 Ω (Python)."
+SQP2526-042-Q33A-C,1,,,Scheme Q33 (I)(C) p15: 'Ra will be connected in series & Rv is connected in parallel.'
+SQP2526-042-Q33B-A-i,1,,20 V,Scheme Q33 (II)(A)(i) pp15-16: 1 printed level with 'Vin = 200V sin100πt' just above the '(i)' heading on p16; Vout/Vin = Ns/Np = 0.1; Vout = 20V sin100πt (amplitude 20 V).
+SQP2526-042-Q33B-A-ii,1,,4√2 ohm | 5√2/2 A,"Scheme Q33 (II)(A)(ii) p16: 1 beside Z line. Z = √(R^2 + (Xc^2 - XL^2)) printed (sic, should be (Xc-XL)^2); Z = 4√2 Ω; Im = 20/(4√2) A = 5√2/2 A; φ = tan^-1 1 = π/4 (sign as printed); I = 5√2/2 A sin(100πt + π/4)."
+SQP2526-042-Q33B-A-iii,1,,50 W,Scheme Q33 (II)(A)(iii) p16: 1 printed just above the '(iii)' heading (between (ii)'s last line and (iii)). P = VmIm/2 cosφ printed but numeric line P = 20V × 5√2/2 A × 1/√2 = 50W omits the /2 (sic); with the printed formula P = 25 W (Python).
+SQP2526-042-Q33B-B,1 | 1,,,Scheme Q33 (II)(B) p16: 1 mutual induction; 1 beside step-up reduces current and power loss. Prints 'As P=V/I' (sic).
