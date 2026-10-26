@@ -1,11 +1,11 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-21T11:12:36Z · batch B06.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-10-26T05:04:00Z · batch B07.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B06-20261021-1112-16960r.json](vault/PHY-VAULT-B06-20261021-1112-16960r.json) · 16960 rows in all
+- Newest vault: [PHY-VAULT-B07-20261026-0504-16990r.json](vault/PHY-VAULT-B07-20261026-0504-16990r.json) · 16990 rows in all
 - Checks: 16/16 pass
 
-Status - batch 6 · 4639 question rows saved · years closed: none yet · working on 2026
+Status - batch 7 · 4639 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 3 file(s) fully mined
@@ -22,7 +22,7 @@ Next (my work, in order)
 - Y2025 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02)
-- 2 received file(s) waiting to be mined.
+- 32 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -108,3 +108,4 @@ Optional (yours)
 - [GATE-LOG-B04.md](logs/GATE-LOG-B04.md)
 - [GATE-LOG-B05.md](logs/GATE-LOG-B05.md)
 - [GATE-LOG-B06.md](logs/GATE-LOG-B06.md)
+- [GATE-LOG-B07.md](logs/GATE-LOG-B07.md)
