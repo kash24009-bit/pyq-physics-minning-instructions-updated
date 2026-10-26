@@ -8,7 +8,7 @@
 4. Every new mistake gets an entry here, with its fix, before the session closes (P§21).
 5. On the Claude Code route (from Batch 2), new entries go to the vault's `notes/PHY-03-ADDENDUM.md`, which the lean boot reads in full (CLAUDE.md §6); this file is read when a step cites it.
 
-*Edition 2026-10-21: the addendum's entries to Batch 6 are folded in (sections G to L, W-13 to W-16), with section M, W-17 to W-23, PM-13 and PM-14 added from the 21 October review in the project chat.*
+*Edition 2026-10-21: the addendum's entries to Batch 6 are folded in (sections G to L, W-13 to W-16), with section M, W-17 to W-23, PM-13 and PM-14 added from the 21 October review in the project chat. Edition 2026-10-26: section N added from the project chat's check of Batch 7.*
 
 `→ CI§n` = Custom Instructions section. `→ P§n` = Protocol section.
 
@@ -252,6 +252,16 @@
   → The gate counts mismatches cleared and prints the raw count beside them; a summary number is checked against an independent count (here, the raw replay) → PHY-07 R§9
 - **M-7 · A locator tested first on one file.** `phy_marks.py`'s drafts took examiner-instruction pages for answers, missed a header in title case, a wider left margin and Section A marks printed only in the total column, and dropped every line containing the word "Total". Running it on all 20 set sections of 2024 and comparing with the year-checked lines found each one.
   → A script that locates or flags is tested on every file of its kind, against verified rows, before its first use → PHY-07 R§11
+
+### N · The 26 October check of Batch 7 (project chat)
+- **N-1 · Bookkeeping given a session of its own.** The 21 October message gave three small jobs (usage measured from the Batch 6 records, the decisions entry, a save) a session of their own, planned for the old Batch 6 session. It ran as a new session; the old records were not on that machine, so it wrote the entry, saved and stopped (Batch 7). Nothing was lost, but she spent a session on it and expected mining.
+  → Small jobs join the opening steps of the next working session; a handover never gives bookkeeping a session of its own → PHY-08 Y§0.5
+- **N-2 · A handover that did not name its repositories.** "New session, then Go" did not say which repositories that session needs. She attached the three 2023 ones, which the session after it needs; the 2025 year check needs the four 2025 repositories, and the three page checks need PHY-PHYSICS-2024-MS.
+  → Every handover names the repositories the next session needs, and what the session does when one is not attached (attach it read only and link its files, as at Batch 4)
+- **N-3 · A check sent out that the vault had already settled.** PHY-08 Y§0.5 step 4 sent a reader to the 2026-27 sample-paper scheme for SQP2627-042-Q25-II; Q-021 (Batch 3) already records why that line carries 0 (both of Q25's marks are printed beside (I)), and the scheme file had left the repository's main branch on 5 October.
+  → Before a check is sent out, the queue is searched for the row and its question; every check names the file it needs and where that file is
+- **N-4 · A file asked for that was already in a repository's history.** Q-062 and her optional list asked her to upload the 2024-25 sample paper again; it is in the instructions repository's history (commit 7454b32, byte-identical to FL-1234670d72).
+  → Before a file goes on her optional list, every repository's history is searched for its checksum; a file found there is copied from history into a scratch folder, never restored into her repository
 
 ---
 
