@@ -1,0 +1,123 @@
+instance_id,paper_id,file_id,source_page,check,detail
+2024-5511-Q02,2024-5511,FL-5dca0b4482,5,text-layer,numbers not found in the page text: 0.0005 0.001 0.01 0.05
+2024-5511-Q17,2024-5511,FL-5dca0b4482,11,text-layer,numbers not found in the page text: 0.004
+2024-5511-Q18A-i,2024-5511,FL-5dca0b4482,11,text-layer,numbers not found in the page text: 5e+14
+2024-5511-Q18A-ii,2024-5511,FL-5dca0b4482,11,text-layer,numbers not found in the page text: 5e+14
+2024-5511-Q24-a,2024-5511,FL-5dca0b4482,13,text-layer,numbers not found in the page text: 1.3384e-14
+2024-5511-Q24-b,2024-5511,FL-5dca0b4482,13,text-layer,numbers not found in the page text: 1.3384e-14
+2024-5511-Q24-c,2024-5511,FL-5dca0b4482,13,text-layer,numbers not found in the page text: 1.3384e-14
+2024-5511-Q30B-iv,2024-5511,FL-5dca0b4482,21,text-layer,numbers not found in the page text: -10 -5
+2024-5511-Q31A-ii,2024-5511,FL-5dca0b4482,23,text-layer,numbers not found in the page text: -1
+2024-5511-Q31B-ii,2024-5511,FL-5dca0b4482,23,text-layer,numbers not found in the page text: 1e-09
+2024-5511-Q33B-iii,2024-5511,FL-5dca0b4482,27,text-layer,numbers not found in the page text: 4
+2024-5521-Q22,2024-5521,FL-ede5ac4403,13,text-layer,numbers not found in the page text: 4
+2024-5521-Q30B-iii,2024-5521,FL-ede5ac4403,21,text-layer,numbers not found in the page text: 2.5e+08 2e+08
+2024-5521-Q30-iv,2024-5521,FL-ede5ac4403,21,text-layer,numbers not found in the page text: 90
+2024-5521-Q31B-ii,2024-5521,FL-ede5ac4403,23,text-layer,numbers not found in the page text: -20 30
+2024-5521-Q32A-i,2024-5521,FL-ede5ac4403,25,text-layer,numbers not found in the page text: 45
+2024-5521-Q32A-ii,2024-5521,FL-ede5ac4403,25,text-layer,numbers not found in the page text: 8e+14
+2024-5531-Q02,2024-5531,FL-4b190b2b9d,5,text-layer,numbers not found in the page text: -1.6e-18 -5 1.6e-18 8e-19
+2024-5531-Q05,2024-5531,FL-4b190b2b9d,7,text-layer,numbers not found in the page text: -0.3 -1.7
+2024-5531-Q06,2024-5531,FL-4b190b2b9d,7,text-layer,numbers not found in the page text: 0
+2024-5531-Q20,2024-5531,FL-4b190b2b9d,13,text-layer,numbers not found in the page text: 6.6e-34
+2024-5531-Q21,2024-5531,FL-4b190b2b9d,13,text-layer,numbers not found in the page text: 1.5e+16 5e+28
+2024-5531-Q22,2024-5531,FL-4b190b2b9d,15,text-layer,numbers not found in the page text: 10 4 5
+2024-5531-Q25-a,2024-5531,FL-4b190b2b9d,17,text-layer,numbers not found in the page text: 4.5e+08
+2024-5531-Q25-b,2024-5531,FL-4b190b2b9d,17,text-layer,numbers not found in the page text: 4.5e+08
+2024-5531-Q25-c,2024-5531,FL-4b190b2b9d,17,text-layer,numbers not found in the page text: 4.5e+08
+2024-5531-Q29-i,2024-5531,FL-4b190b2b9d,19,text-layer,numbers not found in the page text: -100 -20 -400 -50 -70 150 200
+2024-5531-Q29-ii,2024-5531,FL-4b190b2b9d,19,text-layer,numbers not found in the page text: -100 -400
+2024-5531-Q29B-iv,2024-5531,FL-4b190b2b9d,21,text-layer,numbers not found in the page text: -50 -70 1.76e+11 130000 2.6e+06 5.2e+07 650000
+2024C-55S1-Q23,2024C-55S1,FL-c502afa1f4,13,text-layer,numbers not found in the page text: -4 2e+06
+2024C-55S1-Q29-iii,2024C-55S1,FL-c502afa1f4,19,text-layer,numbers not found in the page text: 2.5e-05 2e-06 5e-05 5e-08
+2024C-55S1-Q29B-iv,2024C-55S1,FL-c502afa1f4,19,text-layer,numbers not found in the page text: 0.005 0.05
+2024C-55S1-Q30-i,2024C-55S1,FL-c502afa1f4,21,text-layer,numbers not found in the page text: 9
+2024C-55S1-Q31A-ii-1,2024C-55S1,FL-c502afa1f4,23,text-layer,numbers not found in the page text: 5e+14
+2024C-55S1-Q31A-ii-2,2024C-55S1,FL-c502afa1f4,23,text-layer,numbers not found in the page text: 5e+14
+2024-5512-Q19A-i,2024-5512,FL-d88a90d5cb,11,text-layer,numbers not found in the page text: 5e+14
+2024-5512-Q19A-ii,2024-5512,FL-d88a90d5cb,11,text-layer,numbers not found in the page text: 5e+14
+2024-5512-Q29B-iv,2024-5512,FL-d88a90d5cb,19,text-layer,numbers not found in the page text: -10 -5 10 5
+2024-5512-Q32A-ii,2024-5512,FL-d88a90d5cb,25,text-layer,numbers not found in the page text: -1
+2024-5512-Q32B-ii,2024-5512,FL-d88a90d5cb,25,text-layer,numbers not found in the page text: 1e-09
+2024-5513-Q20A-i,2024-5513,FL-da588f0a8e,11,text-layer,numbers not found in the page text: 5e+14
+2024-5513-Q20A-ii,2024-5513,FL-da588f0a8e,11,text-layer,numbers not found in the page text: 5e+14
+2024-5513-Q30B-iv,2024-5513,FL-da588f0a8e,21,text-layer,numbers not found in the page text: -10 -5 10
+2024-5513-Q32A-ii,2024-5513,FL-da588f0a8e,25,text-layer,numbers not found in the page text: -1
+2024-5513-Q32B-ii,2024-5513,FL-da588f0a8e,25,text-layer,numbers not found in the page text: 1e-09
+2024-5513-Q33B-iii,2024-5513,FL-da588f0a8e,27,text-layer,numbers not found in the page text: 4
+2024-5522-Q24-a,2024-5522,FL-6683842a4e,15,text-layer,numbers not found in the page text: 80
+2024-5522-Q24-b,2024-5522,FL-6683842a4e,15,text-layer,numbers not found in the page text: 80
+2024-5522-Q24-c,2024-5522,FL-6683842a4e,15,text-layer,numbers not found in the page text: 80
+2024-5522-Q29B-iii,2024-5522,FL-6683842a4e,19,text-layer,numbers not found in the page text: 2.5e+08 2e+08
+2024-5522-Q29-iv,2024-5522,FL-6683842a4e,19,text-layer,numbers not found in the page text: 90
+2024-5522-Q32B-ii,2024-5522,FL-6683842a4e,25,text-layer,numbers not found in the page text: -20 30
+2024-5522-Q33A-i,2024-5522,FL-6683842a4e,27,text-layer,numbers not found in the page text: 45
+2024-5522-Q33A-ii,2024-5522,FL-6683842a4e,27,text-layer,numbers not found in the page text: 8e+14
+2024-5523-Q01,2024-5523,FL-91d599a2ac,5,text-layer,numbers not found in the page text: 30 60
+2024-5523-Q08,2024-5523,FL-91d599a2ac,9,text-layer,numbers not found in the page text: 2e-30 4e-27 6e-29 8e-28
+2024-5523-Q25,2024-5523,FL-91d599a2ac,15,text-layer,numbers not found in the page text: 6
+2024-5523-Q29B-iii,2024-5523,FL-91d599a2ac,19,text-layer,numbers not found in the page text: 2.5e+08 2e+08
+2024-5523-Q29-iv,2024-5523,FL-91d599a2ac,19,text-layer,numbers not found in the page text: 90
+2024-5523-Q32A-ii,2024-5523,FL-91d599a2ac,23,text-layer,numbers not found in the page text: 0
+2024-5523-Q32B-ii,2024-5523,FL-91d599a2ac,25,text-layer,numbers not found in the page text: -20 30
+2024-5523-Q33A-i,2024-5523,FL-91d599a2ac,25,text-layer,numbers not found in the page text: 45
+2024-5523-Q33A-ii,2024-5523,FL-91d599a2ac,27,text-layer,numbers not found in the page text: 8e+14
+2024-5532-Q02,2024-5532,FL-5cb65db99a,5,text-layer,numbers not found in the page text: -1.6e-18 -5 1.6e-18 8e-19
+2024-5532-Q05,2024-5532,FL-5cb65db99a,7,text-layer,numbers not found in the page text: -0.3 -1.7
+2024-5532-Q21,2024-5532,FL-5cb65db99a,13,text-layer,numbers not found in the page text: 1.5e+16 5e+28
+2024-5532-Q25-a,2024-5532,FL-5cb65db99a,17,text-layer,numbers not found in the page text: 4.5e+08
+2024-5532-Q25-b,2024-5532,FL-5cb65db99a,17,text-layer,numbers not found in the page text: 4.5e+08
+2024-5532-Q25-c,2024-5532,FL-5cb65db99a,17,text-layer,numbers not found in the page text: 4.5e+08
+2024-5532-Q29-i,2024-5532,FL-5cb65db99a,19,text-layer,numbers not found in the page text: -100 -20 -400 -50 -70 150 200
+2024-5532-Q29-ii,2024-5532,FL-5cb65db99a,19,text-layer,numbers not found in the page text: -100 -400
+2024-5532-Q29B-iv,2024-5532,FL-5cb65db99a,21,text-layer,numbers not found in the page text: -50 -70 1.76e+11 130000 2.6e+06 5.2e+07 650000
+2024-5533-Q01,2024-5533,FL-eaaf0369bd,5,text-layer,numbers not found in the page text: -25
+2024-5533-Q02,2024-5533,FL-eaaf0369bd,5,text-layer,numbers not found in the page text: -1.6e-18 -5 1.6e-18 8e-19
+2024-5533-Q05,2024-5533,FL-eaaf0369bd,7,text-layer,numbers not found in the page text: -0.3 -1.7
+2024-5533-Q21,2024-5533,FL-eaaf0369bd,15,text-layer,numbers not found in the page text: 1.5e+16 5e+28
+2024-5533-Q22-a,2024-5533,FL-eaaf0369bd,15,text-layer,numbers not found in the page text: 1e-07 9e+28
+2024-5533-Q22-b,2024-5533,FL-eaaf0369bd,15,text-layer,numbers not found in the page text: 1e-07 9e+28
+2024-5533-Q22-c,2024-5533,FL-eaaf0369bd,15,text-layer,numbers not found in the page text: 1e-07 9e+28
+2024-5533-Q25-a,2024-5533,FL-eaaf0369bd,17,text-layer,numbers not found in the page text: 4.5e+08
+2024-5533-Q25-b,2024-5533,FL-eaaf0369bd,17,text-layer,numbers not found in the page text: 4.5e+08
+2024-5533-Q25-c,2024-5533,FL-eaaf0369bd,17,text-layer,numbers not found in the page text: 4.5e+08
+2024-5533-Q29-i,2024-5533,FL-eaaf0369bd,19,text-layer,numbers not found in the page text: -100 -20 -400 -50 -70 150 200
+2024-5533-Q29-ii,2024-5533,FL-eaaf0369bd,19,text-layer,numbers not found in the page text: -100 -400
+2024-5533-Q29B-iv,2024-5533,FL-eaaf0369bd,21,text-layer,numbers not found in the page text: -50 -70 1.76e+11 130000 2.6e+06 5.2e+07 650000
+2024C-55S2-Q01,2024C-55S2,FL-cfc0440c1d,5,text-layer,numbers not found in the page text: -0.925 -1.075
+2024C-55S2-Q09,2024C-55S2,FL-cfc0440c1d,7,text-layer,numbers not found in the page text: -3.4
+2024C-55S2-Q25,2024C-55S2,FL-cfc0440c1d,15,text-layer,numbers not found in the page text: -4 2e+06
+2024C-55S2-Q29-i,2024C-55S2,FL-cfc0440c1d,17,text-layer,numbers not found in the page text: 9
+2024C-55S2-Q30-iii,2024C-55S2,FL-cfc0440c1d,21,text-layer,numbers not found in the page text: 2.5e-05 2e-06 5e-05 5e-08
+2024C-55S2-Q30B-iv,2024C-55S2,FL-cfc0440c1d,21,text-layer,numbers not found in the page text: 0.005 0.05
+2024C-55S2-Q33A-ii-1,2024C-55S2,FL-cfc0440c1d,27,text-layer,numbers not found in the page text: 5e+14
+2024C-55S2-Q33A-ii-2,2024C-55S2,FL-cfc0440c1d,27,text-layer,numbers not found in the page text: 5e+14
+2024C-55S3-Q23,2024C-55S3,FL-f108191f3b,15,text-layer,numbers not found in the page text: -4 2e+06
+2024C-55S3-Q25-a,2024C-55S3,FL-f108191f3b,15,text-layer,numbers not found in the page text: 3e+15
+2024C-55S3-Q25-b,2024C-55S3,FL-f108191f3b,15,text-layer,numbers not found in the page text: 3e+15
+2024C-55S3-Q29-i,2024C-55S3,FL-f108191f3b,17,text-layer,numbers not found in the page text: 9
+2024C-55S3-Q30-iii,2024C-55S3,FL-f108191f3b,21,text-layer,numbers not found in the page text: 2.5e-05 2e-06 5e-05 5e-08
+2024C-55S3-Q30B-iv,2024C-55S3,FL-f108191f3b,21,text-layer,numbers not found in the page text: 0.005 0.05
+2024C-55S3-Q33A-ii-1,2024C-55S3,FL-f108191f3b,27,text-layer,numbers not found in the page text: 5e+14
+2024C-55S3-Q33A-ii-2,2024C-55S3,FL-f108191f3b,27,text-layer,numbers not found in the page text: 5e+14
+2024-55B-Q01,2024-55B,FL-729e0480ef,5,text-layer,numbers not found in the page text: 4.8e-17
+2024-55B-Q19,2024-55B,FL-729e0480ef,13,text-layer,numbers not found in the page text: 4
+2024-55B-Q30A-iv,2024-55B,FL-729e0480ef,25,text-layer,numbers not found in the page text: 1.5e-34 3e-30 4.5e+34 6e-26 6e-34
+2024-55B-Q30B-iv,2024-55B,FL-729e0480ef,25,text-layer,numbers not found in the page text: -2 1.6e-11 2e-10 4e-10 8e-10
+2024-55B-Q31B-ii,2024-55B,FL-729e0480ef,27,text-layer,numbers not found in the page text: -3 -5 180000
+2024C-55BS-Q01,2024C-55BS,FL-9ba5fc8f01,5,text-layer,numbers not found in the page text: -4
+2024C-55BS-Q27-a,2024C-55BS,FL-9ba5fc8f01,17,text-layer,numbers not found in the page text: 4e+14
+2024C-55BS-Q27-b,2024C-55BS,FL-9ba5fc8f01,17,text-layer,numbers not found in the page text: 4e+14
+2024C-55BS-Q32A-ii-1,2024C-55BS,FL-9ba5fc8f01,25,text-layer,numbers not found in the page text: 0.002 0.182
+2024C-55BS-Q32A-ii-2,2024C-55BS,FL-9ba5fc8f01,25,text-layer,numbers not found in the page text: 0.002 0.182
+2024C-55BS-Q32B-ii-1,2024C-55BS,FL-9ba5fc8f01,25,text-layer,numbers not found in the page text: 8e-08
+2024C-55BS-Q32B-ii-2,2024C-55BS,FL-9ba5fc8f01,25,text-layer,numbers not found in the page text: 8e-08
+2024C-55BS-Q33B-ii,2024C-55BS,FL-9ba5fc8f01,27,text-layer,numbers not found in the page text: 6e-05
+SQP2324-042-Q11,SQP2324-042,FL-2a095ebb9d,3,text-layer,numbers not found in the page text: 0 0.5
+SQP2324-042-Q12,SQP2324-042,FL-2a095ebb9d,3,text-layer,numbers not found in the page text: -13.6
+SQP2324-042-Q19,SQP2324-042,FL-2a095ebb9d,4,text-layer,numbers not found in the page text: 60
+SQP2324-042-Q24-b,SQP2324-042,FL-2a095ebb9d,5,text-layer,numbers not found in the page text: -42
+SQP2324-042-Q29-ii,SQP2324-042,FL-2a095ebb9d,6,text-layer,numbers not found in the page text: -5
+SQP2324-042-Q29-iv,SQP2324-042,FL-2a095ebb9d,7,text-layer,numbers not found in the page text: 0.7 0.8
+SQP2324-042-Q32A-ii,SQP2324-042,FL-2a095ebb9d,9,text-layer,numbers not found in the page text: 100 200
+SQP2324-042-Q33A-c-ii,SQP2324-042,FL-2a095ebb9d,10,text-layer,numbers not found in the page text: -42

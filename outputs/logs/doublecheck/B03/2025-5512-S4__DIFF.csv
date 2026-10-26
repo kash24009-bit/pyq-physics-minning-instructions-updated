@@ -1,0 +1,57 @@
+instance_id,field,part_value,check_value,detail,resolved
+2025-5512-Q01,marks_part,,1,marks differ,extractor_right
+2025-5512-Q02,marks_part,,1,marks differ,extractor_right
+2025-5512-Q03,marks_part,,1,marks differ,extractor_right
+2025-5512-Q04,marks_part,,1,marks differ,extractor_right
+2025-5512-Q05,marks_part,,1,marks differ,extractor_right
+2025-5512-Q06,marks_part,,1,marks differ,extractor_right
+2025-5512-Q06,options,A) Zero | B) i_0*v_0*cos(phi) | C) i_0*v_0/2 | D) (i_0*v_0/2)*cos(phi),A) Zero | B) i_0 nu_0 cos phi | C) i_0 nu_0/2 | D) (i_0 nu_0/2) cos phi,"options differ at B, C, D",extractor_right
+2025-5512-Q07,marks_part,,1,marks differ,extractor_right
+2025-5512-Q07,options,A) Remains same; Decreases; Remains same | B) Remains same; Decreases; Increases | C) Increases; Increases; Decreases | D) Remains same; Increases; Remains same,A) Speed: Remains same; Wavelength: Decreases; Frequency: Remains same | B) Speed: Remains same; Wavelength: Decreases; Frequency: Increases | C) Speed: Increases; Wavelength: Increases; Frequency: Decreases | D) Speed: Remains same; Wavelength: Increases; Frequency: Remains same,"options differ at A, B, C, D",extractor_right
+2025-5512-Q08,marks_part,,1,marks differ,extractor_right
+2025-5512-Q08,numbers,1 2,,"only in the checker's reading: -; only in the part file: ['1', '2']",extractor_right
+2025-5512-Q08,options,A) medium '1' and at an angle greater than sin^-1(v_1/v_2) | B) medium '1' and at an angle greater than cos^-1(v_1/v_2) | C) medium '2' and at an angle greater than sin^-1(v_1/v_2) | D) medium '2' and at an angle greater than cos^-1(v_1/v_2),A) medium '1' and at an angle greater than sin^-1(nu_1/nu_2) | B) medium '1' and at an angle greater than cos^-1(nu_1/nu_2) | C) medium '2' and at an angle greater than sin^-1(nu_1/nu_2) | D) medium '2' and at an angle greater than cos^-1(nu_1/nu_2),"options differ at A, B, C, D",extractor_right
+2025-5512-Q09,marks_part,,1,marks differ,extractor_right
+2025-5512-Q09,options,A) 1e16 | B) 1e24 | C) 1e10 | D) 1e20,A) 10^16 | B) 10^24 | C) 10^10 | D) 10^20,"options differ at A, B, C, D",extractor_right
+2025-5512-Q10,marks_part,,1,marks differ,extractor_right
+2025-5512-Q10,options,"A) steep rise from small A to a broad maximum near A = 56, then a slow fall | B) steep rise to a sharp corner at A = 56, then almost flat | C) a symmetric hump peaking at A = 80, flat-bottomed on both sides | D) steep rise to a peak at A = 80, a fall to a minimum, then a small rise","A) graph (A): B.E./A rises steeply, broad maximum at the dashed line A = 56, then falls slowly | B) graph (B): B.E./A rises steeply to a sharp corner at the dashed line A = 56, then nearly flat | C) graph (C): symmetric bell-shaped peak at the dashed line A = 80, low on both sides | D) graph (D): steep rise to a sharp peak at the dashed line A = 80, falls to a minimum, then rises again","options differ at A, B, C, D",extractor_right
+2025-5512-Q11,marks_part,,1,marks differ,extractor_right
+2025-5512-Q12,marks_part,,1,marks differ,extractor_right
+2025-5512-Q13,marks_part,,1,marks differ,extractor_right
+2025-5512-Q13,options,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Assertion (A) is false and Reason (R) is also false.","options differ at A, B, C, D",extractor_right
+2025-5512-Q14,marks_part,,1,marks differ,extractor_right
+2025-5512-Q14,options,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Assertion (A) is false and Reason (R) is also false.","options differ at A, B, C, D",extractor_right
+2025-5512-Q15,marks_part,,1,marks differ,extractor_right
+2025-5512-Q15,options,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Assertion (A) is false and Reason (R) is also false.","options differ at A, B, C, D",extractor_right
+2025-5512-Q16,marks_part,,1,marks differ,extractor_right
+2025-5512-Q16,options,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Assertion (A) is false and Reason (R) is also false.","options differ at A, B, C, D",extractor_right
+2025-5512-Q18A,marks_part,,2,marks differ,extractor_right
+2025-5512-Q19,marks_part,,2,marks differ,extractor_right
+2025-5512-Q20,marks_part,,2,marks differ,extractor_right
+2025-5512-Q22A-ii,numbers,0.2 0.4 3 4 6,,"only in the checker's reading: -; only in the part file: ['0.2', '0.4', '3', '4', '6']",extractor_right
+2025-5512-Q22A-iii,numbers,0.2 0.4 3 4 6,,"only in the checker's reading: -; only in the part file: ['0.2', '0.4', '3', '4', '6']",extractor_right
+2025-5512-Q22B-i-ii,numbers,2,,only in the checker's reading: -; only in the part file: ['2'],extractor_right
+2025-5512-Q24,marks_part,,3,marks differ,extractor_right
+2025-5512-Q26-b-ii,numbers,80,,only in the checker's reading: -; only in the part file: ['80'],extractor_right
+2025-5512-Q29-i,marks_part,1,,marks differ,extractor_right
+2025-5512-Q29-i,options,"A) arrow pointing up; line rising slightly to the right, ball at its right end | B) arrow pointing up; line rising steeply to the right, ball at its lower left end | C) arrow pointing down; line rising slightly to the right, ball at its left end | D) arrow pointing down; line rising steeply to the right, ball at its upper right end",A) image: arrow pointing up; line rising slightly to the right with the ball at its right end | B) image: arrow pointing up; line rising more steeply to the right with the ball at its lower-left end | C) image: arrow pointing down; line rising slightly to the right with the ball at its left end | D) image: arrow pointing down; line rising more steeply to the right with the ball at its upper-right end,"options differ at A, B, C, D",extractor_right
+2025-5512-Q29-ii,marks_part,1,,marks differ,extractor_right
+2025-5512-Q29A-iii,marks_part,1,,marks differ,extractor_right
+2025-5512-Q29A-iii,options,A) f | B) 2f | C) f/2 | D) f/4,A) f | B) 2*f | C) f/2 | D) f/4,options differ at B,extractor_right
+2025-5512-Q29B-iii,marks_part,1,,marks differ,extractor_right
+2025-5512-Q29-iv,marks_part,1,,marks differ,extractor_right
+2025-5512-Q30-i,marks_part,1,,marks differ,extractor_right
+2025-5512-Q30-i,numbers,10 20 500,1 10 20 500,only in the checker's reading: ['1']; only in the part file: -,extractor_right
+2025-5512-Q30-ii,marks_part,1,,marks differ,extractor_right
+2025-5512-Q30-iii,marks_part,1,,marks differ,extractor_right
+2025-5512-Q30A-iv,marks_part,1,,marks differ,extractor_right
+2025-5512-Q30B-iv,marks_part,1,,marks differ,extractor_right
+2025-5512-Q31A-i-1,numbers,1,,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2025-5512-Q31A-i-2,numbers,2,,only in the checker's reading: -; only in the part file: ['2'],extractor_right
+2025-5512-Q31A-ii-1,numbers,0.1 1 1.2 600,0.1 1.2 600,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2025-5512-Q31A-ii-2,numbers,0.1 1.2 2 600,,"only in the checker's reading: -; only in the part file: ['0.1', '1.2', '2', '600']",extractor_right
+2025-5512-Q32A-ii-1,numbers,-80 1 16 80,-80 16 80,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2025-5512-Q32A-ii-2,numbers,-80 16 2 3 80,3,"only in the checker's reading: -; only in the part file: ['-80', '16', '2', '80']",extractor_right
+2025-5512-Q32A-ii-3,numbers,-160 -80 16 160 3 80,-160 160,"only in the checker's reading: -; only in the part file: ['-80', '16', '3', '80']",extractor_right
+2025-5512-Q33B-ii-1,numbers,1,,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2025-5512-Q33B-ii-2,numbers,2,,only in the checker's reading: -; only in the part file: ['2'],extractor_right
