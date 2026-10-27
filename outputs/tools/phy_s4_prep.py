@@ -403,10 +403,17 @@ def prepare(a):
     full_ar = [q for q, p_, v, best, *_ in verdicts if v != 'repeat candidate' and best and any(r['q_type'] == 'AR' for r in groups[best])]
     if ar_q and (not full_ar or ar_q[0] < min(full_ar)):
         x = [x for x in rep if int(x['q_no']) == ar_q[0]][0]
-        src = [r for r in I if r['paper_id'] == byid0[x['origin_row']]['paper_id'] and 'ARSET_page=' in r['extra']]
-        if src:
-            off = int(re.search(r'ARSET_page=(\d+)', src[0]['extra']).group(1)) - int(src[0]['source_page'])
-            x['extra_pages'] = '; '.join([e for e in [x['extra_pages'], f"ARSET_page={int(x['source_page']) + off}"] if e])
+        apg = None
+        for pg in sorted(p for p, k in kinds.items() if k == 'en'):       # the page printing the A-R directions (B08)
+            t_ = page_text(pdf, pg)
+            if re.search(r'Assertion\s*\(A\)', t_) and re.search(r'Reason\s*\(R\)', t_):
+                apg = pg; break
+        if apg is None:
+            src = [r for r in I if r['paper_id'] == byid0[x['origin_row']]['paper_id'] and 'ARSET_page=' in r['extra']]
+            if src:
+                apg = int(x['source_page']) + int(re.search(r'ARSET_page=(\d+)', src[0]['extra']).group(1)) - int(src[0]['source_page'])
+        if apg:
+            x['extra_pages'] = '; '.join([e for e in [x['extra_pages'], f"ARSET_page={apg}"] if e])
     # worksheet
     L = [f'# S4 sibling worksheet {a.pid} · file {fid} · series {",".join(own)}' + (f' (compared also with {",".join(other)})' if other else ''),
          f'Origin questions from {", ".join(opids)} ({len(groups)} questions holding rel = origin rows); file {pdf}.', '',
@@ -418,7 +425,7 @@ def prepare(a):
           f'- Hindi pages: {",".join(map(str, sorted(hi))) or "none"}',
           f'- not settled from the text layer: {",".join(map(str, sorted(uns))) or "none"}' + (f' -> thumbnail sheet {thumbs}: decide each from it' if thumbs else '')]
     if not s_q:
-        L += ['- **No text layer could be segmented: every question is matched by you on the images against the origin rows listed at the end; record each confirmed repeat with --add-repeat.**']
+        L += ['- **No text layer could be segmented: every question is matched by you on the images against the origin questions listed at the end; record each confirmed repeat with --add-repeat (every value of a repeat confirmed on a crop).**']
     L += ['', f'located {len(s_q)} of {expect_n or "?"} questions in the text layer', '',
           '## Verdicts', '| this paper Q | page | verdict | origin question | word similarity | differences (origin -> this paper) |', '|---|---|---|---|---|---|']
     nrep = sum(1 for v in verdicts if v[2] == 'repeat candidate')
@@ -451,6 +458,12 @@ def prepare(a):
         if v != 'repeat candidate' and best:
             ids = [r['instance_id'] for r in groups[best]]
             L.append(f"- Q{q} (p{p}): {v}; nearest {best[0]} Q{best[1]} ({', '.join(ids)}); text-layer differences: {'; '.join(d) or 'none'}")
+    if not s_q:
+        L += ['', '## Origin questions of the series (no text layer here: match by content on the images; --add-repeat --q <this Q> --origin-q <pid>:<q> --page <p>)']
+        for (p_, oq) in sorted(groups):
+            for r in sorted(groups[(p_, oq)], key=lambda x: x['instance_id']):
+                L.append(f"- {r['instance_id']} (p{r['source_page']}, {r['q_type']}, {r['marks_part'] or '-'}/{r['q_marks_printed']}): {r['stem'][:220]}"
+                         + (f" | options: {r['options'][:160]}" if r['options'] else '') + (f" | givens: {r['givens'][:120]}" if r['givens'] else ''))
     ar = [r for r in I if r['paper_id'] in opids and 'ARSET=' in r['extra']]
     L += ['', '## Finishing',
           f'1. Confirm each candidate on its band; crop every figure at 400 dpi. In {os.path.join(outdir, "REPEATS.csv")} set status to '

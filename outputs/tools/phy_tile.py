@@ -2,12 +2,12 @@
 """Pack several crop PNGs onto as few sheets as possible, never rescaling a crop.
 
 Every sheet stays within 1568 px on its long side and under 450 KB (rule card A9): a sheet
-over 450 KB is split into smaller sheets; a single crop over either limit is kept alone with
+over 450 KB is split into smaller sheets; a crop over 1568 px is split into overlapping parts; one over 450 KB alone gets
 a warning to crop tighter. Prints, for each sheet, its size in px and KB and the effective dpi
 its crops will be seen at. Sheets are 8-bit grayscale unless --color (colour carries meaning).
   python3 phy_tile.py --out /home/claude/render/<pid>/sheets/s --dpi 400 [--color] a.png b.png ...
 Writes s_1.png, s_2.png, ... Each crop gets a label strip with its folder name.
-Edition 2026-10-26 (B08): file sizes, the 450 KB split, --color (her decision 2026-10-21).
+Edition 2026-10-26 (B08): file sizes, the 450 KB split, --color (her decision 2026-10-21); a crop over 1568 px is split into overlapping parts (B8-1).
 """
 import argparse, os
 from PIL import Image, ImageDraw
@@ -57,7 +57,18 @@ def main():
     items = []
     for p in a.crops:
         im = Image.open(p).convert(mode)
-        items.append((os.path.basename(os.path.dirname(p)) + '/' + os.path.basename(p), im))
+        name = os.path.basename(os.path.dirname(p)) + '/' + os.path.basename(p)
+        w, h = im.size
+        if w > a.limit or h + LABEL > a.limit:      # B08: split, never send an image over the limit
+            nx = -(-w // (a.limit - 100)); ny = -(-(h + LABEL) // (a.limit - 100))
+            tw, th = -(-w // nx), -(-h // ny); ov = 40
+            for iy in range(ny):
+                for ix in range(nx):
+                    box = (max(0, ix * tw - ov), max(0, iy * th - ov), min(w, (ix + 1) * tw + ov), min(h, (iy + 1) * th + ov))
+                    items.append((f'{name} part {iy * nx + ix + 1}/{nx * ny} (x {box[0]}-{box[2]}, y {box[1]}-{box[3]})', im.crop(box)))
+            print(f'split {name} ({w}x{h} px) into {nx * ny} parts within {a.limit} px, overlapping by {ov} px')
+            continue
+        items.append((name, im))
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
     queue, done, tmp = [pack(items, a.limit)], [], a.out + '_tmp.png'
     # split any sheet over 450 KB into two halves (by crop order) until each fits
