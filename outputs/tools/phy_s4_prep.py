@@ -471,6 +471,7 @@ def prepare(a):
           'shows otherwise, and put what the figure crops showed in note_add.',
           f'2. `python3 {os.path.abspath(__file__)} --write-repeats --pid {a.pid} --repeats {os.path.join(outdir, "REPEATS.csv")}` writes the confirmed '
           'shuffle rows, their FIGURES, FORMULAE (source QP) and CASES into the part files and merges them with yours; rerun it after any change.',
+          f'2b. A variant that the band shows identical (text-layer damage only), or a repeat the text layer missed: `python3 {os.path.abspath(__file__)} --add-repeat --pid {a.pid} --repeats {os.path.join(outdir, "REPEATS.csv")} --q <this Q> --origin-q <origin pid>:<origin q> --page <p> [--only <origin row ids>]`, then --write-repeats again.',
           '3. Write the new and variant rows yourself (full rows, card D); then the BLUEPRINTS row; then G check.',
           '4. ARSET: only the paper\'s first assertion-reason row carries it; --write-repeats drops it from copies that are not, '
           'and copies it onto a copy that is (confirm the printed set). Origin ARSET rows: ' + ', '.join(r['instance_id'] for r in ar)]
