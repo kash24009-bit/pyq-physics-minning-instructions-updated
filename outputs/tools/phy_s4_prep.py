@@ -471,7 +471,7 @@ def prepare(a):
           'shows otherwise, and put what the figure crops showed in note_add.',
           f'2. `python3 {os.path.abspath(__file__)} --write-repeats --pid {a.pid} --repeats {os.path.join(outdir, "REPEATS.csv")}` writes the confirmed '
           'shuffle rows, their FIGURES, FORMULAE (source QP) and CASES into the part files and merges them with yours; rerun it after any change.',
-          f'2b. A variant that the band shows identical (text-layer damage only), or a repeat the text layer missed: `python3 {os.path.abspath(__file__)} --add-repeat --pid {a.pid} --repeats {os.path.join(outdir, "REPEATS.csv")} --q <this Q> --origin-q <origin pid>:<origin q> --page <p> [--only <origin row ids>]`, then --write-repeats again.',
+          f'2b. A variant that the band shows identical (text-layer damage only), or a repeat the text layer missed: `python3 {os.path.abspath(__file__)} --add-repeat --pid {a.pid} --repeats {os.path.join(outdir, "REPEATS.csv")} --q <this Q> --origin-q <origin pid>:<origin q> --page <p> [--only <origin row ids>] [--extra-pages "ARSET_page=<p>"]`, then --write-repeats again; page numbers inside copied text (a case attempt_rule, a note) are the origin's: check them.',
           '3. Write the new and variant rows yourself (full rows, card D); then the BLUEPRINTS row; then G check.',
           '4. ARSET: only the paper\'s first assertion-reason row carries it; --write-repeats drops it from copies that are not, '
           'and copies it onto a copy that is (confirm the printed set). Origin ARSET rows: ' + ', '.join(r['instance_id'] for r in ar)]
@@ -597,7 +597,7 @@ def add_repeat(a):
                          part=r['part'], section=section_of(secs, q) or r['section'],
                          choice_pair_id=f'OR-{a.pid}-Q{q:02d}' if r['choice_pair_id'] else '',
                          case_id=f'CS-{a.pid}-Q{q:02d}' if r['case_id'] else '', source_page=str(a.page), q_page=str(a.page),
-                         fig_pages=';'.join(str(a.page) for _ in figs), extra_pages='', note_add=''))
+                         fig_pages=';'.join(str(a.page) for _ in figs), extra_pages=a.extra_pages, note_add=''))
     with open(a.repeats, 'w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=RCOLS); w.writeheader(); w.writerows(rows)
     print(f'{a.repeats}: {len(grp)} rows of {opid} Q{oq} as Q{q} (status confirmed; correct pages per row before --write-repeats)')
@@ -609,6 +609,7 @@ if __name__ == '__main__':
     ap.add_argument('--out', default=''); ap.add_argument('--write-repeats', action='store_true'); ap.add_argument('--repeats', default='')
     ap.add_argument('--add-repeat', action='store_true'); ap.add_argument('--q', default=''); ap.add_argument('--origin-q', default='')
     ap.add_argument('--page', default=''); ap.add_argument('--only', default='')
+    ap.add_argument('--extra-pages', default='', help='with --add-repeat: page keys such as "ARSET_page=11" (B08)')
     a = ap.parse_args()
     if a.write_repeats:
         write_repeats(a)
