@@ -471,7 +471,7 @@ def prepare(a):
           'shows otherwise, and put what the figure crops showed in note_add.',
           f'2. `python3 {os.path.abspath(__file__)} --write-repeats --pid {a.pid} --repeats {os.path.join(outdir, "REPEATS.csv")}` writes the confirmed '
           'shuffle rows, their FIGURES, FORMULAE (source QP) and CASES into the part files and merges them with yours; rerun it after any change.',
-          f'2b. A variant that the band shows identical (text-layer damage only), or a repeat the text layer missed: `python3 {os.path.abspath(__file__)} --add-repeat --pid {a.pid} --repeats {os.path.join(outdir, "REPEATS.csv")} --q <this Q> --origin-q <origin pid>:<origin q> --page <p> [--only <origin row ids>] [--extra-pages "ARSET_page=<p>"]`, then --write-repeats again; page numbers inside copied text (a case attempt_rule, a note) are the origin's: check them.',
+          f'2b. A variant that the band shows identical (text-layer damage only), or a repeat the text layer missed: `python3 {os.path.abspath(__file__)} --add-repeat --pid {a.pid} --repeats {os.path.join(outdir, "REPEATS.csv")} --q <this Q> --origin-q <origin pid>:<origin q> --page <p> [--only <origin row ids>] [--extra-pages "ARSET_page=<p>"]`, then --write-repeats again; page numbers inside copied text (a case attempt_rule, a note) come from the origin: check them.',
           '3. Write the new and variant rows yourself (full rows, card D); then the BLUEPRINTS row; then G check.',
           '4. ARSET: only the paper\'s first assertion-reason row carries it; --write-repeats drops it from copies that are not, '
           'and copies it onto a copy that is (confirm the printed set). Origin ARSET rows: ' + ', '.join(r['instance_id'] for r in ar)]
@@ -511,7 +511,7 @@ def write_repeats(a):
         n = [int(m.group(1)) for r in rows for m in [re.match(re.escape(pre) + r'(\d+)$', list(r.values())[0])] if m]
         return max(n) + 1 if n else 1
     nf, ne = nxt(figs, f'F-{a.pid}-', 2), nxt(frm, f'EQ-{a.pid}-', 3)
-    new, warn = [], []
+    new, warn, FIDMAP = [], [], {}
     for x in R:
         o = dict(I[x['origin_row']])
         oq = o['q_no']
@@ -541,6 +541,11 @@ def write_repeats(a):
         for i, f in enumerate(ofigs):
             g = dict(f); g.update(figure_id=f'F-{a.pid}-{nf:02d}', instance_id=x['sib_id'],
                                   source_page=fps[i] if i < len(fps) else x['source_page'], batch=B)
+            FIDMAP[f['figure_id']] = g['figure_id']
+            if x['q_no'] != oq:          # B08: pointer text names the origin's question number
+                d2 = re.sub(rf'\bQ0?{int(oq)}(?=\b|-|[AB]\b)', f'Q{int(x["q_no"]):02d}' if re.search(rf'\bQ0{int(oq)}', g['description']) else f'Q{int(x["q_no"])}', g['description'])
+                if d2 != g['description']:
+                    warn.append(f'{g["figure_id"]}: question number in the copied description changed Q{oq} -> Q{x["q_no"]}; confirm'); g['description'] = d2
             nf += 1; figs.append(g)
         for e in [e for e in E if e['instance_id'] == x['origin_row'] and e['source'] == 'QP']:
             g = dict(e); g.update(formula_id=f'EQ-{a.pid}-{ne:03d}', instance_id=x['sib_id'], source_page=x['source_page'], batch=B)
@@ -550,6 +555,14 @@ def write_repeats(a):
             if oc:
                 c = dict(oc); c.update(case_id=x['case_id'], paper_id=a.pid, q_no=x['q_no'], source_page=x['q_page'] or x['source_page'], batch=B)
                 cases.append(c)
+    # B08: copied pointer text naming the origin's figure ids -> this paper's ids
+    for g in figs:
+        if g['instance_id'] in ids:
+            d2 = g['description']
+            for o_, n_ in FIDMAP.items():
+                d2 = d2.replace(o_, n_)
+            if d2 != g['description']:
+                warn.append(f'{g["figure_id"]}: figure ids in the copied description rewritten to this paper\'s; confirm'); g['description'] = d2
     # ARSET: only the paper's first A-R row
     allrows = ins + new
     ars = sorted([r for r in allrows if r['q_type'] == 'AR'], key=lambda r: (int(r['q_no']), r['instance_id']))
