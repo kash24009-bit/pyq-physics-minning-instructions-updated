@@ -1,6 +1,6 @@
 # CLAUDE.md · PYQ Pattern Mining · Physics (042) · Claude Code route
 
-Written 2026-09-30, last updated 2026-10-21 after Batch 6 (lean reading, phy-reader subagents, a lean boot, a new session after every usage stop, gate edition 2026-10-21 and phy_marks.py), for kit edition 2026-09-30b. This file replaces every earlier CLAUDE.md. If another CLAUDE.md is also loaded (from any repository), this one wins; name the other file in your report so she can delete it.
+Written 2026-09-30, updated 2026-10-21 after Batch 6 (lean reading, phy-reader subagents, a lean boot, a new session after every usage stop, gate edition 2026-10-21 and phy_marks.py) and 2026-11-10 (the stage boot pack `phy_boot.py`, the session close-out `phy_closeout.py` and the work plan `PHY-09-WORK-PLAN.md`; §6, §9, §11, §12), for kit edition 2026-09-30b. This file replaces every earlier CLAUDE.md. If another CLAUDE.md is also loaded (from any repository), this one wins; name the other file in your report so she can delete it.
 
 Read this file in full at the start of every session and again after every compaction, before your next action.
 
@@ -11,7 +11,7 @@ Read this file in full at the start of every session and again after every compa
 
 ## 2 · Authority, highest first
 1. The truth rules in §4 (the project's CI§2, verbatim). They never bend.
-2. This file, including her decisions in §12.
+2. This file, including her decisions in §12, and with it the work plan `PHY-09-WORK-PLAN.md` (her decisions of 2026-11-10: the order of work and the Fable-week rules).
 3. `PHY-08-YEAR-PLAYBOOK.md` (cited Y§n): how a year is mined; every decision 2026 already settled.
 4. `PHY-07-CLAUDE-CODE-RUNBOOK.md` (cited R§n): the procedures and commands of this route.
 5. `PHY-00-CUSTOM-INSTRUCTIONS.md` (cited CI§n): the project's law. Where it names a claude.ai tool or a chat-only step, §5 says what replaces it; where it orders the year cycle, §12 records her change.
@@ -60,7 +60,8 @@ Never rename, move, edit or delete a file she put in any repository. Copies a br
    - Exit 4 (no vault anywhere): the only situation where you stop. One line: "Upload the newest PHY-VAULT file to the project repository, then type Go." Never make a vault.
    - Exit 5 or 6: a repository is missing. One line to her, then do what you can.
    - Read its summary: roles, kit edition, the vault it restored, the earlier results it carried forward into this branch, this session's batch, validate line, warnings. A warning about a misnamed or duplicated file goes in the first line of your report.
-2. Read from disk, in one batch of reads (her decision 2026-10-21, lean boot): `PHY-08` in full; the vault's `notes/RULE-CARD.md`, `CONVENTIONS.md` and `notes/PHY-03-ADDENDUM.md` in full; only the open lines of `PROGRESS.md` (`grep -n '^- \[ \]'`) and only the open items of `QQUEUE.md` (`grep -n '· open'`). Read a section of `PHY-07` (R§n), `PHY-00` (CI§n), `PHY-02` (P§n), `PHY-03` or `PHY-04` only when the step you are starting cites it, and only that section, when you start that step. Read `notes/Y<year>.md` only for the year you work on. The protocol files are in `/mnt/project/`, the vault files in `/home/claude/vault/`. After a compaction, re-read only this file, the open lines of PROGRESS and the Y§ or R§ section of your current step.
+2. **The stage boot pack (her decision 2026-11-10; it replaces the reading list of 2026-10-21).** One Bash call: `python3 /mnt/project/phy_boot.py`. It prints only what the main session needs for the step it is about to start: the open PROGRESS lines, the work plan `PHY-09-WORK-PLAN.md`, the PHY-08 and PHY-07 sections of that stage, the CONVENTIONS entries of that year and stage with an index of every other entry, the open queue items that name the year, and the newest mistakes entries. It picks the step from the plan's order; pass `--stage <S1|S2a|S3|S4|S5|YC|S6|S7|S8|FIX> --year <year>` when you start a different step, and run it again then. Read nothing else at boot. The full files stay the authority: read a whole section or entry (the pack's index gives line numbers) when a step needs more than the pack prints, and only then. The main session does not read the rule card; readers do. Why: the main session's context is written to the cache again after every reader, so each line read at boot is paid for once per unit (`outputs/LESSONS.md`). The protocol files are in `/mnt/project/`, the vault files in `/home/claude/vault/`.
+   - If `phy_boot.py` is missing or prints a line starting `!` that says it failed: read as before 2026-11-10 (`PHY-08` in full; the vault's `CONVENTIONS.md` and `notes/PHY-03-ADDENDUM.md` in full; the open lines of `PROGRESS.md` and the open items of `QQUEUE.md`; `/mnt/project/PHY-09-WORK-PLAN.md`), and say so in one line of the report.
 3. Take stock: `python3 /home/claude/pyqkit.py inventory /home/claude/vault /mnt/user-data/uploads /mnt/project --batch <session batch>`. A new year's files go through PHY-08 Y§2.
 4. Two-line boot report (state; what this session will do), then work. No questions.
 
@@ -88,8 +89,9 @@ Use `--stage S3` for a series origin, `--stage S4` for every other paper, `--sta
 - Never teach. A physics question gets one line and a pointer to her study project.
 
 ## 9 · Context, limits, failures
-- Disk is the memory. After a compaction: re-read this file, the open lines of the vault's `PROGRESS.md` and the R§ section for your stage, run `python3 /home/claude/phy_gate.py show`, then continue from the first unfinished paper. Part files already in `vault/work/` (or sealed) are kept.
+- Disk is the memory. After a compaction: re-read this file, run `python3 /mnt/project/phy_boot.py --stage <your stage> --year <year>` and `python3 /home/claude/phy_gate.py show`, then continue from the first unfinished paper. Part files already in `vault/work/` (or sealed) are kept.
 - Stop at a paper boundary when context or usage runs low. The last gate commit is the checkpoint.
+- **Close-out (her decision 2026-11-10).** Before the final report of every session, before a usage stop when you see one coming, and after every fourth unit (a rerun replaces this session's block, so a sudden stop still leaves the ledger): `python3 /mnt/project/phy_closeout.py [--usage-start <her %> --usage-end <her %>] [--lesson "<one change for next time, with its evidence>"]`, then `python3 /home/claude/phy_gate.py checkpoint --message "close-out B<nn>"`. It measures the session's readers and the main session, adds this session's block to `outputs/reports/PHY-USAGE-LEDGER.md` and keeps `outputs/LESSONS.md` (the method, for Chemistry and Maths too). Pass her usage figures only if her message gave them; never ask. A lesson is one line with its numbers; a change of procedure it suggests becomes a rule only when she agrees. If the close-out fails, save with the gate and say so in one line.
 - **Usage stop (her decision 2026-10-21).** When usage runs out, stop at a unit boundary and end the report with `next: new session, then Go`. After the reset she starts a new session. A conversation left idle past its cache lifetime re-sends everything at the full write rate on its next turn; a new session with the lean boot (§6) costs less.
 - If the cloud machine was replaced (your files are gone), rerun the setup; it keeps this session's batch by itself. Then redo the unfinished paper from the start.
 - A failing check quarantines that paper, not the session (CI§2.12). A failed push: `python3 /home/claude/phy_gate.py push`; if it still fails, keep working and report it.
@@ -106,7 +108,7 @@ Use `--stage S3` for a series origin, `--stage S4` for every other paper, `--sta
 | `Stop.` | Finish the current gate step, commit, push, report. |
 
 ## 11 · How you reply
-- Session report, at most 12 lines, plain words, no machine codes in prose: what was mined, checks passed, double-read results, what is open, the next step, at most one dry grumpy-teacher line.
+- Session report, at most 12 lines, plain words, no machine codes in prose: what was mined, checks passed, double-read results, what is open, the next step with the repositories it needs, one usage line from the close-out (this session's cost per unit against the ledger's earlier sessions), at most one dry grumpy-teacher line.
 - Second-to-last line: `Dashboard: <link>`, the link the gate printed at its last save.
 - Last line always: `RESUME · B<nn> · <year> · <stage> · rows <n> · vault <file name> · branch <branch> · next: <phrase>`. Every number comes from the kit or the gate output, never typed. At a usage stop the phrase is `new session, then Go`.
 - A point is made once. No long explanations of what went wrong: log it in the PHY-03 addendum, mention it in one line.
@@ -116,6 +118,8 @@ Use `--stage S3` for a series origin, `--stage S4` for every other paper, `--sta
 - **One thorough reading per paper (2026-10-03)** and **one thorough check per year (2026-10-05)**, as §7 says. Keep PHY-08 Y§6's detail standard: the single-reading 2025 rows met it best of all.
 - **Lean reading (2026-10-19).** Readers follow the vault's rule card: half-page bands, a step budget, calibration on every new file and the second look. No pull-request watching, check-ins or wake-ups.
 - **Upgrades after 2024 (2026-10-21).** `phy-reader` subagents for every reading, checking and adjudication; the gate's lint at every check; the normalised year-check comparison; the printed-marks list (`phy_marks.py`) in every S5 worksheet; the sibling worksheet from 2023 on; weighted usage measurement after every unit; the lean boot (§6); a new session after every usage stop (§9); no parallel readers. The details are in CONVENTIONS "Upgrades after 2024 (her decision 2026-10-21)", PHY-08 Y§0.5 and the rule card edition 2026-10-21.
+- **Work plan (2026-11-10).** `PHY-09-WORK-PLAN.md` sets the order from the 2023 schemes on: the 2023 schemes, then pattern-sorting (S6) for 2026 to 2023, moved forward from the closing sweep, then the 2023 year check, then 2022. It replaces the order of the CONVENTIONS entry "Order change (her decision 2026-10-26)" where they differ, and it carries the rules of the Fable week (to 2026-11-17). No Q-QUEUE item is needed for that difference.
+- **Upgrades of 2026-11-10.** The stage boot pack (§6), the close-out with the usage ledger and `outputs/LESSONS.md` (§9), top bands only at a year's intake (PHY-09 §3). Units stay as they are: one set section, one fresh reader. Two ideas were tested and not adopted (one reader per scheme file; clearing year-check flags that are only printed constants); PHY-09 §3 gives the numbers.
 - Keep going from paper to paper, stage to stage and year to year until usage runs low. Don't wait for her between them.
 - Apply a queued fix yourself when its page evidence is logged and you confirm it again on the page image: ERRATA through the gate as `FIX-<n>`, named in your report.
 - When a year's papers are done and its schemes are not attached, tell her once which to upload, then go on; the open S5 lines get done when the schemes appear.
