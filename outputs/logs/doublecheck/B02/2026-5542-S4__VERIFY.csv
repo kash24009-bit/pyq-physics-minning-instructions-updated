@@ -1,0 +1,70 @@
+instance_id,marks_part,q_marks_printed,numbers,options,figure_values,note
+2026-5542-Q01,,1,100%,A) 100% | B) 200% | C) 300% | D) 400%,,Section A: no marks printed beside question; 1 mark per instructions page p3 (iii).
+2026-5542-Q02,,1,,A) L/2 | B) 2L | C) 3L | D) 4L,,"Section A: no marks printed beside question; 1 mark per instructions page p3 (iii). ""two"" printed as a word."
+2026-5542-Q03,,1,,A) Drift velocity only | B) Thermal velocity only | C) Both drift velocity and thermal velocity | D) Neither drift nor thermal velocity,,Section A: no marks printed beside question; 1 mark per instructions page p3 (iii).
+2026-5542-Q04,,1,,A) m_1/m_2 > q_1/q_2 | B) m_1/m_2 > q_2/q_1 | C) m_1/m_2 < q_1/q_2 | D) m_1/m_2 < q_2/q_1,no numeric values; labels: path 1 | path 2 | m_1 | m_2 | vec(B),"Section A: no marks printed beside question; 1 mark per instructions page p3 (iii). Figure: vec(B) drawn as dots (out of page) although text says ""pointing vertically upward""; both particles enter from left moving right and curve downward (clockwise); path 1 (m_1) has smaller radius than path 2 (m_2)."
+2026-5542-Q05,,1,,A) infrared region | B) ultraviolet region | C) visible region | D) partly in ultraviolet region and partly in visible region,,Section A: no marks printed beside question; 1 mark per instructions page p3 (iii).
+2026-5542-Q06,,1,,A) increase by 100% of its initial value. | B) increase by 50% of its initial value. | C) decrease by 25% of its initial value. | D) decrease by 50% of its initial value.,,"Section A: no marks printed beside question; 1 mark per instructions page p3 (iii). ""four times"" printed as a word."
+2026-5542-Q07,,1,,A) p-region only | B) n-region only | C) depletion region | D) the diode,,Section A: no marks printed beside question; 1 mark per instructions page p3 (iii).
+2026-5542-Q08,,1,100 turns | 300 mm^2 | 5 mA,A) 6 × 10^-4 Am^2 | B) 3 × 10^-5 Am^2 | C) 1.5 × 10^-4 Am^2 | D) 5 × 10^-5 Am^2,,Section A: no marks printed beside question; 1 mark per instructions page p3 (iii).
+2026-5542-Q09,,1,14 V (v = 14 sin(314t) V) | 314t,A) 14 and 7 | B) 10 and 14 | C) 0 and 10 | D) 10 and 0,,Section A: no marks printed beside question; 1 mark per instructions page p3 (iii).
+2026-5542-Q10,,1,n = 1.5,A) 3 × 10^8 ms^-1 | B) 2 × 10^8 ms^-1 | C) 3.3 × 10^-9 ms^-1 | D) 5 × 10^-9 ms^-1,,Section A: no marks printed beside question; 1 mark per instructions page p3 (iii).
+2026-5542-Q11,,1,331 nm,A) Only Na and K show photoelectric emission. | B) Only Mo will not show photoelectric emission. | C) All of the given metals show photoelectric emission. | D) None of them show photoelectric emission.,"table (Work Function, eV): Na 1.92 | K 2.15 | Ca 3.20 | Mo 4.17","Section A: no marks printed beside question; 1 mark per instructions page p3 (iii). The ""figure"" is a table."
+2026-5542-Q12,,1,,A) cut-off potential will increase. | B) maximum kinetic energy of photoelectrons will remain the same. | C) photocurrent will increase. | D) cut-off potential will decrease.,,Section A: no marks printed beside question; 1 mark per instructions page p3 (iii).
+2026-5542-Q13,,1,,,,Section A: no marks printed beside question; 1 mark per instructions page p3 (iii). Assertion-Reason; standard codes A-D printed once in lead-in on p11.
+2026-5542-Q14,,1,,,,Section A: no marks printed beside question; 1 mark per instructions page p3 (iii). Assertion-Reason; standard codes A-D printed once in lead-in on p11.
+2026-5542-Q15,,1,,,,Section A: no marks printed beside question; 1 mark per instructions page p3 (iii). Assertion-Reason; standard codes A-D printed once in lead-in on p11.
+2026-5542-Q16,,1,,,,Section A: no marks printed beside question; 1 mark per instructions page p3 (iii). Assertion-Reason; standard codes A-D printed once in lead-in on p11.
+2026-5542-Q17A,2,2,,,,
+2026-5542-Q17B-i,,2,,,,"Single 2 printed beside (b)(ii) covers the whole of (b). Symbols lambda, a, D in lead-in (no numbers)."
+2026-5542-Q17B-ii,2,2,,,,The 2 beside (ii) is the total for (b)(i)+(ii).
+2026-5542-Q18,2,2,5 × 10^8 m^-3 | 4 × 10^12 m^-3,,,
+2026-5542-Q19,2,2,16 cm,,,"""two-times"" printed as a word."
+2026-5542-Q20,2,2,,,,
+2026-5542-Q21,2,2,+1 microC | -1 microC | 10 cm | 100 N/C,,,
+2026-5542-Q22A-i,,3,2I | 3I,,2I | I | 3I | d | d,"Lead-in currents 2I, I, 3I. Single 3 printed beside (a)(ii) covers (a). Circled 1, 2, 3 are conductor labels. Figure: conductor 1 (top) current 2I arrow points right (+x); conductor 2 (middle) current I arrow points right (+x); conductor 3 (bottom) current 3I arrow points left (-x); spacing d between 1-2 and 2-3; axes: x right, y up, z out of page (drawn toward lower left)."
+2026-5542-Q22A-ii,3,3,,,same as 2026-5542-Q22A-i,The 3 beside (ii) is the total for (a).
+2026-5542-Q22B-i,,3,,,,"B = B_0 sin(omega t); sides l and b, resistance R (no numbers). Single 3 beside (b)(ii) covers (b)."
+2026-5542-Q22B-ii,3,3,,,,The 3 beside (ii) is the total for (b).
+2026-5542-Q23,3,3,,,,
+2026-5542-Q24-a,,3,,,,"3 printed beside the lead-in ""In Bohr model of hydrogen atom, calculate :"" covering (a)+(b)."
+2026-5542-Q24-b,,3,,,,See Q24-a.
+2026-5542-Q25-a,,3,,,,Single 3 printed beside (b) covers (a)+(b).
+2026-5542-Q25-b,3,3,,,,Symbol lambda only. The 3 is the total for the question.
+2026-5542-Q26,3,3,,,,"""two uses"" printed as a word."
+2026-5542-Q27-a,,3,5 cm^2 | 4 ohm,,I (A) axis: 0.3 | t (s) axis: 0.6,"3 printed beside ""Find :"" covering (a)-(c). Graph: straight line falling from I = 0.3 A at t = 0 to I = 0 at t = 0.6 s; axis arrows I up, t right."
+2026-5542-Q27-b,,3,,,same as 2026-5542-Q27-a,See Q27-a.
+2026-5542-Q27-c,,3,,,same as 2026-5542-Q27-a,See Q27-a.
+2026-5542-Q28-a,,3,,,,"""two"" printed as words. Single 3 beside (b) covers (a)+(b)."
+2026-5542-Q28-b,3,3,1 ohm,,6 V | 2 ohm | 1 ohm | 9 V | 3 ohm | 3 ohm,"Junctions P (top) and Q (bottom); 1 ohm between P and Q; 6 V cell in top-left branch, 2 ohm top-right, 9 V cell on right vertical, 3 ohm bottom-left, 3 ohm bottom-right. 6 V cell: longer plate toward left (away from P, toward left corner); 9 V cell: longer plate toward top (toward 2 ohm side)."
+2026-5542-Q29-i,1,4,,"A) virtual, real | B) real, virtual | C) virtual, virtual | D) real, real",,"Case passage (p19) has no digits (""two"" as a word)."
+2026-5542-Q29-ii,1,4,,A) colour of light | B) focal length of objective lens | C) focal length of eyepiece | D) apertures of objective lens and eyepiece,,
+2026-5542-Q29-iii,1,4,,A) The focal length of objective lens (f_o) is larger than the focal length of eyepiece (f_e). | B) Its magnifying power can be increased by increasing the focal length of objective lens (f_o). | C) The distance between two lenses is more than (f_o + f_e). | D) The magnifying power can be decreased by increasing the focal length of eyepiece.,,
+2026-5542-Q29A-iv,1,4,80 cm | 4 cm,A) 84 cm | B) 76 cm | C) 20 cm | D) 320 cm,,
+2026-5542-Q29B-iv,1,4,,A) 320 | B) 84 | C) 76 | D) 20,,Refers to telescope of (iv)(a).
+2026-5542-Q30-i,1,4,,A) I-V graph: straight line through origin | B) I-V graph: rises then flattens and falls slightly | C) I-V graph: linear then bends below dotted straight line (I grows slower) | D) I-V graph: linear then bends above dotted straight line (I grows faster),circuit (p21): battery | key K | rheostat P-Q with slider | ammeter A | resistor X | voltmeter V across X; no numeric values,"Case passage and circuit figure are on p21 (bottom), not p23; no digits in passage. Battery (two cells, top wire): longer plates toward left (toward ammeter side). Ammeter A on left wire: + at top, - at bottom. Voltmeter V across X: + on left, - on right. Rheostat slider arrow points left onto the PQ coil, with P at top and Q at bottom. Option graphs have axes I (up) vs V (right), no values."
+2026-5542-Q30-ii,1,4,,A) due to error in voltmeter reading only. | B) due to error in ammeter reading only. | C) equal to the sum of error in voltmeter reading and error in ammeter reading. | D) equal to error in voltmeter reading divided by the error in ammeter reading.,,
+2026-5542-Q30-iii,1,4,,A) reading in ammeter decreases and reading in voltmeter increases. | B) readings in both voltmeter and ammeter increase. | C) reading in ammeter increases and reading in voltmeter decreases. | D) readings in both voltmeter and ammeter decrease.,same as 2026-5542-Q30-i,Refers to rheostat end P of the p21 circuit.
+2026-5542-Q30A-iv,1,4,r/3 | r/2,A) v_1 > v_2 > v_3 | B) v_2 > v_3 > v_1 | C) v_3 > v_2 > v_1 | D) v_1 = v_2 = v_3,"L | L | L | r | r/3 | r/2 (points A, C, D, B)","Wire AB in three parts AC (radius r), CD (r/3), DB (r/2), each length L. ""three parts"" printed as a word."
+2026-5542-Q30B-iv,1,4,,A) E_1 = E_2 = E_3 | B) E_3 > E_2 > E_1 | C) E_2 > E_3 > E_1 | D) E_1 > E_2 > E_3,same as 2026-5542-Q30A-iv,Refers to figure in (iv)(a).
+2026-5542-Q31A-i-I,,5,,,,Single 5 printed beside (a)(ii) covers the whole of (a).
+2026-5542-Q31A-i-II,,5,,,,
+2026-5542-Q31A-i-III,,5,,,,
+2026-5542-Q31A-ii,5,5,-4q | 2q,,,"Charges q, -4q, 2q at A, B, C of equilateral triangle of side a. The 5 is the total for (a)."
+2026-5542-Q31B-i-I,,5,,,,"""a few mm/s"", ""a few amperes"": no digits. Single 5 beside (b)(ii) covers (b)."
+2026-5542-Q31B-i-II,,5,,,,
+2026-5542-Q31B-i-III,,5,,,,V = IR (no numbers).
+2026-5542-Q31B-ii,5,5,12 V | 6 V | 1 ohm | 0.5 ohm,,"12 V, 1 ohm | 6 V, 0.5 ohm","Two cells in parallel between A (left) and B (right); 12 V cell on top branch, 6 V cell on bottom branch; both cells: longer plate toward left (toward A). Part starts on p29 (skeleton p29). The 5 is the total for (b)."
+2026-5542-Q32A-i,,5,,,,Single 5 beside (a)(iii) covers (a).
+2026-5542-Q32A-ii,,5,,,,"Printed ""angle of minimum derivation (delta_m)"" (sic, for deviation); symbols mu, A."
+2026-5542-Q32A-iii,5,5,1.5,,no numeric values; labels A | B | C | P | Q | Air,"Triangular prism ABC (apex A up, base BC horizontal); ray QP drawn from Q below, arrow pointing up, meeting BC normally at P (right-angle mark at P); ""Air"" labelled outside face AC. No angles printed. The 5 is the total for (a)."
+2026-5542-Q32B-i,,5,,,,Single 5 beside (b)(iii) covers (b).
+2026-5542-Q32B-ii,,5,,,,
+2026-5542-Q32B-iii,5,5,,,,
+2026-5542-Q33A-i-I,,5,,,,Single 5 beside (a)(ii)(II) covers (a).
+2026-5542-Q33A-i-II,,5,,,,"Includes ""For what value of the power factor will the power dissipated in the circuit be maximum ?"""
+2026-5542-Q33A-ii-I,,5,5/pi H | 50/pi microF | 400 ohm | 140 V (v = 140 sin(100pi t) V) | 100pi t,,,Lead-in values of (a)(ii) listed here.
+2026-5542-Q33A-ii-II,5,5,sqrt(2) = 1.4,,,"""(Take sqrt(2) = 1.4)"" printed in (II) itself. The 5 is the total for (a)."
+2026-5542-Q33B-i,,5,,,,"""two coils"" printed as a word."
+2026-5542-Q33B-ii-I,,5,100 (primary turns) | 5000 (secondary turns) | 3.3 kW | 220 V,,,(I) and (II) are inline in one sentence; lead-in values listed here.
+2026-5542-Q33B-ii-II,5,5,,,,The 5 at the end of (b)(ii) is the total for (b).

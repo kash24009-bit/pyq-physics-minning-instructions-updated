@@ -1,0 +1,32 @@
+instance_id,field,part_value,check_value,detail,resolved
+2026-5542-Q08,options,A) 6e-4 Am^2 | B) 3e-5 Am^2 | C) 1.5e-4 Am^2 | D) 5e-5 Am^2,A) 6 × 10^-4 Am^2 | B) 3 × 10^-5 Am^2 | C) 1.5 × 10^-4 Am^2 | D) 5 × 10^-5 Am^2,"options differ at A, B, C, D",extractor_right
+2026-5542-Q10,options,A) 3e8 m s^-1 | B) 2e8 m s^-1 | C) 3.3e-9 m s^-1 | D) 5e-9 m s^-1,A) 3 × 10^8 ms^-1 | B) 2 × 10^8 ms^-1 | C) 3.3 × 10^-9 ms^-1 | D) 5 × 10^-9 ms^-1,"options differ at A, B, C, D",extractor_right
+2026-5542-Q17A,marks_part,,2,marks differ,extractor_right
+2026-5542-Q17B-ii,marks_part,,2,marks differ,extractor_right
+2026-5542-Q18,marks_part,,2,marks differ,extractor_right
+2026-5542-Q19,marks_part,,2,marks differ,extractor_right
+2026-5542-Q20,marks_part,,2,marks differ,extractor_right
+2026-5542-Q21,marks_part,,2,marks differ,extractor_right
+2026-5542-Q22A-i,numbers,1 2 3,2 3,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2026-5542-Q22A-ii,marks_part,,3,marks differ,extractor_right
+2026-5542-Q22A-ii,numbers,1 2 3,,"only in the checker's reading: -; only in the part file: ['1', '2', '3']",extractor_right
+2026-5542-Q22B-ii,marks_part,,3,marks differ,extractor_right
+2026-5542-Q23,marks_part,,3,marks differ,extractor_right
+2026-5542-Q25-b,marks_part,,3,marks differ,extractor_right
+2026-5542-Q26,marks_part,,3,marks differ,extractor_right
+2026-5542-Q27-a,figure_values,0 0.3 0.6,0.3 0.6,only in the checker's reading: -; only in the part file: ['0'],extractor_right
+2026-5542-Q27-b,numbers,0 0.3 0.6 4 5,,"only in the checker's reading: -; only in the part file: ['4', '5']",extractor_right
+2026-5542-Q27-c,numbers,0 0.3 0.6 4 5,,"only in the checker's reading: -; only in the part file: ['4', '5']",extractor_right
+2026-5542-Q28-b,marks_part,,3,marks differ,extractor_right
+2026-5542-Q30-i,options,"A) straight line through the origin | B) rises, levels off and dips | C) straight at first, then bends below the dotted straight-line extension | D) straight at first, then curves upward above the dotted extension",A) I-V graph: straight line through origin | B) I-V graph: rises then flattens and falls slightly | C) I-V graph: linear then bends below dotted straight line (I grows slower) | D) I-V graph: linear then bends above dotted straight line (I grows faster),"options differ at A, B, C, D",extractor_right
+2026-5542-Q31A-ii,marks_part,,5,marks differ,extractor_right
+2026-5542-Q31A-ii,numbers,-4 2 4,-4 2,only in the checker's reading: -; only in the part file: ['4'],extractor_right
+2026-5542-Q31B-ii,marks_part,,5,marks differ,extractor_right
+2026-5542-Q32A-iii,marks_part,,5,marks differ,extractor_right
+2026-5542-Q32A-iii,figure_values,1.5 17 18 2026 5541,,only in the checker's reading: -; only in the part file: ['1.5'],extractor_right
+2026-5542-Q32B-iii,marks_part,,5,marks differ,extractor_right
+2026-5542-Q33A-ii-I,numbers,1.4 100 140 2 400 5 50,100 140 400 5 50,"only in the checker's reading: -; only in the part file: ['1.4', '2']",extractor_right
+2026-5542-Q33A-ii-II,marks_part,,5,marks differ,extractor_right
+2026-5542-Q33A-ii-II,numbers,1.4 100 140 2 400 5 50,1.4 2,"only in the checker's reading: -; only in the part file: ['100', '140', '400', '5', '50']",extractor_right
+2026-5542-Q33B-ii-II,marks_part,,5,marks differ,extractor_right
+2026-5542-Q33B-ii-II,numbers,100 220 3.3 5000,,"only in the checker's reading: -; only in the part file: ['100', '220', '3.3', '5000']",extractor_right

@@ -1,0 +1,74 @@
+instance_id,marks_part,q_marks_printed,numbers,options,figure_values,note
+2026-5532-Q01,,1,,A) 2nπ | B) 2nπ + π/4 | C) 2nπ + π/2 | D) 2nπ + π,,"no mark printed beside any Section A question (right-margin crops of pp5, 7, 9, 11); q total 1 from General Instructions (iii), p3"
+2026-5532-Q02,,1,mass number 64 | mass number 27,A) 1 | B) 4/3 | C) 3/4 | D) 27/64,,"no mark printed beside the question; 1 from General Instructions (iii), p3"
+2026-5532-Q03,,1,15 cm,A) 30 cm | B) 20 cm | C) 15 cm | D) 7.5 cm,,"no mark printed beside the question; 1 from General Instructions (iii), p3"
+2026-5532-Q04,,1,P = 2qa i^,A) 1/4 | B) 1/2 | C) 2 | D) 4,,"no mark printed beside the question; 1 from General Instructions (iii), p3"
+2026-5532-Q05,,1,n = 1.5 | 40 cm,A) 40 cm | B) 80 cm | C) 160 cm | D) 200 cm,,"no mark printed beside the question; 1 from General Instructions (iii), p3"
+2026-5532-Q06,,1,200 nm | 4.2 eV,A) 3.5 eV | B) 3.0 eV | C) 2.5 eV | D) 2.0 eV,,"no mark printed beside the question; 1 from General Instructions (iii), p3"
+2026-5532-Q07,,1,1 m (rod length) | 40 rev/s | 1 m (ring radius) | 0.5 T,A) 20 V | B) 32 V | C) 40 V | D) 63 V,,"no mark printed beside the question; 1 from General Instructions (iii), p3"
+2026-5532-Q08,,1,,"A) anode +5 V, cathode +10 V | B) anode -1.0 V, cathode -1.5 V | C) anode 0 V, cathode 1 V | D) anode -2 V, cathode 0 V",+5 V | +10 V | -1.0 V | -1.5 V | 0 V | 1 V | -2 V | 0 V,"no mark printed beside the question; 1 from General Instructions (iii), p3; options are diode figures, arrow pointing right in all four (anode = left terminal); figure values from 400 and 600 dpi crops only (the figure has no text layer)"
+2026-5532-Q09,,1,0.8 V | 1.0 V | 2.0 mA,A) 200 Ω | B) 175 Ω | C) 100 Ω | D) 125 Ω,,"no mark printed beside the question; 1 from General Instructions (iii), p3"
+2026-5532-Q10,,1,5 × 10^-8 T | sin(3 × 10^10 t - 150 x),A) 2.0 × 10^8 ms^-1 | B) 4.5 × 10^7 ms^-1 | C) 3.5 × 10^7 ms^-1 | D) 2.5 × 10^8 ms^-1,,"no mark printed beside the question; 1 from General Instructions (iii), p3; field printed as B = 5 × 10^-8 sin (3 × 10^10 t - 150 x) T"
+2026-5532-Q11,,1,,A) Wavelength of incident radiation only | B) Intensity of incident radiation only | C) Work function of the surface only | D) Both wavelength of the incident radiation and work function of the surface,,"no mark printed beside the question; 1 from General Instructions (iii), p3"
+2026-5532-Q12,,1,,A) R/(μ - 1) | B) -R/(μ - 1) | C) 2R/(μ - 1) | D) -2R/(μ - 1),"μ (plano-convex lens, upper) | μ (equi-concave lens, below it)","no mark printed beside the question; 1 from General Instructions (iii), p3; figure prints only the labels μ, μ (no numeric value)"
+2026-5532-Q13,,1,,,,"no mark printed beside the question; 1 from General Instructions (iii), p3; options left blank on AR rows (not MCQ); AR code set printed once above Q13 (p11): A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Both Assertion (A) and Reason (R) are false."
+2026-5532-Q14,,1,,,,"no mark printed beside the question; 1 from General Instructions (iii), p3; AR code set as in the 2026-5532-Q13 note"
+2026-5532-Q15,,1,,,,"no mark printed beside the question; 1 from General Instructions (iii), p3; AR code set as in the 2026-5532-Q13 note"
+2026-5532-Q16,,1,,,,"no mark printed beside the question; 1 from General Instructions (iii), p3; AR code set as in the 2026-5532-Q13 note; P/Q = R/S and Q/S = P/R contain no numerals"
+2026-5532-Q17,,2,150 eV,,,
+2026-5532-Q18,,2,,,,'two important processes' is printed as a word
+2026-5532-Q19A,2,2,,,"E_1 = 6 V | 1 Ω (beside E_1) | E_2 = 4 V | 3 Ω (beside E_2) | current I (arrows pointing towards A) | points A, B, C","2 printed beside (a), the mark for side (a) only; figure values from the 400 dpi crop only (the figure has no text layer)"
+2026-5532-Q19B-i,,2,21 V (emf) | 3 Ω (internal resistance) | 3 A (current),,,"numbers from the (b) lead-in shared by (i) and (ii); the 2 is printed beside the (b) lead-in line, not beside (i)"
+2026-5532-Q19B-ii,,2,21 V (emf) | 3 Ω (internal resistance) | 3 A (current),,,"numbers from the (b) lead-in shared by (i) and (ii); the 2 is printed beside the (b) lead-in line, not beside (ii)"
+2026-5532-Q20,,2,,,,
+2026-5532-Q21,,2,,,,
+2026-5532-Q22,,3,,,,
+2026-5532-Q23-d1,,3,,,,"3 printed at the end of Q23, covering both demands"
+2026-5532-Q23-d2,,3,,,,"3 printed at the end of Q23, covering both demands"
+2026-5532-Q24A-d1,,3,30 turns | 8.0 cm | 6 A | 1.0 T | 30°,,,"setup values of (a) listed on this row; 3 printed at the end of side (a), covering d1 and d2"
+2026-5532-Q24A-d2,,3,,,,"the d2 sentence prints no number (the setup values of (a) are listed on d1); 3 printed at the end of side (a), covering d1 and d2"
+2026-5532-Q24B-d1,,3,6.4 × 10^-27 kg | 3.2 × 10^-19 C | 8.0 MeV | 0.5 T,,,"setup values of (b) listed on this row; 3 printed at the end of side (b), covering d1, (i) and (ii)"
+2026-5532-Q24B-i,,3,,,,(i) is printed inline in the last sentence of (b) and its own text has no number (setup values of (b) on d1); 3 printed at the end of side (b)
+2026-5532-Q24B-ii,,3,,,,(ii) is printed inline in the last sentence of (b) and its own text has no number (setup values of (b) on d1); 3 printed at the end of side (b)
+2026-5532-Q25-a,,3,"π/4 radian (voltage ahead of current, X and Y) | π/4 radian (current leads voltage, X and Z)",,,numbers from the stem shared by (a) and (b); 3 printed at the end of (b) = question total
+2026-5532-Q25-b,,3,"π/4 radian (voltage ahead of current, X and Y) | π/4 radian (current leads voltage, X and Z)",,,numbers from the stem shared by (a) and (b); 3 printed at the end of (b) = question total
+2026-5532-Q26-a,,3,,,,3 printed at the end of (b) = question total; 'two important characteristics' is printed as a word
+2026-5532-Q26-b,,3,1/√(ε_0 μ_0),,,3 printed at the end of (b) = question total
+2026-5532-Q27,,3,,,,'one example' is printed as a word
+2026-5532-Q28-d1,,3,,,,3 printed at the end of Q28 = question total
+2026-5532-Q28-i,,3,,,,printed inline: (i) attractive for r > r_0; 3 printed at the end of Q28 = question total
+2026-5532-Q28-ii,,3,,,,printed inline: (ii) repulsive for r < r_0; 3 printed at the end of Q28 = question total
+2026-5532-Q29-i,1,4,,A) 1/2 | B) 1/4 | C) 4 | D) 1,,"q total 4 from General Instructions (vi), p3 (not printed beside the question); case text (p17, shared by all Q29 rows, not listed in numbers): particles 1 and 2 of masses m and m/2, charges -q and +2q, accelerated from rest through the same potential difference V"
+2026-5532-Q29-ii,1,4,,A) 1/√2 | B) √2 | C) 1/2 | D) 2,,"q total 4 from General Instructions (vi), p3 (not printed beside the question)"
+2026-5532-Q29-iii,1,4,particle 1 | particle 2,A) both particles revolve clockwise | B) both particles revolve anticlockwise | C) particle 1 revolves clockwise while particle 2 revolves anticlockwise | D) particle 1 revolves anticlockwise while particle 2 revolves clockwise,,"q total 4 from General Instructions (vi), p3 (not printed beside the question); field printed as B = B_0 k^, velocities v_1 = v_1 i^ and v_2 = v_2 i^"
+2026-5532-Q29A-iv,1,4,particle 1 | 4 s | particle 2,A) 1 s | B) 2 s | C) 4 s | D) 8 s,,"q total 4 from General Instructions (vi), p3 (not printed beside the question); printed on p19 as (iv)(a), OR alternative to (iv)(b)"
+2026-5532-Q29B-iv,1,4,particle 1 | particle 2,A) p_1 = p_2/2 | B) p_1 = p_2 | C) p_1 = 2p_2 | D) p_1 = 4p_2,,"q total 4 from General Instructions (vi), p3 (not printed beside the question); printed on p19 as (iv)(b), OR alternative to (iv)(a)"
+2026-5532-Q30-i,1,4,,A) 6 μF | B) 3 μF | C) 9 μF | D) 2 μF,"3 V (cell) | 5 Ω (series, cell to A) | 6 μF (A to P) | 3 μF (P to B) | 10 Ω (A to B, parallel to the capacitors) | points A, B, P","q total 4 from General Instructions (vi), p3 (not printed beside the question); the case text and the figure are on p19 (sub-parts on p21); case text numbers (not listed in numbers): U = 1/2 CV^2, capacitors of 3 μF and 6 μF in series; figure values from the 400 dpi crop only (the figure has no text layer)"
+2026-5532-Q30-ii,1,4,10 Ω,A) 0.3 A | B) 0.6 A | C) 0.2 A | D) 0,same as 2026-5532-Q30-i,"q total 4 from General Instructions (vi), p3 (not printed beside the question)"
+2026-5532-Q30-iii,1,4,,A) 2 V | B) 0.3 V | C) 0.2 V | D) 3 V,same as 2026-5532-Q30-i,"q total 4 from General Instructions (vi), p3 (not printed beside the question)"
+2026-5532-Q30A-iv,1,4,6 μF,A) 6 μC | B) 4 μC | C) 12 μC | D) 8 μC,same as 2026-5532-Q30-i,"q total 4 from General Instructions (vi), p3 (not printed beside the question); printed as (iv)(a), OR alternative to (iv)(b)"
+2026-5532-Q30B-iv,1,4,,A) increase | B) decrease | C) remain the same | D) first increase then become stable,same as 2026-5532-Q30-i,"q total 4 from General Instructions (vi), p3 (not printed beside the question); printed as (iv)(b), OR alternative to (iv)(a); 'two capacitors' is printed as a word"
+2026-5532-Q31A-i-I,,5,,,,5 printed at the end of side (a) (beside (ii)(III)) = side total
+2026-5532-Q31A-i-II,,5,,,,5 printed at the end of side (a) (beside (ii)(III)) = side total
+2026-5532-Q31A-ii-I,,5,V = 280 sin(100π t) volt | R = 400 Ω | L = 5/π H | C = 50/π μF | √2 = 1.4,,,numbers from the (ii) lead-in; 5 printed at the end of side (a) = side total
+2026-5532-Q31A-ii-II,,5,V = 280 sin(100π t) volt | R = 400 Ω | L = 5/π H | C = 50/π μF | √2 = 1.4,,,numbers from the (ii) lead-in; 5 printed at the end of side (a) = side total
+2026-5532-Q31A-ii-III,,5,V = 280 sin(100π t) volt | R = 400 Ω | L = 5/π H | C = 50/π μF | √2 = 1.4,,,"numbers from the (ii) lead-in; the 5 printed beside (III) is the total for side (a), not a mark for (III) alone"
+2026-5532-Q31B-i,,5,,,,5 printed at the end of side (b) = side total
+2026-5532-Q31B-ii-d1,,5,,,,5 printed at the end of side (b) = side total
+2026-5532-Q31B-ii-d2,,5,8.0 A | 2.0 A | 0.6 s | 50 V,,,the 5 printed beside the last line of (b)(ii) is the total for side (b)
+2026-5532-Q32A-i,,5,,,,5 printed beside (a)(ii) on p25 = total for side (a)
+2026-5532-Q32A-ii,,5,20 cm (focal length) | 30 cm (object distance),,,"the 5 printed beside (ii) is the total for side (a), not a mark for (ii) alone"
+2026-5532-Q32B-i,,5,,,,5 printed at the end of side (b) = side total
+2026-5532-Q32B-ii-I,,5,550 nm | 1.2 × 10^-6 m (slit width) | 1.1 mm (slit separation) | 2.2 m (screen distance),,,numbers from the (ii) lead-in; 5 printed at the end of side (b) = side total
+2026-5532-Q32B-ii-II,,5,550 nm | 1.2 × 10^-6 m (slit width) | 1.1 mm (slit separation) | 2.2 m (screen distance),,,numbers from the (ii) lead-in; 'second dark fringe' is printed as a word; 5 printed at the end of side (b) = side total
+2026-5532-Q32B-ii-III,,5,550 nm | 1.2 × 10^-6 m (slit width) | 1.1 mm (slit separation) | 2.2 m (screen distance),,,numbers from the (ii) lead-in; the 5 printed beside (III) is the total for side (b)
+2026-5532-Q33A-i-I,,5,1/r,,"60° (OA above the 1/r axis) | 30° (OB below the 1/r axis) | axes: V vertical, 1/r horizontal | origin O",numbers from the (i) lead-in ('with 1/r'); figure values from the 400 dpi crop only (the figure has no text layer); 5 printed at the end of side (a) on p27 = side total
+2026-5532-Q33A-i-II,,5,1/r,,same as 2026-5532-Q33A-i-I,numbers from the (i) lead-in ('with 1/r'); 5 printed at the end of side (a) on p27 = side total
+2026-5532-Q33A-ii,,5,"-2 μC | 5 μC | (-30 cm, 0) | (30 cm, 0) | E = A/x^2 i^ | A = 9 × 10^5 Nm^2 C^-1",,,μ of μC confirmed on the image (the text layer drops it); the 5 printed beside (ii) is the total for side (a)
+2026-5532-Q33B-i,,5,-λ | 3λ,,,5 printed at the end of side (b) = side total
+2026-5532-Q33B-ii-I-1,,5,-3q (shell charge) | 2q (point charge at the centre),,,numbers from the (ii) lead-in; the sphere's own charge is printed as capital Q (600 dpi crop and text layer agree) while the shell and centre charges use lowercase q; sub-labels (1)/(2) omitted; 5 printed at the end of side (b) = side total
+2026-5532-Q33B-ii-I-2,,5,-3q (shell charge) | 2q (point charge at the centre),,,numbers from the (ii) lead-in; 5 printed at the end of side (b) = side total
+2026-5532-Q33B-ii-II-1,,5,-3q (shell charge) | 2q (point charge at the centre),,,numbers from the (ii) lead-in; 5 printed at the end of side (b) = side total
+2026-5532-Q33B-ii-II-2,,5,-3q (shell charge) | 2q (point charge at the centre),,,numbers from the (ii) lead-in; 5 printed at the end of side (b) = side total
+2026-5532-Q33B-ii-III-1,,5,-3q (shell charge) | 2q (point charge at the centre),,,numbers from the (ii) lead-in; 5 printed at the end of side (b) = side total
+2026-5532-Q33B-ii-III-2,,5,-3q (shell charge) | 2q (point charge at the centre),,,numbers from the (ii) lead-in; the 5 printed beside (III)(2) is the total for side (b)

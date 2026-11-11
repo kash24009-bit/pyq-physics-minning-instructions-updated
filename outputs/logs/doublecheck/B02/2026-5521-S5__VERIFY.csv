@@ -1,0 +1,68 @@
+instance_id,step_marks,key,numbers,note
+2026-5521-Q01,1,D,,"Scheme Q1 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q02,1,D,,"Scheme Q2 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q03,1,D,,"Scheme Q3 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q04,1,B,,"Scheme Q4 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q05,1,A,,"Scheme Q5 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q06,1,B,,"Scheme Q6 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q07,1,C,,"Scheme Q7 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q08,1,C,,"Scheme Q8 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q09,1,D,,"Scheme Q9 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q10,1,A,,"Scheme Q10 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q11,1,A,,"Scheme Q11 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q12,1,D,,"Scheme Q12 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q13,1,B,,"Scheme Q13 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q14,1,D,,"Scheme Q14 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q15,1,A,,"Scheme Q15 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q16,1,C,,"Scheme Q16 (page 4 of PDF, scheme page 1 of 15); key letter and mark 1 from 400 dpi crop."
+2026-5521-Q17,1 | 1,,,"Scheme Q17 p4: marks cell prints ""1+1"" (any two differences). Split box labels the answer ""(a)"" although only one answer is printed; no OR alternative shown."
+2026-5521-Q18-i,½ | ½,,1/2,Scheme Q18(i) p5 (same kinetic energy): lambda = h/sqrt(2mK) ½; lambda_a/lambda_p = 1/2 ½. Split box gives (i) 1.
+2026-5521-Q18-ii,½ | ½,,1/(2√2),Scheme Q18(ii) p5 (same accelerating potential): lambda = h/sqrt(2mqV) ½; ratio = 1/(2√2) ½. Split box gives (ii) 1.
+2026-5521-Q19,½ | ½ | ½ | ½,,2.12 × 10^8 m/s,"Scheme Q19 p5: i = (3/4)A = 45° ½; r = A/2 = 30° ½; n = √2 ½ (this half printed as plain ""1/2"" in a smaller font); v = (3/√2) × 10^8 m/s = 2.12 × 10^8 m/s ½. Intermediate n = √2."
+2026-5521-Q20,½ | ½ | ½ | ½,,968 °C,"Scheme Q20 p5-6: R_1 = 220/2.9 ohm ½; R_2 = 220/2.5 ohm ½; R_2 = R_1[1+alpha(t_2-t_1)] ½ (all p5); t_2 ≈ 968 °C ½ (p6). Printed ""t_2 ≈ 968⁰C"" (approx sign)."
+2026-5521-Q21A,½ | ½ | ½ | ½,,40 cm,Scheme Q21 first alternative p6 (length of image of pencil): 1/f = 1/v + 1/u ½; v_1 = -100 cm ½; v_2 = -60 cm ½; L = |v_1| - |v_2| = 40 cm ½.
+2026-5521-Q21B,½ | ½ | ½ | ½,,18 mm,"Scheme Q21 OR alternative p6 (least distance of coincidence of bright fringes): n_1 lambda_1 = n_2 lambda_2 ½; n_1/n_2 = 600/500 = 6/5 ½; y = n_1 lambda_1 D/d ½; = 18 mm ½. An ""Alternatively"" method (n=5, y_5 = 18 mm) carries no separate mark. A stray ""I"" is printed in the Q.No column beside the OR box."
+2026-5521-Q22-a,½ | ½,,,"Scheme Q22(a) p7: isotopes 12C, 14C (Z=6) ½; isotones 198Hg (Z=80), 197Au (Z=79) ½. Examples, no numeric result."
+2026-5521-Q22-b,½ | ½ | ½ | ½,,,Scheme Q22(b) p7: size proportional to A^(1/3) ½ (alt R = R_0 A^(1/3)); rho = Mass/Volume ½; rho = mA/((4/3)pi(R_0 A^(1/3))^3) ½; rho = 3m/(4 pi R_0^3) = constant ½. Split box: (b) ½ + 1½.
+2026-5521-Q23-a,1,,,"Scheme Q23(a) p7: three equipotential planes perpendicular to E (along x), 1 mark; an ""Alternatively"" diagram (dashed lines) carries no separate mark."
+2026-5521-Q23-b,½ | ½ | ½ | ½,,,"Scheme Q23(b) p8: V_-q ½; V_+q ½; V = (1/4 pi eps_0) q(2a)/(x^2 - a^2) ½; for x >> a, V = (1/4 pi eps_0) q(2a)/x^2 ½. Symbolic result only. Diagram: -q at (-a,0,0), +q at (+a,0,0), P at (x,0,0)."
+2026-5521-Q24-i,½ | ½,,1 nm to 10^-3 nm,Scheme Q24(i) p8: X-rays ½; wavelength range 1 nm to 10^-3 nm ½. Split box prints ½+½.
+2026-5521-Q24-ii,½ | ½,,1 mm to 700 nm,Scheme Q24(ii) p8: Infrared waves ½; range 1 mm to 700 nm ½.
+2026-5521-Q24-iii,½ | ½,,0.1 m to 1 mm,Scheme Q24(iii) p8: Microwaves ½; range 0.1 m to 1 mm ½.
+2026-5521-Q25A-i,1 | ½,,,Scheme Q25 first alternative (i) p9: definition of mutual inductance 1; SI unit henry (H) / T m^2 A^-1 / Wb A^-1 / V s A^-1 ½. Note on page: award ½ if student writes M = phi/I or M = |eps|/(di/dt).
+2026-5521-Q25A-ii,½ | ½ | ½,,,Scheme Q25 first alternative (ii) p9: B = mu_0 n I ½; phi_B = (mu_0 n I)(pi r^2) ½; M = mu_0 n pi r^2 ½. Symbolic result.
+2026-5521-Q25B,1 | ½ | ½ | ½ | ½,,,"Scheme Q25 OR alternative p9-10: diagram with force directions 1 (p9; note: deduct ½ if direction of force on B not shown); B_a = mu_0 I_a/(2 pi d)(-k) ½; F_BA = mu_0 I_a I_b L/(2 pi d) j ½; F_AB = ...(-j) ½; F_BA = -F_AB ½ (p10). Split box: 1½+½, ½, ½. Note on p10: award 1 mark for diagram if directions written not drawn."
+2026-5521-Q26-a,1 | ½,,,Scheme Q26(a) p10: Bohr second postulate (L = n h/2pi) 1; significance (stable/stationary orbits; angular momentum quantised) ½.
+2026-5521-Q26-b,½ | ½ | ½,,27.2/n^3 eV,"Scheme Q26(b) p11: E_n = -13.6/n^2 eV ½; Delta E = 13.6[1/(n-1)^2 - 1/n^2] ½; Delta E ≈ 27.2/n^3 eV for large n, levels get closer ½. Result is an expression in n, not a pure number."
+2026-5521-Q27-a,1,,,Scheme Q27(a) p11: current is scalar (does not obey vector addition; arrow shows conventional direction) 1.
+2026-5521-Q27-b,½ | ½ | ½ | ½,,7/13 A,"Scheme Q27(b) p11: circuit diagram with currents ½; loop ABEFA: 4I - 7I_1 = 3 ½; loop BCDEB: 2I + 3I_1 = 5 ½; I_1 = 7/13 A ½. Note: full marks for another appropriate current distribution. Figure: 3 V and 5 V cells, 3 ohm, 2 ohm, 4 ohm."
+2026-5521-Q28,½ | ½ | ½ | ½ | ½ | ½,,,Scheme Q28 p12: diagram ½; dB = (mu_0/4pi) I dl/(r^2+x^2) ½; perpendicular components cancel ½; B_x = ∫dB cos theta ½; B = mu_0 I r^2/(2(x^2+r^2)^(3/2)) i ½; B_net for N turns ½. Symbolic result; the exponent in the B_net line is tiny and blurred (looks like 3/2 written small).
+2026-5521-Q29-i,1,C,,"Scheme Q29(i) p12: (C) Boron, 1."
+2026-5521-Q29-ii,1,D,,"Scheme Q29(ii) p12: (D) 4.5 × 10^9 m^-3, 1."
+2026-5521-Q29-iii,1,,,"Scheme Q29(iii) p12: no option letter printed; prints ""Award 1 mark to each student, who has attempted this part."" 1."
+2026-5521-Q29A-iv,1,C,,"Scheme Q29(iv) first alternative p12: (C) 0.7V, 1."
+2026-5521-Q29B-iv,1,A,,Scheme Q29(iv) OR alternative p12: (A) 0.01 eV; the single mark 1 is printed once beside the (iv)/OR lines and applies to either alternative.
+2026-5521-Q30-i,1,A,,"Scheme Q30(i) p12: (A) sqrt(D(D-4f)), 1."
+2026-5521-Q30-ii,1,D,,"Scheme Q30(ii) p12: (D) Enlarged, reduced, 1."
+2026-5521-Q30-iii,1,B,,"Scheme Q30(iii) p12: (B) 18.75 cm, 1."
+2026-5521-Q30A-iv,1,D,,"Scheme Q30(iv) first alternative p12: (D) 65cm, 1."
+2026-5521-Q30B-iv,1,A,,Scheme Q30(iv) OR alternative p12: (A) -15 cm; the single mark 1 is printed once beside (iv) and applies to either alternative.
+2026-5521-Q31A-a-d1,1 | 1,,,"Scheme Q31 first alternative (a) p13: definition of coherent sources 1; necessity for stable interference pattern 1. DOUBT: the scheme prints (a) as three bullets (define 1, necessity 1, graph 1); I could not see how the skeleton splits (a) into d1/d2 and assigned define + necessity to d1, graph to d2."
+2026-5521-Q31A-a-d2,1,,,"Scheme Q31 first alternative (a) third bullet p13: graph of intensity versus position on screen (maxima at 0, ±lambda D/d, ±2 lambda D/d) 1. DOUBT on the d1/d2 split, see d1 row."
+2026-5521-Q31A-b-i,½ | ½,,2 I_0,Scheme Q31(b)(i) p13: phi = pi/2 ½; I = 4I_0 cos^2(pi/4) = 2 I_0 ½.
+2026-5521-Q31A-b-ii,½ | ½,,I_0,"Scheme Q31(b)(ii) p13-14: phi = 2pi/3 ½ (p13); I = 4I_0 cos^2(pi/3) = I_0 ½ (p14). Note on p14: award ½ if student writes I = 4I_0 cos^2(phi/2). UNREADABLE: a line after ""OR"" at the top of p14 is cut off by a page splice (appears to concern Q31(a) OR Q31(b)(i) OR Q31(b)(ii)); not legible at 400 dpi."
+2026-5521-Q31B-a,1 | 1 | ½ | ½,,,"Scheme Q31 OR alternative (a) p14: labelled ray diagram of refracting telescope 1; m = beta/alpha ≈ tan beta/tan alpha 1; = (h/f_e)/(h/f_o) ½; = f_o/f_e ½. Split box: diagram 1, derivation 2."
+2026-5521-Q31B-b-i,1,,,"Scheme Q31 OR (b)(i) p14: larger aperture lets fainter objects be seen / more light gathering, resolving power 1."
+2026-5521-Q31B-b-ii,½ | ½,,,"Scheme Q31 OR (b)(ii) p14: any two advantages of reflecting telescope, printed ""(½+½)"" in one cell."
+2026-5521-Q32A-a,1 | 1 | 1,,,Scheme Q32 first alternative (a) p15: E = q/(A eps_0) 1; V = qd/(A eps_0) 1; C = A eps_0/d 1. Diagram printed but not separately marked.
+2026-5521-Q32A-b-i,1,,,Scheme Q32(b)(i) p15: charge on each capacitor becomes K times (q' = Kq) 1.
+2026-5521-Q32A-b-ii,1,,,Scheme Q32(b)(ii) p16: energy stored increases by factor K (U' = KU) 1.
+2026-5521-Q32B-a,1 | 1 | 1,,,"Scheme Q32 OR alternative (a) p16: explanation of time independence of average velocity (v_d = -eE tau/m, tau constant) 1; q = -neA|v_d|Delta t 1; I = neA|v_d| 1."
+2026-5521-Q32B-b-i,1,,,"Scheme Q32 OR (b)(i) p16: electric field set up almost instantly, so current established instantaneously 1."
+2026-5521-Q32B-b-ii,½ | ½,,4/9,"Scheme Q32 OR (b)(ii) p16: v_d = I/(ne pi r^2) ½; v_d1/v_d2 = (r_2/r_1)^2 = 4/9 ½. Ratio, no unit."
+2026-5521-Q33A-a,½ | 1 | ½ | 1,,,"Scheme Q33 first alternative (a) p17: phasor diagram ½; v_m^2 = (i_m R)^2 + (i_m X_C - i_m X_L)^2 1; Z = sqrt(R^2 + (X_C - X_L)^2) ½; tan phi = (X_C - X_L)/R 1. Split box: impedance 2, phase difference 1."
+2026-5521-Q33A-b-i,1,,,"Scheme Q33(b)(i) p17: at resonance, X_C = X_L, 1."
+2026-5521-Q33A-b-ii,1,,,"Scheme Q33(b)(ii) p17: average power consumed zero (phi = pi/2, cos phi = 0) 1."
+2026-5521-Q33B-i,1 | 1 | 1,,,Scheme Q33 OR alternative (i) p18: labelled diagram of ac generator 1; principle (electromagnetic induction) 1; working 1.
+2026-5521-Q33B-ii,½ | ½,,,"Scheme Q33 OR (ii) p18: phi_B = BA cos(omega t) ½ (printed as plain ""1/2"" in a smaller font); eps = -N dphi_B/dt, eps = NBA omega sin(omega t) ½."
+2026-5521-Q33B-iii,1,,T/4 | 3T/4,"Scheme Q33 OR (iii) p18: emf maximum at T/4 and 3T/4, 1."
