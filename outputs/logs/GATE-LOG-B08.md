@@ -345,3 +345,10 @@ Every line below was written by phy_gate.py from the data, never typed.
 - double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B08-20261111-1634-20790r.json
+
+## 2026-11-11T16:42:11Z | FIX-9 | OTHER | GATE PASS
+- part files: ERRATA 5
+- merged 5 row(s) into l1/ERRATA.csv · now 729
+- validate after merge: 16/16 checks pass
+- PROGRESS: not touched (stage OTHER)
+- pack: PHY-VAULT-B08-20261111-1642-20795r.json
