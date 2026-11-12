@@ -1,11 +1,11 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-11-12T16:14:37Z · batch B09.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-11-12T16:23:33Z · batch B09.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B09-20261112-1614-21356r.json](vault/PHY-VAULT-B09-20261112-1614-21356r.json) · 21356 rows in all
+- Newest vault: [PHY-VAULT-B09-20261112-1623-21421r.json](vault/PHY-VAULT-B09-20261112-1623-21421r.json) · 21421 rows in all
 - Checks: 16/16 pass
 
-Status - batch 9 · 6140 question rows saved · years closed: none yet · working on 2026
+Status - batch 9 · 6169 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 3 file(s) fully mined
@@ -23,7 +23,7 @@ Next (my work, in order)
 - Y2025 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02)
-- 45 received file(s) waiting to be mined.
+- 44 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -117,6 +117,7 @@ Optional (yours)
 | SQP2324-042 |  | SQP | 63 | 63 | 0 | 18 | 94 | 108 |
 | SQP2526-042 |  | SQP | 78 | 78 | 0 | 29 | 62 | 106 |
 | SQP2627-042 |  | SQP | 71 | 71 | 0 | 5 | 75 | 115 |
+| T2-2022-5511 | 55/1/1 | T2 | 29 | 29 | 0 | 6 | 27 | 0 |
 
 ## Reports
 - [PHY-CLAUDE-CODE-TRIAL.md](reports/PHY-CLAUDE-CODE-TRIAL.md)
