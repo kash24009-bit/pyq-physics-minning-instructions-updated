@@ -7,3 +7,8 @@ Every line below was written by phy_gate.py from the data, never typed.
 - validate after merge: 16/16 checks pass
 - PROGRESS: not touched (stage OTHER)
 - pack: PHY-VAULT-B09-20261112-1604-21136r.json
+
+## 2026-11-12T16:06:45Z | checkpoint | Y2022 planned (planner fix B09: exam T1/T2 accepted)
+- validate: 16/16 checks pass
+- PROGRESS: planned Y2022: 40 lines written from FILES
+- pack: PHY-VAULT-B09-20261112-1606-21136r.json
