@@ -295,3 +295,16 @@ Every line below was written by phy_gate.py from the data, never typed.
 - status erratum ER-B09-165: NEW -> IN-PROGRESS
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B09-20261112-1909-22684r.json
+
+## 2026-11-12T19:20:23Z | T2-2022-55B5 | S4 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 1, INSTANCES 37, FORMULAE 14
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 105
+- merged 1 row(s) into l1/CASES.csv · now 191
+- merged 37 row(s) into l1/INSTANCES.csv · now 6776
+- merged 14 row(s) into l1/FORMULAE.csv · now 6592
+- check-paper: PASS · T2-2022-55B5 · 12/12 questions · total 35/35
+- validate after merge: 16/16 checks pass
+- double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
+- status erratum ER-B09-166: NEW -> IN-PROGRESS
+- PROGRESS: line updated (T2-2022C-55B6 still to do)
+- pack: PHY-VAULT-B09-20261112-1920-22738r.json
