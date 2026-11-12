@@ -281,3 +281,17 @@ Every line below was written by phy_gate.py from the data, never typed.
 ## 2026-11-12T19:04:04Z | checkpoint | gate copy: PID pattern matches T2-2022C ids; 55/6 sibling line reopened (B9-2)
 - validate: 16/16 checks pass
 - pack: PHY-VAULT-B09-20261112-1904-22612r.json
+
+## 2026-11-12T19:09:58Z | T2-2022C-5563 | S4 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 1, INSTANCES 33, FIGURES 4, FORMULAE 32
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 104
+- merged 1 row(s) into l1/CASES.csv · now 190
+- merged 33 row(s) into l1/INSTANCES.csv · now 6739
+- merged 4 row(s) into l1/FIGURES.csv · now 1359
+- merged 32 row(s) into l1/FORMULAE.csv · now 6578
+- check-paper: PASS · T2-2022C-5563 · 12/12 questions · total 35/35
+- validate after merge: 16/16 checks pass
+- double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
+- status erratum ER-B09-165: NEW -> IN-PROGRESS
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B09-20261112-1909-22684r.json
