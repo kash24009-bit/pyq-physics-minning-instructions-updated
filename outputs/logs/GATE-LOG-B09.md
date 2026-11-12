@@ -277,3 +277,7 @@ Every line below was written by phy_gate.py from the data, never typed.
 - status erratum ER-B09-164: NEW -> IN-PROGRESS
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B09-20261112-1902-22612r.json
+
+## 2026-11-12T19:04:04Z | checkpoint | gate copy: PID pattern matches T2-2022C ids; 55/6 sibling line reopened (B9-2)
+- validate: 16/16 checks pass
+- pack: PHY-VAULT-B09-20261112-1904-22612r.json

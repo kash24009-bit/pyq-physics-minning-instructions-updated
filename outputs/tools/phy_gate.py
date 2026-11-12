@@ -64,7 +64,7 @@ MERGE_ORDER = ["BLUEPRINTS", "CONSTANTS", "CASES", "INSTANCES", "FIGURES", "FORM
 SEALABLE = ["BLUEPRINTS", "CONSTANTS", "CASES", "INSTANCES", "FIGURES", "FORMULAE", "STEP-AWARDS"]
 READ_FROM = {"image", "bundle-image", "photo", "hi-translation"}
 DECISIONS = {"extractor_right", "part_fixed", "unreadable_logged", "part_added", "not_a_part"}
-PID_TOKEN = re.compile(r"(?<![\w-])(?:SQP\d{4}-\d{3}|T[12]-\d{4}-[0-9A-Z]{3,}|\d{4}C?-[0-9A-Z]{3,}|UNK-X[0-9a-f]{6})(?!\w)")
+PID_TOKEN = re.compile(r"(?<![\w-])(?:SQP\d{4}-\d{3}|T[12]-\d{4}C?-[0-9A-Z]{3,}|\d{4}C?-[0-9A-Z]{3,}|UNK-X[0-9a-f]{6})(?!\w)")  # B09 fix: Term 2 compartment ids T2-2022C-<digits> (PROGRESS ticking)
 VERIFY_COLS = {"S3": "instance_id,marks_part,q_marks_printed,numbers,options,figure_values,note",
                "S4": "instance_id,marks_part,q_marks_printed,numbers,options,figure_values,note",
                "S5": "instance_id,step_marks,key,numbers,note"}
