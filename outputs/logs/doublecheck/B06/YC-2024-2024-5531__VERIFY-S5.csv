@@ -1,0 +1,74 @@
+instance_id,step_marks,key,numbers,note
+2024-5531-Q01,1,B,,answer: Spherical surface
+2024-5531-Q02,1,B,1.6 × 10^-18 J,
+2024-5531-Q03,1,C,-(0.24 nT) k^,
+2024-5531-Q04,1,D,,answer: remain stationary
+2024-5531-Q05,1,B,0.3 MB,
+2024-5531-Q06,1,C,15.0 V,
+2024-5531-Q07,1,B,,answer: l is decreased and A is increased
+2024-5531-Q08,1,B,,answer: Gamma rays
+2024-5531-Q09,1,B,2,
+2024-5531-Q10,1,C,,answer: graph K_m vs nu (straight line from threshold on nu axis)
+2024-5531-Q11,1,B,decreased by 87.5%,
+2024-5531-Q12,1,B,0.05 eV,
+2024-5531-Q13,1,D,,"answer: A false, R false"
+2024-5531-Q14,1,C,,"answer: A true, R false"
+2024-5531-Q15,1,A,,"answer: A and R true, R explains A"
+2024-5531-Q16,1,A,,"answer: A and R true, R explains A"
+2024-5531-Q17A-d1,0.5,,,split by box lines: meaning of relaxation time 0.5 = first line; p3
+2024-5531-Q17A-d2,0.5 | 0.5 | 0.5,,,"derivation of R 1.5 = v_d, I, R lines; p3"
+2024-5531-Q17B,0.5 | 0.5 | 0.5 | 0.5,,,"circuit 0.5 (p4 figure), loop eqs 0.5, I1/I2 0.5, R2/R1=R4/R3 0.5; pp3-4"
+2024-5531-Q18,0.5 | 0.5 | 0.5 | 0.5,,f_e = 6 cm | f_o = 144 cm,p4
+2024-5531-Q19-a,0.5 | 0.5,,,
+2024-5531-Q19-b,0.5 | 0.5,,,
+2024-5531-Q20,0.5 | 1 | 0.5,,N = 1.01 × 10^4 (no unit printed; photons per second),pp4-5; computed 1.01e+04
+2024-5531-Q21,0.5 | 0.5 | 0.5 | 0.5,,n_h ≈ 5 × 10^22 /m^3 | n_e = 4.5 × 10^9 /m^3,"last 0.5 for ""n_h > n_e, p-type crystal""; computed n_e 4.5e+09"
+2024-5531-Q22,0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5,,I_2 = 5/8 A (AB) | I_1 = 2.5 A (AC) | I_2 + I_3 = 2.5 A (BC),"pp4-5; eqs (i)-(iii) solve to I1=2.5, I2=0.625, I2+I3=2.5 (consistent)"
+2024-5531-Q23-d1,0.5,,,"split by box lines: reason 0.5 = ""one conductor experiences force"" line"
+2024-5531-Q23-d2,0.5 | 0.5 | 0.5 | 0.5,,,"derivation 2 = figure, B_a, F_ba, f_ba lines (one 0.5 straddles p6 band break)"
+2024-5531-Q23-d3,0.5,,,"nature 0.5 = f_ab / ""Repulsive"" line"
+2024-5531-Q24-a,0.5,,,answer: Capacitor; p6
+2024-5531-Q24-b,0.5,,,X_c = 1/(omega C); p6
+2024-5531-Q24-c,1,,,graph X_c vs frequency (hyperbola-like falling curve); p7
+2024-5531-Q24-d-i,0.5,,,"ac: X_c finite, allows ac"
+2024-5531-Q24-d-ii,0.5,,,"dc: X_c infinite, blocks dc"
+2024-5531-Q25-a,0.5 | 0.5 | 0.5 | 0.5,,lambda = 4pi/3 m = 4.18 m | nu = 9/(4pi) × 10^8 Hz | nu = 7.16 × 10^-1 Hz (sic),misprint: 4.5e8/(2pi) = 7.16e+07 Hz; 4pi/3 = 4.189 (printed 4.18); 400 dpi crop read
+2024-5531-Q25-b,0.5,,B_0 = 2.1 × 10^-8 T,B_0 = 6.3/(3 × 10^8); 0.5 straddles p7 band break
+2024-5531-Q25-c,0.5,,B = 2.1 × 10^-8 [(cos 1.5 rad/m) y + (4.5 × 10^8 rad/s) t] k^ T,expression as printed (bracket placement as printed); 400 dpi crop
+2024-5531-Q26-d1,0.5 | 0.5,,,"box ""1/2+1/2"": first postulate 0.5, second postulate 0.5; p7"
+2024-5531-Q26-d2,0.5 | 0.5 | 0.5 | 0.5,,,"derivation 2: mv^2/r (p7), v_n, mvr=nh/2pi, r_n (p8)"
+2024-5531-Q27-a,1,,,1/12 of mass of C-12 atom
+2024-5531-Q27-b,0.5 | 0.5 | 0.5 | 0.5,,Q = -2.224 MeV | energy required 2.224 MeV,mass diff -0.002388 u printed; computed -2.224 MeV
+2024-5531-Q28A-d1,1,,,circuit diagram (any one of two)
+2024-5531-Q28A-d2-i,1,,,forward biasing
+2024-5531-Q28A-d2-ii,1,,,reverse biasing (~microA)
+2024-5531-Q28B-i,1,,E_g > 3 eV,insulator band diagram; box 1+1+1; p9
+2024-5531-Q28B-ii,1,,E_g < 3 eV,semiconductor
+2024-5531-Q28B-iii,1,,E_g ≈ 0,"metal, overlapping bands"
+2024-5531-Q29-i,1,D,,answer: IV
+2024-5531-Q29-ii,1,D,,accelerate along -i^
+2024-5531-Q29-iii,1,A,,V = V_0 + alpha x
+2024-5531-Q29A-iv,1,C,,E_4 > E_3 > E_2 > E_1; one shared 1 printed beside the iv (a) OR (b) block
+2024-5531-Q29B-iv,1,B,2.6 × 10^6 m/s,shared 1 for iv (a)/(b) alternatives
+2024-5531-Q30-i,1,D,6,
+2024-5531-Q30-ii,1,C,3,
+2024-5531-Q30A-iii,1,C,6,one shared 1 beside the iii (a) OR (b) block
+2024-5531-Q30B-iii,1,,sin^-1(0.225),no option letter printed for (b); shared 1
+2024-5531-Q30-iv,1,D,10,
+2024-5531-Q31A-i,0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5,,,pp9-10
+2024-5531-Q31A-ii-i,0.5 | 0.5 | 0.5,,V = 2.7 × 10^5 V,the 0.5 for general V = q/(4pi eps0 r) under (ii) heading assigned to ii-i; computed 2.7e+05
+2024-5531-Q31A-ii-ii,0.5,,V = 2.7 × 10^5 V,centre: same as surface
+2024-5531-Q31B-i-i,0.5 | 0.5,,E = 0,p10; note: full credit if E=0 written directly
+2024-5531-Q31B-i-ii,0.5 | 0.5 | 0.5 | 0.5,,E = q/(4pi eps0 r^2),"p11: figure 0.5, flux 0.5, Gauss 0.5, E 0.5"
+2024-5531-Q31B-ii,0.5 | 0.5 | 0.5 | 0.5,,2E_nc = E_c,"p11: E_c=sigma/eps0 0.5, E_nc=sigma/(2eps0) 0.5, 0.5, 0.5"
+2024-5531-Q32A-i-1-d1,1,,,meaning of current sensitivity
+2024-5531-Q32A-i-1-d2,0.5 | 0.5,,,"factors: printed as one cell ""1/2+1/2"" (any two)"
+2024-5531-Q32A-i-2,0.5 | 0.5 | 0.5,,R_1 = (R - G)/2,p12
+2024-5531-Q32A-ii,0.5 | 0.5 | 0.5,,|epsilon| = 50 × 10^-3 V | I = 10 mA,p12
+2024-5531-Q32B-i,1 | 0.5 | 0.5 | 0.5 | 0.5,,,"figure 1 (p12), then 4 x 0.5"
+2024-5531-Q32B-ii,0.5 | 0.5 | 0.5 | 0.5,,M = 2 × 10^-10 H,"first two printed as one cell ""1/2+1/2""; printed middle line 2×10×10^-7×(10^-2)^2/(100×10^-7) evaluates to 2e-05, not the printed final 2e-10 (inconsistent as printed)"
+2024-5531-Q33A-i-d1,0.5 | 0.5 | 0.5 | 0.5,,,"box: tracing 0.5 + expression 1.5; split assumed d1 = trace + derive (figure 0.5, three eq lines 0.5 each), d2 = graph; p13"
+2024-5531-Q33A-i-d2,1,,,graph deviation vs incidence (box: drawing graph 1); p13
+2024-5531-Q33A-ii,0.5 | 0.5 | 0.5 | 0.5,,mu = sqrt(3/2),"pp13-14; sin theta = 1/sqrt(3), tan theta = 1/sqrt(2)"
+2024-5531-Q33B-i,0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5,,I = 4k a^2 cos^2(phi/2),p14; one 0.5 straddles band break
+2024-5531-Q33B-ii,0.5 | 0.5 | 0.5 | 0.5,,I_1 = 3I_0 | I_1/I_2 = 3/(4 cos^2 15°),"p14; phi_1 = pi/3, phi_2 = pi/6"

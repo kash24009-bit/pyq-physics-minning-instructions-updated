@@ -1,0 +1,26 @@
+instance_id,q_no,side,part,scheme_file_id,scheme_pages,why
+2024C-55BS-Q29-ii,29,,ii,FL-2b1627a071,10,sample
+2024C-55BS-Q30A-iv,30,A,iv,FL-2b1627a071,10,sample
+2024C-55BS-Q31A-ii,31,A,ii,FL-2b1627a071,11,sample
+2024C-55BS-Q24-b,24,,b,FL-2b1627a071,8,sample
+2024C-55BS-Q33B-ii,33,B,ii,FL-2b1627a071,16,sample
+2024C-55BS-Q22B,22,B,,FL-2b1627a071,7,sample
+2024C-55BS-Q09,9,,,FL-2b1627a071,3,sample
+2024C-55BS-Q30-ii,30,,ii,FL-2b1627a071,10,sample
+2024C-55S1-Q06,6,,,FL-f30fa5721f,3,sample
+2024C-55S1-Q28-b-i,28,,b-i,FL-f30fa5721f,9,sample
+2024C-55S1-Q30B-ii,30,B,ii,FL-f30fa5721f,10,sample
+2024C-55S1-Q27-a,27,,a,FL-f30fa5721f,8,sample
+2024C-55S1-Q04,4,,,FL-f30fa5721f,3,sample
+2024C-55S1-Q29-ii,29,,ii,FL-f30fa5721f,9,sample
+2024C-55S1-Q26-a,26,,a,FL-f30fa5721f,8,sample
+2024C-55S2-Q22-b,22,,b,FL-f30fa5721f,20,sample
+2024C-55S2-Q01,1,,,FL-f30fa5721f,17,sample
+2024C-55S3-Q02,2,,,FL-f30fa5721f,31,sample
+2024C-55S3-Q10,10,,,FL-f30fa5721f,31,sample
+SQP2324-042-Q21B,21,B,,FL-83870e6cce,2 3,sample
+SQP2324-042-Q07,7,,,FL-83870e6cce,1,sample
+SQP2324-042-Q04,4,,,FL-83870e6cce,1,sample
+SQP2324-042-Q33B-a,33,B,a,FL-83870e6cce,9 10,sample
+SQP2324-042-Q19,19,,,FL-83870e6cce,2,sample
+SQP2324-042-Q33A-c-ii,33,A,c-ii,FL-83870e6cce,9,sample

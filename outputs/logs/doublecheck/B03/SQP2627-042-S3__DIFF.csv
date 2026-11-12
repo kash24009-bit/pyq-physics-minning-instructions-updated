@@ -1,0 +1,38 @@
+instance_id,field,part_value,check_value,detail,resolved
+SQP2627-042-Q01,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q02,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q03,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q04,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q04,numbers,0.0001 0.2 0.6 10000 30,-0.6 0.0001 0.2 10000 30,only in the checker's reading: ['-0.6']; only in the part file: ['0.6'],extractor_right
+SQP2627-042-Q05,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q06,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q07,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q08,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q09,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q09-VI,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q10,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q11,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q12,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q12,options,A) 2*pi microT | B) 4*pi microT | C) 5*pi microT | D) 8*pi microT,A) 2 pi microT | B) 4 pi microT | C) 5 pi microT | D) 8 pi microT,"options differ at A, B, C, D",extractor_right
+SQP2627-042-Q13,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q14,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q15,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q16,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q17-II,numbers,1e+10 1e+18 1e-07 2 30,,"only in the checker's reading: -; only in the part file: ['1e+10', '1e+18', '1e-07', '2', '30']",extractor_right
+SQP2627-042-Q19,marks_part,,2,marks differ,extractor_right
+SQP2627-042-Q20A,marks_part,,2,marks differ,extractor_right
+SQP2627-042-Q20B,marks_part,,2,marks differ,extractor_right
+SQP2627-042-Q24,marks_part,,3,marks differ,extractor_right
+SQP2627-042-Q24,numbers,1 1.00727 1.00866 15.9949 16 8 931.5,1 1.00727 1.00866 15.9949 16 931.5,only in the checker's reading: -; only in the part file: ['8'],extractor_right
+SQP2627-042-Q25-II,numbers,2.42,,only in the checker's reading: -; only in the part file: ['2.42'],extractor_right
+SQP2627-042-Q29-I,numbers,,2023,only in the checker's reading: ['2023']; only in the part file: -,extractor_right
+SQP2627-042-Q30-I,numbers,,1905,only in the checker's reading: ['1905']; only in the part file: -,extractor_right
+SQP2627-042-Q31A-II-ii,numbers,18 6 9,,"only in the checker's reading: -; only in the part file: ['18', '6', '9']",extractor_right
+SQP2627-042-Q32A-II,numbers,2 2.2 5,,"only in the checker's reading: -; only in the part file: ['2', '2.2', '5']",extractor_right
+SQP2627-042-Q32A-III,numbers,2 2.2 5,,"only in the checker's reading: -; only in the part file: ['2', '2.2', '5']",extractor_right
+SQP2627-042-Q32B-I,marks_part,,2,marks differ,extractor_right
+SQP2627-042-Q32B-II,marks_part,,2,marks differ,extractor_right
+SQP2627-042-Q32B-II,numbers,100 25 5,25,"only in the checker's reading: -; only in the part file: ['100', '5']",extractor_right
+SQP2627-042-Q32B-III,marks_part,,1,marks differ,extractor_right
+SQP2627-042-Q32B-III,numbers,100 5,,"only in the checker's reading: -; only in the part file: ['100', '5']",extractor_right
+SQP2627-042-Q33B-I,marks_part,,3,marks differ,extractor_right

@@ -1,0 +1,42 @@
+instance_id,field,part_value,check_value,detail,resolved
+2026-55B-Q01,marks_part,,1,marks differ,extractor_right
+2026-55B-Q01,options,A) 1.60e+28 | B) 1.60e+10 | C) 3.1e9 | D) 6.25e9,A) 1.60 × 10^+28 | B) 1.60 × 10^+10 | C) 3.1 × 10^9 | D) 6.25 × 10^9,"options differ at A, B, C, D",extractor_right
+2026-55B-Q02,marks_part,,1,marks differ,extractor_right
+2026-55B-Q02,options,A) 8.0 A | B) 1.96e-2 A | C) 4.0 A | D) 1.33e-1 A,A) 8.0 A | B) 1.96 × 10^-2 A | C) 4.0 A | D) 1.33 × 10^-1 A,"options differ at B, D",extractor_right
+2026-55B-Q03,marks_part,,1,marks differ,extractor_right
+2026-55B-Q04,marks_part,,1,marks differ,extractor_right
+2026-55B-Q05,marks_part,,1,marks differ,extractor_right
+2026-55B-Q06,marks_part,,1,marks differ,extractor_right
+2026-55B-Q07,marks_part,,1,marks differ,extractor_right
+2026-55B-Q08,marks_part,,1,marks differ,extractor_right
+2026-55B-Q08,numbers,238,238 92,only in the checker's reading: ['92']; only in the part file: -,extractor_right
+2026-55B-Q09,marks_part,,1,marks differ,extractor_right
+2026-55B-Q10,marks_part,,1,marks differ,extractor_right
+2026-55B-Q11,marks_part,,1,marks differ,extractor_right
+2026-55B-Q12,marks_part,,1,marks differ,extractor_right
+2026-55B-Q13,marks_part,,1,marks differ,extractor_right
+2026-55B-Q14,marks_part,,1,marks differ,extractor_right
+2026-55B-Q15,marks_part,,1,marks differ,extractor_right
+2026-55B-Q16,marks_part,,1,marks differ,extractor_right
+2026-55B-Q17-ii,numbers,0.5 1 6,,"only in the checker's reading: -; only in the part file: ['0.5', '1', '6']",extractor_right
+2026-55B-Q18A,marks_part,,2,marks differ,extractor_right
+2026-55B-Q18B,marks_part,,2,marks differ,extractor_right
+2026-55B-Q19,marks_part,,2,marks differ,extractor_right
+2026-55B-Q20,marks_part,,2,marks differ,extractor_right
+2026-55B-Q21,marks_part,,2,marks differ,extractor_right
+2026-55B-Q22B,marks_part,,3,marks differ,extractor_right
+2026-55B-Q26,marks_part,,3,marks differ,extractor_right
+2026-55B-Q27-ii,numbers,-3.4,,only in the checker's reading: -; only in the part file: ['-3.4'],extractor_right
+2026-55B-Q29-i,marks_part,1,,marks differ,extractor_right
+2026-55B-Q29-ii,marks_part,1,,marks differ,extractor_right
+2026-55B-Q29A-iii,marks_part,1,,marks differ,extractor_right
+2026-55B-Q29A-iii,options,A) 3.23e-4 J | B) 1.0e-5 J | C) 1.73e-4 J | D) 5e4 J,A) 3.23 × 10^-4 J | B) 1.0 × 10^-5 J | C) 1.73 × 10^-4 J | D) 5 × 10^4 J,"options differ at A, B, C, D",extractor_right
+2026-55B-Q29B-iii,marks_part,1,,marks differ,extractor_right
+2026-55B-Q29-iv,marks_part,1,,marks differ,extractor_right
+2026-55B-Q30-i,marks_part,1,,marks differ,extractor_right
+2026-55B-Q30-ii,marks_part,1,,marks differ,extractor_right
+2026-55B-Q30A-iii,marks_part,1,,marks differ,extractor_right
+2026-55B-Q30B-iii,marks_part,1,,marks differ,extractor_right
+2026-55B-Q30-iv,marks_part,1,,marks differ,extractor_right
+2026-55B-Q32B-b-ii,numbers,140 314,,"only in the checker's reading: -; only in the part file: ['140', '314']",extractor_right
+2026-55B-Q33B-b-ii,numbers,125 25 5,25,"only in the checker's reading: -; only in the part file: ['125', '5']",extractor_right

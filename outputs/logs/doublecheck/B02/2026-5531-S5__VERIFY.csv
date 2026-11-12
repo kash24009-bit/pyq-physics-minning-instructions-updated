@@ -1,0 +1,73 @@
+instance_id,step_marks,key,numbers,note
+2026-5531-Q01,1,B,,Scheme p4 (MS p1) Q1: key (B) mark 1.
+2026-5531-Q02,1,,,"Scheme p4 (MS p1) Q2: prints ""No option is correct (Award full credit for attempting)""; no option letter printed; mark 1."
+2026-5531-Q03,1,A,,Scheme p4 (MS p1) Q3: key (A) mark 1.
+2026-5531-Q04,1,B,,Scheme p4 (MS p1) Q4: key (B) mark 1.
+2026-5531-Q05,1,A,,Scheme p4 (MS p1) Q5: key (A) mark 1.
+2026-5531-Q06,1,A,,Scheme p4 (MS p1) Q6: key (A) mark 1.
+2026-5531-Q07,1,A,,Scheme p4 (MS p1) Q7: key (A) mark 1.
+2026-5531-Q08,1,D,,Scheme p4 (MS p1) Q8: key (D) mark 1.
+2026-5531-Q09,1,C,,Scheme p4 (MS p1) Q9: key (C) mark 1.
+2026-5531-Q10,1,B,,Scheme p4 (MS p1) Q10: key (B) mark 1.
+2026-5531-Q11,1,C,,Scheme p4 (MS p1) Q11: key (C) mark 1.
+2026-5531-Q12,1,A,,Scheme p4 (MS p1) Q12: key (A) mark 1.
+2026-5531-Q13,1,A,,Scheme p4 (MS p1) Q13: key (A) mark 1.
+2026-5531-Q14,1,D,,Scheme p4 (MS p1) Q14: key (D) mark 1.
+2026-5531-Q15,1,B,,Scheme p4 (MS p1) Q15: key (B) mark 1.
+2026-5531-Q16,1,D,,Scheme p4 (MS p1) Q16: key (D) mark 1.
+2026-5531-Q17A,½ | ½ | ½ | ½,,0.5 A | -5.5 V,MS p1 Q17(a): I=eps_net/R_net ½; =2/4=0.5 A ½; V_BC=-eps_2-Ir_2 ½; =-4-(0.5×3)=-5.5 V ½. Split box: 2.
+2026-5531-Q17B-i,½ | ½,,4 Ω,MS p1 Q17(b)(i): IR=eps-Ir ½; R=[21-(3×3)]/3=4 Ω ½.
+2026-5531-Q17B-ii,½ | ½,,12 V,MS p2 Q17(b)(ii): V=IR ½; =3×4=12 V ½. Q total 2 in box column (excluded).
+2026-5531-Q18,2,,,"MS p2 Q18: one explanation line, 2."
+2026-5531-Q19,½ | ½ | ½ | ½,,,MS p2 Q19: mass defect definition ½; binding energy definition ½; E_b=ΔMc^2 ½; =[[Zm_p+(A-Z)m_n]-M]c^2 ½.
+2026-5531-Q20,½ | ½ | ½ | ½,,1:1,MS p2 Q20: m1v1-m2v2=0 ½; v1/v2=m2/m1 ½; λ1/λ2=h/(m1v1)×m2v2/h ½; =1 ½; λ1:λ2=1:1.
+2026-5531-Q21,1 | 1,,,"MS p3 Q21: two explanation lines, 1 each."
+2026-5531-Q22-a,1 | ½ | ½,,,MS p3 Q22(a): Q=-neAv_d Δt 1; IΔt=neAv_dΔt ½; I=Anev_d ½.
+2026-5531-Q22-b,½ | ½,,,"MS p3 Q22(b): v_d=eVτ/(ml) ½; length doubled, drift velocity halved ½ (no number printed)."
+2026-5531-Q23A-d1,½ | ½ | ½ | ½,,3.13 N m,MS p3 Q23(a): τ=NIBA sinθ ½; =30×6×1×3.14×(8×10^-2)^2×sin60° ½; =90×64×3.14×1.73×10^-4 ½; =3.13 Nm ½. Split box: 2 + 1.
+2026-5531-Q23A-d2,1,,,"MS p3 Q23(a): ""Torque will remain the same."" 1."
+2026-5531-Q23B-d1,½ | ½ | ½ | ½,,8 × 10^-1 m | 80 cm,MS p3-p4 Q23(b): K.E=q^2B^2r^2/(2m) ½ (p3); r=sqrt(2×K.E.×m)/(qB) = sqrt(2×8×1.6×10^-19×10^6×6.4×10^-27)/(3.2×10^-19×0.5) ½ (p3); =12.8×10^-20/1.6×10^-19 ½ (p4); =8×10^-1 m =80 cm ½ (p4). Split box: radius 2.
+2026-5531-Q23B-i,½,,,"MS p4 Q23(b)(i): enters at 0°<θ<90° ½ (alternative: velocity components parallel and perpendicular, accepted)."
+2026-5531-Q23B-ii,½,,,MS p4 Q23(b)(ii): moves parallel or antiparallel to field ½.
+2026-5531-Q24-a-i,½,,,"MS p4 Q24(a)(i): inductor opposes change, current becomes steady ½ (alternative: behaves like a conductor)."
+2026-5531-Q24-a-ii,½,,,MS p4 Q24(a)(ii): reactance high at high frequency ½.
+2026-5531-Q24-b,1 | 1,,,"MS p4 Q24(b): current lags voltage by π/2 rad 1; phasor/graph diagram 1. π/2 is a phase angle stated, not a computed result."
+2026-5531-Q25-a,1 | ½ | ½,,,"MS p5 Q25(a): EM wave diagram 1; two characteristics printed as ""½ +½"" (listed as two entries)."
+2026-5531-Q25-b,½ | ½,,3 × 10^8 m/s,MS p5 Q25(b): 1/sqrt(μ0ε0) ½; ...=3×10^8 m/s ½.
+2026-5531-Q26,1 | ½ | ½ | ½ | ½,,90°,"MS p5 Q26: sin i_c=1/n=2/3 1; glass-water Snell ½; sin r=3/4 / water-air line ½; (4/3)×(3/4)=sin e ½; sin e=1, e=90° ½. Marks positions: 1 at =2/3; ½ at 3/2 sin i_c line; ½ at ""For water-air surface""; ½ at 4/3×3/4 line; ½ at e=90°."
+2026-5531-Q27,1 | 1 | 1,,,MS p5-p6 Q27: difference fission/fusion 1 (p5); fission reaction 1 (p6); fusion reaction 1 (p6). Q total 3 excluded.
+2026-5531-Q28,1 | ½ | 1 | ½,,,MS p6 Q28: forward-bias circuit 1; p-side to + ½; reverse-bias circuit 1; p-side to - ½.
+2026-5531-Q29-i,1,D,,MS p6 Q29 case-based MCQ: prints (D) 2µF; mark 1. Options are values; numbers column left blank per MCQ rule.
+2026-5531-Q29-ii,1,C,,MS p6 Q29 case-based MCQ: prints (C) 0.2 A; mark 1. Options are values; numbers column left blank per MCQ rule.
+2026-5531-Q29-iii,1,A,,MS p6 Q29 case-based MCQ: prints (A) 2V; mark 1. Options are values; numbers column left blank per MCQ rule.
+2026-5531-Q29A-iv,1,B,,MS p6 Q29 case-based MCQ: prints (iv)(a) (B) 4µC; mark 1. Options are values; numbers column left blank per MCQ rule.
+2026-5531-Q29B-iv,1,C,,"MS p6 Q29 case-based MCQ: prints (iv)(b) (C) remain the same; mark 1. The only mark for (iv) is one ""1"" printed level with the (a) line; nothing is printed beside (b) (OR alternative); recorded 1 as the (iv) mark. Options are values; numbers column left blank per MCQ rule."
+2026-5531-Q30-i,1,A,,MS p6 Q30 case-based MCQ: prints (A) 1/2; mark 1. The two 1s for (i) and (ii) sit close together at the top of the column. Options are values; numbers column left blank per MCQ rule.
+2026-5531-Q30-ii,1,D,,MS p6 Q30 case-based MCQ: prints (D) 2; mark 1. Options are values; numbers column left blank per MCQ rule.
+2026-5531-Q30-iii,1,D,,MS p6 Q30 case-based MCQ: prints (D) Particle 1 revolves anticlockwise while particle 2 revolves clockwise; mark 1. Options are values; numbers column left blank per MCQ rule.
+2026-5531-Q30A-iv,1,A,,MS p6 Q30 case-based MCQ: prints (iv)(a) (A) 1s; mark 1. Options are values; numbers column left blank per MCQ rule.
+2026-5531-Q30B-iv,1,B,,"MS p6 Q30 case-based MCQ: prints (iv)(b) (B) p1 = p2; mark 1. The only mark for (iv) is one ""1"" printed level with the (a) line; nothing is printed beside (b) (OR alternative); recorded 1 as the (iv) mark. Options are values; numbers column left blank per MCQ rule."
+2026-5531-Q31A-i-I,½ | ½,,,MS p7 Q31(a)(i)(I): Q1 positive ½; Q2 negative ½. Split box ½ + ½.
+2026-5531-Q31A-i-II,1 | 1,,3/1,"MS p7 Q31(a)(i)(II): Q1/Q2 = slope A/slope B 1; =tan60°/tan30° = 3/1 1. Split box: value 1, justification 1."
+2026-5531-Q31A-ii,½ | ½ | ½ | ½,,8.85 J,MS p7 Q31(a)(ii): V=-∫E dx=A/x ½; U=q1V(x1)+q2V(x2)+q1q2/(4πε0x12) ½; substitution ½; =(-6+15-0.15) J =8.85 J ½. Split box 2.
+2026-5531-Q31B-i,½ | ½ | ½ | ½,,,"MS p7-p8 Q31(b)(i): nature attractive / dq=λdl ½ (p7); E=-λ/(2πε0r), F=qE ½ (p7); F/l=-λ×3λ/(2πε0r) ½ (p7); =-3λ^2/(2πε0r) ½ (p8); ""Similarly F2/l"" no mark. Result symbolic only, no numeric answer. Split box ½ + 1½."
+2026-5531-Q31B-ii-I-1,½,,,"MS p8 Q31(b)(ii): φ=2q/ε0 (x<r1) ½. Symbolic result, no number. Q total 5 excluded."
+2026-5531-Q31B-ii-I-2,½,,,"MS p8 Q31(b)(ii): φ=(Q+2q)/ε0 (r1<x<r2) ½. Symbolic result, no number. Q total 5 excluded."
+2026-5531-Q31B-ii-II-1,½,,,"MS p8 Q31(b)(ii): E=k(Q-q)/x^2 (x>r3) ½. Symbolic result, no number. Q total 5 excluded."
+2026-5531-Q31B-ii-II-2,½,,,"MS p8 Q31(b)(ii): E=k(Q+2q)/x^2 (r1<x<r2) ½. Symbolic result, no number. Q total 5 excluded."
+2026-5531-Q31B-ii-III-1,½,,,"MS p8 Q31(b)(ii): σ=-2q/(4πr1^2) ½. Symbolic result, no number. Q total 5 excluded."
+2026-5531-Q31B-ii-III-2,½,,,"MS p8 Q31(b)(ii): σ=-(Q+2q)/(4πr2^2) ½. Symbolic result, no number. Q total 5 excluded."
+2026-5531-Q32A-i-I,½ | ½,,,MS p8 Q32(a)(i)(I): brightness decreases ½; justification ½ (alternative μ_r L accepted).
+2026-5531-Q32A-i-II,½ | ½,,,"MS p8-p9 Q32(a)(i)(II): brightness increases ½ (p8); justification ½ (p9, top line) (alternative X_L=ωL accepted)."
+2026-5531-Q32A-ii-I,½ | ½,,500 Ω,"MS p9 Q32(a)(ii)(I): Z=sqrt(R^2+(X_L-X_C)^2) ½; =sqrt(400^2+300^2)=500 Ω ½. Unmarked lead lines: X_L=500 Ω, X_C=200 Ω. Split box 1."
+2026-5531-Q32A-ii-II,½ | ½,,0.4 A,MS p9 Q32(a)(ii)(II): I_rms=V0/(Z√2)=280/(500×1.4) ½; =0.4 A ½.
+2026-5531-Q32A-ii-III,½ | ½,,0.8,MS p9 Q32(a)(ii)(III): cosφ=R/Z ½; =400/500=0.8 ½.
+2026-5531-Q32B-i,1 | 1,,,"MS p9-p10 Q32(b)(i): Lenz law statement 1; explanation (conservation of energy) 1 (p9); alternative diagram + note ""award full credit if student draws the diagram and explains conservation of energy"" (p10)."
+2026-5531-Q32B-ii-d1,1,,,MS p10 Q32(b)(ii): dimensional formula [ML^2T^-2A^-2] 1.
+2026-5531-Q32B-ii-d2,½ | 1 | ½,,5 H,MS p10 Q32(b)(ii): ε=-L dI/dt ½; L=-(50)×0.6/(2-8) 1; =5 H ½. Q total 5 excluded.
+2026-5531-Q33A-i,1 | ½ | ½ | ½ | ½,,,MS p10-p11 Q33(a)(i): ray diagram 1 (p10); i=MN/MO+MN/OC (1) ½; r=MN/MC-MN/MI (2) ½; 1/MO+n/MI=(n-1)/MC (3) ½ (p10); n/v-1/u=(n-1)/R ½ (p11). Note: full credit if derived with virtual image. Split box 1 + 2.
+2026-5531-Q33A-ii,½ | ½ | ½ | ½,,60 cm,MS p11 Q33(a)(ii): 1/f=1/v-1/u ½; 1/20=1/v-1/(-30) ½; v=60 cm ½; real and inverted ½. Split box 1½ + ½.
+2026-5531-Q33B-i,½ | ½ | ½ | ½,,,MS p11 Q33(b)(i): diagram ½; 1/v1-1/u=1/f1 ½; 1/v-1/v1=1/f2 ½; 1/f=1/f1+1/f2 ½. Split box 2.
+2026-5531-Q33B-ii-I,½ | ½,,1.1 mm,MS p12 Q33(b)(ii)(I): β=λD/d ½; =550×10^-9×2.2/(1.1×10^-3)=1.1 mm ½.
+2026-5531-Q33B-ii-II,½ | ½,,1.65 mm,"MS p12 Q33(b)(ii)(II): x=(2n-1)λD/(2d) ½; n=2, x=1.65 mm ½. Q total 5 printed level with (II), excluded."
+2026-5531-Q33B-ii-III,1,,,MS p12 Q33(b)(ii)(III): fringe width decreases 1 (alternative β'=β/n).

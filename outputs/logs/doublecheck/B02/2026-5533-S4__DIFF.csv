@@ -1,0 +1,16 @@
+instance_id,field,part_value,check_value,detail,resolved
+2026-5533-Q04,options,A) sqrt(29)*B_0*L^2 | B) 4*B_0*L^2 | C) 3*B_0*L^2 | D) 2*B_0*L^2,A) sqrt(29) B_0 L^2 | B) 4 B_0 L^2 | C) 3 B_0 L^2 | D) 2 B_0 L^2,"options differ at A, B, C, D",extractor_right
+2026-5533-Q12,options,A) 2*n*pi | B) 2*n*pi + pi/4 | C) 2*n*pi + pi/2 | D) 2*n*pi + pi,A) 2n pi | B) 2n pi + pi/4 | C) 2n pi + pi/2 | D) 2n pi + pi,"options differ at A, B, C, D",extractor_right
+2026-5533-Q26A-d2,numbers,,1 30 6 8,"only in the checker's reading: ['1', '30', '6', '8']; only in the part file: -",extractor_right
+2026-5533-Q29-i,options,A) 6 microF | B) 3 microF | C) 9 microF | D) 2 microF,A) 6 muF | B) 3 muF | C) 9 muF | D) 2 muF,"options differ at A, B, C, D",extractor_right
+2026-5533-Q29-ii,numbers,10 3 5,10 3 6,only in the checker's reading: ['6']; only in the part file: -,extractor_right
+2026-5533-Q29-iii,numbers,,3 6,"only in the checker's reading: ['3', '6']; only in the part file: -",extractor_right
+2026-5533-Q29A-iv,numbers,6,3 6,only in the checker's reading: ['3']; only in the part file: -,extractor_right
+2026-5533-Q29A-iv,options,A) 6 microC | B) 4 microC | C) 12 microC | D) 8 microC,A) 6 muC | B) 4 muC | C) 12 muC | D) 8 muC,"options differ at A, B, C, D",extractor_right
+2026-5533-Q29B-iv,numbers,,3 6,"only in the checker's reading: ['3', '6']; only in the part file: -",extractor_right
+2026-5533-Q30-ii,numbers,,1 2,"only in the checker's reading: ['1', '2']; only in the part file: -",extractor_right
+2026-5533-Q30B-iv,options,A) p_1 = p_2/2 | B) p_1 = p_2 | C) p_1 = 2*p_2 | D) p_1 = 4*p_2,A) p_1 = p_2/2 | B) p_1 = p_2 | C) p_1 = 2p_2 | D) p_1 = 4p_2,"options differ at C, D",extractor_right
+2026-5533-Q32A-ii,numbers,-2 -30 0 2 30 5 900000,-2 -30 0 30 5 900000,only in the checker's reading: -; only in the part file: ['2'],extractor_right
+2026-5533-Q32B-ii-I-1,numbers,-3 1 2,-3 2,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2026-5533-Q32B-ii-II-1,numbers,-3 1 2,-3 2,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2026-5533-Q32B-ii-III-1,numbers,-3 1 2,-3 2,only in the checker's reading: -; only in the part file: ['1'],extractor_right

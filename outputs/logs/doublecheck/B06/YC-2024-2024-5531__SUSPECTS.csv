@@ -1,0 +1,13 @@
+instance_id,paper_id,file_id,source_page,check,detail
+2024-5531-Q02,2024-5531,FL-4b190b2b9d,5,text-layer,numbers not found in the page text: -1.6e-18 -5 1.6e-18 8e-19
+2024-5531-Q05,2024-5531,FL-4b190b2b9d,7,text-layer,numbers not found in the page text: -0.3 -1.7
+2024-5531-Q06,2024-5531,FL-4b190b2b9d,7,text-layer,numbers not found in the page text: 0
+2024-5531-Q20,2024-5531,FL-4b190b2b9d,13,text-layer,numbers not found in the page text: 6.6e-34
+2024-5531-Q21,2024-5531,FL-4b190b2b9d,13,text-layer,numbers not found in the page text: 1.5e+16 5e+28
+2024-5531-Q22,2024-5531,FL-4b190b2b9d,15,text-layer,numbers not found in the page text: 10 4 5
+2024-5531-Q25-a,2024-5531,FL-4b190b2b9d,17,text-layer,numbers not found in the page text: 4.5e+08
+2024-5531-Q25-b,2024-5531,FL-4b190b2b9d,17,text-layer,numbers not found in the page text: 4.5e+08
+2024-5531-Q25-c,2024-5531,FL-4b190b2b9d,17,text-layer,numbers not found in the page text: 4.5e+08
+2024-5531-Q29-i,2024-5531,FL-4b190b2b9d,19,text-layer,numbers not found in the page text: -100 -20 -400 -50 -70 150 200
+2024-5531-Q29-ii,2024-5531,FL-4b190b2b9d,19,text-layer,numbers not found in the page text: -100 -400
+2024-5531-Q29B-iv,2024-5531,FL-4b190b2b9d,21,text-layer,numbers not found in the page text: -50 -70 1.76e+11 130000 2.6e+06 5.2e+07 650000

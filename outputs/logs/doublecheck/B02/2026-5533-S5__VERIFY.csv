@@ -1,0 +1,16 @@
+instance_id,step_marks,key,numbers,note
+2026-5533-Q02,1,B,,"Scheme Q2 p4: '(B) Same frequency', 1 mark; crop p4-q02."
+2026-5533-Q04,1,B,,"Scheme Q4 p4: '(B) 4 B_0 L^2', 1 mark; crop p4-q04-05."
+2026-5533-Q05,1,B,,"Scheme Q5 p4: '(B) 1.27 × 10^-24 J', 1 mark; crop p4-q04-05."
+2026-5533-Q07,1,B,,"Scheme Q7 p4: '(B) Curve 3 correspondence (sic) to forward biasing and Curve 1 corresponds to reverse biasing.', 1 mark; crop p4-q07."
+2026-5533-Q09,1,C,,"Scheme Q9 p4: '(C) Total internal reflection occurs for both green and blue lights.', 1 mark; crop p4-q09-10."
+2026-5533-Q10,1,D,,"Scheme Q10 p4: '(D) 1/3', 1 mark; crop p4-q09-10."
+2026-5533-Q17,1 | 1,,,"Scheme Q17 p4: intrinsic vs extrinsic semiconductors table (4 points, '(Any two)'); marks cell prints '1+1', total 2; split box 'Two points of difference ... 2'. No numbers. Crop p4-q17-marks."
+2026-5533-Q19,½ | ½ | ½ | ½,,2 × 10^14 Hz,"Scheme Q19 p5: threshold frequency; lines v_0=(hv-K.E)/h ½, substitution ½, (5 × 10^-20 - 3 × 10^-20)/10^-34 ½, = 2 × 10^14 Hz ½; first line K.E = hv - hv_0 carries no mark of its own. Split box 'Calculating threshold frequency 2'. Crop p5-q19."
+2026-5533-Q21-a,½ | ½,,,Scheme Q21(a) p6: 'central maximum will be shifted by π radian / Centre will become dark' ½; phase-difference reasoning ending 'phase difference = ±π radian' ½; '(Alternatively) path difference ... will become λ/2' (no separate mark). Split box (a) 1. Crop p6-q21.
+2026-5533-Q21-b,½ | ½,,,Scheme Q21(b) p6: 'Interference pattern disappears/uniform illumination' ½; 'Two coherent sources are required' ½; Q total 2 printed beside last line (excluded). Split box (b) 1. Crop p6-q21.
+2026-5533-Q23-a,½ | ½ | ½,,30°,"Scheme Q23(a) p7: ∠r_1 = ∠r_2 = r, i = e ½; δ_m = 2i - A ½; = 2 × 45° - 60° = 30° ½. Split box (a) 1½. Crop p7-q23."
+2026-5533-Q23-b,½ | ½ | ½,,sqrt(2),"Scheme Q23(b) p7: r = A/2 = 30° (no mark); μ = sin((A+δ_m)/2)/sin(A/2) ½; substitution sin((60°+30°)/2)/sin30° ½; = sin45°/sin30° = sqrt(2) ½; '(Alternatively)' Snell route 1 × sin45° = μ_g × sin30°, μ_g = sqrt(2) (no separate marks). Q total 3 excluded. Split box (b) 1½. Crop p7-q23."
+2026-5533-Q27,1 | 1 | 1,,,"Scheme Q27 p9: Faraday's law statement 1; 'Methods of producing induced emf' (three listed, '(Any two)') marks cell '1+1'; Q total 3 excluded. Split box: statement 1, two methods 1+1. Crop p9-q27."
+2026-5533-Q28-a,½ | ½ | ½,,1:1,"Scheme Q28(a) p9: (1/2)mv^2 = kq_1q_2/d, d ∝ q/m (same velocity) ½; = e/2e × 4m/2m ½; = 1 ½; d_deutron : d_α = 1:1. Split box (a) 1½. Crop p9-q28a."
+2026-5533-Q28-b,½ | ½ | ½,,1:4,"Scheme Q28(b) p10: p^2/2m = kq_1q_2/d, d ∝ qm ('for same momemtum' sic) ½; = (e × 2m)/(2e × 4m) ½; = 1/4 ½, d_deutron : d_α = 1 : 4; Q total 3 excluded. Split box (b) 1½. Crop p10-q28b."

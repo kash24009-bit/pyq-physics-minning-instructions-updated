@@ -1,0 +1,30 @@
+instance_id,step_marks,key,numbers,note
+2024-5541-Q17-d1-i,0.5,,,p3: box 'Drawing of circuit diagram of p-n junction diode (i) Forward bias ½'; ½ printed beside the forward-bias circuit (a). Reverse-bias ½ and I-V ½ + ½ belong to other parts.
+2024-5541-Q29-iv,1,D,50 Hz | 100 Hz,"p10: (iv) (D) 50 Hz , 100 Hz; 1."
+2024-5541-Q20-d2,0.5,,,p5: box 'Writing answer for parallel combination ½'; line 'No' ½ (series part 1½ is d1). Answer printed: No.
+2024-5541-Q28B-d2,0.5 | 0.5 | 0.5 | 0.5,,,"pp9-10: box (b) 'Explanation of ferromagnetism with diagram 2' (definition 1 is d1). p9: '½ + ½' printed in one cell beside diagrams (a) and (b), split as two lines; p10: ½ absence of field (domains random), ½ presence of field (domains align). Answer runs over the page break p9->p10."
+2024-5541-Q21A,0.5 | 0.5 | 0.5 | 0.5,,v = -16 cm (virtual image),"p5: box (a) 'Finding nature and position of image 2'. ½ beside n1/v - n2/u = (n1-n2)/R; ½ beside u = -20 cm, R = -40 cm, n1 = 1, n2 = 1.5; ½ beside v = -16 cm (substitution line has no mark of its own); ½ 'Nature of image is virtual'. Checked: v = -16 cm."
+2024-5541-Q32B-i,1 | 0.5 | 0.5 | 0.5 | 0.5,,,p13: box b) i) 'Showing electric field ... infinite plane sheet 3'. 1 diagram; ½ closed integral = 2EA; ½ Gauss law = q/eps0; ½ E = sigma/(2*eps0); ½ vectorially vec(E) = sigma/(2*eps0) n^ (field normally outward). Symbolic result only.
+2024-5541-Q24-d1,1,,,p7: box 'Drawing graph showing variation of scattered particles detected (N) with scattering angle (theta) 1'; 1 beside the graph. Mapped d1 = graph by box order (conclusions 1 and closest-approach 1 follow).
+2024-5542-Q26-d2,0.5 | 0.5,,,"p23: box 'Defining displacement current 1; Difference between displacement current and conduction current 1; Justification of the continuity of current 1'. Mapped d2 = difference by box order: ½ displacement current due to varying electric field, ½ conduction current due to motion of electrons. If d2 is instead the continuity justification, its line is 1."
+2024-5542-Q23-ii,0.5 | 0.5 | 0.5,,,"p22 (box on p21: '(ii) Finding the potential at a distance of (R/2) ... 1 ½'). ½ V_1 = (1/(4*pi*eps0)) q/R; ½ V_2 = (1/(4*pi*eps0)) Q/(R/2); ½ V = (q + 2Q)/(4*pi*eps0*R). Printed 'V = V_2 + V_2' (sic; V_1 + V_2), no mark on that line. Symbolic result only."
+2024-5543-Q27-i,1,,,"p39: box 'i) Difference in mode of interaction of electromagnetic wave with matter 1'; line (i) different wavelengths and frequencies, so differ in mode of interaction with matter, 1."
+2024-5543-Q02,1,B,,p33: (B) Repulsive and q*lambda/(2*pi*eps0*x); 1.
+2024-5551-Q29-i,1,D,,p9: (i) (D) HCl; 1.
+2024-5551-Q30A-iii,1,D,,p10: Q30 (iii) (a) (D) violet colour; 1 (OR (b) (C) r_R < r_Y < r_V).
+2024-5551-Q29-iii,1,B,,p10: (iii) (B) decreases and the electric field also decreases; 1.
+2024-5551-Q24B-ii,0.5 | 0.5 | 0.5 | 0.5,,B = 1e-5 T,p8 (box on p7: OR (b) '(ii) Finding magnitude and direction of magnetic field 2'). ½ B = mu0 I/(2*pi*r); ½ B = 4*pi*1e-7 x 1e2 x 5/(20*pi); ½ B = 1e-5 T; ½ along the direction of the field of the 10 A conductor. Checked: 1e-5 T.
+2024-5551-Q10,1,C,,p3: 10 (C) 8^th; 1.
+2024-5551-Q27-a,1,,,"p9: box '(a) Characteristics of p-n junction diode that makes it suitable for rectification 1'; line: allows current only when forward biased, 1."
+2024-5551-Q29A-iv,1,C,,"p10: (iv) (a) (C) [5K/(4K+1)] C_0; 1 (OR (iv) (b) (D) 3/16, no separate mark printed)."
+2024-5552-Q25-ii,0.5 | 0.5,,1 nm - 700 nm,"p25: box '(ii) Naming the e.m. wave and writing the wavelength ½ + ½'; ½ Infrared waves, ½ 'Order of wavelength 1 nm – 700 nm' (sic, confirmed at 400 dpi and text layer; infrared is about 700 nm to 1 mm)."
+2024-5552-Q25-i,0.5 | 0.5,,400 nm - 1 nm,"p25: box '(i) ... ½ + ½'; ½ Ultraviolet rays, ½ order of wavelength 400 nm – 1 nm."
+2024-5553-Q04,1,A,0.1 ohm,p36: 4. (A) 0.1 Omega; 1.
+2024-5553-Q27-a,0.5 | 0.5 | 0.5 | 0.5,,vec(F_B) = 4.368e-14 j^ N | r = 1.875e-4 m,"p42: box '(a) Calculation for magnetic force and radius 2'. ½ F_B = q(v x B) = -1.6e-19[(3e6 i^) x (91e-3 k^)]; ½ = 4.368e-14 j^ N; ½ r = mv/(qB); ½ r = 1.875e-4 m (mark printed between the r value and (b)). Checked: 4.368e-14 N, 1.875e-4 m."
+2024-55B-Q22A-d1,1 | 1,,,"p6: box (a) 'Definition of (i) Temperature coefficient of resistance 1, (ii) Electrical Conductivity 1'; lines 1 (temperature coefficient: fractional change in resistance per unit rise in temperature) and 1 (conductivity: current density per unit electric field; alternatively reciprocal of resistivity, unmarked). Mapped d1 = both definitions; if d1 is the temperature coefficient alone, 1. Reason (alloys) ½ + ½ is d2."
+2024-55B-Q23-d2,1,,,"p7: box 'Nature of the force 1'; line 'Nature of force is repulsive.' 1. (d1 calculation: 96e-6 N/m, F = 96e-7 N.)"
+2024-55B-Q08,1,A,,p3: 8. (A) frequency; 1.
+2024-55B-Q25-d2,0.5 | 0.5 | 0.5 | 0.5,,,p7: box 'Showing Displacement current = Conduction current 2'. ½ E = sigma/eps0 = q/(A*eps0); ½ phi = EA; ½ I_D = eps0 dphi/dt; ½ I_D = I_C. Symbolic result only.
+2024-55B-Q31B-ii,0.5 | 0.5 | 0.5 | 0.5,,U_1 = 60 J | U_2 = -15 J | U_12 = -5 J | Total energy = 40 J,"p11: box '(ii) Calculating electrostatic potential energy 2'. ½ U_1 = q_1V_1 = 1.8e5 x 10e-6/3e-2 = 60 J; ½ U_2 = 1.8e5 x (-5)e-6/6e-2 = -15 J; ½ U_12 = 9e9 x 10e-6 x (-5e-6)/9e-2 = -5 J; ½ total. Printed 'Total Energy = U_1 + U_2 + U_3 = 60-15-5 = 40J' (U_3 as printed for U_12). Checked: 60, -15, -5, 40 J."
+2024-55B-Q06,1,D,5.0 A,p3: 6. (D) 5.0 A; 1.
+2024-55B-Q31A-ii,0.5 | 0.5 | 0.5 | 0.5,,q = 600 microC | q_1 = 240 microC | q_2 = 360 microC,"p10: box '(ii) Calculation of charge on each capacitor in equilibrium 2'. ½ q = q_1 + q_2 (with q = C_1V_1 + C_2V_2 = 20 x 30 = 600 microC); ½ q_1/q_2 = C_1V'/C_2V' = 2/3; ½ q_1 = 240 microC; ½ q_2 = 360 microC. Checked: 240 + 360 = 600, ratio 2/3."

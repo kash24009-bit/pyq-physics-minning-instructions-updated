@@ -1,0 +1,17 @@
+instance_id,field,part_value,check_value,detail,resolved
+2025-5571-Q02,options,A) 6 ohm | B) (8/3) ohm | C) (16/3) ohm | D) 2 ohm,A) 6 ohm | B) 8/3 ohm | C) 16/3 ohm | D) 2 ohm,"options differ at B, C",extractor_right
+2025-5571-Q03,options,A) B*A*sin(alpha) | B) B*A*cos(alpha) | C) B*A | D) zero,A) BA sin alpha | B) BA cos alpha | C) BA | D) zero,"options differ at A, B, C",extractor_right
+2025-5571-Q08,options,A) 1.18e14 Hz | B) 3.20e14 Hz | C) 4.20e15 Hz | D) 4.80e15 Hz,A) 1.18 × 10^14 Hz | B) 3.20 × 10^14 Hz | C) 4.20 × 10^15 Hz | D) 4.80 × 10^15 Hz,"options differ at A, B, C, D",extractor_right
+2025-5571-Q13,options,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Both Assertion (A) and Reason (R) are false.","options differ at A, B, C, D",extractor_right
+2025-5571-Q14,options,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Both Assertion (A) and Reason (R) are false.","options differ at A, B, C, D",extractor_right
+2025-5571-Q15,options,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Both Assertion (A) and Reason (R) are false.","options differ at A, B, C, D",extractor_right
+2025-5571-Q16,options,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Both Assertion (A) and Reason (R) are false.","options differ at A, B, C, D",extractor_right
+2025-5571-Q17-b,numbers,0,,only in the checker's reading: -; only in the part file: ['0'],extractor_right
+2025-5571-Q18A,marks_part,,2,marks differ,extractor_right
+2025-5571-Q20,marks_part,,2,marks differ,extractor_right
+2025-5571-Q21,marks_part,,2,marks differ,extractor_right
+2025-5571-Q22,marks_part,,3,marks differ,extractor_right
+2025-5571-Q29-ii,options,A) 2.5e4 | B) 3.0e5 | C) 3.75e6 | D) 5.0e7,A) 2.5 × 10^4 | B) 3.0 × 10^5 | C) 3.75 × 10^6 | D) 5.0 × 10^7,"options differ at A, B, C, D",extractor_right
+2025-5571-Q30-i,numbers,,1 2 90,"only in the checker's reading: ['1', '2', '90']; only in the part file: -",extractor_right
+2025-5571-Q31B-i-II,numbers,2,,only in the checker's reading: -; only in the part file: ['2'],extractor_right
+2025-5571-Q33B-ii-II,numbers,1.5 3 600,,"only in the checker's reading: -; only in the part file: ['1.5', '3', '600']",extractor_right
