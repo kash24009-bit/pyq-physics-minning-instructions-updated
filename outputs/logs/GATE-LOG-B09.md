@@ -530,3 +530,13 @@ Every line below was written by phy_gate.py from the data, never typed.
 ## 2026-11-15T09:36:57Z | checkpoint | tools: phy_s5_prep.py locates ANS n answers (B09, tested on three earlier worksheets)
 - validate: 16/16 checks pass
 - pack: PHY-VAULT-B09-20261115-0936-23756r.json
+
+## 2026-11-15T09:47:20Z | T2-2022-SQP | S5 | GATE PASS
+- part files: FORMULAE 8, STEP-AWARDS 51, ERRATA 1
+- merged 8 row(s) into l1/FORMULAE.csv · now 6762
+- merged 51 row(s) into l1/STEP-AWARDS.csv · now 5698
+- merged 1 row(s) into l1/ERRATA.csv · now 908
+- validate after merge: 16/16 checks pass
+- double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B09-20261115-0947-23816r.json

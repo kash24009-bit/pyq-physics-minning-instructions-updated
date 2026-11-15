@@ -1,8 +1,8 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-11-15T09:36:58Z · batch B09.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-11-15T09:47:20Z · batch B09.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B09-20261115-0936-23756r.json](vault/PHY-VAULT-B09-20261115-0936-23756r.json) · 23756 rows in all
+- Newest vault: [PHY-VAULT-B09-20261115-0947-23816r.json](vault/PHY-VAULT-B09-20261115-0947-23816r.json) · 23816 rows in all
 - Checks: 16/16 pass
 
 Status - batch 9 · 6842 question rows saved · years closed: none yet · working on 2026
@@ -13,7 +13,7 @@ Done
 - 2025: 9 file(s) fully mined
 - 2024: 11 file(s) fully mined
 - 2023: 1 file(s) fully mined
-- 2022: 10 file(s) fully mined
+- 2022: 11 file(s) fully mined
 
 Next (my work, in order)
 - Y2026 S5 compartment 55/7 and 55/B/7: no scheme in project -> TRANSFERRED/INFERRED, labelled · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
@@ -24,7 +24,7 @@ Next (my work, in order)
 - Y2025 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02)
-- 14 received file(s) waiting to be mined.
+- 13 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -134,7 +134,7 @@ Optional (yours)
 | T2-2022-5552 | 55/5/2 | T2 | 33 | 9 | 24 | 8 | 35 | 19 |
 | T2-2022-5553 | 55/5/3 | T2 | 30 | 6 | 24 | 9 | 31 | 18 |
 | T2-2022-55B5 | 55/B/5 | T2 | 37 | 37 | 0 | 0 | 21 | 64 |
-| T2-2022-SQP |  | SQP | 34 | 34 | 0 | 12 | 32 | 0 |
+| T2-2022-SQP |  | SQP | 34 | 34 | 0 | 12 | 40 | 51 |
 | T2-2022C-5561 | 55/6/1 | COMPT | 33 | 33 | 0 | 4 | 38 | 62 |
 | T2-2022C-5562 | 55/6/2 | COMPT | 34 | 9 | 25 | 4 | 36 | 17 |
 | T2-2022C-5563 | 55/6/3 | COMPT | 33 | 9 | 24 | 4 | 35 | 13 |
