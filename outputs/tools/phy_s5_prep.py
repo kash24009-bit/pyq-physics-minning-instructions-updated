@@ -24,13 +24,14 @@ def answers(fid, first, last):
     """Split the section's text layer into answers by question number (1, 2, 3 ... in order)."""
     out, cur, want = {}, None, 1
     # B09: sample-paper schemes head answers "ANS 1" with no answer-page header (Physics-MS_Term2.pdf, 2021-22)
-    start = re.compile(r'^\s{0,10}(?:ANS\.?\s*)?(\d{1,2})\s*(?:\.(?!\d)|$|\s{2,}|\()', re.I)   # '17.', '17' alone, '17   text', '17 (a)', 'ANS 17'
+    # B10: the 2023 55/4 scheme heads answers 'Q1.', 'Q12.' (Marking scheme 55-4-1,2,3 merged.pdf: located 11 of 35 before)
+    start = re.compile(r'^\s{0,10}(?:ANS\.?\s*|Q\.?\s*)?(\d{1,2})\s*(?:\.(?!\d)|$|\s{2,}|\()', re.I)   # '17.', '17' alone, '17   text', '17 (a)', 'ANS 17', 'Q17.'
     ans_head = re.compile(r'^\s{0,10}ANS\.?\s*\d{1,2}\b', re.I)
     begun = False                     # answers start after the first answer-page header (or the first "ANS n" line)
     for p in range(first, last + 1):
         for line in page_text(fid, p).splitlines():
             if not begun:
-                begun = bool(re.search(r'VALUE\s*POINT|MARKING\s+SCHEME\s*:', line, re.I))
+                begun = bool(re.search(r'(?-i:VALUE\s*POINT)|MARKING\s+SCHEME\s*:', line, re.I))   # B10: header capitals only; examiner rule 4's prose 'value points' started the count early
                 if not ans_head.match(line):
                     continue
                 begun = True
