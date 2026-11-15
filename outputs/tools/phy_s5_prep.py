@@ -23,13 +23,17 @@ def page_text(fid, p):
 def answers(fid, first, last):
     """Split the section's text layer into answers by question number (1, 2, 3 ... in order)."""
     out, cur, want = {}, None, 1
-    start = re.compile(r'^\s{0,10}(\d{1,2})\s*(?:\.(?!\d)|$|\s{2,}|\()')   # '17.', '17' alone, '17   text', '17 (a)'
-    begun = False                     # answers start after the first answer-page header
+    # B09: sample-paper schemes head answers "ANS 1" with no answer-page header (Physics-MS_Term2.pdf, 2021-22)
+    start = re.compile(r'^\s{0,10}(?:ANS\.?\s*)?(\d{1,2})\s*(?:\.(?!\d)|$|\s{2,}|\()', re.I)   # '17.', '17' alone, '17   text', '17 (a)', 'ANS 17'
+    ans_head = re.compile(r'^\s{0,10}ANS\.?\s*\d{1,2}\b', re.I)
+    begun = False                     # answers start after the first answer-page header (or the first "ANS n" line)
     for p in range(first, last + 1):
         for line in page_text(fid, p).splitlines():
             if not begun:
                 begun = bool(re.search(r'VALUE\s*POINT|MARKING\s+SCHEME\s*:', line, re.I))
-                continue
+                if not ans_head.match(line):
+                    continue
+                begun = True
             m = start.match(line)
             if m and int(m.group(1)) == want:
                 cur = want; want += 1

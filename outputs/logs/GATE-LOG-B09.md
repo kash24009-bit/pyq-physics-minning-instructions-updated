@@ -526,3 +526,7 @@ Every line below was written by phy_gate.py from the data, never typed.
 - double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B09-20261115-0935-23756r.json
+
+## 2026-11-15T09:36:57Z | checkpoint | tools: phy_s5_prep.py locates ANS n answers (B09, tested on three earlier worksheets)
+- validate: 16/16 checks pass
+- pack: PHY-VAULT-B09-20261115-0936-23756r.json
