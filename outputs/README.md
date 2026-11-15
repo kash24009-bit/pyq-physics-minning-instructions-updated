@@ -1,8 +1,8 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-11-15T08:36:40Z · batch B09.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-11-15T08:44:25Z · batch B09.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B09-20261115-0836-23460r.json](vault/PHY-VAULT-B09-20261115-0836-23460r.json) · 23460 rows in all
+- Newest vault: [PHY-VAULT-B09-20261115-0844-23481r.json](vault/PHY-VAULT-B09-20261115-0844-23481r.json) · 23481 rows in all
 - Checks: 16/16 pass
 
 Status - batch 9 · 6842 question rows saved · years closed: none yet · working on 2026
@@ -131,7 +131,7 @@ Optional (yours)
 | T2-2022-5542 | 55/4/2 | T2 | 36 | 8 | 28 | 9 | 37 | 17 |
 | T2-2022-5543 | 55/4/3 | T2 | 34 | 6 | 28 | 6 | 33 | 20 |
 | T2-2022-5551 | 55/5/1 | T2 | 32 | 32 | 0 | 10 | 37 | 59 |
-| T2-2022-5552 | 55/5/2 | T2 | 33 | 9 | 24 | 8 | 33 | 0 |
+| T2-2022-5552 | 55/5/2 | T2 | 33 | 9 | 24 | 8 | 35 | 19 |
 | T2-2022-5553 | 55/5/3 | T2 | 30 | 6 | 24 | 9 | 29 | 0 |
 | T2-2022-55B5 | 55/B/5 | T2 | 37 | 37 | 0 | 0 | 14 | 0 |
 | T2-2022-SQP |  | SQP | 34 | 34 | 0 | 12 | 32 | 0 |
