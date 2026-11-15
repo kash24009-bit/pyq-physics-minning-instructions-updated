@@ -1,8 +1,8 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-11-15T09:27:12Z · batch B09.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-11-15T09:35:27Z · batch B09.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B09-20261115-0927-23683r.json](vault/PHY-VAULT-B09-20261115-0927-23683r.json) · 23683 rows in all
+- Newest vault: [PHY-VAULT-B09-20261115-0935-23756r.json](vault/PHY-VAULT-B09-20261115-0935-23756r.json) · 23756 rows in all
 - Checks: 16/16 pass
 
 Status - batch 9 · 6842 question rows saved · years closed: none yet · working on 2026
@@ -13,7 +13,7 @@ Done
 - 2025: 9 file(s) fully mined
 - 2024: 11 file(s) fully mined
 - 2023: 1 file(s) fully mined
-- 2022: 9 file(s) fully mined
+- 2022: 10 file(s) fully mined
 
 Next (my work, in order)
 - Y2026 S5 compartment 55/7 and 55/B/7: no scheme in project -> TRANSFERRED/INFERRED, labelled · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
@@ -24,7 +24,7 @@ Next (my work, in order)
 - Y2025 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02)
-- 15 received file(s) waiting to be mined.
+- 14 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -138,7 +138,7 @@ Optional (yours)
 | T2-2022C-5561 | 55/6/1 | COMPT | 33 | 33 | 0 | 4 | 38 | 62 |
 | T2-2022C-5562 | 55/6/2 | COMPT | 34 | 9 | 25 | 4 | 36 | 17 |
 | T2-2022C-5563 | 55/6/3 | COMPT | 33 | 9 | 24 | 4 | 35 | 13 |
-| T2-2022C-55B6 | 55/B/6 | COMPT | 32 | 32 | 0 | 0 | 23 | 0 |
+| T2-2022C-55B6 | 55/B/6 | COMPT | 32 | 32 | 0 | 0 | 30 | 65 |
 
 ## Reports
 - [PHY-CLAUDE-CODE-TRIAL.md](reports/PHY-CLAUDE-CODE-TRIAL.md)
