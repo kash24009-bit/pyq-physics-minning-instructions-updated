@@ -335,3 +335,12 @@ Every line below was written by phy_gate.py from the data, never typed.
 - status erratum ER-B09-168: NEW -> IN-PROGRESS
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B09-20261115-0630-22877r.json
+
+## 2026-11-15T06:41:46Z | T2-2022-5511 | S5 | GATE PASS
+- part files: FORMULAE 6, STEP-AWARDS 66
+- merged 6 row(s) into l1/FORMULAE.csv · now 6653
+- merged 66 row(s) into l1/STEP-AWARDS.csv · now 4952
+- validate after merge: 16/16 checks pass
+- double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B09-20261115-0641-22949r.json
