@@ -540,3 +540,7 @@ Every line below was written by phy_gate.py from the data, never typed.
 - double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B09-20261115-0947-23816r.json
+
+## 2026-11-15T09:47:51Z | checkpoint | PROGRESS repair: 11 S5 notes moved from Y2023 to Y2022 lines (B9-3)
+- validate: 16/16 checks pass
+- pack: PHY-VAULT-B09-20261115-0947-23816r.json
