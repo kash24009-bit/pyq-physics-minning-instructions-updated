@@ -400,3 +400,12 @@ Every line below was written by phy_gate.py from the data, never typed.
 - double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B09-20261115-0724-23196r.json
+
+## 2026-11-15T07:31:01Z | T2-2022-5532 | S5 | GATE PASS
+- part files: FORMULAE 5, STEP-AWARDS 27
+- merged 5 row(s) into l1/FORMULAE.csv · now 6689
+- merged 27 row(s) into l1/STEP-AWARDS.csv · now 5193
+- validate after merge: 16/16 checks pass
+- double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B09-20261115-0731-23228r.json
