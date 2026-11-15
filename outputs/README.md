@@ -1,8 +1,8 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-11-15T07:09:50Z · batch B09.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-11-15T07:17:00Z · batch B09.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B09-20261115-0709-23093r.json](vault/PHY-VAULT-B09-20261115-0709-23093r.json) · 23093 rows in all
+- Newest vault: [PHY-VAULT-B09-20261115-0717-23119r.json](vault/PHY-VAULT-B09-20261115-0717-23119r.json) · 23119 rows in all
 - Checks: 16/16 pass
 
 Status - batch 9 · 6842 question rows saved · years closed: none yet · working on 2026
@@ -13,7 +13,7 @@ Done
 - 2025: 9 file(s) fully mined
 - 2024: 11 file(s) fully mined
 - 2023: 1 file(s) fully mined
-- 2022: 1 file(s) fully mined
+- 2022: 2 file(s) fully mined
 
 Next (my work, in order)
 - Y2026 S5 compartment 55/7 and 55/B/7: no scheme in project -> TRANSFERRED/INFERRED, labelled · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
@@ -24,7 +24,7 @@ Next (my work, in order)
 - Y2025 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02)
-- 23 received file(s) waiting to be mined.
+- 22 received file(s) waiting to be mined.
 
 Optional (yours)
 - Nothing needed right now.
@@ -123,7 +123,7 @@ Optional (yours)
 | T2-2022-5513 | 55/1/3 | T2 | 30 | 9 | 21 | 6 | 29 | 23 |
 | T2-2022-5521 | 55/2/1 | T2 | 35 | 35 | 0 | 7 | 44 | 64 |
 | T2-2022-5522 | 55/2/2 | T2 | 34 | 8 | 26 | 7 | 38 | 20 |
-| T2-2022-5523 | 55/2/3 | T2 | 33 | 7 | 26 | 11 | 36 | 0 |
+| T2-2022-5523 | 55/2/3 | T2 | 33 | 7 | 26 | 11 | 41 | 20 |
 | T2-2022-5531 | 55/3/1 | T2 | 36 | 36 | 0 | 5 | 24 | 0 |
 | T2-2022-5532 | 55/3/2 | T2 | 36 | 13 | 23 | 7 | 28 | 0 |
 | T2-2022-5533 | 55/3/3 | T2 | 36 | 12 | 24 | 6 | 26 | 0 |
