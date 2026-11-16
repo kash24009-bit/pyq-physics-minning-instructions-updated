@@ -24,3 +24,17 @@ Every line below was written by phy_gate.py from the data, never typed.
 - validate: 16/16 checks pass
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B11-20261116-1415-25258r.json
+
+## 2026-11-16T14:27:22Z | T1-2022-SQP | S3 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 1, INSTANCES 55, FIGURES 13, FORMULAE 55
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 108
+- merged 1 row(s) into l1/CASES.csv · now 194
+- merged 55 row(s) into l1/INSTANCES.csv · now 6897
+- merged 13 row(s) into l1/FIGURES.csv · now 1384
+- merged 55 row(s) into l1/FORMULAE.csv · now 6952
+- check-paper: PASS · T1-2022-SQP · sections A, B, C: no mark per question printed (UNK); mark sums not checked; 55/55 questions · total 0/35
+- validate after merge: 16/16 checks pass
+- double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
+- status erratum ER-B11-080: NEW -> IN-PROGRESS
+- PROGRESS: line ticked
+- pack: PHY-VAULT-B11-20261116-1427-25384r.json
