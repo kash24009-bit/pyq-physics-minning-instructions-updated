@@ -1,0 +1,67 @@
+instance_id,marks_part,q_marks_printed,numbers,options,figure_values,note
+2026C-55B7-Q01,,1,-1 × 10^-12 C,A) 1.6 × 10^4 | B) 10^8 | C) 6.25 × 10^6 | D) 8 × 10^9,,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3"
+2026C-55B7-Q02,,1,,A) The magnitude of the force is directly proportional to the magnitudes of the two charges. | B) It is inversely proportional to the square of the distance between the two charges. | C) It depends on the permittivity of the medium in which the charges are placed. | D) It is inversely proportional to the distance between the two charges.,,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3; stem prints 'not' in bold italics; 'two charges' is a word"
+2026C-55B7-Q03,,1,110 kW | 22 kV,A) 50 A | B) 25 A | C) 5 A | D) 0.5 A,,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3"
+2026C-55B7-Q04,,1,10 cm | 0.2 T | 0.4 s,A) 5.0 mV | B) 0.5 V | C) 5.0 V | D) 1.0 mV,,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3; field 'directed along the north-east direction', loop vertical in east-west plane (no figure)"
+2026C-55B7-Q05,,1,,A) Visible light has higher frequencies and shorter wavelengths than that of X-rays. | B) Visible light has lower frequencies and shorter wavelengths than that of X-rays. | C) Visible light has higher frequencies and longer wavelengths than that of X-rays. | D) Visible light has lower frequencies and longer wavelengths than that of X-rays.,,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3"
+2026C-55B7-Q06,,1,6.0 m | 1.0 m,A) 6.0 m | B) 1.2 m | C) 2.4 m | D) 0.8 m,,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3"
+2026C-55B7-Q07,,1,663 nm,A) 10^-24 kg ms^-1 | B) 10^-25 kg ms^-1 | C) 10^-27 kg ms^-1 | D) 10^-29 kg ms^-1,,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3"
+2026C-55B7-Q08,,1,5.3 × 10^-11 m | 2.2 × 10^6 ms^-1,A) 6.6 × 10^15 Hz | B) 5.2 × 10^13 Hz | C) 4.3 × 10^12 Hz | D) 3.9 × 10^10 Hz,,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3"
+2026C-55B7-Q09,,1,,A) 45° | B) 90° | C) 135° | D) 180°,,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3"
+2026C-55B7-Q10,,1,,A) h/(2 pi) | B) h/pi | C) 2h/pi | D) h/(4 pi),,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3; 'second orbit' is a word"
+2026C-55B7-Q11,,1,2.0 micrometre | 0.4 V,A) 5 × 10^6 Vm^-1 | B) 5 × 10^-6 Vm^-1 | C) 0.8 × 10^6 Vm^-1 | D) 2.0 × 10^5 Vm^-1,,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3; width printed as 2.0 µm (micro-metre)"
+2026C-55B7-Q12,,1,,A) Phosphorus | B) Arsenic | C) Boron | D) Antimony,,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3"
+2026C-55B7-Q13,,1,,,,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3; options left blank on AR rows (not MCQ); AR code set printed once above Q13 (p11): A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Both Assertion (A) and Reason (R) are false."
+2026C-55B7-Q14,,1,,,,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3; AR code set as in the 2026C-55B7-Q13 note"
+2026C-55B7-Q15,,1,,,,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3; AR code set as in the 2026C-55B7-Q13 note"
+2026C-55B7-Q16,,1,,,,"1 printed beside the question (question mark, not a part mark); total also per General Instructions (iii), p3; AR code set as in the 2026C-55B7-Q13 note"
+2026C-55B7-Q17,,2,0°C | 5.00 ohm | 5.25 ohm | 100°C,,,2 printed beside the question (question mark)
+2026C-55B7-Q18A,2,2,,,,2 printed beside side (a)
+2026C-55B7-Q18B,2,2,,,,2 printed beside side (b); 'Two co-axial ... loops' is a word; no figure
+2026C-55B7-Q19,,2,1 : 81,,,2 printed beside the question (question mark)
+2026C-55B7-Q20,,2,,,,2 printed beside the question (question mark)
+2026C-55B7-Q21,,2,,,,2 printed beside the question (question mark); 'two points' is a word
+2026C-55B7-Q22A-i-I,,3,2a,,,"3 printed beside the (a) lead-in line, covering (i)(I), (i)(II) and (ii), not beside this sub-part; 2a is from the (a) lead-in shared by all (a) rows; (I) printed as x > a"
+2026C-55B7-Q22A-i-II,,3,,,,"3 printed beside the (a) lead-in line, not beside this sub-part; (II) printed as x >> a; lead-in numbers listed on 2026C-55B7-Q22A-i-I"
+2026C-55B7-Q22A-ii,,3,,,,"3 printed beside the (a) lead-in line, not beside (ii); lead-in numbers listed on 2026C-55B7-Q22A-i-I"
+2026C-55B7-Q22B,3,3,,,,"3 printed beside side (b); vec(E), lambda, r are symbols only"
+2026C-55B7-Q23-i,,3,50 microF | 0.32 H | 50 ohm | 220 V | 50 Hz,,,(i) and (ii) printed inline in the stem; 3 printed at the end of Q23 = question total; stem numbers listed on this row only
+2026C-55B7-Q23-ii,,3,,,,(ii) printed inline; its own text has no number (stem values on 2026C-55B7-Q23-i); 3 printed at the end of Q23 = question total
+2026C-55B7-Q24-a,,3,,,,3 printed at the end of (b) = question total
+2026C-55B7-Q24-b,,3,,,,3 printed at the end of (b) = question total
+2026C-55B7-Q25-i,,3,25 cm | 0.5 cm | 50 cm,,,(i) and (ii) printed inline in the stem; 3 printed at the end of Q25 = question total; stem numbers listed on this row only; no figure printed
+2026C-55B7-Q25-ii,,3,,,,(ii) printed inline; its own text has no number (stem values on 2026C-55B7-Q25-i); 3 printed at the end of Q25 = question total
+2026C-55B7-Q26-a,,3,,,,3 printed at the end of (b) = question total
+2026C-55B7-Q26-b,,3,4 V,,,3 printed at the end of (b) = question total; potential difference V and wavelength lambda are symbols
+2026C-55B7-Q27-d1,,3,,,,3 printed at the end of Q27 = question total
+2026C-55B7-Q27-d2,,3,,,,3 printed at the end of Q27 = question total; 'one example' is a word; printed 'nucleus fusion' (sic)
+2026C-55B7-Q28-d1,,3,,,,3 printed at the end of Q28 = question total
+2026C-55B7-Q28-d2,,3,,,,3 printed at the end of Q28 = question total
+2026C-55B7-Q29-i,1,4,10 Ax^2 | -20 Bx,A) A/B | B) B/A | C) -A/B | D) -B/A,,"1 printed beside (i); case passage prints no number; q total 4 per General Instructions (vi), p3 (no total printed beside Q29); expression printed V = 10 Ax^2 - 20 Bx"
+2026C-55B7-Q29-ii,1,4,k = 1/(4 pi epsilon_0),A) k[q_1/r_1 + q_2/r_2] | B) k(q_1 + q_2)/r_12 | C) k(q_1 - q_2)/r_12 | D) k(q_1 q_2)/r_12,,"1 printed beside (ii); q_1, q_2, vec(r_1), vec(r_2) are labels"
+2026C-55B7-Q29A-iii,1,4,,A) become double | B) become half | C) become one-fourth | D) remain the same,,1 printed beside (iii)(a); 'halved' is a word
+2026C-55B7-Q29B-iii,1,4,4 microC | -2 microC | 1 m | 4 microC,A) 1/3 m | B) 2/3 m | C) 1/2 m | D) 1 m,,1 printed beside (iii)(b)
+2026C-55B7-Q29-iv,1,4,10^-10 m,A) 1.15 × 10^-18 J | B) 2.29 × 10^-18 J | C) 3.16 × 10^-18 J | D) 4.05 × 10^-18 J,,1 printed beside (iv)
+2026C-55B7-Q30-i,1,4,,A) increase the sensitivity | B) produce a constant deflecting torque | C) reduce the damping | D) increase the resistance,,"1 printed beside (i); case passage prints no number; q total 4 per General Instructions (vi), p3"
+2026C-55B7-Q30-ii,1,4,,A) Number of turns in the coil | B) Area of the coil | C) Strength of the magnetic field | D) Resistance of the coil,,1 printed beside (ii); stem prints 'not' in bold italics
+2026C-55B7-Q30A-iii,1,4,,A) High resistance in parallel with its coil | B) High resistance in series with its coil | C) Low resistance in parallel with its coil | D) Low resistance in series with its coil,,1 printed beside (iii)(a)
+2026C-55B7-Q30B-iii,1,4,,A) Low resistance in series | B) Low resistance in parallel | C) High resistance in parallel | D) High resistance in series,,"1 printed beside (iii)(b) (p23, after OR at foot of p21)"
+2026C-55B7-Q30-iv,1,4,N = 125 turns | I = 20 mA | B = 0.5 T | A = 400 mm^2,A) 20 Nm | B) 0.1 Nm | C) 5 × 10^-4 Nm | D) 3 × 10^-6 Nm,,1 printed beside the second line of (iv)
+2026C-55B7-Q31A-i,,5,,,,"5 printed at the end of (a)(ii) = total of side (a), not beside (i)"
+2026C-55B7-Q31A-ii,,5,8.0 × 10^28 m^-3 | 2.5 × 10^-8 ohm-m | m_e = 9 × 10^-31 kg | q_e = 1.6 × 10^-19 C,,,"5 printed at the end of (a)(ii) = total of side (a), not a part mark"
+2026C-55B7-Q31B-i,,5,,,,"5 printed at the end of (b)(ii) = total of side (b), not beside (i)"
+2026C-55B7-Q31B-ii-I,,5,60 W | 120 W | 220 V,,,"numbers from the (ii) text shared by (I) series and (II) parallel, listed on this row only; 5 printed at the end of (b)(ii) = total of side (b)"
+2026C-55B7-Q31B-ii-II,,5,,,,(II) printed inline 'is parallel' (sic); values listed on 2026C-55B7-Q31B-ii-I; 5 printed at the end of (b)(ii) = total of side (b)
+2026C-55B7-Q32A-i,,5,,,,"5 printed at the end of (a)(ii) = total of side (a), not beside (i); 'Biot-Savarts' printed without apostrophe"
+2026C-55B7-Q32A-ii,,5,100 turns | 10 cm | 5 A,,,5 printed at the end of (a)(ii) = total of side (a)
+2026C-55B7-Q32B-i,,5,,,,"5 printed at the end of (b)(ii) = total of side (b), not beside (i); 'one Ampere' is a word"
+2026C-55B7-Q32B-ii,,5,2 A | 0.1 m | 3 × 10^6 ms^-1,,,"5 printed at the end of (b)(ii) = total of side (b); directions in text only (no figure): current along +y, proton moving along +y, proton to the right of the wire"
+2026C-55B7-Q33A-i,,5,,,,"5 printed at the end of (a)(ii) = total of side (a), not beside (i); 'two conditions' is a word"
+2026C-55B7-Q33A-ii,,5,1.5 | 1.0,,,"both are refractive indices (denser 1.5, rarer 1.0); 5 printed at the end of (a)(ii) = total of side (a)"
+2026C-55B7-Q33B-i-I,,5,,,,5 printed at the end of (b)(ii) = total of side (b); 'one slit' is a word
+2026C-55B7-Q33B-i-II,,5,,,,5 printed at the end of (b)(ii) = total of side (b)
+2026C-55B7-Q33B-i-III,,5,,,,5 printed at the end of (b)(ii) = total of side (b)
+2026C-55B7-Q33B-i-IV,,5,,,,5 printed at the end of (b)(ii) = total of side (b); 'two slits' is a word
+2026C-55B7-Q33B-i-V,,5,,,,5 printed at the end of (b)(ii) = total of side (b)
+2026C-55B7-Q33B-i-VI,,5,,,,5 printed at the end of (b)(ii) = total of side (b)
+2026C-55B7-Q33B-ii,,5,0 | lambda/4,,,"path differences (I) 0 and (II) lambda/4 printed inline; S_1, S_2 are labels; 5 printed at the end of (b)(ii) = total of side (b)"

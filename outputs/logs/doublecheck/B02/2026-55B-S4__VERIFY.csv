@@ -1,0 +1,66 @@
+instance_id,marks_part,q_marks_printed,numbers,options,figure_values,note
+2026-55B-Q01,1,1,1 nC,A) 1.60 × 10^+28 | B) 1.60 × 10^+10 | C) 3.1 × 10^9 | D) 6.25 × 10^9,,
+2026-55B-Q02,1,1,10^20 electrons | 2 minutes,A) 8.0 A | B) 1.96 × 10^-2 A | C) 4.0 A | D) 1.33 × 10^-1 A,,
+2026-55B-Q03,1,1,,A) the wire loop is wound around a bar magnet. | B) a bar magnet is placed in contact with the wire loop. | C) a bar magnet is placed near the wire loop. | D) a bar magnet is moved rapidly towards the wire loop.,,
+2026-55B-Q04,1,1,,A) reflection of light | B) dispersion of light | C) scattering of light | D) total internal reflection,,
+2026-55B-Q05,1,1,phi_0 = hc/550 nm,A) emitted electrons will be more energetic. | B) emitted electrons will be less energetic. | C) no electrons are emitted. | D) less number of electrons are emitted.,,
+2026-55B-Q06,1,1,,A) m_e/m_p | B) m_p/m_e | C) sqrt(m_e/m_p) | D) sqrt(m_p/m_e),,stem asks lambda_e/lambda_p
+2026-55B-Q07,1,1,,A) 4 | B) 5 | C) 10 | D) 15,,"""five energy levels"" is printed in words"
+2026-55B-Q08,1,1,"92 (_92U^238, atomic number) | 238 (_92U^238, mass number)",A) 92 protons | B) 92 electrons | C) 146 neutrons | D) 238 nucleons,,"nucleus printed as 92 subscript-left, 238 superscript-right: _92U^238"
+2026-55B-Q09,1,1,,A) fusion of lighter nuclei | B) fission of heavy nuclei | C) chemical reaction | D) fusion of heavy nuclei,,
+2026-55B-Q10,1,1,,A) -27.2 eV | B) 27.2 eV | C) -13.6 eV | D) 13.6 eV,,
+2026-55B-Q11,1,1,,A) Boron | B) Arsenic | C) Indium | D) Aluminium,,
+2026-55B-Q12,1,1,,A) raises the potential barrier height. | B) decreases the depletion layer width. | C) increases the resistance of the p-n junction. | D) reduces the majority carrier current to zero.,,
+2026-55B-Q13,1,1,,,,options not printed per question: the four A/R codes are printed once in the Note above Q13 (p9)
+2026-55B-Q14,1,1,,,,options not printed per question: the four A/R codes are printed once in the Note above Q13 (p9)
+2026-55B-Q15,1,1,,,,options not printed per question: the four A/R codes are printed once in the Note above Q13 (p9)
+2026-55B-Q16,1,1,,,,options not printed per question: the four A/R codes are printed once in the Note above Q13 (p9)
+2026-55B-Q17-i,,2,6 V (emf) | 1 ohm (internal resistance) | 0.5 A (current),,,2 printed once beside the shared lead-in; numbers from the shared lead-in
+2026-55B-Q17-ii,,2,,,,2 printed once beside the shared lead-in (covers i and ii)
+2026-55B-Q18A,2,2,,,,
+2026-55B-Q18B,2,2,,,,OR alternative
+2026-55B-Q19,2,2,n = 1.5 | 20 cm (radius of curvature) | 50 cm (object distance),,,
+2026-55B-Q20,2,2,,,,only symbols nu_0 and nu(>nu_0); no digits
+2026-55B-Q21,2,2,,,,
+2026-55B-Q22A-i,,3,,,,"3 printed once at end of option (a) beside (ii), covering (a)(i)+(a)(ii); expression vec(v)_d = -e vec(E) tau/m has no digits"
+2026-55B-Q22A-ii,,3,,,,3 printed at end of this sub-part but covers all of option (a)
+2026-55B-Q22B,3,3,,,,OR alternative
+2026-55B-Q23-a,,3,"3 A (current, along +z) | 15 cm (point on +x-axis)",,,"3 printed once beside (b), covering (a)+(b)"
+2026-55B-Q23-b,,3,,,,"3 printed beside this part, covering (a)+(b)"
+2026-55B-Q24-a,,3,,,,"3 printed once beside (b), covering (a)+(b)"
+2026-55B-Q24-b,,3,B^2/(2 mu_o),,,printed as B^2/(2 mu_o) with subscript o; 3 beside this part covers (a)+(b)
+2026-55B-Q25-a,,3,40 MHz,,,"3 printed once beside (b), covering (a)+(b)"
+2026-55B-Q25-b,,3,750 N/C,,,3 printed beside this part covers (a)+(b)
+2026-55B-Q26,3,3,,,,
+2026-55B-Q27-i,,3,-3.4 eV,,,"3 printed once beside (ii), covering (i)+(ii); -3.4 eV is in the shared lead-in"
+2026-55B-Q27-ii,,3,,,,3 printed beside this part covers (i)+(ii)
+2026-55B-Q28-a,,3,,,,"3 printed once beside (b), covering (a)+(b)"
+2026-55B-Q28-b,,3,40% (efficiency) | 60% (power),,,3 printed beside this part covers (a)+(b)
+2026-55B-Q29-i,,4,"(a, 0) | (3a, 0)",A) 2qa and is along +x-axis. | B) 2qa and is along -x-axis. | C) qa and is along +x-axis. | D) qa and is along -x-axis.,,"marks printed once at end of case passage as 4 × 1 = 4; passage has no numerical values (only +q, -q, vec(p), vec(E), theta)"
+2026-55B-Q29-ii,,4,,A) 1/2 | B) 2 | C) 1/4 | D) 4,,stem asks (E_1/E_2)
+2026-55B-Q29A-iii,,4,4 × 10^-9 Cm | 5 × 10^4 N/C | 30°,A) 3.23 × 10^-4 J | B) 1.0 × 10^-5 J | C) 1.73 × 10^-4 J | D) 5 × 10^4 J,,
+2026-55B-Q29B-iii,,4,,A) [L^2 T^2 A^-2] | B) [M^2 L^2 T A^2] | C) [L T A^2] | D) [L T A],,"OR alternative; text layer drops the minus in A) exponent, image shows A^-2"
+2026-55B-Q29-iv,,4,,A) parallel to both the vec(E) & vec(p). | B) perpendicular to both vec(E) & vec(p). | C) parallel to vec(E) and perpendicular to vec(p). | D) perpendicular to vec(E) and parallel to vec(p).,,
+2026-55B-Q30-i,,4,,A) electron | B) proton | C) alpha-particle | D) neutron,,"marks printed once at end of case passage as 4 × 1 = 4; passage has no numbers (vec(v) horizontal, vec(B) vertically up, radius R, anticlockwise)"
+2026-55B-Q30-ii,,4,,A) Biot-Savart's law | B) Lenz's law | C) Ampere's circuital law | D) Right hand rule,,
+2026-55B-Q30A-iii,,4,,A) R/4 | B) R/2 | C) 2R | D) R,,"""doubled"" is in words"
+2026-55B-Q30B-iii,,4,1 microC | 5 × 10^6 ms^-1 | 1 T | 30°,A) 25 N | B) 5 N | C) 2.5 N | D) 1.2 N,,OR alternative; 1T printed without space
+2026-55B-Q30-iv,,4,,A) m*v/(q*B) | B) q*B/(2*pi*m) | C) q*B/(2*pi*R) | D) pi*m/(2*q*B),,v printed italic
+2026-55B-Q31A-a-i,,5,,,,"5 printed once at end of option A (beside (b)); lead-in ""electric field vec(E) at a point due to a charge Q"""
+2026-55B-Q31A-a-ii,,5,,,,5 printed once at end of option A
+2026-55B-Q31A-b,,5,,,,"5 printed here covers all of option A; ""three"" vertices/charges in words, side a"
+2026-55B-Q31B-a-d1,,5,,,,5 printed once at end of option B (beside (b))
+2026-55B-Q31B-a-d2,,5,,,,dielectric constant K; 5 printed once at end of option B
+2026-55B-Q31B-b,,5,A/2 (area of each slab),,,K_1 and K_2 are labels; 5 printed here covers all of option B
+2026-55B-Q32A-a,,5,,,,"""two factors"" in words; 5 printed once beside (b), covering (a)+(b)"
+2026-55B-Q32A-b,,5,1.0 m (length) | 2 cm (radius) | 2000 turns | 1000 turns,,,5 printed here covers (a)+(b)
+2026-55B-Q32B-a,,5,pi/2 radian,,,"OR alternative; 5 printed once beside (b)(ii), covering all of option B"
+2026-55B-Q32B-b-i,,5,E = 140 sin 314 t,,,"numbers in shared lead-in of (b); ""instaneous"" misprint on page"
+2026-55B-Q32B-b-ii,,5,,,,5 printed beside this sub-part covers all of option B
+2026-55B-Q33A-a-i,,5,,,,"5 printed once beside (b), covering option A"
+2026-55B-Q33A-a-ii,,5,,,,
+2026-55B-Q33A-a-iii,,5,,,,
+2026-55B-Q33A-b,,5,700 nm | 30°,,,"""first minimum"" in words; 5 printed here covers option A"
+2026-55B-Q33B-a,,5,,,,"OR alternative; ""two advantages"" in words; 5 printed once beside (b)"
+2026-55B-Q33B-b-i,,5,125 cm (focal length) | 5 cm (focal length),,,"numbers from the shared lead-in of (b); (i) infinity, no number"
+2026-55B-Q33B-b-ii,,5,25 cm,,,5 printed at end of (b)(ii) covers option B
