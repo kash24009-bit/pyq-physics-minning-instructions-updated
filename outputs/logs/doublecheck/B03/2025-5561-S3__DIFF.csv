@@ -1,0 +1,19 @@
+instance_id,field,part_value,check_value,detail,resolved
+2025-5561-Q01,options,A) T_2 = 2*T_1 | B) T_1 > T_2 | C) T_1 = T_2/3 | D) T_1 < T_2,A) T_2 = 2T_1 | B) T_1 > T_2 | C) T_1 = T_2/3 | D) T_1 < T_2,options differ at A,extractor_right
+2025-5561-Q03,options,A) mu0*I/(2*pi*R) | B) mu0*I/(pi*R) | C) mu0*I/(4*R) | D) mu0*I/R,A) mu_0*I/(2*pi*R) | B) mu_0*I/(pi*R) | C) mu_0*I/(4R) | D) mu_0*I/R,"options differ at A, B, C, D",extractor_right
+2025-5561-Q09,options,A) zero | B) I_0 | C) 2*I_0 | D) 4*I_0,A) zero | B) I_0 | C) 2I_0 | D) 4I_0,"options differ at C, D",extractor_right
+2025-5561-Q11,options,A) 6.63e-25 | B) 1.326e-27 | C) 2.652e-26 | D) 3.978e-24,A) 6.63 × 10^-25 | B) 1.326 × 10^-27 | C) 2.652 × 10^-26 | D) 3.978 × 10^-24,"options differ at A, B, C, D",extractor_right
+2025-5561-Q17,marks_part,,2,marks differ,extractor_right
+2025-5561-Q18B,marks_part,,2,marks differ,extractor_right
+2025-5561-Q19-ii,numbers,3e+14 9,,"only in the checker's reading: -; only in the part file: ['3e+14', '9']",extractor_right
+2025-5561-Q20,marks_part,,2,marks differ,extractor_right
+2025-5561-Q21,marks_part,,2,marks differ,extractor_right
+2025-5561-Q23-ii,numbers,1 2 5,,"only in the checker's reading: -; only in the part file: ['1', '2']",extractor_right
+2025-5561-Q26,marks_part,,3,marks differ,extractor_right
+2025-5561-Q28-a,numbers,0 1 1.00866 2 2.0141 3 3.01605 4 4.0026 931,1 1.00866 2 2.0141 3 3.01605 4 4.0026 931,only in the checker's reading: -; only in the part file: ['0'],extractor_right
+2025-5561-Q29-i,options,A) C/4 | B) C/2 | C) 2*C | D) 4*C,A) C/4 | B) C/2 | C) 2C | D) 4C,"options differ at C, D",extractor_right
+2025-5561-Q29-iii,options,A) (1/2)*eps0*E^2 | B) eps0*Q^2*E | C) (1/2)*eps0*E^2*V | D) eps0*E*Q*V,A) (1/2)*epsilon_0*E^2 | B) epsilon_0*Q^2*E | C) (1/2)*epsilon_0*E^2*V | D) epsilon_0*E*Q*V,"options differ at A, B, C, D",extractor_right
+2025-5561-Q29B-iv,options,A) (K + 1)/(2*K) | B) 2*K/(K + 1) | C) K/(K - 1) | D) (K - 1)/K,A) (K + 1)/(2K) | B) 2K/(K + 1) | C) K/(K - 1) | D) (K - 1)/K,"options differ at A, B",extractor_right
+2025-5561-Q31B-ii-II,numbers,100 20 200 250 50,,"only in the checker's reading: -; only in the part file: ['100', '20', '200', '250', '50']",extractor_right
+2025-5561-Q31B-ii-III,numbers,100 20 200 250 50,,"only in the checker's reading: -; only in the part file: ['100', '20', '200', '250', '50']",extractor_right
+2025-5561-Q33B-i-d2-I,numbers,0 2,0,only in the checker's reading: -; only in the part file: ['2'],extractor_right

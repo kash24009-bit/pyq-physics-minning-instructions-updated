@@ -1,0 +1,3 @@
+instance_id,field,part_value,check_value,detail,resolved
+2026-5512-Q27-b,step_marks,0.5 | 0.5,0.5 | 0.5 | 0.5,scoring-line marks differ,extractor_right
+2026-5512-Q27-c,step_marks,0.5 | 1,1,scoring-line marks differ,extractor_right

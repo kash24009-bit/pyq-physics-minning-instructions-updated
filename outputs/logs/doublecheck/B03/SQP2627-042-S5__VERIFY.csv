@@ -1,0 +1,72 @@
+instance_id,step_marks,key,numbers,note
+SQP2627-042-Q01,1,C,,scheme p1; answer printed 'C. remain the same'
+SQP2627-042-Q02,1,C,P = 2000 W,scheme p1
+SQP2627-042-Q03,1,C,,scheme p1
+SQP2627-042-Q04,1,A,,scheme p1; answer printed 'A. i^'
+SQP2627-042-Q05,1,D,,scheme p1
+SQP2627-042-Q06,1,C,,scheme p1
+SQP2627-042-Q07,1,B,,scheme p1
+SQP2627-042-Q08,1,D,,scheme p2
+SQP2627-042-Q09,1,B,R_AB = 18/5 ohm | I = 5 A,scheme p2; the single 1 of Q9 is printed beside 'B. 5 A' at the top of the cell
+SQP2627-042-Q09-VI,,B,R_eq = R,"scheme p2; no mark printed beside the VI answer 'B. R' (Q9's only mark, 1, sits beside 'B. 5 A'). Scheme text says 'the resistance R of the galvanometer is ineffective' while the VI question gives the galvanometer arm as 2R (the answer R is unaffected because the bridge is balanced)"
+SQP2627-042-Q10,1,A,R_1/R_2 = 5:3,scheme p2
+SQP2627-042-Q11,1,C,22 km,"scheme p2; working 0.22 m × 10^5 = 22,000 m = 22 km"
+SQP2627-042-Q12,1,C,B = 5pi × 10^-6 T = 5pi microT,scheme p2
+SQP2627-042-Q13,1,B,,scheme p3
+SQP2627-042-Q14,1,A,,scheme p3
+SQP2627-042-Q15,1,C,,scheme p3
+SQP2627-042-Q16,1,D,,scheme p3
+SQP2627-042-Q17-I,½ | ½,,v_medium = 2 × 10^8 m/s | mu = 1.5,"scheme p3; ½ beside the v_medium line, ½ beside mu = 1.5; the formula line mu = c/v_medium and C = 3 × 10^8 m/s carry no mark"
+SQP2627-042-Q17-II,½ | ½,,nu = 10^18 s^-1,"scheme p3-p4; ½ beside 'Angular frequency (omega) = 2pi × 10^18 rad s^-1' (p3 foot), ½ beside 'nu = 10^18 s^-1' (p4 top); the identification 'This frequency correspond to X Ray' has no mark of its own. Q17 printed total 2 = paper 2"
+SQP2627-042-Q18-a,1,,,scheme p4
+SQP2627-042-Q18-b,1,,,scheme p4; Q18 printed total 2 = paper 2
+SQP2627-042-Q19,½ | ½ | ½ | ½,,W = 4kq^2/d,"scheme p4; ½ each: distance d/2, V_1 = 2kq/d, V = 4kq/d, W = qV = 4kq^2/d. Printed 'external gent' (sic). Total 2 = paper 2"
+SQP2627-042-Q20A,1 | ½ | ½,,,scheme p4; 1 for 'ferromagnetic'; the second mark is printed once as '½ x2' beside the two properties (½ each). Total 2 = paper 2
+SQP2627-042-Q20B,1 | ½ | ½,,,scheme p5; 1 for the statement Phi_B = closed-integral B.dS = 0; the second mark is printed once as '½ x 2' beside the two significance bullets. Total 2 = paper 2
+SQP2627-042-Q21A-I,1,,,scheme p5
+SQP2627-042-Q21A-II,,,13.6 eV,scheme p5; NO mark printed beside part II (checked on a 400 dpi crop of the marks column). Q21(A) printed total = 1 (part I only); paper prints 2 for Q21
+SQP2627-042-Q21B-d1,1,,,scheme p5; 1 beside the Bohr postulate / mvr = nh/2pi
+SQP2627-042-Q21B-d2,1,,,"scheme p5-p6; 1 beside the de Broglie explanation (p5); the p6 continuation 2pi r = nh/mv, mvr = nh/2pi carries no mark. Q21(B) printed total 2 = paper 2"
+SQP2627-042-Q22-d1,1 | 1,,,"scheme p6; 1 beside Metals/Insulators, 1 beside Semiconductors (each line also states how the band gap sets conductivity)"
+SQP2627-042-Q22-II,1,,,scheme p6; 1 beside the Diamond vs tin block (diamond gap ~ 5.4 eV; tin overlapping bands)
+SQP2627-042-Q22-I,,,,"scheme p6; no mark of its own: the only general band-gap-controls-conductivity line is the 'Conclusion' printed at the end of the diamond-vs-tin block, below that block's single 1. Q22 printed total 3 = paper 3"
+SQP2627-042-Q23-I,1,,,scheme p6
+SQP2627-042-Q23-II,1,,,scheme p6
+SQP2627-042-Q23-III,1,,,scheme p6; Q23 printed total 3 = paper 3
+SQP2627-042-Q24,1 | 1 | 1,,m_p Z + m_n N = 16.12744 u | Delta m = 0.132514 | B ≈ 123.4 MeV | B/A ≈ 7.71 MeV,"scheme p6; 1 beside 16.12744 u, 1 beside B ≈ 123.4 MeV, 1 beside B/A ≈ 7.71 MeV. Delta m printed 0.132514 with no unit (sic: 16.12744 - 15.99493 = 0.13251 u; the next line uses 0.13251). 0.13251 × 931.5 = 123.433 MeV; 123.4/16 = 7.7125. Total 3 = paper 3"
+SQP2627-042-Q25-I,1 | 1,,theta_c < 30°,"scheme p7; 1 beside mu = 2.42 / theta_c = sin^-1(1/2.42) (no numeric theta_c printed; sin^-1(1/2.42) = 24.4°); the second 1 is printed in the gap between I's 'Hence ... TIR' line and part II, nearer the TIR line"
+SQP2627-042-Q25-II,,,,"scheme p7; no mark printed against part II unless the second 1 (between I's conclusion and II, nearer I) is read as II's. Q25 printed total = 2 (two 1s); paper prints 2+1 = 3"
+SQP2627-042-Q26-d1,1 | 1,,,"scheme p7; 1 between the Huygens' principle statement and the figure, 1 beside sin i = BC/AC, sin r = AE/AC, sin i/sin r = v_1/v_2; the p8 lines n = c/v, n_1 sin i = n_2 sin r carry no mark of their own"
+SQP2627-042-Q26-d2,1,,,"scheme p8; the 1 sits in the gap between 'This is Snell's law of refraction' and 'Prediction of wave theory later experimentally verified', nearer the Prediction heading. Q26 printed total 3 = paper 3"
+SQP2627-042-Q27A-I,1 | ½ | ½,,S = 2 ohm,scheme p8; 1 between 'original ammeter treated as galvanometer' and S = I_g G/(I - I_g); ½ beside the formula; ½ beside 100 × 13/(750 - 100); result 1300/650 = 2 ohm
+SQP2627-042-Q27A-II,1,,,scheme p8; Q27(A) printed total 3 = paper 3
+SQP2627-042-Q27B-I,½,,,"scheme p8; one ½ beside the SI-unit line (A m^2 or J T^-1); 'Magnetic dipole moment' line has no mark of its own. The next ½ sits between the SI-unit line and II's pole-strength line (text layer puts it on the pole-strength line); if read as I's, I = ½ | ½ and II = ½ | ½ | ½ | ½"
+SQP2627-042-Q27B-II,½ | ½ | ½ | ½ | ½,,new magnetic moment = 2m/pi,"scheme p8; ½ beside q_m = m/l, ½ beside 'separation changes from l to 2r', ½ beside r = l/pi, ½ between 'New magnetic moment = q_m × 2r' and '= (m/l) × (2l/pi)', ½ between that and '= 2m/pi'. Q27(B) printed total 3 = paper 3"
+SQP2627-042-Q28-I,1,,,scheme p8
+SQP2627-042-Q28-II,½ | ½ | ½ | ½,,L' = 125 L,"scheme p8-p9; ½ beside L proportional to N^2 A/l (p8); p9: ½ beside path length l -> 5l, ½ beside 25 × 25/5 = 125, ½ beside L' = 125 L. Q28 printed total 3 = paper 3"
+SQP2627-042-Q29-I,1,C,,scheme p9
+SQP2627-042-Q29-II,1,B,,scheme p9
+SQP2627-042-Q29-III,1,C,,scheme p9
+SQP2627-042-Q29-IV,1,,,scheme p9
+SQP2627-042-Q30-I,1,,,scheme p9
+SQP2627-042-Q30-II,1,,,scheme p9
+SQP2627-042-Q30-III,1,C,E = h nu ≈ 5 eV | K_max = 3 eV,"scheme p9; working 4.14 × 10^-15 × 1.2 × 10^15 ≈ 5 eV (computed 4.968 eV); K_max = 5 - 2 = 3, unit printed 'Ev' (sic)"
+SQP2627-042-Q30-IV,1,D,,scheme p10; answer printed 'D. (Both B and C)'
+SQP2627-042-Q31A-I,½ | ½ | ½ | ½,,,scheme p10; C = 4 pi epsilon_0 R line within; total 2 = paper 2
+SQP2627-042-Q31A-II-i,½ | ½,,C_min = 3 microF,"scheme p10; ½ series, ½ beside 1/C_min = 1/6 + 1/9 + 1/18 = 6/18 = 1/3"
+SQP2627-042-Q31A-II-ii,½ | ½,,C_max = 33 microF,"scheme p10; ½ parallel, ½ beside C_max = 6 + 9 + 18 = 33 microF; II total 2 = paper 2"
+SQP2627-042-Q31A-III,½ | ½,,,"scheme p10; printed once as '½ x 2' beside the two factors (distance, permittivity). Total 1 = paper 1"
+SQP2627-042-Q31B-I,½ | ½ | ½ | ½ | ½ | ½,,,scheme p11; five ½ beside the derivation steps and ½ beside the 'i.e.' conclusion; total 3 = paper 3
+SQP2627-042-Q31B-II,½ | ½ | ½ | ½,,r = 2 × 10^-1 m = 0.2 m,scheme p11; total 2 = paper 2
+SQP2627-042-Q32A-I,2,,v_o = 22 cm,scheme p11; no per-line marks anywhere in 32(A): only the split '2+2+1' printed once beside 32(A) I; 2 recorded here from that split
+SQP2627-042-Q32A-II,2,,M = 50,scheme p12; no mark printed beside II itself; 2 from the split '2+2+1' printed at 32(A) I
+SQP2627-042-Q32A-III,1,,,scheme p12; no mark printed beside III itself; 1 from the split '2+2+1' printed at 32(A) I
+SQP2627-042-Q32B-I,2,,M = 20,scheme p12; no per-line marks anywhere in 32(B): only the split '2+2+1' printed once beside 32(B) 'Given:'; 2 recorded here from that split
+SQP2627-042-Q32B-II,2,,M = 24,scheme p12; no mark printed beside II itself; 2 from the split '2+2+1'
+SQP2627-042-Q32B-III,1,,,scheme p12-p13; no mark printed beside III itself; 1 from the split '2+2+1'
+SQP2627-042-Q33A-I,1 | ½ | ½,,,"scheme p13; 1 beside the transformer diagram, ½ beside V_s/V_p = N_s/N_p, ½ beside P_in = P_out => V_p I_p = V_s I_s; total 2 = paper 2"
+SQP2627-042-Q33A-II,1 | 1,,,scheme p13-p14; both 1s beside the working-mechanism bullets (p13); the 'Condition for proper functioning: input must be a.c.' lines (p14) carry no mark of their own; total 2 = paper 2
+SQP2627-042-Q33A-III,1,,,scheme p14
+SQP2627-042-Q33B-I,1 | ½ | ½ | 1,,,"scheme p14; 1 beside the series LCR description, ½ beside X_L = X_C, ½ beside omega L = 1/(omega C), 1 beside the 'At resonance' bullets; total 3 = paper 3"
+SQP2627-042-Q33B-II-d1,,,,scheme p14; the expression f_0 = omega_0/2pi = 1/(2pi sqrt(LC)) is printed at the end of the I block with no mark of its own
+SQP2627-042-Q33B-II-d2,1 | 1,,,"scheme p14-p15; 1 beside the II heading (p14), 1 beside 'At this condition' (p15). Q33(B) II printed 2 = paper's 2 for II, all on the tuning description"

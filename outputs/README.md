@@ -1,0 +1,158 @@
+# Physics (042) PYQ mining · dashboard
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-11-16T10:30:53Z · batch B10.*
+
+## Where things stand
+- Newest vault: [PHY-VAULT-B10-20261116-1030-25179r.json](vault/PHY-VAULT-B10-20261116-1030-25179r.json) · 25179 rows in all
+- Checks: 16/16 pass
+
+Status - batch 10 · 6842 question rows saved · years closed: none yet · working on 2026
+
+Done
+- 2027: 3 file(s) fully mined
+- 2026: 33 file(s) fully mined
+- 2025: 9 file(s) fully mined
+- 2024: 11 file(s) fully mined
+- 2023: 10 file(s) fully mined
+- 2022: 11 file(s) fully mined
+
+Next (my work, in order)
+- Y2026 S5 compartment 55/7 and 55/B/7: no scheme in project -> TRANSFERRED/INFERRED, labelled · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
+- Y2026 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
+- Y2026 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
+- Y2026 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02: printed documents of 2025-2022 first)
+- Y2025 S5 papers with no scheme (2025C-55S2, 2025C-55S3): TRANSFERRED/INFERRED after S6, labelled · DEFERRED to the closing sweep (her decision 2026-10-02)
+- Y2025 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02)
+- Y2025 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02)
+- Y2025 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02)
+- 4 received file(s) waiting to be mined.
+
+Optional (yours)
+- Nothing needed right now.
+
+## Papers in the vault
+| paper | code | exam | rows | new | shuffles | figures | formulae | scoring lines |
+|---|---|---|---|---|---|---|---|---|
+| 2023-5511 | 55/1/1 | MAIN | 72 | 72 | 0 | 24 | 69 | 142 |
+| 2023-5512 | 55/1/2 | MAIN | 72 | 16 | 56 | 19 | 69 | 35 |
+| 2023-5513 | 55/1/3 | MAIN | 71 | 15 | 56 | 19 | 62 | 34 |
+| 2023-5521 | 55/2/1 | MAIN | 73 | 73 | 0 | 14 | 63 | 147 |
+| 2023-5522 | 55/2/2 | MAIN | 70 | 16 | 54 | 13 | 60 | 33 |
+| 2023-5523 | 55/2/3 | MAIN | 71 | 16 | 55 | 14 | 61 | 31 |
+| 2023-5531 | 55/3/1 | MAIN | 76 | 76 | 0 | 14 | 80 | 145 |
+| 2023-5532 | 55/3/2 | MAIN | 76 | 16 | 60 | 18 | 70 | 29 |
+| 2023-5533 | 55/3/3 | MAIN | 78 | 18 | 60 | 22 | 75 | 33 |
+| 2023-5541 | 55/4/1 | MAIN | 77 | 77 | 0 | 21 | 105 | 140 |
+| 2023-5542 | 55/4/2 | MAIN | 78 | 18 | 60 | 17 | 95 | 36 |
+| 2023-5543 | 55/4/3 | MAIN | 76 | 16 | 60 | 22 | 91 | 35 |
+| 2023-5551 | 55/5/1 | MAIN | 83 | 83 | 0 | 23 | 74 | 153 |
+| 2023-5552 | 55/5/2 | MAIN | 83 | 21 | 62 | 22 | 71 | 41 |
+| 2023-5553 | 55/5/3 | MAIN | 76 | 19 | 57 | 24 | 72 | 44 |
+| 2023-55B | 55/B | MAIN | 71 | 71 | 0 | 0 | 51 | 139 |
+| 2023C-55B | 55/B | COMPT | 74 | 74 | 0 | 0 | 83 | 125 |
+| 2023C-55C1 | 55/C/1 | COMPT | 77 | 77 | 0 | 23 | 86 | 155 |
+| 2023C-55C2 | 55/C/2 | COMPT | 73 | 17 | 56 | 22 | 75 | 42 |
+| 2023C-55C3 | 55/C/3 | COMPT | 74 | 19 | 55 | 21 | 71 | 38 |
+| 2024-5511 | 55/1/1 | MAIN | 79 | 79 | 0 | 12 | 95 | 137 |
+| 2024-5512 | 55/1/2 | MAIN | 78 | 17 | 61 | 14 | 77 | 29 |
+| 2024-5513 | 55/1/3 | MAIN | 79 | 19 | 60 | 11 | 80 | 29 |
+| 2024-5521 | 55/2/1 | MAIN | 66 | 66 | 0 | 13 | 84 | 139 |
+| 2024-5522 | 55/2/2 | MAIN | 68 | 17 | 51 | 16 | 79 | 25 |
+| 2024-5523 | 55/2/3 | MAIN | 65 | 14 | 51 | 12 | 77 | 23 |
+| 2024-5531 | 55/3/1 | MAIN | 73 | 73 | 0 | 17 | 99 | 146 |
+| 2024-5532 | 55/3/2 | MAIN | 70 | 16 | 54 | 20 | 86 | 30 |
+| 2024-5533 | 55/3/3 | MAIN | 71 | 17 | 54 | 14 | 91 | 35 |
+| 2024-5541 | 55/4/1 | MAIN | 69 | 69 | 0 | 17 | 91 | 142 |
+| 2024-5542 | 55/4/2 | MAIN | 70 | 15 | 55 | 19 | 84 | 31 |
+| 2024-5543 | 55/4/3 | MAIN | 68 | 13 | 55 | 17 | 82 | 33 |
+| 2024-5551 | 55/5/1 | MAIN | 71 | 71 | 0 | 8 | 89 | 132 |
+| 2024-5552 | 55/5/2 | MAIN | 71 | 18 | 53 | 9 | 87 | 33 |
+| 2024-5553 | 55/5/3 | MAIN | 69 | 15 | 54 | 9 | 88 | 32 |
+| 2024-55B | 55/B | MAIN | 73 | 73 | 0 | 0 | 75 | 126 |
+| 2024C-55BS | 55/B/S | COMPT | 81 | 81 | 0 | 0 | 95 | 121 |
+| 2024C-55S1 | 55/S/1 | COMPT | 74 | 74 | 0 | 12 | 95 | 135 |
+| 2024C-55S2 | 55/S/2 | COMPT | 75 | 18 | 57 | 10 | 77 | 32 |
+| 2024C-55S3 | 55/S/3 | COMPT | 72 | 17 | 55 | 10 | 80 | 31 |
+| 2025-5511 | 55/1/1 | MAIN | 71 | 71 | 0 | 16 | 86 | 140 |
+| 2025-5512 | 55/1/2 | MAIN | 72 | 16 | 56 | 15 | 76 | 34 |
+| 2025-5513 | 55/1/3 | MAIN | 71 | 15 | 56 | 18 | 76 | 33 |
+| 2025-5521 | 55/2/1 | MAIN | 80 | 80 | 0 | 24 | 90 | 128 |
+| 2025-5522 | 55/2/2 | MAIN | 78 | 18 | 60 | 18 | 85 | 30 |
+| 2025-5523 | 55/2/3 | MAIN | 78 | 18 | 60 | 21 | 84 | 31 |
+| 2025-5541 | 55/4/1 | MAIN | 71 | 71 | 0 | 18 | 85 | 149 |
+| 2025-5542 | 55/4/2 | MAIN | 72 | 17 | 55 | 16 | 78 | 32 |
+| 2025-5543 | 55/4/3 | MAIN | 72 | 17 | 55 | 15 | 80 | 35 |
+| 2025-5551 | 55/5/1 | MAIN | 64 | 64 | 0 | 15 | 86 | 143 |
+| 2025-5552 | 55/5/2 | MAIN | 65 | 14 | 51 | 16 | 73 | 31 |
+| 2025-5553 | 55/5/3 | MAIN | 67 | 17 | 50 | 17 | 74 | 32 |
+| 2025-5561 | 55/6/1 | MAIN | 68 | 68 | 0 | 15 | 109 | 139 |
+| 2025-5562 | 55/6/2 | MAIN | 66 | 12 | 54 | 12 | 90 | 33 |
+| 2025-5563 | 55/6/3 | MAIN | 70 | 16 | 54 | 12 | 92 | 33 |
+| 2025-5571 | 55/7/1 | MAIN | 71 | 71 | 0 | 8 | 91 | 131 |
+| 2025-5572 | 55/7/2 | MAIN | 72 | 17 | 55 | 7 | 99 | 37 |
+| 2025-5573 | 55/7/3 | MAIN | 73 | 18 | 55 | 9 | 94 | 33 |
+| 2025-55B | 55/B | MAIN | 73 | 73 | 0 | 0 | 91 | 137 |
+| 2025C-55BS | 55/B/S | COMPT | 71 | 71 | 0 | 0 | 73 | 140 |
+| 2025C-55S1 | 55/S/1 | COMPT | 73 | 73 | 0 | 13 | 84 | 141 |
+| 2025C-55S2 | 55/S/2 | COMPT | 73 | 17 | 56 | 13 | 66 | 0 |
+| 2025C-55S3 | 55/S/3 | COMPT | 71 | 15 | 56 | 12 | 65 | 0 |
+| 2026-5511 | 55/1/1 | MAIN | 64 | 64 | 0 | 14 | 51 | 145 |
+| 2026-5512 | 55/1/2 | MAIN | 64 | 16 | 48 | 15 | 42 | 29 |
+| 2026-5513 | 55/1/3 | MAIN | 67 | 19 | 48 | 16 | 46 | 30 |
+| 2026-5521 | 55/2/1 | MAIN | 67 | 67 | 0 | 8 | 37 | 128 |
+| 2026-5522 | 55/2/2 | MAIN | 66 | 16 | 50 | 9 | 30 | 31 |
+| 2026-5523 | 55/2/3 | MAIN | 69 | 19 | 50 | 11 | 29 | 29 |
+| 2026-5531 | 55/3/1 | MAIN | 72 | 72 | 0 | 13 | 49 | 134 |
+| 2026-5532 | 55/3/2 | MAIN | 73 | 16 | 57 | 16 | 43 | 29 |
+| 2026-5533 | 55/3/3 | MAIN | 73 | 15 | 58 | 13 | 45 | 31 |
+| 2026-5541 | 55/4/1 | MAIN | 68 | 68 | 0 | 22 | 44 | 127 |
+| 2026-5542 | 55/4/2 | MAIN | 69 | 15 | 54 | 21 | 40 | 35 |
+| 2026-5543 | 55/4/3 | MAIN | 68 | 14 | 54 | 17 | 33 | 32 |
+| 2026-5551 | 55/5/1 | MAIN | 63 | 63 | 0 | 18 | 49 | 140 |
+| 2026-5552 | 55/5/2 | MAIN | 65 | 15 | 50 | 14 | 42 | 30 |
+| 2026-5553 | 55/5/3 | MAIN | 66 | 17 | 49 | 20 | 41 | 31 |
+| 2026-55B | 55/B | MAIN | 65 | 65 | 0 | 0 | 53 | 135 |
+| 2026C-5571 | 55/7/1 | COMPT | 66 | 66 | 0 | 18 | 27 | 0 |
+| 2026C-5572 | 55/7/2 | COMPT | 65 | 13 | 52 | 16 | 34 | 0 |
+| 2026C-5573 | 55/7/3 | COMPT | 67 | 15 | 52 | 18 | 36 | 0 |
+| 2026C-55B7 | 55/B/7 | COMPT | 66 | 66 | 0 | 0 | 41 | 0 |
+| SQP2324-042 |  | SQP | 63 | 63 | 0 | 18 | 94 | 108 |
+| SQP2526-042 |  | SQP | 78 | 78 | 0 | 29 | 62 | 106 |
+| SQP2627-042 |  | SQP | 71 | 71 | 0 | 5 | 75 | 115 |
+| T2-2022-5511 | 55/1/1 | T2 | 29 | 29 | 0 | 6 | 33 | 66 |
+| T2-2022-5512 | 55/1/2 | T2 | 29 | 6 | 23 | 7 | 32 | 18 |
+| T2-2022-5513 | 55/1/3 | T2 | 30 | 9 | 21 | 6 | 29 | 23 |
+| T2-2022-5521 | 55/2/1 | T2 | 35 | 35 | 0 | 7 | 44 | 64 |
+| T2-2022-5522 | 55/2/2 | T2 | 34 | 8 | 26 | 7 | 38 | 20 |
+| T2-2022-5523 | 55/2/3 | T2 | 33 | 7 | 26 | 11 | 41 | 20 |
+| T2-2022-5531 | 55/3/1 | T2 | 36 | 36 | 0 | 5 | 32 | 69 |
+| T2-2022-5532 | 55/3/2 | T2 | 36 | 13 | 23 | 7 | 33 | 27 |
+| T2-2022-5533 | 55/3/3 | T2 | 36 | 12 | 24 | 6 | 33 | 26 |
+| T2-2022-5541 | 55/4/1 | T2 | 36 | 36 | 0 | 10 | 45 | 74 |
+| T2-2022-5542 | 55/4/2 | T2 | 36 | 8 | 28 | 9 | 37 | 17 |
+| T2-2022-5543 | 55/4/3 | T2 | 34 | 6 | 28 | 6 | 33 | 20 |
+| T2-2022-5551 | 55/5/1 | T2 | 32 | 32 | 0 | 10 | 37 | 59 |
+| T2-2022-5552 | 55/5/2 | T2 | 33 | 9 | 24 | 8 | 35 | 19 |
+| T2-2022-5553 | 55/5/3 | T2 | 30 | 6 | 24 | 9 | 31 | 18 |
+| T2-2022-55B5 | 55/B/5 | T2 | 37 | 37 | 0 | 0 | 21 | 64 |
+| T2-2022-SQP |  | SQP | 34 | 34 | 0 | 12 | 40 | 51 |
+| T2-2022C-5561 | 55/6/1 | COMPT | 33 | 33 | 0 | 4 | 38 | 62 |
+| T2-2022C-5562 | 55/6/2 | COMPT | 34 | 9 | 25 | 4 | 36 | 17 |
+| T2-2022C-5563 | 55/6/3 | COMPT | 33 | 9 | 24 | 4 | 35 | 13 |
+| T2-2022C-55B6 | 55/B/6 | COMPT | 32 | 32 | 0 | 0 | 30 | 65 |
+
+## Reports
+- [PHY-CLAUDE-CODE-TRIAL.md](reports/PHY-CLAUDE-CODE-TRIAL.md)
+- [PHY-USAGE-BASELINE.md](reports/PHY-USAGE-BASELINE.md)
+- [PHY-YEARCHECK-2024-2024-5531.md](reports/PHY-YEARCHECK-2024-2024-5531.md)
+- [PHY-YEARCHECK-2024.md](reports/PHY-YEARCHECK-2024.md)
+
+## Gate logs (every save, every double-read decision)
+- [GATE-LOG-B02.md](logs/GATE-LOG-B02.md)
+- [GATE-LOG-B03.md](logs/GATE-LOG-B03.md)
+- [GATE-LOG-B04.md](logs/GATE-LOG-B04.md)
+- [GATE-LOG-B05.md](logs/GATE-LOG-B05.md)
+- [GATE-LOG-B06.md](logs/GATE-LOG-B06.md)
+- [GATE-LOG-B07.md](logs/GATE-LOG-B07.md)
+- [GATE-LOG-B08.md](logs/GATE-LOG-B08.md)
+- [GATE-LOG-B09.md](logs/GATE-LOG-B09.md)
+- [GATE-LOG-B10.md](logs/GATE-LOG-B10.md)
