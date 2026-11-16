@@ -78,3 +78,7 @@ Every line below was written by phy_gate.py from the data, never typed.
 - validate: 16/16 checks pass
 - PROGRESS: open line added
 - pack: PHY-VAULT-B11-20261116-1531-25649r.json
+
+## 2026-11-16T15:42:00Z | checkpoint | Stop (her message): S6-CH02 stopped before it wrote anything; weighted usage of B11 units in outputs/reports/PHY-USAGE-B11.md
+- validate: 16/16 checks pass
+- pack: PHY-VAULT-B11-20261116-1542-25649r.json
