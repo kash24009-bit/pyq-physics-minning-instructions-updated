@@ -1,11 +1,11 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-11-16T10:30:53Z · batch B10.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-11-16T14:03:15Z · batch B11.*
 
 ## Where things stand
-- Newest vault: [PHY-VAULT-B10-20261116-1030-25179r.json](vault/PHY-VAULT-B10-20261116-1030-25179r.json) · 25179 rows in all
+- Newest vault: [PHY-VAULT-B11-20261116-1403-25179r.json](vault/PHY-VAULT-B11-20261116-1403-25179r.json) · 25179 rows in all
 - Checks: 16/16 pass
 
-Status - batch 10 · 6842 question rows saved · years closed: none yet · working on 2026
+Status - batch 11 · 6842 question rows saved · years closed: none yet · working on 2026
 
 Done
 - 2027: 3 file(s) fully mined
@@ -156,3 +156,4 @@ Optional (yours)
 - [GATE-LOG-B08.md](logs/GATE-LOG-B08.md)
 - [GATE-LOG-B09.md](logs/GATE-LOG-B09.md)
 - [GATE-LOG-B10.md](logs/GATE-LOG-B10.md)
+- [GATE-LOG-B11.md](logs/GATE-LOG-B11.md)
