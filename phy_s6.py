@@ -9,10 +9,12 @@ before the gate commit. Every count it prints is computed from the vault.
 
   status                                  rows to classify per chapter, done so far, repeat groups
   groups                                  repeat groups across all years -> work/S6-GROUPS.csv (run once, first)
-  sheet   --chapter 04 [--max 380]        the reader's sheet(s): work/S6-CH04__SHEET.md (-1, -2 parts above 380 rows)
+  sheet   --chapter 04 [--max 380] [--remaining]   the reader's sheet(s): work/S6-CH04__SHEET.md (-1, -2 parts above
+                                          380 rows); --remaining: only rows not yet classified (unit S6-CH04-r<HHMM>)
   lines   <instance_id> [...]             the printed scoring lines of rows (for skeletons and traps)
   registry --unit S6-CH04                 check and apply work/S6-CH04__REGISTRY.csv to j/REGISTRY.csv
-  expand  --unit S6-CH04                  work/S6-CH04__DECISIONS.csv -> __CLASSIFY.csv (+ __ERRATA.csv)
+  expand  --unit S6-CH04 [--partial]      work/S6-CH04__DECISIONS.csv -> __CLASSIFY.csv (+ __ERRATA.csv);
+                                          --partial saves a stopped unit's decided rows
   check   --unit S6-CH04                  every check, PASS/FAIL lines; run before `phy_gate.py commit`
   review  [--chapter 04]                  granularity review list (codes used once, look-alike codes)
   alias   --unit S6-REVIEW --from X --to Y --reason "..."   merge X into Y (ALIAS) with ERRATA for X's rows
@@ -24,7 +26,7 @@ Paths: vault /home/claude/vault, kit /home/claude/pyqkit.py (override with PHY_V
 import argparse, csv, datetime as dt, importlib.util, json, os, re, shutil, sys
 from collections import Counter, defaultdict
 
-EDITION = "2026-11-16"
+EDITION = "2026-11-16b"
 V = os.environ.get("PHY_VAULT", "/home/claude/vault")
 KIT = os.environ.get("PHY_KIT", "/home/claude/pyqkit.py")
 ENV = os.environ.get("PHY_ENV", "/home/claude/phy_env.json")
@@ -43,6 +45,7 @@ W = os.path.join(V, "work")
 COG, YN, DIFF, CONF = {"REM", "UND", "APP", "ANL"}, {"y", "n"}, {"E", "M", "H"}, {"H", "M", "L"}
 DEC_COLS = ["instance_id", "code", "cog_level", "competency", "difficulty", "confidence"]
 BOARD = ("MAIN", "COMPT", "T1", "T2")
+PILOT_MAX_BATCH = 10   # CLASSIFY rows from batches 0-10 are the pre-PHY-10 pilot: re-tested, so --remaining keeps them
 
 
 def batch():
@@ -259,6 +262,12 @@ def cmd_sheet(a):
     members, follower = group_map()
     cc = a.chapter.zfill(2)
     rows = [r for r in T["I"] if judged(r) and r["chapter"] == cc and r["instance_id"] not in follower]
+    if a.remaining:                 # resume a chapter: only rows that have no CLASSIFY row yet
+        rows = [r for r in rows if r["instance_id"] not in T["cls"]
+                or int(T["cls"][r["instance_id"]].get("batch") or 0) <= PILOT_MAX_BATCH]
+        if not rows:
+            print(f"sheet S6-CH{cc}: nothing left to decide")
+            return
     vi = [r for r in T["I"] if r.get("vi_alt") == "y" and r["rel"] == "origin" and r["chapter"] == cc]
     rows.sort(key=lambda r: (r["topic_id"], r["q_type"], -(K.year_int(r) or 0), r["instance_id"]))
     k = -(-len(rows) // a.max) or 1                 # parts of equal size, never more than --max rows each
@@ -267,7 +276,8 @@ def cmd_sheet(a):
     syl = {s["topic_id"]: s for s in K.table(V, "j/SYLLABUS.csv")}
     written = []
     for n, part in enumerate(parts, 1):
-        unit = f"S6-CH{cc}" + (f"-{n}" if len(parts) > 1 else "")
+        unit = f"S6-CH{cc}" + (f"-{n}" if len(parts) > 1 else "") + \
+            (f"-r{dt.datetime.now(dt.timezone.utc):%H%M}" if a.remaining else "")
         L = [f"# {unit} · pattern-sorting sheet · chapter {cc} · phy_s6.py {EDITION} · batch B{batch():02d}",
              f"Rows to decide here: {len(part)} (part {n} of {len(parts)}); repeats folded into their leader: "
              f"{sum(len(members.get(r['instance_id'], [])) for r in part)}; shuffles copied by script.",
@@ -454,6 +464,12 @@ def cmd_expand(a):
     if not os.path.exists(tp):
         sys.exit(f"REFUSED: work/{unit}__TODO.csv is missing: run `sheet` for this unit (or expand --any for a review unit)")
     todo = [r["instance_id"] for r in read_csv(tp)[1]]
+    left = 0
+    if a.partial:                   # a stopped unit: keep only the rows already decided; the rest stay for --remaining
+        decided_ids = {d["instance_id"].strip() for d in D}
+        left = sum(1 for i in todo if i not in decided_ids)
+        todo = [i for i in todo if i in decided_ids]
+        write_csv(tp, ["instance_id"], [{"instance_id": i} for i in todo])
     dmap = {}
     for d in D:
         iid = d["instance_id"].strip()
@@ -497,6 +513,10 @@ def cmd_expand(a):
         if old is None:
             out.append(row)
         else:
+            if int(old.get("batch") or 0) <= PILOT_MAX_BATCH:      # a pilot row re-tested under PHY-10
+                err.append({"file": "j/CLASSIFY.csv", "row_id": iid, "field": "batch", "old": old.get("batch", ""),
+                            "new": str(b), "reason": f"S6 {unit}: pilot row re-tested under PHY-10 ({src})",
+                            "evidence": f"work/{unit}__DECISIONS.csv", "batch": str(b)})
             for k in ("code", "family", "cog_level", "competency", "difficulty", "confidence"):
                 if (old.get(k) or "") != row[k]:
                     err.append({"file": "j/CLASSIFY.csv", "row_id": iid, "field": k, "old": old.get(k, ""),
@@ -524,7 +544,8 @@ def cmd_expand(a):
         os.remove(os.path.join(W, f"{unit}__ERRATA.csv"))
     print(f"expand {unit}: {len(dmap)} decisions -> {len(out)} new CLASSIFY rows "
           f"({sum(len(members.get(i, [])) for i in dmap)} repeats, the rest shuffles), "
-          f"{len(err)} ERRATA row(s) changing earlier CLASSIFY rows")
+          f"{len(err)} ERRATA row(s) changing earlier CLASSIFY rows" +
+          (f"; partial: {left} row(s) left for `sheet --chapter <cc> --remaining`" if a.partial else ""))
 
 
 # ------------------------------------------------------------------------------------------------ alias
@@ -718,6 +739,7 @@ def main():
     s = sp.add_parser("sheet")
     s.add_argument("--chapter", required=True)
     s.add_argument("--max", type=int, default=380)
+    s.add_argument("--remaining", action="store_true", help="only rows without a CLASSIFY row (resume a chapter)")
     s.set_defaults(fn=cmd_sheet)
     s = sp.add_parser("lines")
     s.add_argument("ids", nargs="+")
@@ -727,6 +749,7 @@ def main():
         s.add_argument("--unit", required=True)
         if name == "expand":
             s.add_argument("--any", action="store_true", help="review or split unit: no sheet TODO list")
+            s.add_argument("--partial", action="store_true", help="a stopped unit: expand only the rows decided so far")
         s.set_defaults(fn=fn)
     s = sp.add_parser("alias")
     s.add_argument("--unit", required=True)
