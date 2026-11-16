@@ -48,3 +48,7 @@ Every line below was written by phy_gate.py from the data, never typed.
 - double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B11-20261116-1516-25458r.json
+
+## 2026-11-16T15:16:25Z | checkpoint | Q-126 and Q-145 resolved by T1-2022-SQP (kit 2026-11-16)
+- validate: 16/16 checks pass
+- pack: PHY-VAULT-B11-20261116-1516-25458r.json
