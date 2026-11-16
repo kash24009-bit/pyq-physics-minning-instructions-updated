@@ -1,0 +1,19 @@
+instance_id,field,part_value,check_value,detail,resolved
+2026C-55B7-Q01,numbers,-1e-12 1e-12,-1e-12,only in the checker's reading: -; only in the part file: ['1e-12'],extractor_right
+2026C-55B7-Q01,options,A) 1.6e4 | B) 1e8 | C) 6.25e6 | D) 8e9,A) 1.6 × 10^4 | B) 10^8 | C) 6.25 × 10^6 | D) 8 × 10^9,"options differ at A, B, C, D",extractor_right
+2026C-55B7-Q07,options,A) 1e-24 kg m/s | B) 1e-25 kg m/s | C) 1e-27 kg m/s | D) 1e-29 kg m/s,A) 10^-24 kg ms^-1 | B) 10^-25 kg ms^-1 | C) 10^-27 kg ms^-1 | D) 10^-29 kg ms^-1,"options differ at A, B, C, D",extractor_right
+2026C-55B7-Q08,options,A) 6.6e15 Hz | B) 5.2e13 Hz | C) 4.3e12 Hz | D) 3.9e10 Hz,A) 6.6 × 10^15 Hz | B) 5.2 × 10^13 Hz | C) 4.3 × 10^12 Hz | D) 3.9 × 10^10 Hz,"options differ at A, B, C, D",extractor_right
+2026C-55B7-Q10,options,A) h/(2*pi) | B) h/pi | C) 2h/pi | D) h/(4*pi),A) h/(2 pi) | B) h/pi | C) 2h/pi | D) h/(4 pi),"options differ at A, D",extractor_right
+2026C-55B7-Q11,options,A) 5e6 V/m | B) 5e-6 V/m | C) 0.8e6 V/m | D) 2.0e5 V/m,A) 5 × 10^6 Vm^-1 | B) 5 × 10^-6 Vm^-1 | C) 0.8 × 10^6 Vm^-1 | D) 2.0 × 10^5 Vm^-1,"options differ at A, B, C, D",extractor_right
+2026C-55B7-Q18A,marks_part,,2,marks differ,extractor_right
+2026C-55B7-Q18B,marks_part,,2,marks differ,extractor_right
+2026C-55B7-Q22A-i-II,numbers,2,,only in the checker's reading: -; only in the part file: ['2'],extractor_right
+2026C-55B7-Q22A-ii,numbers,2,,only in the checker's reading: -; only in the part file: ['2'],extractor_right
+2026C-55B7-Q22B,marks_part,,3,marks differ,extractor_right
+2026C-55B7-Q23-ii,numbers,0.32 220 50,,"only in the checker's reading: -; only in the part file: ['0.32', '220', '50']",extractor_right
+2026C-55B7-Q25-ii,numbers,0.5 25 50,,"only in the checker's reading: -; only in the part file: ['0.5', '25', '50']",extractor_right
+2026C-55B7-Q29-i,numbers,10 20,-20 10,only in the checker's reading: ['-20']; only in the part file: ['20'],extractor_right
+2026C-55B7-Q29B-iii,numbers,-2 1 2 4,-2 1 4,only in the checker's reading: -; only in the part file: ['2'],extractor_right
+2026C-55B7-Q29-iv,options,A) 1.15e-18 J | B) 2.29e-18 J | C) 3.16e-18 J | D) 4.05e-18 J,A) 1.15 × 10^-18 J | B) 2.29 × 10^-18 J | C) 3.16 × 10^-18 J | D) 4.05 × 10^-18 J,"options differ at A, B, C, D",extractor_right
+2026C-55B7-Q30-iv,options,A) 20 N m | B) 0.1 N m | C) 5e-4 N m | D) 3e-6 N m,A) 20 Nm | B) 0.1 Nm | C) 5 × 10^-4 Nm | D) 3 × 10^-6 Nm,"options differ at C, D",extractor_right
+2026C-55B7-Q31B-ii-II,numbers,120 220 60,,"only in the checker's reading: -; only in the part file: ['120', '220', '60']",extractor_right

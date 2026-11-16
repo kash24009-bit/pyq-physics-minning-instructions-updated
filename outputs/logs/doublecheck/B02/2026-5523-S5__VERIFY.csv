@@ -1,0 +1,20 @@
+instance_id,step_marks,key,numbers,note
+2026-5523-Q05,1,A,,"Scheme Q5 p4 (Page 1 of 15): prints (A) South; 1 mark; 400 dpi crop check/c4_q05-12. Scan, no dual-read."
+2026-5523-Q06,1,C,,"Scheme Q6 p4 (Page 1 of 15): prints (C) Copper; 1 mark; 400 dpi crop check/c4_q05-12. Scan, no dual-read."
+2026-5523-Q07,1,D,,"Scheme Q7 p4 (Page 1 of 15): prints (D) m/n = beta/alpha = c; 1 mark; 400 dpi crop check/c4_q05-12. Scan, no dual-read."
+2026-5523-Q08,1,C,,"Scheme Q8 p4 (Page 1 of 15): prints (C) is repelled by loop A; 1 mark; 400 dpi crop check/c4_q05-12. Scan, no dual-read."
+2026-5523-Q09,1,D,,"Scheme Q9 p4 (Page 1 of 15): prints (D) 2.1 × 10^-34 Js; 1 mark; 400 dpi crop check/c4_q05-12. Scan, no dual-read."
+2026-5523-Q10,1,C,,"Scheme Q10 p4 (Page 1 of 15): prints (C) n^3; 1 mark; 400 dpi crop check/c4_q05-12. Scan, no dual-read."
+2026-5523-Q11,1,A,,"Scheme Q11 p4 (Page 1 of 15): prints (A) 2.21 × 10^-35 kg; 1 mark; 400 dpi crop check/c4_q05-12. Scan, no dual-read."
+2026-5523-Q12,1,B,,"Scheme Q12 p4 (Page 1 of 15): prints (B) 5.4J; 1 mark; 400 dpi crop check/c4_q05-12. Scan, no dual-read."
+2026-5523-Q20-a-d1,0.5,,,"Scheme Q20(a) first bullet p6 (Page 3 of 15): manganin's very weak dependence of resistivity on temperature, ½. Split box: (a) cause of using manganin ½ + calculating temperature ½. Crop check/c6_q20."
+2026-5523-Q20-a-d2,0.5,,90 °C,"Scheme Q20(a) second item p6: R_2 = R_1[1+alpha(t_2-t_1)], 1.25R_1 = R_1[1+0.004(t_2-27.5)], t_2 = 90°C; one ½ printed beside the result line. Split box: calculating the temperature ½. Crop check/c6_q20."
+2026-5523-Q20-b,0.5 | 0.5,,,"Scheme Q20(b) p6: resistivity of semiconductors decreases with increasing temperature ½; rho-T graph (falling curve) ½. Split box matches. Q total 2 boxed, excluded. Crop check/c6_q20."
+2026-5523-Q21,1 | 0.5 | 0.5,,n = 2cosA,"Scheme Q21 p6: ray diagram 1; Snell's law n_1 sin i = n_2 sin r ½; result n = 2cosA ½ (via r_2 = 0, A = r_1, sin2A = n sinA). Split box: ray diagram 1, relation 1. Result is symbolic, not numerical. Crops check/c6_q21 and page view."
+2026-5523-Q26-a,1 | 1,,,"Scheme Q26(a) p10-p11: field lines for two equal positive charges 1 (p10); equipotential surfaces 1 (p11). Note printed: award full credit (2 marks) if both drawn in the same diagram. Crops check/c10_q26a, check/c11_q26."
+2026-5523-Q26-b,1,,,"Scheme Q26(b) p11: points on an equipotential surface at different distances from source, so field not constant, 1. Q total 3 excluded. Crop check/c11_q26."
+2026-5523-Q27-i,0.5 | 0.5,,1 mm to 700 nm,Scheme Q27(i) p11: Infrared waves ½; wavelength range 1mm to 700 nm ½. Split box prints ½+½. Crop check/c11_q27.
+2026-5523-Q27-ii,0.5 | 0.5,,400 nm to 1 nm,Scheme Q27(ii) p11: Ultraviolet rays ½; wavelength range 400 nm to 1nm ½. Split box ½+½. Crop check/c11_q27.
+2026-5523-Q27-iii,0.5 | 0.5,,< 10^-3 nm,Scheme Q27(iii) p11: Gamma rays ½; wavelength range <10^-3 nm ½. Split box ½+½. Q total 3 excluded. Crop check/c11_q27.
+2026-5523-Q28-a,0.5 | 0.5 | 0.5 | 0.5,,,Scheme Q28(a) p11: (1/2)mv^2 = qV ½; v = sqrt(2qV/m) ½; lambda = h/mv ½; lambda = h/sqrt(2mqV) ½. Split box (a) 2. Result symbolic. Crop check/c11_q28.
+2026-5523-Q28-b,1,,,"Scheme Q28(b) p11: graph lambda vs 1/sqrt(V), straight line through origin, 1. Split box (b) 1. Q total 3 excluded. Crop check/c11_q28."

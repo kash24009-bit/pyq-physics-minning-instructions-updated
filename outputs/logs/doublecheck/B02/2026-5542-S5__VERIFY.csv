@@ -1,0 +1,16 @@
+instance_id,step_marks,key,numbers,note
+2026-5542-Q01,1,C,,Scheme Q1 (p4): prints '(C) 300 %' with 1 mark.
+2026-5542-Q02,1,A,,Scheme Q2 (p4): prints '(A) L/2' with 1 mark.
+2026-5542-Q03,1,A,,Scheme Q3 (p4): prints '(A) Drift velocity only' with 1 mark.
+2026-5542-Q08,1,C,,"Scheme Q8 (p4): prints '(C) 1.5×10^-4 Am^2' with 1 mark (option text, not a worked result)."
+2026-5542-Q12,1,B,,Scheme Q12 (p4): prints '(B) maximum kinetic energy of photoelectrons will remain the same' with 1 mark.
+2026-5542-Q19,½ | ½ | ½ | ½,,-12 cm,"Scheme Q19 (p6), box 'Finding the position of object' 2. Lines: m=-v/u=-2, v=2u ½; f=-8 cm, mirror formula ½; 1/2u+1/u=1/-8 ½; u=-12 cm ½. Total 2 not counted."
+2026-5542-Q20,½ | ½ | ½ | ½,,,"Scheme Q20 (box on p6 'Proving the density of nuclear matter to be same for all nuclei' 2; Volume=4/3 pi R^3 on p6 carries no mark); all four ½ lines on p7: (4/3)pi(R_0 A^(1/3))^3; (4/3)pi R_0^3 A; rho=mass/volume; =3m/(4 pi R_0^3). No numerical result. DOUBT: matched by number only (skeleton says p7); p7 also holds scheme Q21 (work done turning dipole, ½|½|½|½, 2 × 10^-5 J) if the paper's Q20 is that question."
+2026-5542-Q24-a,½ | ½ | ½,,5.3 × 10^-11 m,"Scheme Q24(a), split box (a) 1½. Lines: r=-e^2/(8 pi eps_0 E) ½ (p9); substitution r=-9×10^9×(1.6×10^-19)^2/2(-2.2×10^-18) ½ (p10); =5.3×10^-11 m ½ (p10). Unmarked 'Alternatively' route on p10 gives r_1 = 0.529 × 10^-10 m (r_0 = 0.529 A°)."
+2026-5542-Q24-b,½ | ½ | ½,,2.2 × 10^6 m/s,"Scheme Q24(b) (p10), split box (b) 1½. Lines: v=e/sqrt(4 pi eps_0 m r) ½; substitution ½; =2.2×10^6 m/s ½. Unmarked 'Alternatively' route gives v_n=(1/137)(c/n)=2.19 × 10^6 m/s. Question total 3 not counted."
+2026-5542-Q26,1 | 1 | ½ | ½,,,"Scheme Q26 (p11), box: defining 1, production 1, two uses ½+½. Lines: definition (short-wavelength radio waves, GHz) 1; klystrons/magnetrons/Gunn diodes 1; uses ½+½ [Any two] of three listed. 'gigahertz' is not a number."
+2026-5542-Q27-a,½ | ½,,0.09 C,"Scheme Q27(a) (p12), split box (a) 1. Q = area under I-t curve ½; =1/2×0.6×0.3=0.09 C ½."
+2026-5542-Q27-b,½ | ½,,0.36 Wb,"Scheme Q27(b) (p12), split box (b) 1. Delta phi = QR ½; =0.09×4=0.36 Wb ½ (the second ½ sits just below the 0.36 Wb line)."
+2026-5542-Q27-c,½ | ½,,720 T,"Scheme Q27(c) (p12), split box (c) 1. B=Delta phi/A=0.36/(5×10^-4) ½; =720 T ½. Total 3 not counted."
+2026-5542-Q28-a,½ | ½,,,"Scheme Q28(a) (p12), split box (a) 1. Junction rule - conservation of charge ½; loop rule - conservation of energy ½. A labelled circuit (6 V, 9 V, 2 ohm, 1 ohm, 3 ohm, 3 ohm, I_1, I_2, I_1-I_2, loops 1 and 2) is printed above (a) on p12 and serves (b)."
+2026-5542-Q28-b,½ | ½ | ½ | ½,,42/23 A | -3/23 A,"Scheme Q28(b) (p13), split box (b) 2. Loop eq (1) 5I_1+I_2=9 ½; loop eq (2) 3I_1-4I_2=6 ½; I_1=42/23 A, I_2=9-5I_1=-3/23 A ½ (beside I_2 line); direction in 1 ohm from Q to P ½. Current in the 1 ohm resistor is I_2 = -3/23 A (magnitude 3/23 A). Total 3 not counted."
