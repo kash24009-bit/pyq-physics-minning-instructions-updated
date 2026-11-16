@@ -1,0 +1,20 @@
+instance_id,step_marks,key,numbers,note
+2026-5513-Q05,1,C,,Scheme Q5 p4 (Page 1 of 17): key '(C) 135°'; mark 1 printed in the Total Marks column (Marks column blank).
+2026-5513-Q06,1,A,,Scheme Q6 p4 (Page 1 of 17): key '(A) 0.15 V/m'; mark 1 printed in the Total Marks column (Marks column blank).
+2026-5513-Q07,1,D,,Scheme Q7 p4 (Page 1 of 17): key '(D) u>2R'; mark 1 printed in the Total Marks column (Marks column blank).
+2026-5513-Q08,1,D,,Scheme Q8 p4 (Page 1 of 17): key '(D) - 2'; mark 1 printed in the Total Marks column (Marks column blank).
+2026-5513-Q09,1,B,,Scheme Q9 p4 (Page 1 of 17): key '(B) Ultraviolet rays'; mark 1 printed in the Total Marks column (Marks column blank).
+2026-5513-Q10,1,A,,"Scheme Q10 p4 (Page 1 of 17): key '(A) 2πI, along + X-axis'; mark 1 printed in the Total Marks column (Marks column blank)."
+2026-5513-Q11,1,D,,Scheme Q11 p4 (Page 1 of 17): key '(D) all these waves'; mark 1 printed in the Total Marks column (Marks column blank).
+2026-5513-Q12,1,D,,Scheme Q12 p4 (Page 1 of 17): key '(D) 0.60'; mark 1 printed in the Total Marks column (Marks column blank).
+2026-5513-Q20,0.5 | 1 | 0.5,,12500 V,"Scheme Q20 p6 (Page 3 of 17), box 'Calculating the accelerating voltage 2'; printed 'V = 12500 Volts'; total 2 left out."
+2026-5513-Q21,0.5 | 0.5 | 0.5 | 0.5,,216 MeV,"Scheme Q21 p6, box 'Calculating the energy released 2'; intermediate 0.9 MeV (gain per nucleon); 'Alternatively:' method (same 216 MeV) carries no marks of its own; total 2 left out."
+2026-5513-Q26-a,0.5 | 0.5,,C = 0.9 C_0,"Scheme Q26(a): first ½ on p10 (C = Kε0A/2d), second ½ on p11 (C = 0.9 C_o, 'New capacitance decreases'); split box (a) 1. No unit printed (ratio form)."
+2026-5513-Q26-b,0.5 | 0.5,,E' = E/1.8,"Scheme Q26(b) p11; split box (b) 1; ½ at E' = V'/d', ½ at E' = E/1.8 'Electric field decreases'. No unit (ratio form)."
+2026-5513-Q26-c,0.5 | 0.5,,U' = U/0.9,"Scheme Q26(c) p11; split box (c) 1; ½ beside U' = ½Q²/C', ½ at 'Energy stored increases'. Q26 total 3 left out."
+2026-5513-Q27-a,1,,,"Scheme Q27(a) p12 (Page 9 of 17): V-I characteristic graph of silicon diode (axes I (mA)/I (µA), V (V), V_br marked); split box on p11 (a) 1."
+2026-5513-Q27-b-i,1,,,Scheme Q27(b)(i) p12: minority charge injection under forward bias; split box (i) 1.
+2026-5513-Q27-b-ii,1,,,Scheme Q27(b)(ii) p12: breakdown voltage; split box (ii) 1; the 'Alternatively:' definition carries no separate mark (alternative accepted). Q27 total 3 left out.
+2026-5513-Q28-a,0.5,,,Scheme Q28(a) p12: eye muscles relaxed in normal adjustment; split box (a) ½.
+2026-5513-Q28-b-i,0.5 | 0.5,,,"Scheme Q28(b) p12 'For Telescope': L_2 objective ½, L_3 eyepiece ½; split box (i) Telescope 1. The box's separate 'reason ½' line (printed after (ii)) is placed on b-ii; its printed Reason covers both telescope and microscope, so its part is doubtful."
+2026-5513-Q28-b-ii,0.5 | 0.5 | 0.5,,,"Scheme Q28(b) p12 'For Compound microscope': L_3 objective ½, L_1 eyepiece ½, then 'Reason' (telescope + microscope bullets) ½. Split box: (ii) Compound microscope 1, then 'reason ½' listed under (b) after (ii), not tied to (i) or (ii) — assigned here by printed order; doubtful. Q28 total 3 left out."
