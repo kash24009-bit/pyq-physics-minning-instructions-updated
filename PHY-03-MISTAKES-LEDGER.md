@@ -8,7 +8,7 @@
 4. Every new mistake gets an entry here, with its fix, before the session closes (P§21).
 5. On the Claude Code route (from Batch 2), new entries go to the vault's `notes/PHY-03-ADDENDUM.md`, which the lean boot reads in full (CLAUDE.md §6); this file is read when a step cites it.
 
-*Edition 2026-10-21: the addendum's entries to Batch 6 are folded in (sections G to L, W-13 to W-16), with section M, W-17 to W-23, PM-13 and PM-14 added from the 21 October review in the project chat. Edition 2026-10-26: section N added from the project chat's check of Batch 7.*
+*Edition 2026-10-21: the addendum's entries to Batch 6 are folded in (sections G to L, W-13 to W-16), with section M, W-17 to W-23, PM-13 and PM-14 added from the 21 October review in the project chat. Edition 2026-10-26: section N added from the project chat's check of Batch 7. Edition 2026-11-16: the addendum's Batches 8 to 10 folded in as sections O to Q, section R and W-24 to W-27 added from the project chat's audit of Batches 8 to 10.*
 
 `→ CI§n` = Custom Instructions section. `→ P§n` = Protocol section.
 
@@ -263,6 +263,39 @@
 - **N-4 · A file asked for that was already in a repository's history.** Q-062 and her optional list asked her to upload the 2024-25 sample paper again; it is in the instructions repository's history (commit 7454b32, byte-identical to FL-1234670d72).
   → Before a file goes on her optional list, every repository's history is searched for its checksum; a file found there is copied from history into a scratch folder, never restored into her repository
 
+
+### O · Batch 8 (26-27 October; 2023 papers)
+- **B8-1 · A reader opened two crop sheets 2415 px wide** (2023-5513, figs_1 and figs_4): phy_tile.py kept an oversized crop alone with a warning, and the reader opened it before checking; seen at about 331 dpi, both simple graphs, no value depended on them.
+  → phy_tile.py now splits any crop over 1568 px into overlapping parts, so no sheet it writes passes the limit → rule card A9, outputs/tools/phy_tile.py (B08)
+- **B8-2 · The sibling worksheet guessed ARSET_page from the origin's offset** (2023-5513-Q16: 13 for the printed 11); the reader corrected it on the band before writing the repeats.
+  → the worksheet now takes the first English page printing the Assertion (A) / Reason (R) directions; the reader still confirms it → outputs/tools/phy_s4_prep.py (B08)
+- **B8-3 · Sibling schemes print their halves on different lines from the origin's scheme, with the same totals** (55/1/2 and 55/1/3 against 55/1/1, seven answers): FIX-9 checked every one on 400 dpi crops and the stored 55/1/1 lines were right; the sets differ in layout only (Q-121, Q-122). For mark placement a split full-width crop separates a mark from its text, so FIX-9 viewed full-width renders scaled to 1560 px (about 221 dpi), enough for placement but never for digits.
+  → to check which line a mark is beside, crop the page width from the text start to the marks column at 220-300 dpi (within 1568 px), and read digits only on tight 400 dpi crops → rule card A9, B4, C8
+
+### P · Batch 9 (12 November; 2022 papers)
+- **B9-1 · The year planner refused correct Term 2 identities.** Gate 2026-10-21 `--plan-year` accepted only exam MAIN and COMPT, so the 22 Term 2 board files (exam T2, a protocol value) read as "identity incomplete"; changing them to MAIN would have let Term papers into STRUCTURE (CI§7).
+  → The data stays as the protocol defines it; the planner gets the smallest fix in a copy under outputs/tools, dry-run tested against FILES before use, and is queued for her upload → PHY-07 R§11.2
+- **B9-2 · A PROGRESS line ticked with a paper still open.** The gate's paper-id pattern missed T2-2022C-<digits>, so the 55/6 sibling line was ticked when its first paper was saved.
+  → After every commit that names a line, read the gate's "line updated (… still to do)" or "line ticked" against the line's papers; the pattern is fixed in the gate copy → PHY-07 R§11.2
+- **B9-3 · Eleven scheme commits ticked the wrong year's lines.** `--progress "S5 scheme 55/2/2 ("` matches the first open line containing that text, and the open 2023 lines (55/2/2 to 55/5/3) come before the 2022 ones, so the 2022 units T2-2022-5522 to -5553 ticked the 2023 lines with their notes. Found at the end of the 2022 scheme pass from the open-line list; repaired by one script that reopened the eleven 2023 lines as they were and moved each note to its 2022 line after checking its line count against the 2022 STEP-AWARDS rows (11 of 11). No row was affected.
+  → The --progress text names the year ("Y2022 S5 scheme 55/2/2 (") whenever another year has an open line with the same code; after every commit, read the open-line list, not only "line ticked" → PHY-07 R§9, R§10
+
+### Q · Batch 10 (15 November; 2023 schemes)
+- **B10-1 · The S5 worksheet located 11 of 35 answers on the 2023 55/4/1 scheme.** Its answers are headed "Q1." and the count began on p2 at examiner rule 4's "value points", so the numbered error checklist was taken for answers 1-11. Caught by the "located n of 35" line before any reader started (the B6-5 guard).
+  → The locator accepts a "Q" prefix and starts only at a capitalised answer-page header; tested on five worksheets already used (identical) → outputs/tools/phy_s5_prep.py, CONVENTIONS "Tools, B10"
+
+### R · The 16 November audit of Batches 8 to 10 (project chat)
+- **R-1 · Lint warnings queued instead of settled.** The 2023 55/2/1 case choice was stored as "(b) against the whole case" although the 55/2 scheme gives (b) 2 marks against (iii); the lint flagged "lines add up to 2, printed 4" at S5 and Q-101 had asked at S3, yet both went to the queue. Four 55/5/1 split rows held a part's printed mark on their last row, where the 275 other split parts leave it blank (Q-202), also flagged and queued.
+  → A warning the reader cannot settle on the page is a doubt for the doubt reader, never a queue item; the queue holds only printed conflicts → CLAUDE.md §7 step 2, PHY-09 §3
+- **R-2 · A printed layout taken for the choice's scope.** The 55/2 paper prints "(a) passage (i) (ii) (iii) … OR (b)"; every other 2023 paper prints the OR inside (iii) or (c). The scope of a choice is read from the marks (paper and scheme), not from where "OR" sits on the page.
+  → At S3, when a choice's layout differs from the year's other papers, compare the marks of both sides before writing; at S5, a side whose lines add up to less than its printed marks is checked against the scheme's own split before the commit → rule card D (case studies), PHY-09 step 1.3
+- **R-3 · An assertion-reason key stored as "other".** SA-2023-5551-Q16 holds the key "(A) Both …" as step kind other, so the key-line check could not see it.
+  → A printed letter key is a key line even when the scheme prints the option's words after it → rule card C (key rows)
+- **R-4 · Queue summaries cut short.** PROGRESS "Open" shows Q-090 as "K", Q-186 as "u_e" and Q-217 as "m"; the full items in QQUEUE are right.
+  → After a commit that adds a queue item, the PROGRESS summary line is read back once → PHY-09 step 1.3
+- **R-5 · A backlog that grows faster than it is settled.** 219 queue items, 205 open, 121 of them opened since 26 October; about two thirds only record a printed scheme slip the line already keeps with "(sic)".
+  → Items that only record a printed slip are written as "recorded" when they are made, not "open"; the open list keeps only what needs a decision or a page → PHY-09 step 5
+
 ---
 
 ## PART 3 — Risks created by the new yearly workflow (pre-empted)
@@ -313,6 +346,15 @@
   → Her uploads go to the root of the instructions repository only → PHY-07 R§2
 - **W-23 · Instruction files that describe features not yet built.**
   → Every instruction about a tool is checked against the shipped code before delivery; a feature still to be built is named as such, with who builds it and when → PHY-07 R§11
+
+- **W-24 · Pattern codes decided one row at a time.** One `candidates` call per row (3,648 rows) would spend most of the step on tool round trips and decide each row without the chapter in view (the 2026 pilot: 42 codes for 181 rows, Q-018).
+  → One sheet per chapter, read whole; the codebook is written before any row is decided; repeats and shuffles by script → PHY-10 §6, §7
+- **W-25 · Formats split one skill into codes that never meet.** An MCQ and a numerical of the same skill carry different codes by rule, so statistics by code alone show neither as frequent.
+  → Families are skill groups that hold the written and the MCQ or A-R codes of one skill → PHY-10 §3.4
+- **W-26 · Two sessions writing one vault (2022 and 2023 side by side).** Restore keeps only the newest vault, so one session's work would vanish (the risk of W-14, now from two Claude Code sessions).
+  → One session at a time; the closing plan is one ordered list → PHY-09 §2
+- **W-27 · A plan left on an unmerged branch.** The 10 November work plan, boot pack and close-out were written on a branch and never merged; her order of 12 November replaced it, and later sessions ran on main's instructions without it.
+  → A plan reaches main through a pull request she merges, or it does not exist; the next session's handover names the file it runs on → PHY-09 header
 
 ---
 
