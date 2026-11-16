@@ -59,3 +59,17 @@ Every line below was written by phy_gate.py from the data, never typed.
 - validate after merge: 16/16 checks pass
 - PROGRESS: not touched (stage OTHER)
 - pack: PHY-VAULT-B11-20261116-1531-25466r.json
+
+## 2026-11-16T15:31:36Z | SQP2425-042 | S3 | GATE PASS
+- part files: BLUEPRINTS 1, CASES 2, INSTANCES 81, FIGURES 26, FORMULAE 72
+- merged 1 row(s) into l1/BLUEPRINTS.csv · now 109
+- merged 2 row(s) into l1/CASES.csv · now 196
+- merged 81 row(s) into l1/INSTANCES.csv · now 6978
+- merged 26 row(s) into l1/FIGURES.csv · now 1410
+- merged 72 row(s) into l1/FORMULAE.csv · now 7042
+- check-paper: PASS · SQP2425-042 · 33/33 questions · total 70/70
+- validate after merge: 16/16 checks pass
+- double-read: SINGLE READ (her decision 2026-10-03; the year check covers it)
+- status erratum ER-B11-082: NEW -> IN-PROGRESS
+- PROGRESS: added a ticked line
+- pack: PHY-VAULT-B11-20261116-1531-25649r.json
