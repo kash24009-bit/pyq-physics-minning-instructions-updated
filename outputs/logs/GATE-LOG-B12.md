@@ -32,3 +32,11 @@ Every line below was written by phy_gate.py from the data, never typed.
 ## 2026-11-20T18:59:31Z | checkpoint | phy_s6.py groups fix (B12 copy in outputs/tools); S6-GFIX sheet
 - validate: 16/16 checks pass
 - pack: PHY-VAULT-B12-20261120-1859-27547r.json
+
+## 2026-11-20T19:07:19Z | S6-GFIX | OTHER | GATE PASS
+- part files: CLASSIFY 0, ERRATA 122
+- merged 0 row(s) into j/CLASSIFY.csv · now 1556
+- merged 122 row(s) into l1/ERRATA.csv · now 1515
+- validate after merge: 16/16 checks pass
+- PROGRESS: not touched (stage OTHER)
+- pack: PHY-VAULT-B12-20261120-1907-27673r.json
