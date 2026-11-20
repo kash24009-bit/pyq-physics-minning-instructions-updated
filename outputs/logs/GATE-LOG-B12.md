@@ -28,3 +28,7 @@ Every line below was written by phy_gate.py from the data, never typed.
 - validate after merge: 16/16 checks pass
 - PROGRESS: not touched (stage OTHER)
 - pack: PHY-VAULT-B12-20261120-1856-27547r.json
+
+## 2026-11-20T18:59:31Z | checkpoint | phy_s6.py groups fix (B12 copy in outputs/tools); S6-GFIX sheet
+- validate: 16/16 checks pass
+- pack: PHY-VAULT-B12-20261120-1859-27547r.json
