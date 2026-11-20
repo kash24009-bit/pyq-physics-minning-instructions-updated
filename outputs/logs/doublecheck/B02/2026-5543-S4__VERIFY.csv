@@ -1,0 +1,69 @@
+instance_id,marks_part,q_marks_printed,numbers,options,figure_values,note
+2026-5543-Q01,,1,331 nm,A) Only Na and K show photoelectric emission. | B) Only Mo will not show photoelectric emission. | C) All of the given metals show photoelectric emission. | D) None of them show photoelectric emission.,Na 1.92 eV | K 2.15 eV | Ca 3.20 eV | Mo 4.17 eV,marks not printed beside Section A questions; total 1 from General Instructions p3 (iii). Figure is a table: Metal vs Work Function (eV).
+2026-5543-Q02,,1,n = 1.5,A) 3 × 10^8 ms^-1 | B) 2 × 10^8 ms^-1 | C) 3.3 × 10^-9 ms^-1 | D) 5 × 10^-9 ms^-1,,marks not printed beside Section A questions; total 1 from General Instructions p3 (iii).
+2026-5543-Q03,,1,14 V (v = 14 sin (314t) V) | 314t,A) 14 and 7 | B) 10 and 14 | C) 0 and 10 | D) 10 and 0,,marks not printed beside Section A questions; total 1 from General Instructions p3 (iii).
+2026-5543-Q04,,1,,A) p-region only | B) n-region only | C) depletion region | D) the diode,,marks not printed beside Section A questions; total 1 from General Instructions p3 (iii).
+2026-5543-Q05,,1,,A) m_1/m_2 > q_1/q_2 | B) m_1/m_2 > q_2/q_1 | C) m_1/m_2 < q_1/q_2 | D) m_1/m_2 < q_2/q_1,path 1 (m_1) | path 2 (m_2),"marks not printed beside Section A questions; total 1 from General Instructions p3 (iii). Text says vec(B) pointing vertically upward; figure draws vec(B) as dots (out of the page) with legend vec(B) dot. Both particles enter from the left moving right and curve downward (clockwise); path 1 (m_1) has the smaller radius, path 2 (m_2) the larger. Path labels 1, 2 are labels."
+2026-5543-Q06,,1,,A) infrared region | B) ultraviolet region | C) visible region | D) partly in ultraviolet region and partly in visible region,,marks not printed beside Section A questions; total 1 from General Instructions p3 (iii).
+2026-5543-Q07,,1,,A) increase by 100% of its initial value. | B) increase by 50% of its initial value. | C) decrease by 25% of its initial value. | D) decrease by 50% of its initial value.,,"marks not printed beside Section A questions; total 1 from General Instructions p3 (iii). Kinetic energy increased to ""four times"" (printed as a word)."
+2026-5543-Q08,,1,,A) only relaxation time tau of electrons decreases with temperature. | B) only number of electrons per unit volume n increases appreciably. | C) tau decreases with temperature but n does not change appreciably. | D) tau decreases with temperature and n increases.,,marks not printed beside Section A questions; total 1 from General Instructions p3 (iii). Stem uses rho.
+2026-5543-Q09,,1,,A) rate at which currents change in the two coils. | B) relative position and orientation of the coils. | C) currents in the two coils. | D) value of voltage induced in one coil due to change in value of current in the other coil.,,"marks not printed beside Section A questions; total 1 from General Instructions p3 (iii). Stem printed ""placed closed to each other""."
+2026-5543-Q10,,1,,A) Mobility increases with increase in applied electric field. | B) Mobility decreases with increase in temperature. | C) Mobility is independent of the mass of the charge carrier. | D) Mobility increases with increase in temperature,,marks not printed beside Section A questions; total 1 from General Instructions p3 (iii).
+2026-5543-Q11,,1,0 (range 0 - V) | 250 ohm | 250 ohm | 900 ohm | 0 (range 0 - 3 V) | 3 V,A) 150 ohm | B) 125 ohm | C) 100 ohm | D) 75 ohm,,marks not printed beside Section A questions; total 1 from General Instructions p3 (iii).
+2026-5543-Q12,,1,nu/2 | nu/3,A) 1/3 | B) 3/4 | C) 2/3 | D) 3/2,,marks not printed beside Section A questions; total 1 from General Instructions p3 (iii). Frequency printed as italic v (nu); threshold frequencies nu/2 and nu/3.
+2026-5543-Q13,,1,,,,marks not printed beside Section A questions; total 1 from General Instructions p3 (iii). Assertion-Reason; standard codes A-D printed once before Q13 on p11.
+2026-5543-Q14,,1,,,,marks not printed beside Section A questions; total 1 from General Instructions p3 (iii). Assertion-Reason.
+2026-5543-Q15,,1,,,,marks not printed beside Section A questions; total 1 from General Instructions p3 (iii). Assertion-Reason.
+2026-5543-Q16,,1,,,,marks not printed beside Section A questions; total 1 from General Instructions p3 (iii). Assertion-Reason.
+2026-5543-Q17,2,2,5 × 10^8 m^-3 | 4 × 10^12 m^-3,,,
+2026-5543-Q18,2,2,+1 microC | -1 microC | 10 cm | 100 N/C,,,
+2026-5543-Q19A,2,2,,,,
+2026-5543-Q19B-i,,2,,,,"Lead-in (b) has no numbers (lambda, a, D symbols only). The single 2 for (b) is printed beside (ii)."
+2026-5543-Q19B-ii,2,2,,,,2 printed at end of (b)(ii); covers the whole of (b).
+2026-5543-Q20,2,2,1.5 (refractive index) | 20 cm | 1.25 (refractive index of liquid),,,
+2026-5543-Q21,2,2,,,,
+2026-5543-Q22,3,3,,,,
+2026-5543-Q23-a,,3,,,,The 3 is printed beside (b) only; covers whole question.
+2026-5543-Q23-b,3,3,,,,Symbols lambda only; no numbers.
+2026-5543-Q24A-i,,3,2I | I | 3I,,2I | I | 3I | d | d,"Currents: conductor 1 carries 2I pointing right (+x); conductor 2 carries I pointing right (+x); conductor 3 carries 3I pointing left (-x). Spacing d between 1-2 and 2-3; conductor 1 on top, 3 at bottom. Axes drawn: y up, x right, z diagonal down-left (out of page). Conductor labels 1, 2, 3 are circled labels. The 3 for (a) is printed beside (ii)."
+2026-5543-Q24A-ii,3,3,,,same as 2026-5543-Q24A-i,3 printed at end of (a)(ii); covers whole of (a).
+2026-5543-Q24B-i,,3,,,,B = B_0 sin omega t; sides l and b; resistance R. No numerals.
+2026-5543-Q24B-ii,3,3,,,,3 printed at end of (b)(ii); covers whole of (b).
+2026-5543-Q25,3,3,,,,"""two uses"" printed as a word."
+2026-5543-Q26-a,,3,,,,The 3 is printed beside (b) only.
+2026-5543-Q26-b,3,3,,,,
+2026-5543-Q27-a,,3,,,,The 3 is printed beside (b) only.
+2026-5543-Q27-b,3,3,,,,
+2026-5543-Q28-a,,3,0.5 cm | 10 turns | 5 cm | 50 turns | 3 A,,,"Shared lead-in numbers (0.5 cm, 10, 5 cm, 50) put here per brief. The 3 is printed beside (b) only."
+2026-5543-Q28-b,3,3,,,,
+2026-5543-Q29-i,1,4,,"A) virtual, real | B) real, virtual | C) virtual, virtual | D) real, real",,q_marks 4 from General Instructions p3 (vi); not printed beside the question. Case passage (telescope) has no numbers.
+2026-5543-Q29-ii,1,4,,A) colour of light | B) focal length of objective lens | C) focal length of eyepiece | D) apertures of objective lens and eyepiece,,q_marks 4 from General Instructions p3 (vi); not printed beside the question.
+2026-5543-Q29-iii,1,4,,A) The focal length of objective lens (f_o) is larger than the focal length of eyepiece (f_e). | B) Its magnifying power can be increased by increasing the focal length of objective lens (f_o). | C) The distance between two lenses is more than (f_o + f_e). | D) The magnifying power can be decreased by increasing the focal length of eyepiece.,,q_marks 4 from General Instructions p3 (vi); not printed beside the question.
+2026-5543-Q29A-iv,1,4,80 cm | 4 cm,A) 84 cm | B) 76 cm | C) 20 cm | D) 320 cm,,q_marks 4 from General Instructions p3 (vi); not printed beside the question.
+2026-5543-Q29B-iv,1,4,,A) 320 | B) 84 | C) 76 | D) 20,,q_marks 4 from General Instructions p3 (vi); not printed beside the question. Refers to telescope of (iv)(a).
+2026-5543-Q30-i,1,4,,"A) straight line through origin (I vs V) | B) curve rising from origin to a peak then falling slightly, levelling | C) straight from origin then bending below the dotted straight-line extension (I rises less) | D) straight from origin then bending above the dotted extension, rising steeply","no numeric values; meters: ammeter A (+ top, - bottom), voltmeter V across X (+ left, - right); key K; rheostat ends P (top), Q (bottom)","q_marks 4 from General Instructions p3 (vi); not printed beside the question. Case passage and circuit figure are printed on p21, not p23; sub-part (i) and its four graph options on p23. Circuit: battery of two cells at top-left, longer plates toward the left (toward ammeter side), shorter toward key K; rheostat sliding contact arrow points left into the rheostat coil, its wire runs to the right end of X. Option graphs: I on vertical axis, V on horizontal."
+2026-5543-Q30-ii,1,4,,A) due to error in voltmeter reading only. | B) due to error in ammeter reading only. | C) equal to the sum of error in voltmeter reading and error in ammeter reading. | D) equal to error in voltmeter reading divided by the error in ammeter reading.,,q_marks 4 from General Instructions p3 (vi); not printed beside the question.
+2026-5543-Q30-iii,1,4,,A) reading in ammeter decreases and reading in voltmeter increases. | B) readings in both voltmeter and ammeter increase. | C) reading in ammeter increases and reading in voltmeter decreases. | D) readings in both voltmeter and ammeter decrease.,same as 2026-5543-Q30-i,q_marks 4 from General Instructions p3 (vi); not printed beside the question. Refers to rheostat end P of the p21 circuit.
+2026-5543-Q30A-iv,1,4,r/3 | r/2,A) v_1 > v_2 > v_3 | B) v_2 > v_3 > v_1 | C) v_3 > v_2 > v_1 | D) v_1 = v_2 = v_3,L | L | L | r | r/3 | r/2,"q_marks 4 from General Instructions p3 (vi); not printed beside the question. Wire A-C-D-B: AC radius r, CD radius r/3, DB radius r/2, each length L. ""three parts"" printed as a word."
+2026-5543-Q30B-iv,1,4,,A) E_1 = E_2 = E_3 | B) E_3 > E_2 > E_1 | C) E_2 > E_3 > E_1 | D) E_1 > E_2 > E_3,same as 2026-5543-Q30A-iv,q_marks 4 from General Instructions p3 (vi); not printed beside the question.
+2026-5543-Q31A-i-I,,5,,,,No numbers. The 5 for (a) is printed beside (ii)(II).
+2026-5543-Q31A-i-II,,5,,,,No numbers.
+2026-5543-Q31A-ii-I,,5,5/pi H | 50/pi microF | 400 ohm | 140 V (v = 140 sin (100pi t) V) | 100pi,,,Shared lead-in of (ii) assigned here.
+2026-5543-Q31A-ii-II,5,5,sqrt(2) = 1.4,,,"""(Take sqrt(2) = 1.4)"" printed under (II). 5 printed here covers all of (a)."
+2026-5543-Q31B-i,,5,,,,
+2026-5543-Q31B-ii-I,,5,"100 (turns, primary) | 5000 (turns, secondary) | 3.3 kW | 220 V",,,(I) and (II) are inline in the same sentence.
+2026-5543-Q31B-ii-II,5,5,,,,5 printed at end of (b)(ii) covers all of (b).
+2026-5543-Q32A-i-I,,5,,,,
+2026-5543-Q32A-i-II,,5,,,,
+2026-5543-Q32A-i-III,,5,,,,
+2026-5543-Q32A-ii,5,5,-4q | 2q,,,"Charges q, -4q, 2q at A, B, C of equilateral triangle side a. Part on p29 top. 5 covers all of (a)."
+2026-5543-Q32B-i-I,,5,,,,"""a few mm/s"", ""a few amperes"": no numerals."
+2026-5543-Q32B-i-II,,5,,,,
+2026-5543-Q32B-i-III,,5,,,,V = IR; no numerals.
+2026-5543-Q32B-ii,5,5,12 V | 6 V | 1 ohm | 0.5 ohm,,"12 V, 1 ohm | 6 V, 0.5 ohm","Cells in parallel between A (left) and B (right): 12 V, 1 ohm cell on top branch, longer plate toward A; 6 V, 0.5 ohm cell on bottom branch, longer plate toward A. 5 covers all of (b)."
+2026-5543-Q33A-i,,5,,,,
+2026-5543-Q33A-ii,,5,,,,"Symbols mu, delta_m, A; printed ""minimum derivation"" (sic)."
+2026-5543-Q33A-iii,5,5,1.5 (refractive index),,"no numeric values; labels A, B, C, P, Q, Air; right-angle mark at P","Ray QP drawn upward (arrow pointing up) normal to base BC at P, P nearer B; apex A at top; ""Air"" outside face AC. 5 covers all of (a)."
+2026-5543-Q33B-i,,5,,,,
+2026-5543-Q33B-ii,,5,,,,
+2026-5543-Q33B-iii,5,5,,,,5 covers all of (b).

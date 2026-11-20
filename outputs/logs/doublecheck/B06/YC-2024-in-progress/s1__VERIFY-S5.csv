@@ -1,0 +1,35 @@
+instance_id,step_marks,key,numbers,note
+2024-5511-Q16,1,D,,p3: (D) Assertion (A) is false and reason (R) is also false.; marks 1
+2024-5511-Q25-d1,0.5 | 0.5 | 0.5 | 0.5,,,"p8-p9: avg-power derivation, box 2; v = v_m sin wt and i = i_m sin(wt+phi) printed with no mark; halves beside P = vi = ..., = (v_m i_m/2)[cos phi - cos(2wt+phi)], P = (v_m i_m/2) cos phi (p8), P = V I cos phi OR P = I^2 Z cos phi (p9 top). Resonance lines (1/wC = wL, nu = 1/(2 pi sqrt(LC))) take the next two halves (box 1), not counted here"
+2024-5511-Q31A-ii,0.5 | 0.5 | 0.5 | 0.5,,4 x 10^-12 N m | direction along -ve Z,p13: halves beside tau = pE sin theta; = (2aq)E sin theta; = (5x10^-3 x 1x10^-12)10^3 x 4/5 with = 4x10^-12 Nm (one half between the two lines); 'Direction is along -ve Z direction.' Box (ii) 2. Checked: 5e-3*1e-12*1e3*0.8 = 4e-12
+2024-5511-Q31A-i-d1,0.5 | 0.5 | 0.5 | 0.5,,,p12: box 'Deriving the expression for potential energy 2'; halves beside W = int tau_ext d theta; = int pE sin theta d theta; W = pE(cos theta_0 - cos theta_1); U(theta) = -pE cos theta = -vec(p).vec(E). Max/min lines (half + half) belong to the other demand
+2024-5511-Q33A-i-d1,1,,,"p22: graph of angle of deviation vs angle of incidence, 1 (box p21: (i) graph 1, defining minimum deviation 1); d1 taken as the graph, the first demand in the box"
+2024-5511-Q32A-ii,1,,,"p18: 'For direct current (dc), an inductor behaves as a conductor. As X_L = wL = 2 pi nu L; For dc nu = 0 => X_L = 0', 1. 'Alternatively: Induced emf = -L dI/dt; for dc dI = 0 => emf = 0' unmarked. Box p17: (ii) Reason 1; p19 starts (iii)"
+2024-5511-Q12,1,A,,p3: (A) momentum
+2024-5511-Q10,1,B,,p3: (B) the number of conduction electrons increases
+2024-5512-Q25-a,1,,,"p33 (55/1/2 page 8-9): (a) Mutual Induction, explanation of flux linking secondary; 1. Box on p32: (a) 1"
+2024-5512-Q25-c-ii,0.5,,Anticlockwise,"p33: '(ii) Anticlockwise when R is decreased.' Two halves printed stacked beside the (c) lines (one per sub-part); box p32: (c)(i) half, (ii) half; the second half taken for (ii)"
+2024-5513-Q21-d2,1,,,"p51: role in p-n junction (diffusion due to concentration gradient; field from space-charge region gives drift), 1. Box: 'Explaining their role in p-n junction 1'"
+2024-5513-Q17,0.5 | 1 | 0.5,,56.25%,p49: A l = A'l' => A' = lA/1.25l half; A' = 4/5 A and R' = rho l'/A' = rho(1.25l)/(4/5 A) unmarked; R' = 25/16 R 1; p50: % increase = ((R'-R)/R) x 100 = (25/16 - 1) x 100 = 56.25% half (mark on p50). Checked: 1.25^2 - 1 = 0.5625
+2024-5521-Q32B-i-d3,1,,,"p14: 'If current sensitivity is increased by increasing number of turns of the coil, the resistance of the galvanometer will also increase. Thus voltage sensitivity may not increase.' 1 (V_s = theta/V = NBA/KR printed above it). Box: 'Showing dependence of current sensitivity & explanation 1+1' in one cell; d3 taken as the explanation"
+2024-5521-Q17-d1,1,,,p3: 'Resistance offered by a material of unit length and having unit cross-sectional area is called resistivity.' 1
+2024-5521-Q13,1,A,,p3: (A) Both A and R true and R is the correct explanation
+2024-5521-Q16,1,C,,"p3: (C) Assertion(A) is true, but Reason (R) is false"
+2024-5521-Q26-d2,0.5 | 0.5,,5.29 x 10^-11 m | 0.53 Angstrom,"p9: a_o = (6.63x10^-34)^2 x 8.854x10^-12 / (3.14 x 9.1x10^-31 x (1.6x10^-19)^2) half; = 5.29x10^-11 m = 0.53 A half. Box: 'Finding numerical value of a_o 1'. Python on the printed substitution gives 5.321e-11 m: the printed 5.29e-11 is the standard Bohr radius, not the value of the printed numbers (rounding/constants, not a key error)"
+2024-5521-Q33A-i,1 | 1,,,"p15: table of three differences (spacing, intensity, first maxima/minima at lambda/a); '1 + 1' printed in one cell beside the table; box (i) Two differences 2"
+2024-5521-Q18A,0.5 | 0.5 | 0.5 | 0.5,,,p4: halves beside x_2 = a cos(wt+phi); x = 2a cos(phi/2) cos(wt+phi/2); I = K(amplitude)^2 = K(2a cos(phi/2))^2; = 4 I_0 cos^2(phi/2). Note printed: 'Award full credit of this part for all other alternative correct methods'
+2024-5522-Q27-b-i,0.5 | 0.5,,,"p25 (55/2/2 page 9): 'i) For distance larger than r_o, force is attractive' half; 'Since slope of the curve is positive' half. 'F = -dU/dx' printed above with no mark"
+2024-5522-Q26-a,1,,,p24 (55/2/2 page 8): moving particles of matter display wave-like properties; lambda = h/p = h/mv; 1
+2024-5523-Q17,0.5 | 0.5 | 0.5 | 0.5,,,"p35: V = IR half; El = I rho l/A (V = El, R = rho l/A) half; E = (I/A) rho half; E = sigma rho half (printed 'E = sigma rho' on the 400 dpi crop: sigma used for I/A, current density; physics E = j rho)"
+2024-5523-Q08,1,B,8 x 10^-28,p35: (B) 8x10^-28 (no unit printed)
+2024-5531-Q21,0.5 | 0.5 | 0.5 | 0.5,,n_h = 5 x 10^22 /m^3 | n_e = 4.5 x 10^9 /m^3 | p-type,"p5: halves beside n_e n_h = n_i^2 (with n_h ~ 5x10^22 /m^3); n_e = (1.5x10^16)^2/(5x10^22); n_e = 4.5x10^9 /m^3; n_h > n_e, it is a p-type crystal. Checked: 4.5e9"
+2024-5531-Q28B-ii,1,,,"p9: (ii) semiconductor band diagram, E_g < 3 eV, 1. Box 'Energy band diagrams ... (i) insulator (ii) semiconductor (iii) metal 1+1+1' in one cell"
+2024-5531-Q31B-i-ii,0.5 | 0.5 | 0.5 | 0.5,,,p11: (ii) Field outside the shell: halves beside the Gaussian-surface figure; E x 4 pi r^2 = sigma 4 pi R^2/eps0 (flux); Gauss's law line; E = (sigma/eps0)(R^2/r^2) = q/(4 pi eps0 r^2). Box p10: (i)(ii) outside 2
+2024-5531-Q32A-i-1-d1,1,,,"p11: 'Current sensitivity of galvanometer is defined as the deflection per unit current.' 1; 'Alternatively, phi/I = NBA/K' unmarked; factors (half+half, any two) belong to d2"
+2024-5531-Q11,1,B,87.5%,p3: (B) decreased by 87.5%
+2024-5531-Q22,0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5,,I_2 = 5/8 A | I_1 = 2.5 A | I_2 + I_3 = 2.5 A,"p5: halves beside 7I_1 - 6I_2 - 2I_3 = 10 (i); I_1 + 6I_2 + 2I_3 = 10 (ii); 2I_1 - 4I_2 - 4I_3 = -5 (iii); I_2 = 5/8 A (AB); I_1 = 2.5 A (AC); I_2 + I_3 = 2.5 A (BC). Third loop printed 'BCDED' (sic, as printed). Checked: solving (i)-(iii) gives I1=2.500, I2=0.625, I3=1.875, I2+I3=2.500"
+2024-5531-Q13,1,D,,p3: (D) Assertion (A) is false and Reason (R) is also false.
+2024-5532-Q06,1,D,0.1 C,p18: (D) 0.1 C
+2024-5532-Q22-b,0.5 | 0.5 | 0.5,,r = 2 ohm,"p20: (b) V = E - Ir (key K closed, I = 2 A) half; 6 = 10 - 2r half; r = 2 ohm half. Box: (b) 1 1/2. Checked: (10-6)/2 = 2"
+2024-5533-Q24,0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5,,,"p36: halves beside |emf| = d phi/dt; I = |emf|/R; I = (1/R)(d phi/dt); dQ/dt = (1/R)(d phi/dt); dQ = d phi/R; 'Hence induced charge depends on change in magnetic flux, not on the time interval of flux change.' (deltas printed as small triangles). Box: Proof of induced charge 3"
+2024-5533-Q08,1,A,,p33: (A) +z direction and in phase with vec(E)

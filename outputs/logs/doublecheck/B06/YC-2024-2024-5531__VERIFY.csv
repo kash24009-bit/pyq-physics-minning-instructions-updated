@@ -1,0 +1,74 @@
+instance_id,marks_part,q_marks_printed,numbers,options,figure_values,note
+2024-5531-Q01,,1,Sigma q != 0,A) Plane | B) Spherical surface | C) Paraboloidal surface | D) Ellipsoidal surface,,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3; q_1, q_2, q_3 are labels"
+2024-5531-Q02,,1,-5 V | +5 V,A) -1.6 × 10^-18 J | B) 1.6 × 10^-18 J | C) Zero | D) 0.8 × 10^-18 J,,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3; P_1 at -5 V, P_2 at +5 V; proton"
+2024-5531-Q03,,1,"2.0 cm | 5.0 A | (3 m, 4 m, 0)",A) (0.12 nT) j^ | B) -(0.10 nT) j^ | C) -(0.24 nT) k^ | D) (0.24 nT) k^,5.0 A,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3; figure (400 dpi crop): segment PQ on y-axis, P below O, Q above O; current arrow on the segment points up (+y), labelled 5.0 A; axes y up, x right, z toward lower left"
+2024-5531-Q04,,1,,A) move along x-axis | B) move along -y-axis | C) move along z-axis | D) remain stationary,,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3; loop in xy-plane, centre at origin; field along +z-axis"
+2024-5531-Q05,,1,45°,A) -0.3 MB | B) 0.3 MB | C) -1.7 MB | D) 1.7 MB,,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3; vec(M), vec(B); loop plane normal to vec(B); rotation axis perpendicular to vec(B)"
+2024-5531-Q06,,1,15 mH | 4 A | 0.004 s,A) 22.5 V | B) 17.5 V | C) 15.0 V | D) 12.5 V,,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3; ""from zero"" in words"
+2024-5531-Q07,,1,,A) both l and A are increased | B) l is decreased and A is increased | C) l is increased and A is decreased | D) both l and A are decreased,,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3"
+2024-5531-Q08,,1,,A) Infrared rays | B) Gamma rays | C) Radio waves | D) Microwaves,,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3"
+2024-5531-Q09,,1,,A) 1/2 | B) 2 | C) 1/4 | D) 4,,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3; proton and alpha particle, equal velocities"
+2024-5531-Q10,,1,,A) graph: straight line falling from a positive K_m intercept to the nu axis | B) graph: straight line rising from a positive K_m intercept | C) graph: straight line rising from a positive nu intercept (K_m zero below it) | D) graph: straight line rising from the origin,,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3; options are graphs (240 dpi crop): K_m vertical axis (arrow up), nu horizontal axis (arrow right); no values printed on any graph"
+2024-5531-Q11,,1,n = 2 | n = 1,A) increases by 87.5% | B) decreases by 87.5% | C) increases by 43.75% | D) decreases by 43.75%,,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3; transition n = 2 to n = 1"
+2024-5531-Q12,,1,,A) 0.01 eV | B) 0.05 eV | C) 0.72 eV | D) 1.1 eV,,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3; Si doped with pentavalent element"
+2024-5531-Q13,,1,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Assertion (A) is false and Reason (R) is also false.",,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3; AR codes printed once above Q13 (p11), apply to Q13-16; A: conduction-band electrons have lesser energy than valence band; R: donor level just above the valence band"
+2024-5531-Q14,,1,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Assertion (A) is false and Reason (R) is also false.",,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3; AR codes printed once above Q13 (p11), apply to Q13-16; A: photoelectric effect shows particle nature; R: photocurrent proportional to frequency"
+2024-5531-Q15,,1,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Assertion (A) is false and Reason (R) is also false.",,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3; AR codes printed once above Q13 (p11), apply to Q13-16; R prints r = p/(qB); vec(B), vec(p)"
+2024-5531-Q16,,1,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Assertion (A) is false and Reason (R) is also false.",,"no mark printed beside the question; 1 mark each per General Instructions (iii), p3; AR codes printed once above Q13 (p11), apply to Q13-16; convex lens in liquid disappears; equal refractive indices"
+2024-5531-Q17A-d1,,2,,,,2 printed once beside (a) as a whole (p13); d1 = relaxation time meaning
+2024-5531-Q17A-d2,,2,R = ml/(ne^2 tau A),,,2 printed once beside (a) as a whole (p13); show R = m l/(n e^2 tau A)
+2024-5531-Q17B,,2,,,,2 printed beside (b) (p13); no figure printed: asks to draw Wheatstone bridge and obtain balance condition
+2024-5531-Q18,,2,24 | 150 cm,,,magnifying power 24; normal adjustment; lens separation 150 cm
+2024-5531-Q19-a,,2,,,,"2 printed beside lead-in ""Explain the following :"" (p13); simple microscope angular size"
+2024-5531-Q19-b,,2,,,,2 printed beside lead-in (p13); plane and convex mirrors real images
+2024-5531-Q20,,2,0.1 nWm^-2 | 0.4 cm^2 | 500 nm | 6.6 × 10^-34 Js,,,"text layer digits agree (0.1, 0.4, 500, 6.6, 34)"
+2024-5531-Q21,,2,5 × 10^28 atoms m^-3 | 1 ppm | n_i = 1.5 × 10^16 m^-3,,,boron doping; text layer digits agree
+2024-5531-Q22,,3,,,"4 ohm (A-B) | 2 ohm (B-C) | 10 V (A-C) | 1 ohm (A-C) | 4 ohm (A-D) | 2 ohm (C-D) | epsilon 5 V (F, branch B-F-D)","300 dpi crop: 10 V cell in branch A-C next to A: longer plate toward A, shorter thick plate toward 1 ohm/C; cell epsilon at F (labelled epsilon, 5 V): plates horizontal, longer (upper) plate toward B, shorter (lower) plate toward D; current arrows: A to B (two arrows toward B), A to D (two arrows toward D), B to C downward, C to D downward, in A-C branch two arrows pointing toward A (leftward), D to F toward F, F to B toward B; asks currents in AB, AC, BC"
+2024-5531-Q23-d1,,3,,,,3 printed once at end of Q23 (p15); why parallel conductors exert force
+2024-5531-Q23-d2,,3,,,,"force per unit length, currents in opposite directions"
+2024-5531-Q23-d3,,3,,,,nature of the force
+2024-5531-Q24-a,,3,pi/2,,,3 printed once beside (d) for the whole question (p15); pi/2 in shared lead-in (current leads voltage by pi/2)
+2024-5531-Q24-b,,3,,,,formula for its reactance
+2024-5531-Q24-c,,3,,,,show graphically reactance vs frequency; no figure printed
+2024-5531-Q24-d-i,,3,,,,behaviour in (i) an ac circuit
+2024-5531-Q24-d-ii,,3,,,,behaviour in (ii) a dc circuit
+2024-5531-Q25-a,,3,6.3 N/C | 1.5 rad/m | 4.5 × 10^8 rad/s,,,3 printed once beside (c) (p17); lead-in printed as vec(E) = (6.3 N/C) [cos (1.5 rad/m) y + (4.5 × 10^8 rad/s) t] i^; text layer digits agree
+2024-5531-Q25-b,,3,,,,amplitude of magnetic field
+2024-5531-Q25-c,,3,,,,expression for magnetic field
+2024-5531-Q26-d1,,3,,,,3 printed once (p17); state Bohr first and second postulates
+2024-5531-Q26-d2,,3,,,,derive radius of n^th orbit of hydrogen
+2024-5531-Q27-a,,3,,,,3 printed once beside (b) (p17); define atomic mass unit (u)
+2024-5531-Q27-b,,3,m(D) = 2.014102 u | m_H = 1.007825 u | m_n = 1.008665 u,,,deuteron separation energy; text layer digits agree
+2024-5531-Q28A-d1,,3,,,,3 printed beside (a) as a whole (p17); no figure printed: asks to draw circuit diagrams for V-I characteristics of p-n junction diode
+2024-5531-Q28A-d2-i,,3,,,,salient features in (i) forward biasing
+2024-5531-Q28A-d2-ii,,3,,,,salient features in (ii) reverse biasing
+2024-5531-Q28B-i,,3,,,,3 printed beside (b) (p17); energy band diagrams: (i) insulator
+2024-5531-Q28B-ii,,3,,,,(ii) a semiconductor
+2024-5531-Q28B-iii,,3,,,,(iii) a conductor
+2024-5531-Q29-i,1,4,2.0 cm,A) I | B) II | C) III | D) IV,-70 V | -50 V (pair I) | -50 V | +150 V (pair II) | -20 V | +200 V (pair III) | -100 V | -400 V (pair IV),"marks_part printed beside this sub-part; no total printed beside Q29, 4 marks per General Instructions (vi), p3; 400 dpi crops: four pairs of vertical plates (perpendicular to x), potentials printed under left and right plate of each pair in the order listed; axes y up, x right with i^ arrow pointing right (+x), z toward lower left; 2.0 cm in case passage"
+2024-5531-Q29-ii,1,4,,A) move along i^ at constant speed | B) move along -i^ at constant speed | C) accelerate along i^ | D) accelerate along -i^,same as 2024-5531-Q29-i,"marks_part printed beside this sub-part; no total printed beside Q29, 4 marks per General Instructions (vi), p3; electron released midway in pair IV"
+2024-5531-Q29-iii,1,4,x = 0 m | 0 <= x <= 2 cm,A) V = V_0 + alpha x | B) V = V_0 + alpha x^2 | C) V = V_0 + alpha x^(1/2) | D) V = V_0 + alpha x^(3/2),same as 2024-5531-Q29-i,"marks_part printed beside this sub-part; no total printed beside Q29, 4 marks per General Instructions (vi), p3; V_0 = potential of left plate; ""where alpha is a constant, positive or negative"""
+2024-5531-Q29A-iv,1,4,,A) E_1 > E_2 > E_3 > E_4 | B) E_3 > E_4 > E_1 > E_2 | C) E_4 > E_3 > E_2 > E_1 | D) E_2 > E_3 > E_4 > E_1,same as 2024-5531-Q29-i,"marks_part printed beside this sub-part; no total printed beside Q29, 4 marks per General Instructions (vi), p3; p21; E_1..E_4 magnitudes for pairs I..IV"
+2024-5531-Q29B-iv,1,4,(e/m) = 1.76 × 10^11 C/kg,A) 1.3 × 10^5 m/s | B) 2.6 × 10^6 m/s | C) 6.5 × 10^5 m/s | D) 5.2 × 10^7 m/s,same as 2024-5531-Q29-i,"marks_part printed beside this sub-part; no total printed beside Q29, 4 marks per General Instructions (vi), p3; p21; electron projected from right plate of set I toward left plate, just comes to rest; text layer digits agree"
+2024-5531-Q30-i,1,4,2 microm | 6 microm | 450 nm,A) 2 | B) 3 | C) 4 | D) 6,,"marks_part printed beside this sub-part; no total printed beside Q30, 4 marks per General Instructions (vi), p3; case passage: slit width 2 microm (µm), separation 6 microm, wavelength 450 nm; text layer drops µ"
+2024-5531-Q30-ii,1,4,,A) 1 | B) 2 | C) 3 | D) 4,,"marks_part printed beside this sub-part; no total printed beside Q30, 4 marks per General Instructions (vi), p3; slit width doubled, separation same"
+2024-5531-Q30-iv,1,4,1 m | 4/3 m,A) 2 | B) 3 | C) 6 | D) 10,,"marks_part printed beside this sub-part; no total printed beside Q30, 4 marks per General Instructions (vi), p3; p23; bright fringes on 1 m of screen at 4/3 m"
+2024-5531-Q30A-iii,1,4,450 nm | 680 nm,A) 2 | B) 4 | C) 6 | D) 9,,"marks_part printed beside this sub-part; no total printed beside Q30, 4 marks per General Instructions (vi), p3; p23"
+2024-5531-Q30B-iii,1,4,,A) sin^-1(0.12) | B) sin^-1(0.225) | C) sin^-1(0.32) | D) sin^-1(0.45),,"marks_part printed beside this sub-part; no total printed beside Q30, 4 marks per General Instructions (vi), p3; p23; first minimum at angle theta"
+2024-5531-Q31A-i,,5,,,,5 printed once beside (a) at end of (ii) (p23); capacitance of parallel plate capacitor with dielectric
+2024-5531-Q31A-ii-i,,5,6 microC | 0.2 m,,,"hollow metallic sphere; potential at (i) the surface; 6 microC and 0.2 m printed once in (ii) lead-in; text layer drops µ (""6 C"")"
+2024-5531-Q31A-ii-ii,,5,,,,potential at (ii) the centre
+2024-5531-Q31B-i-i,,5,,,,5 printed once beside (b) at end of (ii) (p23); +Q on thin conducting shell of radius R; field (i) inside
+2024-5531-Q31B-i-ii,,5,,,,field (ii) outside the shell
+2024-5531-Q31B-ii,,5,,,,field for same sigma twice for conducting plate than nonconducting sheet
+2024-5531-Q32A-i-1-d1,,5,,,,5 printed once beside (a) at end of (ii) (p25); what is current sensitivity
+2024-5531-Q32A-i-1-d2,,5,,,,factors on which it depends
+2024-5531-Q32A-i-2,,5,0 - V | 0 - V/2,,,galvanometer G converted to voltmeter range (0 - V) with R; find resistance for range (0 - V/2) in terms of R and G
+2024-5531-Q32A-ii,,5,5 ohm | 2.0 t^3 | 5.0 t^2 | 6.0 t mWb | t = 2 s,,,phi = (2.0 t^3 + 5.0 t^2 + 6.0 t) mWb; text layer digits agree
+2024-5531-Q32B-i,,5,,,,"5 printed once beside (b) at end of (ii) (p25); rectangular coil N turns, area A, angular speed omega; emf at any instant"
+2024-5531-Q32B-ii,,5,1 cm | 100 cm | pi^2 = 10,,,coplanar concentric loops L_1 (radius 1 cm) and L_2 (radius 100 cm); mutual inductance
+2024-5531-Q33A-i-d1,,5,,,,"5 printed once beside (a) on p27 at end of (ii); trace ray through prism, deviation delta in terms of A, i, e"
+2024-5531-Q33A-i-d2,,5,,,,graph of deviation vs angle of incidence; no figure printed
+2024-5531-Q33A-ii,,5,45°,,45°,"p27; 400 dpi crop: rectangle ABCD, A top-left, D top-right, B bottom-left, C bottom-right; incident ray comes from upper right travelling down-left, hits face AD near A at 45° to face AD (angle marked on the D side between ray and face); normal drawn at entry point; refracted ray goes down-left to face AB; emergent ray runs down along face AB, arrow pointing down below B"
+2024-5531-Q33B-i,,5,,,,"5 printed once beside (b) at end of (ii) (p27); y_1 = a cos omega t, y_2 = a cos(omega t + phi); resultant intensity"
+2024-5531-Q33B-ii,,5,lambda/6 | lambda/12,,,"YDSE intensity ratio for path differences (i) lambda/6 and (ii) lambda/12; inline sub-labels (i)/(ii) here kept in one skeleton row (other inline (i)/(ii) are split, e.g. Q31A-ii)"

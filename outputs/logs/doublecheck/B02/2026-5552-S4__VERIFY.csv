@@ -1,0 +1,66 @@
+instance_id,marks_part,q_marks_printed,numbers,options,figure_values,note
+2026-5552-Q01,,1,-3.4 eV,A) 3h/(2*pi) | B) 2h/pi | C) h/pi | D) h/(2*pi),,no marks printed beside Section A questions; 1 mark from instructions p3 (iii)
+2026-5552-Q02,,1,4.00 cm,A) 1.66 × 10^-32 kg ms^-1 | B) 1.83 × 10^-34 kg ms^-1 | C) 2.05 × 10^-34 kg ms^-1 | D) 1.66 × 10^-34 kg ms^-1,,marks from instructions p3
+2026-5552-Q03,,1,125 (mass number),A) 6.0 fm | B) 30 fm | C) 72 fm | D) 150 fm,,marks from instructions p3
+2026-5552-Q04,,1,,"A) V_0/2, V_0/sqrt(2) | B) V_0/pi, V_0/2 | C) V_0/sqrt(2), 0 | D) V_0, V_0/sqrt(2)",,V = V_0 sin(omega t) volt; marks from instructions p3
+2026-5552-Q05,,1,,A) high resistance in reverse bias and a low resistance in forward bias | B) high resistance in both forward bias and reverse bias | C) low resistance in both reverse bias and forward bias | D) high resistance in forward bias and low resistance in reverse bias,,marks from instructions p3
+2026-5552-Q06,,1,"-Q at (d, 0) | Q at (0, d)",A) (1/(4*pi*epsilon_0)) (sqrt(2) Q/d^2) (i^ - j^) | B) (1/(4*pi*epsilon_0)) (sqrt(2) Q/d^2) (-i^ - j^) | C) (1/(4*pi*epsilon_0)) (Q/d^2) (i^ - j^) | D) (1/(4*pi*epsilon_0)) (Q/d^2) (-i^ - j^),,marks from instructions p3
+2026-5552-Q07,,1,,A) describe a circular path | B) describe a helical path | C) describe a parabolic path | D) continue moving without any deviation,,velocity v_0 i^; vec(E) = E_0 j^; marks from instructions p3
+2026-5552-Q08,,1,,A) KB^2/(2E^2) | B) 2KB^2/E^2 | C) 2KE^2/B^2 | D) KE^2/(2B^2),,marks from instructions p3
+2026-5552-Q09,,1,5 cm × 8 cm | vec(B) = (2.0 T) k^,A) 80 Wb | B) 16 Wb | C) 8 × 10^-2 Wb | D) 8 × 10^-3 Wb,,marks from instructions p3
+2026-5552-Q10,,1,,A) Production of ac is economical. | B) ac can be easily and efficiently converted from one voltage to the other. | C) ac can be transmitted economically over long distances. | D) ac is less dangerous.,,stem prints 'not' in bold italic; marks from instructions p3
+2026-5552-Q11,,1,n = 1.5 | B_y amplitude 2 × 10^-7 T | 1.5 × 10^11 (coefficient of t),A) 0.5 × 10^3 m^-1 | B) 6.0 × 10^2 m^-1 | C) 7.5 × 10^2 m^-1 | D) 1.5 × 10^3 m^-1,,B_y = (2 × 10^-7 T) sin(alpha x + 1.5 × 10^11 t); marks from instructions p3
+2026-5552-Q12,,1,,A) n^2 | B) n | C) 1/n | D) 1/n^2,,n^th orbit; marks from instructions p3
+2026-5552-Q13,,1,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Both Assertion (A) and Reason (R) are false.",,AR code set printed once on p11 before Q13; marks from instructions p3
+2026-5552-Q14,,1,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Both Assertion (A) and Reason (R) are false.",,marks from instructions p3
+2026-5552-Q15,,1,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Both Assertion (A) and Reason (R) are false.",,marks from instructions p3
+2026-5552-Q16,,1,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Both Assertion (A) and Reason (R) are false.",,R: beta = lambda D/d (no numbers); marks from instructions p3
+2026-5552-Q17,,2,5 × 10^28 atoms per m^3 | 5 × 10^22 atoms per m^3 (Arsenic) | n_i = 1.5 × 10^16 m^-3,,,"mark printed once at the end of the question/side = question total, not a part mark (2 at right of last line)"
+2026-5552-Q18,,2,4 I (resultant intensity at maxima),,,"'zero' written in words; mark printed once at the end of the question/side = question total, not a part mark"
+2026-5552-Q19A-i,,2,2.2 kW | 220 V | 110 V,,,"lead-in of side (a) numbers placed on first sub-part; 2 printed beside the (a) lead-in line 'Find :' = side total, not beside (i)"
+2026-5552-Q19A-ii,,2,10 minutes,,,no mark beside (ii); side (a) total 2 printed at lead-in
+2026-5552-Q19B,,2,4.0 A | 1 m | 1.0 mm^2 | 2 V,,,2 printed at end of side (b) = side total; OR between (a) and (b)
+2026-5552-Q20,,2,10 cm | 0.2 T | 60 rpm,,,"mark printed once at the end of the question/side = question total, not a part mark"
+2026-5552-Q21,,2,6 cm | n = 1.5 | 24 cm (radius of curvature),,,"mark printed once at the end of the question/side = question total, not a part mark"
+2026-5552-Q22-a,,3,,,,no mark beside (a); 3 printed once at end of (b) = question total
+2026-5552-Q22-b,,3,,,,"mark printed once at the end of the question/side = question total, not a part mark"
+2026-5552-Q23-a,,3,6 V | 4 (dielectric constant) | 4 microF,,,"lead-in numbers (6 V, 4) placed on first sub-part; 3 printed once at end of (b)"
+2026-5552-Q23-b,,3,,,,"mark printed once at the end of the question/side = question total, not a part mark"
+2026-5552-Q24A-i,,3,,,,'two' in words; 3 printed at end of (a)(ii) = side total
+2026-5552-Q24A-ii,,3,,,,3 at end of side (a) = side total
+2026-5552-Q24B-i,,3,,,,'two' in words; no figure printed (graph demanded)
+2026-5552-Q24B-ii,,3,nh/(2*pi) (angular momentum),,,3 at end of side (b) = side total
+2026-5552-Q25-a,,3,phi_0 = 1.96 eV | 6.4 × 10^14 Hz,,,lead-in numbers placed on first sub-part; 3 printed beside lead-in line 'Calculate :' = question total
+2026-5552-Q25-b,,3,,,,no mark beside (b)
+2026-5552-Q25-c,,3,,,,no mark beside (c)
+2026-5552-Q26-d1,,3,,,,d1/d2 are not printed labels: one unlabelled stem 'Write the expression ... vector form.' then 'Consider ...'; 3 printed once at end
+2026-5552-Q26-d2,,3,"1 cm (segment) | 10 A | point (1 m, 1 m, 0)",,,"current in positive x-direction; mark printed once at the end of the question/side = question total, not a part mark"
+2026-5552-Q27-d1,,3,,,,unlabelled stem split; 3 printed once at end
+2026-5552-Q27-d2,,3,,,,"mark printed once at the end of the question/side = question total, not a part mark"
+2026-5552-Q28-d1,,3,,,,unlabelled stem split; 3 printed once at end
+2026-5552-Q28-d2,,3,,,,"mark printed once at the end of the question/side = question total, not a part mark"
+2026-5552-Q29-i,1,4,"2 mm (slit separation, passage) | 5.0 m (screen distance, passage)",A) Wave nature of light | B) Particle nature of light | C) Transverse nature of light | D) Both wave nature and transverse nature of light,,"case passage p17 numbers placed here; case figure printed in passage on p17, its values listed under Q29A-ii (first figure-dependent row); question total 4 from instructions p3 (vi)"
+2026-5552-Q29A-ii,1,4,,A) 720 nm | B) 590 nm | C) 480 nm | D) 364 nm,5.0 m | 2.0 mm | 4(mm) (axis label as printed) | 3.0 | 2.5 | 2.0 | 1.5 | 1.0 | 0.5 | 0 | -0.5 | -1.0 | -1.5 | -2.0 | -2.5 | -3.0,"figure p17: light arrows (5) point right toward slits; 5.0 m arrow double-headed from slit plane to screen; 2.0 mm double arrow between slits; P arrow points right to a dot on the screen axis between 1.5 and 2.0 (about 1.75 mm, a minimum); axis label reads '4(mm)' as printed (probably y(mm)); passage text says '2 mm' while figure says '2.0 mm'"
+2026-5552-Q29B-ii,1,4,,A) 1.2 mm | B) 0.2 mm | C) 4.2 mm | D) 6.8 mm,same as 2026-5552-Q29A-ii,OR alternative to (ii)(a)
+2026-5552-Q29-iii,1,4,,A) 8.1 × 10^-7 m | B) 7.2 × 10^-7 m | C) 6.5 × 10^-7 m | D) 6.0 × 10^-7 m,same as 2026-5552-Q29A-ii,point P of the case figure
+2026-5552-Q29-iv,1,4,1 (refractive index greater than 1),A) disappear | B) become blurred | C) be widened | D) be compressed,,p21
+2026-5552-Q30-i,1,4,0.05 m (side) | 0.01 m (separation) | 200 V | 3 × 10^7 ms^-1,A) (2 × 10^2 V/m) k^ | B) -(2 × 10^2 V/m) k^ | C) (2 × 10^4 V/m) k^ | D) -(2 × 10^4 V/m) k^,200 V | 0.01 m | 3 × 10^7 ms^-1 | 0.05 m,"passage starts p21 (E_r = -dV/dr, vec(E) = E_r r^, no numbers) and continues p23 with the numbers; figure p21: battery of 200 V drawn vertically at left, + terminal at top (top plate of the cell) wired to the upper plate, - terminal at bottom wired to the lower plate; electron dot with arrow pointing right (+x) between the plates; 0.01 m double arrow vertical between plates; 0.05 m double arrow along plate length; axes drawn y up (j^), x right (i^), z toward viewer down-left (k^); NB text says plates in x-y plane separated along z, the drawing shows them separated vertically; total 4 from instructions p3"
+2026-5552-Q30-ii,1,4,,A) -(3.5 × 10^15 ms^-2) k^ | B) (3.5 × 10^15 ms^-2) k^ | C) (3.5 × 10^13 ms^-2) i^ | D) -(3.5 × 10^13 ms^-2) i^,same as 2026-5552-Q30-i,
+2026-5552-Q30A-iii,1,4,,A) 9.0 × 10^-9 s | B) 1.67 × 10^-8 s | C) 1.67 × 10^-9 s | D) 2.17 × 10^-9 s,same as 2026-5552-Q30-i,p25
+2026-5552-Q30B-iii,1,4,,A) 10 mm | B) 4.9 mm | C) 5.9 mm | D) 3.0 mm,same as 2026-5552-Q30-i,OR alternative to (iii)(a)
+2026-5552-Q30-iv,1,4,,A) a | B) b | C) c | D) d,0.05 m,"own figure p25: plates B (upper) and A (lower) horizontal; electron line 'e' enters from left along the midline; beyond the midpoint four paths: a straight right, d straight line slanting up to the right, b curving upward past plate B, c curving downward past plate A; 0.05 m label under the plates (no arrows)"
+2026-5552-Q31A-i,,5,,,,no numbers; 5 printed at end of side (a) (p27) = side total
+2026-5552-Q31A-ii-I,,5,100 turns | radius (10/sqrt(pi)) cm | 5.0 A | 2.0 T | 30°,,,lead-in of (a)(ii) numbers placed on first sub-part (I); no marks beside (I)
+2026-5552-Q31A-ii-II,,5,,,,5 printed at end of (II) = side total
+2026-5552-Q31B-i,,5,,,,no numbers
+2026-5552-Q31B-ii,,5,2.0 A | 90° | vec(B) = -(0.50 T) k^,,2.0 A | 20 cm | 50 cm,"figure p27: wire enters from left, current arrow pointing right (+x), turns down at 90° with arrow pointing down (-y) over 20 cm, turns right again with arrows pointing right and exits beyond the field region; field region a rectangle 50 cm wide filled with crosses (into page); axes j^ up, i^ right, k^ out toward viewer (down-left); 5 at end of side (b) = side total"
+2026-5552-Q32A-i-I,,5,,,,no numbers; 5 at end of (a)(ii) = side total
+2026-5552-Q32A-i-II,,5,,,,"'(n)' is a symbol, no number"
+2026-5552-Q32A-ii,,5,,,,'two' in words; 5 printed here = side total
+2026-5552-Q32B-i,,5,,,,no numbers
+2026-5552-Q32B-ii-I,,5,2f (object between f and 2f),,,
+2026-5552-Q32B-ii-II,,5,,,,5 printed here = side total
+2026-5552-Q33A-i,,5,,,,no numbers; p29; 5 printed at end of (a)(ii) on p31 = side total
+2026-5552-Q33A-ii,,5,3 ohm (branch),,20 ohm | 2 ohm | 3 ohm | 12 ohm | 1 ohm | 6 V,"figure p31: bridge diamond, 20 ohm upper-left, 2 ohm upper-right, 12 ohm lower-left, 1 ohm lower-right, 3 ohm vertical between top and bottom nodes; 6 V cell in the bottom wire between left node (20/12 junction) and right node (2/1 junction): longer plate toward the left (left node), shorter plate toward the right; no current arrows drawn"
+2026-5552-Q33B-i,,5,,,,"sigma = n e^2 tau/m and |vec(v_d)| = e|vec(E)| tau/m: exponents only, no numbers"
+2026-5552-Q33B-ii,,5,20°C | 1.05 ohm | 100°C | 1.38 ohm,,,5 at end = side total

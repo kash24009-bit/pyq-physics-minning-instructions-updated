@@ -1,0 +1,127 @@
+instance_id,field,part_value,check_value,detail,resolved
+2024-5553-Q20,numbers,0 1 2 200 3 3.27,1 2 200 3 3.27,only in the checker's reading: -; only in the vault: ['0'],vault right
+2024-5553-Q27-b,numbers,3e+06 91,,"only in the checker's reading: -; only in the vault: ['3e+06', '91']",vault right
+SQP2324-042-Q14,options,,A) If both Assertion and Reason are true and Reason is correct explanation of Assertion. | B) If both Assertion and Reason are true but Reason is not the correct explanation of Assertion. | C) If Assertion is true but Reason is false. | D) If both Assertion and Reason are false.,"options differ at A, B, C, D",vault right
+SQP2324-042-Q16,options,,A) If both Assertion and Reason are true and Reason is correct explanation of Assertion. | B) If both Assertion and Reason are true but Reason is not the correct explanation of Assertion. | C) If Assertion is true but Reason is false. | D) If both Assertion and Reason are false.,"options differ at A, B, C, D",vault right
+SQP2324-042-Q29-ii,options,"A) circuit (a): -12V terminal, diode with its bar towards -12V, R to -5V | B) circuit (b): ground, diode pointing away from ground, R to -10V | C) circuit (c): ground, diode pointing away from ground, R to +5V | D) circuit (d): +5V terminal, diode with its bar towards +5V, R to +10V",A) figure (a) | B) figure (b) | C) figure (c) | D) figure (d),"options differ at A, B, C, D",vault right
+SQP2324-042-Q29-iv,options,A) 100 | B) 1e6 | C) 10 | D) 1e-6,A) 100 | B) 10^6 | C) 10 | D) 10^-6,"options differ at B, D",vault right
+2024-5542-Q02,marks_part,,1,marks differ,vault right
+2024-5542-Q25,marks_part,,3,marks differ,vault right
+2024-5542-Q25,figure_values,-1 0 1 117 138 2 3 400 5 64 94,0 3 5,"only in the checker's reading: -; only in the vault: ['-1', '1', '2']",vault right
+2024-5542-Q27,marks_part,,3,marks differ,vault right
+2024-5531-Q02,options,A) -1.6e-18 J | B) 1.6e-18 J | C) Zero | D) 0.8e-18 J,A) -1.6 × 10^-18 J | B) 1.6 × 10^-18 J | C) Zero | D) 0.8 × 10^-18 J,"options differ at A, B, D",vault right
+2024-5531-Q10,options,"A) straight line falling from a point high on the K_m axis to a point on the nu axis | B) straight line rising from a positive intercept on the K_m axis | C) straight line rising steeply from a point a little over halfway along the nu axis, no line above the axis to the left of that point | D) straight line rising from the origin",A) graph K_m vs nu: straight line falling from a positive K_m intercept to a positive nu intercept | B) graph: straight line rising from a positive K_m intercept | C) graph: straight line rising from a positive intercept on the nu axis (nothing drawn left of it) | D) graph: straight line rising from the origin,"options differ at A, B, C, D",vault right
+2024-5531-Q14,options,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Assertion (A) is false and Reason (R) is also false.","options differ at A, B, C, D",vault right
+2024-5531-Q17B,marks_part,,2,marks differ,vault right
+2024-5531-Q18,marks_part,,2,marks differ,vault right
+2024-5531-Q20,marks_part,,2,marks differ,vault right
+2024-5531-Q21,marks_part,,2,marks differ,vault right
+2024-5531-Q22,marks_part,,3,marks differ,vault right
+2024-5531-Q25-b,numbers,1.5 4.5e+08 6.3,,"only in the checker's reading: -; only in the vault: ['1.5', '4.5e+08', '6.3']",vault right
+2024-5531-Q25-c,numbers,1.5 4.5e+08 6.3,,"only in the checker's reading: -; only in the vault: ['1.5', '4.5e+08', '6.3']",vault right
+2024-5531-Q29-iii,options,A) V = V_0 + alpha*x | B) V = V_0 + alpha*x^2 | C) V = V_0 + alpha*x^(1/2) | D) V = V_0 + alpha*x^(3/2),A) V = V_0 + alpha x | B) V = V_0 + alpha x^2 | C) V = V_0 + alpha x^(1/2) | D) V = V_0 + alpha x^(3/2),"options differ at A, B, C, D",vault right
+2024-5531-Q29B-iv,options,A) 1.3e5 m/s | B) 2.6e6 m/s | C) 6.5e5 m/s | D) 5.2e7 m/s,A) 1.3 × 10^5 m/s | B) 2.6 × 10^6 m/s | C) 6.5 × 10^5 m/s | D) 5.2 × 10^7 m/s,"options differ at A, B, C, D",vault right
+2024-5532-Q20-ii,numbers,1240 2.14 500,1240,"only in the checker's reading: -; only in the vault: ['2.14', '500']",vault right
+2024-5532-Q22-b,numbers,0 10 2 6,,"only in the checker's reading: -; only in the vault: ['0', '10', '2', '6']",vault right
+2024-5532-Q22-c,numbers,0 10 2 6,,"only in the checker's reading: -; only in the vault: ['0', '10', '2', '6']",vault right
+2024-5532-Q25-b,numbers,1.5 4.5e+08 6.3,,"only in the checker's reading: -; only in the vault: ['1.5', '4.5e+08', '6.3']",vault right
+2024-5532-Q25-c,numbers,1.5 4.5e+08 6.3,,"only in the checker's reading: -; only in the vault: ['1.5', '4.5e+08', '6.3']",vault right
+2024-5511-Q02,options,A) 1e-2 J | B) 1e-3 J | C) 0.5e-3 J | D) 5.0e-2 J,A) 10^-2 J | B) 10^-3 J | C) 0.5 × 10^-3 J | D) 5.0 × 10^-2 J,"options differ at A, B, C, D",vault right
+2024-5511-Q18A-ii,numbers,1.5 5e+14,,"only in the checker's reading: -; only in the vault: ['1.5', '5e+14']",vault right
+2024-5511-Q22-a,figure_values,0 0.1 0.2 500,0.1,only in the checker's reading: -; only in the vault: ['500'],vault right
+2024-5511-Q24-b,numbers,1.3384e-14 1e+08 2,,"only in the checker's reading: -; only in the vault: ['1.3384e-14', '1e+08', '2']",vault right
+2024-5511-Q24-c,numbers,1.3384e-14 1e+08 2,,"only in the checker's reading: -; only in the vault: ['1.3384e-14', '1e+08', '2']",vault right
+2024-5511-Q30B-iv,options,A) square pulse rising from an unmarked base to a top level marked 10 V | B) inverted square pulse falling from an unmarked level to a bottom level marked -10 V | C) inverted square pulse falling from an unmarked level to a bottom level marked -5 V | D) square pulse rising from an unmarked base to a top level marked +5 V,"A) waveform: positive rectangular pulse, top labelled 10 V | B) waveform: negative rectangular pulse, bottom labelled -10 V | C) waveform: negative rectangular pulse, bottom labelled -5 V | D) waveform: positive rectangular pulse, top labelled +5 V","options differ at A, B, C, D",vault right
+2024-5511-Q30B-iv,figure_values,-10 -5 0 10 5,-5 5,"only in the checker's reading: -; only in the vault: ['-10', '10']",vault right
+2024-5511-Q32B-iii-2,numbers,2 200 3000 90,2,"only in the checker's reading: -; only in the vault: ['200', '3000', '90']",vault right
+2024-5522-Q06,options,A) 1e5/(4*pi) Hz | B) 1e5/(2*pi) Hz | C) 1e4/(4*pi) Hz | D) 1e4/(2*pi) Hz,A) 10^5/(4 pi) Hz | B) 10^5/(2 pi) Hz | C) 10^4/(4 pi) Hz | D) 10^4/(2 pi) Hz,"options differ at A, B, C, D",vault right
+2024-5522-Q24-a,figure_values,0 10 100 20 215 353 400 5 80,0 10 20 80,only in the checker's reading: -; only in the vault: ['5'],vault right
+2024-5522-Q24-b,numbers,0 10 20 5 80,,"only in the checker's reading: -; only in the vault: ['10', '20', '5']",vault right
+2024-5522-Q24-c,numbers,0 10 20 5 80,,"only in the checker's reading: -; only in the vault: ['10', '20', '5']",vault right
+2024-5522-Q29-iv,options,A) sin^-1(sqrt(n^2 - 1)) | B) sin^-1(n^2 - 1) | C) sin^-1[1/sqrt(n^2 - 1)] | D) sin^-1[1/(n^2 - 1)],A) sin^-1 sqrt(n^2 - 1) | B) sin^-1 (n^2 - 1) | C) sin^-1 [1/sqrt(n^2 - 1)] | D) sin^-1 [1/(n^2 - 1)],options differ at A,vault right
+2024-5522-Q32B-ii,numbers,-20 1 10 2 30,-20 10,"only in the checker's reading: -; only in the vault: ['1', '2']",vault right
+2024-5522-Q32B-ii,figure_values,1 10 2 30,10 30,"only in the checker's reading: -; only in the vault: ['1', '2']",vault right
+2024-55B-Q31A-i-2,numbers,2,,only in the checker's reading: -; only in the vault: ['2'],vault right
+2024-55B-Q31B-ii,numbers,-3 -5 0 10 180000 5 6,-3 -5 0 10 180000 6,only in the checker's reading: -; only in the vault: ['5'],vault right
+2024-5523-Q01,figure_values,0 1 29.9 30 300 59.9 60,30 60,only in the checker's reading: -; only in the vault: ['1'],vault right
+2024-5523-Q08,options,A) 4e-27 | B) 8e-28 | C) 2e-30 | D) 6e-29,A) 4 × 10^-27 | B) 8 × 10^-28 | C) 2 × 10^-30 | D) 6 × 10^-29,"options differ at A, B, C, D",vault right
+2024-5523-Q24-c,numbers,1.4 100 1000 140 2 200 5,1.4 2,"only in the checker's reading: -; only in the vault: ['100', '1000', '140', '200', '5']",vault right
+2024-5523-Q25,marks_part,,3,marks differ,vault right
+2024-5523-Q29-iv,options,A) sin^-1(sqrt(n^2 - 1)) | B) sin^-1(n^2 - 1) | C) sin^-1[1/sqrt(n^2 - 1)] | D) sin^-1[1/(n^2 - 1)],A) sin^-1 sqrt(n^2 - 1) | B) sin^-1 (n^2 - 1) | C) sin^-1 [1/sqrt(n^2 - 1)] | D) sin^-1 [1/(n^2 - 1)],options differ at A,vault right
+2024-5523-Q32B-ii,numbers,-20 1 10 2 30,-20 10,"only in the checker's reading: -; only in the vault: ['1', '2']",vault right
+2024-5523-Q32B-ii,figure_values,1 10 2 30,10 30,"only in the checker's reading: -; only in the vault: ['1', '2']",vault right
+2024C-55BS-Q01,numbers,-4 2 4,-4 2,only in the checker's reading: -; only in the vault: ['4'],vault right
+2024C-55BS-Q01,options,A) -(1/(4*pi*eps0))*(q^2/a^2) | B) +(1/(4*pi*eps0))*(8q^2/a^2) | C) +(1/(4*pi*eps0))*(6q^2/a) | D) -(1/(4*pi*eps0))*(10q^2/a),A) -(1/(4 pi epsilon_0))(q^2/a^2) | B) +(1/(4 pi epsilon_0))(8q^2/a^2) | C) +(1/(4 pi epsilon_0))(6q^2/a) | D) -(1/(4 pi epsilon_0))(10q^2/a),"options differ at A, B, C, D",vault right
+2024C-55BS-Q27-b,numbers,4.98 4e+14,,"only in the checker's reading: -; only in the vault: ['4.98', '4e+14']",vault right
+2024C-55BS-Q31B-ii-2,numbers,2,,only in the checker's reading: -; only in the vault: ['2'],vault right
+2024C-55BS-Q32A-i-1,numbers,1,,only in the checker's reading: -; only in the vault: ['1'],vault right
+2024C-55BS-Q32A-ii-1,numbers,0.002 0.182 1,0.002 0.182,only in the checker's reading: -; only in the vault: ['1'],vault right
+2024C-55BS-Q32A-ii-2,numbers,0.002 0.182 2,,"only in the checker's reading: -; only in the vault: ['0.002', '0.182', '2']",vault right
+2024C-55BS-Q32B-ii-1,numbers,0.08 1 1.6 8e-08,0.08 1.6 8e-08,only in the checker's reading: -; only in the vault: ['1'],vault right
+2024C-55BS-Q32B-ii-2,numbers,0.08 1.6 2 8e-08,,"only in the checker's reading: -; only in the vault: ['0.08', '1.6', '2', '8e-08']",vault right
+2024-5551-Q10,options,A) 4^th | B) 6^th | C) 8^th | D) 10^th,A) 4th | B) 6th | C) 8th | D) 10th,"options differ at A, B, C, D",vault right
+2024-5551-Q13,options,,A) If both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation of Assertion (A). | B) If both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A). | C) If Assertion (A) is true but Reason (R) is false. | D) If both Assertion (A) and Reason (R) are false.,"options differ at A, B, C, D",vault right
+2024C-55S1-Q19-b,numbers,1.25 10,,"only in the checker's reading: -; only in the vault: ['1.25', '10']",vault right
+2024C-55S1-Q23,marks_part,,3,marks differ,vault right
+2024C-55S1-Q23,numbers,-4 0 10 20 2e+06 4 5,-4 0 10 20 2e+06 5,only in the checker's reading: -; only in the vault: ['4'],vault right
+2024C-55S1-Q24B,marks_part,,3,marks differ,vault right
+2024C-55S1-Q24B,numbers,2 3,-3,only in the checker's reading: ['-3']; only in the vault: ['3'],vault right
+2024C-55S1-Q24B,figure_values,2 3 400,-3 2,only in the checker's reading: ['-3']; only in the vault: ['3'],vault right
+2024C-55S1-Q29-iii,options,A) 2.5e-5 Nm | B) 5.0e-5 Nm | C) 1.0e-4 Nm | D) 2.0e-6 Nm,A) 2.5 × 10^-5 Nm | B) 5.0 × 10^-5 Nm | C) 1.0 × 10^-4 Nm | D) 2.0 × 10^-6 Nm,"options differ at A, B, C, D",vault right
+2024C-55S1-Q29B-iv,options,A) 1.0e-3 Am^2 | B) 5.0e-3 Am^2 | C) 1.0e-2 Am^2 | D) 5.0e-2 Am^2,A) 1.0 × 10^-3 Am^2 | B) 5.0 × 10^-3 Am^2 | C) 1.0 × 10^-2 Am^2 | D) 5.0 × 10^-2 Am^2,"options differ at A, B, C, D",vault right
+2024C-55S1-Q31A-ii-1,numbers,1 3.315 5e+14,3.315 5e+14,only in the checker's reading: -; only in the vault: ['1'],vault right
+2024C-55S1-Q31A-ii-2,numbers,2 3.315 5e+14,,"only in the checker's reading: -; only in the vault: ['2', '3.315', '5e+14']",vault right
+2024C-55S2-Q25,marks_part,,3,marks differ,vault right
+2024C-55S2-Q25,numbers,-4 0 10 20 2e+06 4 5,-4 0 10 20 2e+06 5,only in the checker's reading: -; only in the vault: ['4'],vault right
+2024C-55S2-Q26,marks_part,,3,marks differ,vault right
+2024C-55S2-Q30-iii,options,A) 2.5e-5 Nm | B) 5.0e-5 Nm | C) 1.0e-4 Nm | D) 2.0e-6 Nm,A) 2.5 × 10^-5 Nm | B) 5.0 × 10^-5 Nm | C) 1.0 × 10^-4 Nm | D) 2.0 × 10^-6 Nm,"options differ at A, B, C, D",vault right
+2024C-55S2-Q30B-iv,options,A) 1.0e-3 Am^2 | B) 5.0e-3 Am^2 | C) 1.0e-2 Am^2 | D) 5.0e-2 Am^2,A) 1.0 × 10^-3 Am^2 | B) 5.0 × 10^-3 Am^2 | C) 1.0 × 10^-2 Am^2 | D) 5.0 × 10^-2 Am^2,"options differ at A, B, C, D",vault right
+2024C-55S2-Q33A-ii-1,numbers,1 3.315 5e+14,3.315 5e+14,only in the checker's reading: -; only in the vault: ['1'],vault right
+2024C-55S2-Q33A-ii-2,numbers,2 3.315 5e+14,,"only in the checker's reading: -; only in the vault: ['2', '3.315', '5e+14']",vault right
+2024-5512-Q17,figure_values,0.2 0.8 3 400 44 45 6 93 94,3 6,"only in the checker's reading: -; only in the vault: ['0.2', '0.8']",vault right
+2024-5512-Q19A-ii,numbers,1.5 5e+14,,"only in the checker's reading: -; only in the vault: ['1.5', '5e+14']",vault right
+2024-5512-Q29B-iv,options,A) square pulse rising from an unmarked base to a top level marked 10 V | B) inverted square pulse falling from an unmarked level to a bottom level marked -10 V | C) inverted square pulse falling from an unmarked level to a bottom level marked -5 V | D) square pulse rising from an unmarked base to a top level marked +5 V,"A) waveform: positive rectangular pulse, top labelled 10 V | B) waveform: negative rectangular pulse, bottom labelled -10 V | C) waveform: negative rectangular pulse, bottom labelled -5 V | D) waveform: positive rectangular pulse, top labelled +5 V","options differ at A, B, C, D",vault right
+2024-5512-Q29B-iv,figure_values,-10 -5 0 10 5,-5 5,"only in the checker's reading: -; only in the vault: ['-10', '10']",vault right
+2024-5513-Q20A-ii,numbers,1.5 5e+14,,"only in the checker's reading: -; only in the vault: ['1.5', '5e+14']",vault right
+2024-5513-Q30B-iv,options,A) square pulse rising from an unmarked base to a top level marked 10 V | B) inverted square pulse falling from an unmarked level to a bottom level marked -10 V | C) inverted square pulse falling from an unmarked level to a bottom level marked -5 V | D) square pulse rising from an unmarked base to a top level marked +5 V,"A) waveform: positive rectangular pulse, top labelled 10 V | B) waveform: negative rectangular pulse, bottom labelled -10 V | C) waveform: negative rectangular pulse, bottom labelled -5 V | D) waveform: positive rectangular pulse, top labelled +5 V","options differ at A, B, C, D",vault right
+2024-5513-Q30B-iv,figure_values,-10 -5 0 10 5,-5 5,"only in the checker's reading: -; only in the vault: ['-10', '10']",vault right
+2024-5541-Q09,marks_part,,1,marks differ,vault right
+2024-5541-Q18,marks_part,,2,marks differ,vault right
+2024-5541-Q25,marks_part,,3,marks differ,vault right
+2024-5541-Q26,marks_part,,3,marks differ,vault right
+2024-5541-Q30A-iv,marks_part,1,,marks differ,vault right
+2024-5541-Q30A-iv,figure_values,10 15 40,40,"only in the checker's reading: -; only in the vault: ['10', '15']",vault right
+2024-5541-Q32B-ii-1,numbers,1 10 2 5,10 2 5,only in the checker's reading: -; only in the vault: ['1'],vault right
+2024-5541-Q32B-ii-1,figure_values,0 10,0,only in the checker's reading: -; only in the vault: ['10'],vault right
+2024-5541-Q32B-ii-2,numbers,10 2 5,,"only in the checker's reading: -; only in the vault: ['10', '2', '5']",vault right
+2024-5543-Q01,marks_part,,1,marks differ,vault right
+2024-5543-Q05,marks_part,,1,marks differ,vault right
+2024-5543-Q05,options,"A) 3*mu0*I*I_1/(2*pi*r), towards A | B) 3*mu0*I*I_1/(2*pi*r), towards B | C) 3*mu0*I*I_1/(4*pi*r), towards A | D) 3*mu0*I*I_1/(4*pi*r), towards B","A) (3 mu_0 I I_1)/(2 pi r), towards A | B) (3 mu_0 I I_1)/(2 pi r), towards B | C) (3 mu_0 I I_1)/(4 pi r), towards A | D) (3 mu_0 I I_1)/(4 pi r), towards B","options differ at A, B, C, D",vault right
+2024-5543-Q26,marks_part,,3,marks differ,vault right
+2024-5533-Q22-a,numbers,1 1.6 1e-07 9e+28,1 1.6 1e-07,only in the checker's reading: -; only in the vault: ['9e+28'],vault right
+2024-5533-Q22-b,numbers,1 1.6 1e-07 9e+28,,"only in the checker's reading: -; only in the vault: ['1', '1.6', '1e-07', '9e+28']",vault right
+2024-5533-Q22-c,numbers,1 1.6 1e-07 9e+28,9e+28,"only in the checker's reading: -; only in the vault: ['1', '1.6', '1e-07']",vault right
+2024-5533-Q25-b,numbers,1.5 4.5e+08 6.3,,"only in the checker's reading: -; only in the vault: ['1.5', '4.5e+08', '6.3']",vault right
+2024-5533-Q25-c,numbers,1.5 4.5e+08 6.3,,"only in the checker's reading: -; only in the vault: ['1.5', '4.5e+08', '6.3']",vault right
+2024-5521-Q13,options,,"A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A). | B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A). | C) Assertion (A) is true, but Reason (R) is false. | D) Assertion (A) is false and Reason (R) is also false.","options differ at A, B, C, D",vault right
+2024-5521-Q30-iv,options,A) sin^-1(sqrt(n^2 - 1)) | B) sin^-1(n^2 - 1) | C) sin^-1[1/sqrt(n^2 - 1)] | D) sin^-1[1/(n^2 - 1)],A) sin^-1 sqrt(n^2 - 1) | B) sin^-1 (n^2 - 1) | C) sin^-1 [1/sqrt(n^2 - 1)] | D) sin^-1 [1/(n^2 - 1)],options differ at A,vault right
+2024-5521-Q31B-ii,numbers,-20 1 10 2 30,-20 10,"only in the checker's reading: -; only in the vault: ['1', '2']",vault right
+2024-5521-Q31B-ii,figure_values,1 10 2 30,10 30,"only in the checker's reading: -; only in the vault: ['1', '2']",vault right
+2024C-55S3-Q03,options,A) m < (A - Z)*m_n + Z*m_p | B) m = (A - Z)*m_n + Z*m_p | C) m = (A - Z)*m_p + Z*m_n | D) m > (A - Z)*m_n + Z*m_p,A) m < (A - Z) m_n + Z m_p | B) m = (A - Z) m_n + Z m_p | C) m = (A - Z) m_p + Z m_n | D) m > (A - Z) m_n + Z m_p,"options differ at A, B, C, D",vault right
+2024C-55S3-Q10,options,"A) curve rising from the origin, getting steeper | B) straight line rising gently from a positive intercept on the current axis | C) straight line rising from the origin | D) curve rising steeply from the origin and levelling off","A) graph: current rises from origin, curving upward (concave up) | B) graph: rising straight line with positive intercept on the Current axis | C) graph: rising straight line through origin | D) graph: rises from origin and levels off (saturates)","options differ at A, B, C, D",vault right
+2024C-55S3-Q23,marks_part,,3,marks differ,vault right
+2024C-55S3-Q23,numbers,-4 0 10 20 2e+06 4 5,-4 0 10 20 2e+06 5,only in the checker's reading: -; only in the vault: ['4'],vault right
+2024C-55S3-Q25-b,numbers,1e+15 3e+15,,"only in the checker's reading: -; only in the vault: ['1e+15', '3e+15']",vault right
+2024C-55S3-Q30-iii,options,A) 2.5e-5 Nm | B) 5.0e-5 Nm | C) 1.0e-4 Nm | D) 2.0e-6 Nm,A) 2.5 × 10^-5 Nm | B) 5.0 × 10^-5 Nm | C) 1.0 × 10^-4 Nm | D) 2.0 × 10^-6 Nm,"options differ at A, B, C, D",vault right
+2024C-55S3-Q30B-iv,options,A) 1.0e-3 Am^2 | B) 5.0e-3 Am^2 | C) 1.0e-2 Am^2 | D) 5.0e-2 Am^2,A) 1.0 × 10^-3 Am^2 | B) 5.0 × 10^-3 Am^2 | C) 1.0 × 10^-2 Am^2 | D) 5.0 × 10^-2 Am^2,"options differ at A, B, C, D",vault right
+2024C-55S3-Q33A-ii-1,numbers,1 3.315 5e+14,3.315 5e+14,only in the checker's reading: -; only in the vault: ['1'],vault right
+2024C-55S3-Q33A-ii-2,numbers,2 3.315 5e+14,,"only in the checker's reading: -; only in the vault: ['2', '3.315', '5e+14']",vault right
+2024-5523-Q08,numbers,,8e-28,results the checker read that are in no scoring line: ['8e-28'],vault right
+2024-5531-Q11,numbers,1 100 2,87.5,results the checker read that are in no scoring line: ['87.5'],vault right
+2024-5532-Q06,numbers,,0.1,results the checker read that are in no scoring line: ['0.1'],vault right
+2024-5541-Q29-iv,numbers,0.5 100 2,100 50,results the checker read that are in no scoring line: ['50'],vault right
+2024-5553-Q04,numbers,,0.1,results the checker read that are in no scoring line: ['0.1'],vault right
+2024C-55BS-Q30A-iv,numbers,-13.6 1 2,1 4,results the checker read that are in no scoring line: ['4'],vault right
+2024C-55S1-Q04,numbers,,5 9,"results the checker read that are in no scoring line: ['5', '9']",vault right
+2024C-55S2-Q01,numbers,1,-0.925,results the checker read that are in no scoring line: ['-0.925'],vault right
+2024C-55S3-Q02,numbers,1 2,45,results the checker read that are in no scoring line: ['45'],vault right

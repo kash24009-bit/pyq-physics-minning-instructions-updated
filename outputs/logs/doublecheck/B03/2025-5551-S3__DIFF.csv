@@ -1,0 +1,11 @@
+instance_id,field,part_value,check_value,detail,resolved
+2025-5551-Q20,numbers,0 1 1.00866 139.922 140 2 235 235.044 38 54 92 93.9154 931 94,1 1.00866 139.922 140 235 235.044 93.9154 931 94,"only in the checker's reading: -; only in the part file: ['0', '38', '54', '92']",extractor_right
+2025-5551-Q21-ii,numbers,10 10.5 125 25 425,425,"only in the checker's reading: -; only in the part file: ['10', '10.5', '125', '25']",extractor_right
+2025-5551-Q24-b,numbers,1 500 600,,"only in the checker's reading: -; only in the part file: ['1', '500', '600']",extractor_right
+2025-5551-Q28B,numbers,1 2,2,only in the checker's reading: -; only in the part file: ['1'],extractor_right
+2025-5551-Q29-i,numbers,,1791,only in the checker's reading: ['1791']; only in the part file: -,extractor_right
+2025-5551-Q29-i,options,A) k/(N*B*A) | B) N*B*A/k | C) k*B*A/N | D) k*N*B/A,A) k/(NBA) | B) NBA/k | C) kBA/N | D) kNB/A,"options differ at A, B, C, D",extractor_right
+2025-5551-Q29B-iv,options,A) 3.6e-3 Nm | B) 1.8e-4 Nm | C) 2.4e-3 Nm | D) 1.2e-4 Nm,A) 3.6 × 10^-3 Nm | B) 1.8 × 10^-4 Nm | C) 2.4 × 10^-3 Nm | D) 1.2 × 10^-4 Nm,"options differ at A, B, C, D",extractor_right
+2025-5551-Q30-i,options,A) straight line falling from a point high near the I axis to a point on the intensity axis | B) horizontal line: I constant | C) straight line rising from the origin | D) curve rising steeply from the origin and levelling off,"A) graph of I against Intensity: straight line falling from high I to meet the Intensity axis | B) graph of I against Intensity: horizontal line (I constant) | C) graph of I against Intensity: straight line rising from the origin O | D) graph of I against Intensity: curve rising steeply from O, then levelling off (saturation)","options differ at A, B, C, D",extractor_right
+2025-5551-Q31B-i-II,numbers,1 1e-07 2e-07 8.5e+28,,"only in the checker's reading: -; only in the part file: ['1', '1e-07', '2e-07', '8.5e+28']",extractor_right
+2025-5551-Q32A-ii-II,numbers,10 20,,"only in the checker's reading: -; only in the part file: ['10', '20']",extractor_right
