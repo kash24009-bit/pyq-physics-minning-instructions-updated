@@ -1,5 +1,5 @@
 # Physics (042) PYQ mining · dashboard
-*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-11-22T04:21:14Z · batch B12.*
+*Rewritten by phy_gate.py at every save, from the vault itself. Updated 2026-11-22T04:21:19Z · batch B12.*
 
 ## Where things stand
 - Newest vault: [PHY-VAULT-B12-20261122-0421-33897r.json](vault/PHY-VAULT-B12-20261122-0421-33897r.json) · 33897 rows in all
@@ -23,7 +23,7 @@ Next (my work, in order)
 - Y2025 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 S8 validate + year-close + vault · DEFERRED to the closing sweep (her decision 2026-10-02)
 - Y2025 YC year check: every row checked by script, then a blind re-reading of the suspects, the figure directions and a sample (PHY-08 Y§11)
-- Y2024 S6 classify chapters 01-14 (predict first, misses after) · DEFERRED to the closing sweep (her decision 2026-10-02)
+- Y2024 S7 derive + year workbook · DEFERRED to the closing sweep (her decision 2026-10-02)
 - 1 received file(s) waiting to be mined.
 
 Optional (yours)
