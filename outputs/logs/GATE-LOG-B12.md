@@ -192,3 +192,7 @@ Every line below was written by phy_gate.py from the data, never typed.
 - validate: 16/16 checks pass
 - PROGRESS: line ticked
 - pack: PHY-VAULT-B12-20261122-0421-33897r.json
+
+## 2026-11-22T04:22:00Z | checkpoint | S6 done: CONVENTIONS entry, Q-018 resolved
+- validate: 16/16 checks pass
+- pack: PHY-VAULT-B12-20261122-0422-33897r.json
