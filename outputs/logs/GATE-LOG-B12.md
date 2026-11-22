@@ -159,3 +159,11 @@ Every line below was written by phy_gate.py from the data, never typed.
 - validate after merge: 16/16 checks pass
 - PROGRESS: not touched (stage OTHER)
 - pack: PHY-VAULT-B12-20261122-0413-33846r.json
+
+## 2026-11-22T04:20:51Z | S6-REVIEW-3 | OTHER | GATE PASS
+- part files: CLASSIFY 0, ERRATA 49
+- merged 0 row(s) into j/CLASSIFY.csv · now 6961
+- merged 49 row(s) into l1/ERRATA.csv · now 1704
+- validate after merge: 16/16 checks pass (already failing before: V14)
+- PROGRESS: not touched (stage OTHER)
+- pack: PHY-VAULT-B12-20261122-0420-33897r.json
